@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.App.IScouter.Initialize" name="LIVINGHOUSE.App.IScouter.Initialize">
+<area shape="rect" id="Node000001" title="初期化" alt="" coords="252,39,443,81"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy01.html#abdd629e3ded8989cdea3394cc32bd4c6" title="初期化" alt="" coords="5,5,204,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,47,204,43,204,38,237,42"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#a2ddfd18a86889d41ebb200c01492ddaa" title="初期化" alt="" coords="5,72,204,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,78,204,82,204,77,236,73"/>
+</map>

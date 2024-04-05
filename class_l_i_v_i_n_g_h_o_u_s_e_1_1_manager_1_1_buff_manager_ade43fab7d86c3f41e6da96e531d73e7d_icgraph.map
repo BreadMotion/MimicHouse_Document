@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.Manager.BuffManager.LoadSO" name="LIVINGHOUSE.Manager.BuffManager.LoadSO">
+<area shape="rect" id="Node000001" title="スクリプタブルオブジェクトをロード" alt="" coords="478,5,666,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_buff_manager.html#a8d1ef45c4fbc2dd3ca08a6137d0944f2" title="指定ディレクトリ内のAssetを全ロード" alt="" coords="242,5,430,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="463,29,430,29,430,24,463,24"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_buff_manager.html#a71068ba8f6e5f7d6418017bed33dd49d" title="初期化" alt="" coords="5,5,194,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="227,29,194,29,194,24,227,24"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.App.Player.BehaviourForItemSlot" name="LIVINGHOUSE.App.Player.BehaviourForItemSlot">
+<area shape="rect" id="Node000001" title="入力によるアイテムスロット操作の動作" alt="" coords="5,39,242,81"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#a01f636c6134a877155ff1a221f62e787" title="スロット選択番号をー１する" alt="" coords="290,5,505,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,43,275,39,275,44,243,48"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#acad196702c0795711d40849e30c27d08" title="スロット選択番号を＋１する" alt="" coords="293,72,502,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="243,72,278,76,277,81,242,77"/>
+</map>

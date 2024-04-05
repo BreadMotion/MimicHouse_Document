@@ -1,0 +1,17 @@
+<map id="LIVINGHOUSE.App.IItem.IsCoolDown" name="LIVINGHOUSE.App.IItem.IsCoolDown">
+<area shape="rect" id="Node000001" title="クールダウン中か" alt="" coords="284,205,465,248"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_rain_coat.html#a8caa3d534805ea91405aee1538688be6" title="呼び出し" alt="" coords="22,5,219,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="351,194,303,127,271,92,234,62,213,51,216,46,237,58,275,88,307,123,356,191"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_umbrella.html#a60d26a842b18fa856766bb4a360a617b" title="呼び出し" alt="" coords="23,72,218,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="336,198,289,162,234,129,207,118,209,113,237,124,292,158,340,194"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#ad87f5a3110121dcff4fcc02abf7d1aa8" title="呼び出し" alt="" coords="17,139,224,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="276,204,204,185,205,179,277,198"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_blue_eye_state.html#ab8b97f565abecd0ee7bac48633576c77" title="更新" alt="" coords="9,205,232,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="269,229,233,229,233,224,269,224"/>
+<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_rain_coat.html#ae3a0feea60d3e65b5ad2d53875948d81" title="更新" alt="" coords="22,272,219,315"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="277,255,205,274,204,269,276,250"/>
+<area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a226db4ef90f58126c5625b8930a07700" title="更新" alt="" coords="5,339,236,365"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="340,260,293,296,237,329,204,341,202,336,235,324,290,292,337,256"/>
+<area shape="rect" id="Node000008" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#a54e2bbf9a9cbd71468dfbbf694494392" title="更新" alt="" coords="17,389,224,432"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="353,262,304,322,272,353,237,380,214,391,212,386,234,375,269,349,300,319,349,259"/>
+</map>

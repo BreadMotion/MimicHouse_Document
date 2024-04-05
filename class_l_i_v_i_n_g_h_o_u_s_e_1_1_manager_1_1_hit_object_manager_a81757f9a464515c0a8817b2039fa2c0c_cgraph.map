@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.Manager.HitObjectManager.Update" name="LIVINGHOUSE.Manager.HitObjectManager.Update">
+<area shape="rect" id="Node000001" title="更新" alt="" coords="5,39,226,81"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager.html#aea976d3b34f199e58d8e2c6c3ea24a62" title="結果を反映する" alt="" coords="274,5,494,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,44,259,40,259,45,226,49"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager.html#a492c1081801953bdc7ceddd930946444" title="ジョブ完了待機" alt="" coords="274,72,494,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,71,259,75,259,80,226,76"/>
+</map>

@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/ScriptableObject/CharacterScriptableObject.cs ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('_character_scriptable_object_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">CharacterScriptableObject.cs</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_character_scriptable_object_8cs.html">[詳解]</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System.Collections.Generic;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>UnityEngine;</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute.html">LIVINGHOUSE.Attribute</a>;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o.html">LIVINGHOUSE.SO</a></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    [CreateAssetMenu(fileName = <span class="stringliteral">&quot;CharacterData&quot;</span>, menuName = <span class="stringliteral">&quot;ScriptableObject/Character&quot;</span>, order = 1)]</div>
+<div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html">    9</a></span>    <span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html">CharacterScriptableObject</a> : ScriptableObject</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    {</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        [SerializeReference, SubclassSelector, Label(<span class="stringliteral">&quot;キャラクターステート&quot;</span>)] </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#ae29675975405aea6e349a0a996e0422f">   12</a></span>        <span class="keyword">private</span> <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_state.html">App.ICharacterState</a> <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#ae29675975405aea6e349a0a996e0422f">m_state</a>;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#afa1b1e988e28fe03b558b7b302336968">   16</a></span>        <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#afa1b1e988e28fe03b558b7b302336968">HP</a> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        { </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>            <span class="keyword">get</span> =&gt; <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#ae29675975405aea6e349a0a996e0422f">m_state</a>.hp; </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>            <span class="keyword">set</span> =&gt; m_state.hp = value; </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        }</div>
+</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        </div>
+<div class="foldopen" id="foldopen00024" data-start="{" data-end="};">
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#a993cbb6d985109b0643e75efac0b6ef8">   24</a></span>        <span class="keyword">public</span> <span class="keywordtype">float</span> <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#a993cbb6d985109b0643e75efac0b6ef8">Speed</a> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        { </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            <span class="keyword">get</span> =&gt; <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#ae29675975405aea6e349a0a996e0422f">m_state</a>.speed; </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>            <span class="keyword">set</span> =&gt; m_state.speed = value; </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        }</div>
+</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        </div>
+<div class="foldopen" id="foldopen00032" data-start="{" data-end="};">
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#a53fed120e042f8e94a9e6134fe1a18a6">   32</a></span>        <span class="keyword">public</span> List&lt;App.IBuff&gt; <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#a53fed120e042f8e94a9e6134fe1a18a6">StartBuff</a> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        {</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            <span class="keyword">get</span> =&gt; <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#ae29675975405aea6e349a0a996e0422f">m_state</a>.activeBuffs; </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        }</div>
+</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        </div>
+<div class="foldopen" id="foldopen00041" data-start="{" data-end="};">
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#afd3f350207f517d806dbadce4cfcda28">   41</a></span>        <span class="keyword">public</span> <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_state.html">App.ICharacterState</a> <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#afd3f350207f517d806dbadce4cfcda28">State</a> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        {</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            <span class="keyword">get</span> =&gt; <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#ae29675975405aea6e349a0a996e0422f">m_state</a>; </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        }</div>
+</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    }</div>
+</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>}</div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_state_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_state.html">LIVINGHOUSE.App.ICharacterState</a></div><div class="ttdef"><b>Definition</b> <a href="_i_character_state_8cs_source.html#l00009">ICharacterState.cs:10</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html">LIVINGHOUSE.SO.CharacterScriptableObject</a></div><div class="ttdoc">キャラクターコンテキスト</div><div class="ttdef"><b>Definition</b> <a href="#l00009">CharacterScriptableObject.cs:10</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object_html_a53fed120e042f8e94a9e6134fe1a18a6"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#a53fed120e042f8e94a9e6134fe1a18a6">LIVINGHOUSE.SO.CharacterScriptableObject.StartBuff</a></div><div class="ttdeci">List&lt; App.IBuff &gt; StartBuff</div><div class="ttdef"><b>Definition</b> <a href="#l00032">CharacterScriptableObject.cs:33</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object_html_a993cbb6d985109b0643e75efac0b6ef8"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#a993cbb6d985109b0643e75efac0b6ef8">LIVINGHOUSE.SO.CharacterScriptableObject.Speed</a></div><div class="ttdeci">float Speed</div><div class="ttdoc">Speed</div><div class="ttdef"><b>Definition</b> <a href="#l00024">CharacterScriptableObject.cs:25</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object_html_ae29675975405aea6e349a0a996e0422f"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#ae29675975405aea6e349a0a996e0422f">LIVINGHOUSE.SO.CharacterScriptableObject.m_state</a></div><div class="ttdeci">App.ICharacterState m_state</div><div class="ttdef"><b>Definition</b> <a href="#l00012">CharacterScriptableObject.cs:12</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object_html_afa1b1e988e28fe03b558b7b302336968"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#afa1b1e988e28fe03b558b7b302336968">LIVINGHOUSE.SO.CharacterScriptableObject.HP</a></div><div class="ttdeci">int HP</div><div class="ttdoc">HP</div><div class="ttdef"><b>Definition</b> <a href="#l00016">CharacterScriptableObject.cs:17</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object_html_afd3f350207f517d806dbadce4cfcda28"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#afd3f350207f517d806dbadce4cfcda28">LIVINGHOUSE.SO.CharacterScriptableObject.State</a></div><div class="ttdeci">App.ICharacterState State</div><div class="ttdef"><b>Definition</b> <a href="#l00041">CharacterScriptableObject.cs:42</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute.html">LIVINGHOUSE.Attribute</a></div><div class="ttdef"><b>Definition</b> <a href="_class_name_attribute_8cs_source.html#l00003">ClassNameAttribute.cs:4</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o.html">LIVINGHOUSE.SO</a></div><div class="ttdoc">エディターインスペクター用</div><div class="ttdef"><b>Definition</b> <a href="_buff_scriptable_object_8cs_source.html#l00004">BuffScriptableObject.cs:5</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_3d328b3dca154a477d99beb656992be2.html">Unity</a></li><li class="navelem"><a class="el" href="dir_3b33dffaa21a2ac6f7978a949ffd4e41.html">Assets</a></li><li class="navelem"><a class="el" href="dir_817f9772e3e161556b23fdd8948b88aa.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_34d6eeeb6f35b2f1028c11a9452b44ca.html">ScriptableObject</a></li><li class="navelem"><a class="el" href="_character_scriptable_object_8cs.html">CharacterScriptableObject.cs</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.App.Character" name="LIVINGHOUSE.App.Character">
+<area shape="rect" id="Node000001" title="全キャラクター共通のシステムクラス" alt="" coords="21,80,216,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,115,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,42,111,78,106,81,77,45"/>
+<area shape="rect" id="Node000003" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html" title="当たり判定を取るオブジェクトインターフェース" alt="" coords="138,5,217,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="160,45,131,81,127,78,156,42"/>
+</map>

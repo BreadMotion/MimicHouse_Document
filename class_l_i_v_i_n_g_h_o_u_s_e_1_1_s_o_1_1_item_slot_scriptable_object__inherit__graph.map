@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.SO.ItemSlotScriptableObject" name="LIVINGHOUSE.SO.ItemSlotScriptableObject">
+<area shape="rect" id="Node000001" title="アイテムスロットコンテキスト" alt="" coords="5,80,247,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="67,5,185,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,47,129,80,123,80,123,47"/>
+</map>

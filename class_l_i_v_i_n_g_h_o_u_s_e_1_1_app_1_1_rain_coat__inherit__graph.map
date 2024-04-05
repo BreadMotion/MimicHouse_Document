@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.App.RainCoat" name="LIVINGHOUSE.App.RainCoat">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,198,107"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html" title="基底アイテムクラス" alt="" coords="77,5,126,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,47,104,80,99,80,99,47"/>
+</map>

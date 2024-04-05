@@ -1,0 +1,9 @@
+<map id="LIVINGHOUSE.Manager.FrameManager.Start" name="LIVINGHOUSE.Manager.FrameManager.Start">
+<area shape="rect" id="Node000001" title="初期化" alt="" coords="5,39,209,81"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a7e740ea4461ac0e988cc098b09b1791b" title="インスタンス生成されているかチェックする" alt="" coords="257,39,460,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,57,241,57,241,63,209,63"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#afee240eee5b5a73e13f4a7e631f9181a" title="インスタンス生成されているかチェックしされていなければ生成する。" alt="" coords="508,5,755,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="460,45,493,41,493,46,461,50"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a2e57b9e448073281cd6b2ec093b4d84a" title="インスタンスがあるか調べる" alt="" coords="530,72,733,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="461,70,515,76,515,82,460,75"/>
+</map>

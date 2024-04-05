@@ -1,0 +1,9 @@
+<map id="LIVINGHOUSE.Manager.ItemSlotManager.IsContainItemSlot" name="LIVINGHOUSE.Manager.ItemSlotManager.IsContainItemSlot">
+<area shape="rect" id="Node000001" title="アイテムスロットが格納されているか調べる" alt="" coords="805,5,1006,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#a5af6d4fe205f251975243f415ed8dda2" title="所持アイテム削除(解放)を試みる" alt="" coords="559,5,757,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="791,29,758,29,758,24,791,24"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#abeceb9e475d561ed1733f165b4ee79cc" title="入力によるアイテム生成操作の動作" alt="" coords="275,5,511,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="544,29,511,29,511,24,544,24"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#ac9be71ec4ad3ce596e86c24f104da34c" title="更新" alt="" coords="5,5,227,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="259,29,227,29,227,24,259,24"/>
+</map>

@@ -1,0 +1,462 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/Bg/ForStageBuild/Point/Base/PointPatroll.cs ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('_point_patroll_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PointPatroll.cs</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_point_patroll_8cs.html">[詳解]</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections;</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>System.Collections.Generic;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>UnityEngine;</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">using </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html">LIVINGHOUSE.Manager</a>;</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">using </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute.html">LIVINGHOUSE.Attribute</a>;</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    [Serializable, Name(<span class="stringliteral">&quot;抽象アイテム生成座標クラス&quot;</span>)]</div>
+<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">   13</a></span>    <span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> : <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html">IPoint</a></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        [SerializeField, ReadOnly, Label(<span class="stringliteral">&quot;前ポイント&quot;</span>)]</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#ab5e627fd39e19275fd68880a7916a43c">   17</a></span>        <span class="keyword">private</span> <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#ab5e627fd39e19275fd68880a7916a43c">m_prePoint</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        [SerializeField, ReadOnly, Label(<span class="stringliteral">&quot;次ポイント&quot;</span>)]</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#aa51e63afa589f4c476a9bdf62bf5f6fd">   21</a></span>        <span class="keyword">private</span> List&lt;PointPatroll&gt; <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#aa51e63afa589f4c476a9bdf62bf5f6fd">m_nextPoints</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        [SerializeField, ReadOnly, Label(<span class="stringliteral">&quot;ルートナンバー&quot;</span>)]</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#ac760f2dd0557f44c886c5e411fdf94b1">   26</a></span>        <span class="keyword">private</span> uint <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#ac760f2dd0557f44c886c5e411fdf94b1">m_rootNumber</a> = 0;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        [SerializeField, Label(<span class="stringliteral">&quot;ポイント種類&quot;</span>)]</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a35e9fb1a43f6744528855c2e328f682f">   30</a></span>        <span class="keyword">private</span> <a class="code hl_enumeration" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a> <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a35e9fb1a43f6744528855c2e328f682f">m_pointType</a> = <a class="code hl_enumeration" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a>.INTERMADIATE;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        [SerializeField, ReadOnly, Label(<span class="stringliteral">&quot;ビルド完了状態&quot;</span>)]</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#pragma warning disable CS0414</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a1fc1243ae99206d950199b134a0c6284">   36</a></span>        <span class="keyword">private</span> <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a1fc1243ae99206d950199b134a0c6284">m_wasBuildComplete</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#pragma warning restore CS0414</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="foldopen" id="foldopen00041" data-start="{" data-end="};">
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#acab23e7b693fcb150736b8bbc7ba8cf1">   41</a></span>        <span class="keyword">public</span> <span class="keywordtype">bool</span> <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#acab23e7b693fcb150736b8bbc7ba8cf1">IsEndPoint</a></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        {</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            <span class="keyword">get</span> =&gt; m_nextPoints.Count == 0;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        }</div>
+</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="foldopen" id="foldopen00048" data-start="{" data-end="};">
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a8e3fe8f5c389178cba13cf9b92e83afb">   48</a></span>        <span class="keyword">public</span> <span class="keywordtype">bool</span> <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a8e3fe8f5c389178cba13cf9b92e83afb">IsStartPoint</a></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        {</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <span class="keyword">get</span> =&gt; <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#ab5e627fd39e19275fd68880a7916a43c">m_prePoint</a> == <span class="keyword">null</span>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        }</div>
+</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="foldopen" id="foldopen00058" data-start="{" data-end="}">
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a7faa6977632e9245a5947348b986eac5">   58</a></span>        <span class="keyword">protected</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a7faa6977632e9245a5947348b986eac5">Initialize</a>(<a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> prePoint,</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>                                  Vector3      location,</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                                  <a class="code hl_enumeration" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a>    pointType) </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        {</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#ab5e627fd39e19275fd68880a7916a43c">m_prePoint</a>   = prePoint;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#aa51e63afa589f4c476a9bdf62bf5f6fd">m_nextPoints</a> = <span class="keyword">new</span>();</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html#ab9c128bb736aaa6f6def928a211397b8">m_point</a>      = location;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a35e9fb1a43f6744528855c2e328f682f">m_pointType</a>  = pointType;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#ac760f2dd0557f44c886c5e411fdf94b1">m_rootNumber</a> = m_prePoint.m_rootNumber + 1;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        }</div>
+</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="foldopen" id="foldopen00074" data-start="{" data-end="}">
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a8be825c807f77f5748aaad910c2365f3">   74</a></span>        <span class="keyword">public</span> <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a8be825c807f77f5748aaad910c2365f3">GetNextPoint</a>(<span class="keywordtype">int</span> index)</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        {</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>            <span class="keywordflow">if</span>(index &lt; 0) <span class="keywordflow">return</span> <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#ab5e627fd39e19275fd68880a7916a43c">m_prePoint</a>;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>            <span class="keywordflow">else</span> <span class="keywordflow">return</span> (<a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#aa51e63afa589f4c476a9bdf62bf5f6fd">m_nextPoints</a>.Count &lt;= index)  ? <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#aa51e63afa589f4c476a9bdf62bf5f6fd">m_nextPoints</a>[m_nextPoints.Count - 1] : <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#aa51e63afa589f4c476a9bdf62bf5f6fd">m_nextPoints</a>[index];</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        }</div>
+</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a016c02aa6900f5b2dc37ffa823f14561">   82</a></span>        <span class="keyword">public</span> List&lt;PointPatroll&gt; <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a016c02aa6900f5b2dc37ffa823f14561">GetNextPoints</a>() =&gt; <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#aa51e63afa589f4c476a9bdf62bf5f6fd">m_nextPoints</a>;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="foldopen" id="foldopen00088" data-start="{" data-end="}">
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a8b5d0f6a2d50b28afe5b21154854ba43">   88</a></span>        <span class="keyword">public</span> <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a8b5d0f6a2d50b28afe5b21154854ba43">AddNextPoint</a>(Vector3   point, </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>                                         <a class="code hl_enumeration" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a> pointType)</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        {</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#aa51e63afa589f4c476a9bdf62bf5f6fd">m_nextPoints</a>.Add(<a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a969e2838fa0a0e22c56e107dfa597455">Generate</a>(<span class="keyword">this</span>, point, pointType));</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#aa51e63afa589f4c476a9bdf62bf5f6fd">m_nextPoints</a>[^1];</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        }</div>
+</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="foldopen" id="foldopen00099" data-start="{" data-end="}">
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a897bdf6112848e81573d287974f71108">   99</a></span>        <span class="keyword">public</span> <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a897bdf6112848e81573d287974f71108">AddNextPoint</a>(<a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> sourcePoint)</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        {</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#aa51e63afa589f4c476a9bdf62bf5f6fd">m_nextPoints</a>.Add(sourcePoint);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#aa51e63afa589f4c476a9bdf62bf5f6fd">m_nextPoints</a>[^1];</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        }</div>
+</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="foldopen" id="foldopen00109" data-start="{" data-end="}">
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#ab92004804af283384991996b3e6d1557">  109</a></span>        <span class="keyword">public</span> <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#ab92004804af283384991996b3e6d1557">GetNierPoint</a>(Vector3 position)</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        {</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>            <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> nierPoint = <span class="keyword">null</span>;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>            <span class="keywordtype">float</span> minLength = <span class="keywordtype">float</span>.MaxValue;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>            <span class="keywordflow">foreach</span>(var point <span class="keywordflow">in</span> <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#aa51e63afa589f4c476a9bdf62bf5f6fd">m_nextPoints</a>)</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>            {</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>                var length = (point.Point - position).sqrMagnitude;</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>                <span class="keywordflow">if</span>(minLength &gt; length)</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>                {</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>                    minLength = length;</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>                    nierPoint = point;</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>                }</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>            }</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>            <span class="keywordflow">return</span> nierPoint;</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        }</div>
+</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
+<div class="foldopen" id="foldopen00132" data-start="{" data-end="}">
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a2abd3c83890afbc53e95970fad4fcf1c">  132</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a2abd3c83890afbc53e95970fad4fcf1c">GetNierPoint</a>(<a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> nowPoint, </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>                                                Vector3      position)</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>        {</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>            <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> nierPoint = <span class="keyword">null</span>;</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>            <span class="keywordtype">float</span> minLength = <span class="keywordtype">float</span>.MaxValue;</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span> </div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>            <span class="keywordflow">foreach</span>(var point <span class="keywordflow">in</span> nowPoint.m_nextPoints)</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>            {</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>                var length = (point.Point - position).sqrMagnitude;</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>                <span class="keywordflow">if</span>(minLength &gt; length)</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>                {</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>                    minLength = length;</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>                    nierPoint = point;</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>                }</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>            }</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>            <span class="keywordflow">return</span> nierPoint;</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>        }</div>
+</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span> </div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
+<div class="foldopen" id="foldopen00155" data-start="{" data-end="}">
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a969e2838fa0a0e22c56e107dfa597455">  155</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a969e2838fa0a0e22c56e107dfa597455">Generate</a>(<a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> prePoint,</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>                                            Vector3      location,</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>                                            <a class="code hl_enumeration" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a>    pointType)</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>        {</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>            GameObject go = <span class="keyword">new</span> GameObject(<span class="stringliteral">&quot;PointPatroll&quot;</span>);</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>            <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> component = go.AddComponent&lt;<a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a>&gt;();</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>            component.<a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a7faa6977632e9245a5947348b986eac5">Initialize</a>(prePoint, location, pointType);</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>            <span class="keywordflow">return</span> component;</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>        }</div>
+</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span> </div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span><span class="preprocessor">#if UNITY_EDITOR</span></div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>        [ContextMenu(<span class="stringliteral">&quot;パトロールポイントの接続&quot;</span>)]</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>        <span class="keyword">public</span> <span class="keywordtype">void</span> ExecBuild()</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>        {</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>            <span class="comment">//前結果のクリア</span></div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#aa51e63afa589f4c476a9bdf62bf5f6fd">m_nextPoints</a>.Clear();</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#ab5e627fd39e19275fd68880a7916a43c">m_prePoint</a> = <span class="keyword">null</span>;</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a1fc1243ae99206d950199b134a0c6284">m_wasBuildComplete</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span> </div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>            <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> startPoint = <span class="keyword">null</span>;</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>            <span class="keywordflow">if</span>(this.m_pointType == <a class="code hl_enumeration" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a>.START) startPoint = <span class="keyword">this</span>;</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>            <span class="keywordflow">else</span>   startPoint = this.transform.parent.GetComponent&lt;<a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a>&gt;();</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>            <span class="comment">//全ポイント取得</span></div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>            var patrollPoints = startPoint.transform.GetComponentsInChildren&lt;<a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a>&gt;();</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>            <span class="keywordflow">if</span>(patrollPoints.Length &lt;= 0)</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>            {</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>                Debug.LogWarning(<span class="stringliteral">&quot;子オブジェクトにポイントオブジェクトがありません&quot;</span>);</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>            }</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>            <span class="comment">//タイプを識別する</span></div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>            <span class="keywordtype">int</span> startPointIdx = -1;</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>            <span class="keywordtype">int</span> endPointIdx = -1;</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>            <span class="keywordflow">for</span>(var i = 0; i &lt; patrollPoints.Length; i++)</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>            {</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>                var point = patrollPoints[i];</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>                point.<a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#aa51e63afa589f4c476a9bdf62bf5f6fd">m_nextPoints</a>.Clear();</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>                point.m_prePoint = <span class="keyword">null</span>;</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>                point.m_wasBuildComplete = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span> </div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>                <span class="keywordflow">if</span>(point.m_pointType == <a class="code hl_enumeration" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a>.START)</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>                {</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>                    startPointIdx = i;</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>                }</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>                <span class="keywordflow">else</span> <span class="keywordflow">if</span>(point.m_pointType == <a class="code hl_enumeration" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a>.END)</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>                {</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>                    endPointIdx = i;</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>                    point.transform.parent = startPoint.transform;</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>                    point.m_prePoint = startPoint;</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>                }</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>                <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>                {</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>                    point.transform.parent = startPoint.transform;</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>                    point.m_prePoint = startPoint;</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>                }</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>            }</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span> </div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>            <span class="comment">//最低限の設定がされていなければリターン</span></div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>            <span class="keywordflow">if</span>(startPointIdx == -1)</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>            {</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>                Debug.LogWarning(<span class="stringliteral">&quot;スタートポイントが設定されていません。&quot;</span>);</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>            }</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>            <span class="keywordflow">if</span>(endPointIdx == -1)</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>            {</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>                Debug.LogWarning(<span class="stringliteral">&quot;エンドポイントが設定されていません。&quot;</span>);</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>            }</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span> </div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>            <span class="comment">//親がスタートポイントと同等の物のみをビルド対象とする</span></div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>            var parentGo = patrollPoints[startPointIdx].transform.parent;</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>            <span class="keywordflow">for</span>(var i = 0; i &lt; patrollPoints.Length; i++)</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>            {</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>                var point = patrollPoints[i];</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>                <span class="keywordflow">if</span>(point.transform == parentGo.parent) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span> </div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>                <span class="keywordflow">for</span>(var j = 0; j &lt; patrollPoints.Length; j++)</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>                {</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>                    var sourcePoint = patrollPoints[j];</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>                    <span class="keywordflow">if</span>(sourcePoint.transform == parentGo) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>                    <span class="keywordflow">if</span>(j == i) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>                    point.<a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a8b5d0f6a2d50b28afe5b21154854ba43">AddNextPoint</a>(sourcePoint);</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>                }</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>                point.m_wasBuildComplete = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>            }</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span> </div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>            <span class="comment">//ビルド成功実績の保持</span></div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a1fc1243ae99206d950199b134a0c6284">m_wasBuildComplete</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>        }</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> </div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span> </div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>        [ContextMenu(<span class="stringliteral">&quot;各パトロールポイント群のマージ&quot;</span>)]</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>        <span class="keyword">public</span> <span class="keywordtype">void</span> ExecMergeBuild()</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>        {</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>            <span class="comment">//  スタートポイント以外はビルドを通さない</span></div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>            <span class="keywordflow">if</span>(<a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a35e9fb1a43f6744528855c2e328f682f">m_pointType</a> != <a class="code hl_enumeration" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a>.START)</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>            {</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>                Debug.LogWarning(<span class="stringliteral">&quot;スタートタイプのポイントで実行してください。&quot;</span>);</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>            }</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>            <span class="comment">//全パトロールポイントの取得</span></div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>            var patrollPoints = GameObject.FindObjectsByType&lt;PointPatroll&gt;(FindObjectsSortMode.InstanceID);</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>            </div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>            <span class="comment">//自身以外のスタートポイントの保持</span></div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>            List&lt;PointPatroll&gt; startPoints = <span class="keyword">new</span>();</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>            <span class="keywordflow">foreach</span>(var patrollPoint <span class="keywordflow">in</span> patrollPoints)</div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>            {</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>                <span class="keywordflow">if</span>(<span class="keyword">this</span> == patrollPoint) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>                <span class="keywordflow">if</span>(patrollPoint.m_pointType == <a class="code hl_enumeration" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a>.START)</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>                {</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>                    startPoints.Add(patrollPoint);</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>                }</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>            }</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span> </div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>            <span class="comment">//エンドポイントの保持</span></div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>            List&lt;PointPatroll&gt; endPoints = <span class="keyword">new</span>();</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>            <span class="keywordflow">foreach</span>(var endPoint <span class="keywordflow">in</span> patrollPoints)</div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>            {</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>                var component = endPoint.gameObject.GetComponent&lt;PointPatroll&gt;();</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>                <span class="keywordflow">if</span>(component.m_pointType == <a class="code hl_enumeration" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a>.END)</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>                {</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>                    endPoints.Add(component);</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>                }</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>            }</div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span> </div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span> </div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>            <span class="comment">//TODO: 1. Missingが出る</span></div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>            <span class="comment">//TODO: 2. Endが全滅する</span></div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>            List&lt;int&gt; removeStartIndexList = <span class="keyword">new</span>();</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>            <span class="comment">//近辺に始点オブジェクトがあるなら子供に登録する。</span></div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>            <span class="keywordflow">for</span>(var i = 0; i &lt; endPoints.Count; i++)</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>            {</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>                var endPoint = endPoints[i];</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>                <span class="keywordflow">for</span>(var j = 0; j &lt; startPoints.Count; j++)</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>                {</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>                    var startPoint = startPoints[j];</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>                    <span class="keywordflow">if</span>((endPoint.transform.position - startPoint.transform.position).magnitude &lt; 1.0f)</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>                    {</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>                        var endPointComponnet = endPoint.transform.parent.GetComponent&lt;PointPatroll&gt;();</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>                        <span class="keywordflow">foreach</span>(var startChild <span class="keywordflow">in</span> startPoint.GetNextPoints()) </div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>                        {</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>                            startChild.transform.parent = endPoint.transform.parent;</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>                            startChild.m_prePoint = endPointComponnet;</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>                            endPoint.m_pointType = <a class="code hl_enumeration" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a>.INTERMADIATE;</div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span> </div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>                            <span class="keywordflow">foreach</span>(var child <span class="keywordflow">in</span> startChild.GetNextPoints())</div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>                            {</div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>                                child.transform.parent = endPoint.transform.parent;</div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>                                child.m_prePoint = endPointComponnet;</div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>                            }</div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>                        }</div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span> </div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>                        removeStartIndexList.Add(j);</div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>                    }</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>                }</div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>            }</div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span> </div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>            <span class="comment">//重複スタートオブジェクトを破棄</span></div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>            <span class="keywordflow">foreach</span>(var index <span class="keywordflow">in</span> removeStartIndexList)</div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>            {</div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>                <span class="keywordflow">if</span>(<span class="keyword">this</span> != startPoints[index])</div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>                {</div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>                    GameObject.DestroyImmediate(startPoints[index].gameObject);</div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>                }</div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>            }</div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span> </div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>            <span class="comment">//TODO: 1.の止血対応</span></div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>            ExecBuild();</div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>        }</div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>    }</div>
+</div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span> </div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span> </div>
+<div class="foldopen" id="foldopen00336" data-start="{" data-end="};">
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno"><a class="line" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">  336</a></span>    <span class="keyword">public</span> <span class="keyword">enum</span> <a class="code hl_enumeration" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a></div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>    {</div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7ab078ffd28db767c502ac367053f6e0ac">START</a>,</div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span> </div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7ac7fb26dc482a8c35d63a548a696a12a2">INTERMADIATE</a>,</div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span> </div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7ab1a326c06d88bf042f73d70f50197905">END</a>,</div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>    }</div>
+</div>
+<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>}</div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html">LIVINGHOUSE.App.IPoint</a></div><div class="ttdef"><b>Definition</b> <a href="_i_point_8cs_source.html#l00008">IPoint.cs:9</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point_html_ab9c128bb736aaa6f6def928a211397b8"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html#ab9c128bb736aaa6f6def928a211397b8">LIVINGHOUSE.App.IPoint.m_point</a></div><div class="ttdeci">Vector3 m_point</div><div class="ttdef"><b>Definition</b> <a href="_i_point_8cs_source.html#l00011">IPoint.cs:11</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">LIVINGHOUSE.App.PointPatroll</a></div><div class="ttdoc">索敵ポイント</div><div class="ttdef"><b>Definition</b> <a href="#l00013">PointPatroll.cs:14</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll_html_a016c02aa6900f5b2dc37ffa823f14561"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a016c02aa6900f5b2dc37ffa823f14561">LIVINGHOUSE.App.PointPatroll.GetNextPoints</a></div><div class="ttdeci">List&lt; PointPatroll &gt; GetNextPoints()</div><div class="ttdoc">次ポイントリストを取得</div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll_html_a1fc1243ae99206d950199b134a0c6284"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a1fc1243ae99206d950199b134a0c6284">LIVINGHOUSE.App.PointPatroll.m_wasBuildComplete</a></div><div class="ttdeci">bool m_wasBuildComplete</div><div class="ttdoc">ビルド成功経歴</div><div class="ttdef"><b>Definition</b> <a href="#l00036">PointPatroll.cs:36</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll_html_a2abd3c83890afbc53e95970fad4fcf1c"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a2abd3c83890afbc53e95970fad4fcf1c">LIVINGHOUSE.App.PointPatroll.GetNierPoint</a></div><div class="ttdeci">static PointPatroll GetNierPoint(PointPatroll nowPoint, Vector3 position)</div><div class="ttdoc">一番近いパトロールポイントを取得</div><div class="ttdef"><b>Definition</b> <a href="#l00132">PointPatroll.cs:132</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll_html_a35e9fb1a43f6744528855c2e328f682f"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a35e9fb1a43f6744528855c2e328f682f">LIVINGHOUSE.App.PointPatroll.m_pointType</a></div><div class="ttdeci">PointType m_pointType</div><div class="ttdoc">ポイントの種類</div><div class="ttdef"><b>Definition</b> <a href="#l00030">PointPatroll.cs:30</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll_html_a7faa6977632e9245a5947348b986eac5"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a7faa6977632e9245a5947348b986eac5">LIVINGHOUSE.App.PointPatroll.Initialize</a></div><div class="ttdeci">void Initialize(PointPatroll prePoint, Vector3 location, PointType pointType)</div><div class="ttdoc">初期化</div><div class="ttdef"><b>Definition</b> <a href="#l00058">PointPatroll.cs:58</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll_html_a897bdf6112848e81573d287974f71108"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a897bdf6112848e81573d287974f71108">LIVINGHOUSE.App.PointPatroll.AddNextPoint</a></div><div class="ttdeci">PointPatroll AddNextPoint(PointPatroll sourcePoint)</div><div class="ttdoc">生成済みのポイントを登録する</div><div class="ttdef"><b>Definition</b> <a href="#l00099">PointPatroll.cs:99</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll_html_a8b5d0f6a2d50b28afe5b21154854ba43"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a8b5d0f6a2d50b28afe5b21154854ba43">LIVINGHOUSE.App.PointPatroll.AddNextPoint</a></div><div class="ttdeci">PointPatroll AddNextPoint(Vector3 point, PointType pointType)</div><div class="ttdoc">次ポイントを生成</div><div class="ttdef"><b>Definition</b> <a href="#l00088">PointPatroll.cs:88</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll_html_a8be825c807f77f5748aaad910c2365f3"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a8be825c807f77f5748aaad910c2365f3">LIVINGHOUSE.App.PointPatroll.GetNextPoint</a></div><div class="ttdeci">PointPatroll GetNextPoint(int index)</div><div class="ttdoc">指定インデックスのポイントを取得</div><div class="ttdef"><b>Definition</b> <a href="#l00074">PointPatroll.cs:74</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll_html_a8e3fe8f5c389178cba13cf9b92e83afb"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a8e3fe8f5c389178cba13cf9b92e83afb">LIVINGHOUSE.App.PointPatroll.IsStartPoint</a></div><div class="ttdeci">bool IsStartPoint</div><div class="ttdoc">自身が始点のポイントか</div><div class="ttdef"><b>Definition</b> <a href="#l00048">PointPatroll.cs:49</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll_html_a969e2838fa0a0e22c56e107dfa597455"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a969e2838fa0a0e22c56e107dfa597455">LIVINGHOUSE.App.PointPatroll.Generate</a></div><div class="ttdeci">static PointPatroll Generate(PointPatroll prePoint, Vector3 location, PointType pointType)</div><div class="ttdoc">生成関数</div><div class="ttdef"><b>Definition</b> <a href="#l00155">PointPatroll.cs:155</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll_html_aa51e63afa589f4c476a9bdf62bf5f6fd"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#aa51e63afa589f4c476a9bdf62bf5f6fd">LIVINGHOUSE.App.PointPatroll.m_nextPoints</a></div><div class="ttdeci">List&lt; PointPatroll &gt; m_nextPoints</div><div class="ttdoc">次ポイント群</div><div class="ttdef"><b>Definition</b> <a href="#l00021">PointPatroll.cs:21</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll_html_ab5e627fd39e19275fd68880a7916a43c"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#ab5e627fd39e19275fd68880a7916a43c">LIVINGHOUSE.App.PointPatroll.m_prePoint</a></div><div class="ttdeci">PointPatroll m_prePoint</div><div class="ttdoc">前ポイント</div><div class="ttdef"><b>Definition</b> <a href="#l00017">PointPatroll.cs:17</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll_html_ab92004804af283384991996b3e6d1557"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#ab92004804af283384991996b3e6d1557">LIVINGHOUSE.App.PointPatroll.GetNierPoint</a></div><div class="ttdeci">PointPatroll GetNierPoint(Vector3 position)</div><div class="ttdoc">一番近いパトロールポイントを取得</div><div class="ttdef"><b>Definition</b> <a href="#l00109">PointPatroll.cs:109</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll_html_ac760f2dd0557f44c886c5e411fdf94b1"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#ac760f2dd0557f44c886c5e411fdf94b1">LIVINGHOUSE.App.PointPatroll.m_rootNumber</a></div><div class="ttdeci">uint m_rootNumber</div><div class="ttdoc">ポイント番号</div><div class="ttdef"><b>Definition</b> <a href="#l00026">PointPatroll.cs:26</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll_html_acab23e7b693fcb150736b8bbc7ba8cf1"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#acab23e7b693fcb150736b8bbc7ba8cf1">LIVINGHOUSE.App.PointPatroll.IsEndPoint</a></div><div class="ttdeci">bool IsEndPoint</div><div class="ttdoc">自身が末端のポイントか</div><div class="ttdef"><b>Definition</b> <a href="#l00041">PointPatroll.cs:42</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div><div class="ttdef"><b>Definition</b> <a href="_audio_controller_8cs_source.html#l00004">AudioController.cs:5</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_ad44e9f72fddbfe8a307810d5573587c7"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">LIVINGHOUSE.App.PointType</a></div><div class="ttdeci">PointType</div><div class="ttdoc">ポイントの種類</div><div class="ttdef"><b>Definition</b> <a href="#l00336">PointPatroll.cs:337</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_ad44e9f72fddbfe8a307810d5573587c7ab078ffd28db767c502ac367053f6e0ac"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7ab078ffd28db767c502ac367053f6e0ac">LIVINGHOUSE.App.PointType.START</a></div><div class="ttdeci">@ START</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_ad44e9f72fddbfe8a307810d5573587c7ab1a326c06d88bf042f73d70f50197905"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7ab1a326c06d88bf042f73d70f50197905">LIVINGHOUSE.App.PointType.END</a></div><div class="ttdeci">@ END</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_ad44e9f72fddbfe8a307810d5573587c7ac7fb26dc482a8c35d63a548a696a12a2"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7ac7fb26dc482a8c35d63a548a696a12a2">LIVINGHOUSE.App.PointType.INTERMADIATE</a></div><div class="ttdeci">@ INTERMADIATE</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute.html">LIVINGHOUSE.Attribute</a></div><div class="ttdef"><b>Definition</b> <a href="_class_name_attribute_8cs_source.html#l00003">ClassNameAttribute.cs:4</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html">LIVINGHOUSE.Manager</a></div><div class="ttdef"><b>Definition</b> <a href="_application_manager_8cs_source.html#l00003">ApplicationManager.cs:4</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_3d328b3dca154a477d99beb656992be2.html">Unity</a></li><li class="navelem"><a class="el" href="dir_3b33dffaa21a2ac6f7978a949ffd4e41.html">Assets</a></li><li class="navelem"><a class="el" href="dir_817f9772e3e161556b23fdd8948b88aa.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_9e2633ee6edb8c4cb72d28d060b37fa1.html">App</a></li><li class="navelem"><a class="el" href="dir_9d6cf2be4a8bf3b60c861e85273f032a.html">Bg</a></li><li class="navelem"><a class="el" href="dir_a5a2a9c83f2126df1d03ececd63e4c40.html">ForStageBuild</a></li><li class="navelem"><a class="el" href="dir_3aa7a34e7de8632b716d11ab4f20638f.html">Point</a></li><li class="navelem"><a class="el" href="dir_d4c5dae4ca4cb2d15939a37d56fee869.html">Base</a></li><li class="navelem"><a class="el" href="_point_patroll_8cs.html">PointPatroll.cs</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

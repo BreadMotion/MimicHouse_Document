@@ -1,0 +1,340 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: LIVINGHOUSE.App.IHitObject インタフェース</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#properties">プロパティ</a> &#124;
+<a href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">LIVINGHOUSE.App.IHitObject インタフェース</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>当たり判定を取るオブジェクトインターフェース  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+LIVINGHOUSE.App.IHitObject の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object__inherit__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_i_hit_object_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_i_hit_object_inherit__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_i_hit_object_inherit__map">
+<area shape="rect" title="当たり判定を取るオブジェクトインターフェース" alt="" coords="5,64,202,91"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html" title="全キャラクター共通のシステムクラス" alt="" coords="250,5,445,32"/>
+<area shape="poly" title=" " alt="" coords="175,57,288,30,289,35,177,63"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun.html" title=" " alt="" coords="251,56,444,99"/>
+<area shape="poly" title=" " alt="" coords="217,75,250,75,250,80,217,80"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html" title="キャラクター動作" alt="" coords="250,123,445,165"/>
+<area shape="poly" title=" " alt="" coords="170,93,267,119,266,125,168,98"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_enemy.html" title="Enemyのインターフェースクラス" alt="" coords="493,105,676,132"/>
+<area shape="poly" title=" " alt="" coords="459,129,492,126,493,131,460,135"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html" title="プレイヤークラス" alt="" coords="497,156,673,183"/>
+<area shape="poly" title=" " alt="" coords="460,153,496,157,496,163,459,159"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy01.html" title="Enemy01クラス" alt="" coords="724,80,919,107"/>
+<area shape="poly" title=" " alt="" coords="691,105,724,101,724,106,691,110"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html" title="Enemy02クラス" alt="" coords="724,131,919,157"/>
+<area shape="poly" title=" " alt="" coords="691,127,724,131,724,136,691,133"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a78581b669929c012f06a146858bd82cc" id="r_a78581b669929c012f06a146858bd82cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78581b669929c012f06a146858bd82cc">HOInitialize</a> ()</td></tr>
+<tr class="memdesc:a78581b669929c012f06a146858bd82cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化  <br /></td></tr>
+<tr class="separator:a78581b669929c012f06a146858bd82cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab22516b133cb5b81dfeebc181b1385d" id="r_aab22516b133cb5b81dfeebc181b1385d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab22516b133cb5b81dfeebc181b1385d">HOUpdate</a> ()</td></tr>
+<tr class="memdesc:aab22516b133cb5b81dfeebc181b1385d"><td class="mdescLeft">&#160;</td><td class="mdescRight">更新  <br /></td></tr>
+<tr class="separator:aab22516b133cb5b81dfeebc181b1385d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac66e998da1407b39cbd5098679055e31" id="r_ac66e998da1407b39cbd5098679055e31"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac66e998da1407b39cbd5098679055e31">HOHitCheck</a> ()</td></tr>
+<tr class="memdesc:ac66e998da1407b39cbd5098679055e31"><td class="mdescLeft">&#160;</td><td class="mdescRight">判定チェック  <br /></td></tr>
+<tr class="separator:ac66e998da1407b39cbd5098679055e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09c0c95b118e7948db823d3d23e32273" id="r_a09c0c95b118e7948db823d3d23e32273"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09c0c95b118e7948db823d3d23e32273">HOOnHit</a> ()</td></tr>
+<tr class="memdesc:a09c0c95b118e7948db823d3d23e32273"><td class="mdescLeft">&#160;</td><td class="mdescRight">判定があった時のイベント  <br /></td></tr>
+<tr class="separator:a09c0c95b118e7948db823d3d23e32273"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aade5e68a2f1ec4e1fe82e85f4b3ceafc" id="r_aade5e68a2f1ec4e1fe82e85f4b3ceafc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aade5e68a2f1ec4e1fe82e85f4b3ceafc">SetHOIsHit</a> (bool isHit)</td></tr>
+<tr class="memdesc:aade5e68a2f1ec4e1fe82e85f4b3ceafc"><td class="mdescLeft">&#160;</td><td class="mdescRight">判定結果を設定  <br /></td></tr>
+<tr class="separator:aade5e68a2f1ec4e1fe82e85f4b3ceafc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46b08f488eb931f6d5fa8ec9a30b04a3" id="r_a46b08f488eb931f6d5fa8ec9a30b04a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46b08f488eb931f6d5fa8ec9a30b04a3">SetHOHitIndex</a> (int index)</td></tr>
+<tr class="memdesc:a46b08f488eb931f6d5fa8ec9a30b04a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">判定対象を設定  <br /></td></tr>
+<tr class="separator:a46b08f488eb931f6d5fa8ec9a30b04a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:a45cb6a568952908b13d20a927f4ecc9d" id="r_a45cb6a568952908b13d20a927f4ecc9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object_data.html">HitObjectData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45cb6a568952908b13d20a927f4ecc9d">hitObjectData</a><code> [get]</code></td></tr>
+<tr class="memdesc:a45cb6a568952908b13d20a927f4ecc9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">当たり判定データ  <br /></td></tr>
+<tr class="separator:a45cb6a568952908b13d20a927f4ecc9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>当たり判定を取るオブジェクトインターフェース </p>
+
+<p class="definition"> <a class="el" href="_i_hit_object_8cs_source.html">IHitObject.cs</a> の <a class="el" href="_i_hit_object_8cs_source.html#l00113">113</a> 行目に定義があります。</p>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="ac66e998da1407b39cbd5098679055e31" name="ac66e998da1407b39cbd5098679055e31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac66e998da1407b39cbd5098679055e31">&#9670;&#160;</a></span>HOHitCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.App.IHitObject.HOHitCheck </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判定チェック </p>
+
+<p><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#aefb9a96cc530d19e8ad2e36a2c328b3e">LIVINGHOUSE.App.Character</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun.html#adfff8e2699e31e39d156893e3ca7a727">LIVINGHOUSE.App.HitObject_WaterGun</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html#a54307db2f9cd1be684d6bd785eb2f3f2">LIVINGHOUSE.App.ICanMoveObject</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy01.html#ad8f990e8b12a4b2560d9770262a1648b">LIVINGHOUSE.App.Enemy01</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#ab5cbf32e68af355a7a6a1b64dfa25c14">LIVINGHOUSE.App.Enemy02</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#a6e016d88cb4f074299161807eb2e8edf">LIVINGHOUSE.App.Player</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="a78581b669929c012f06a146858bd82cc" name="a78581b669929c012f06a146858bd82cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78581b669929c012f06a146858bd82cc">&#9670;&#160;</a></span>HOInitialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.IHitObject.HOInitialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初期化 </p>
+
+<p><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a8f903138a9665724cdceb0a10d0819d4">LIVINGHOUSE.App.Character</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun.html#abcde394297e29ce5e074d6c2215ec9bc">LIVINGHOUSE.App.HitObject_WaterGun</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html#aeaf5c9c18fb3c57a7a090e88d84297d5">LIVINGHOUSE.App.ICanMoveObject</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy01.html#a8f916fced424cf42d7e3acf138240682">LIVINGHOUSE.App.Enemy01</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#ae0420d547d980e88f1796be88280a51e">LIVINGHOUSE.App.Enemy02</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#a9bce966a410046d9cc8b802813414412">LIVINGHOUSE.App.Player</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="a09c0c95b118e7948db823d3d23e32273" name="a09c0c95b118e7948db823d3d23e32273"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09c0c95b118e7948db823d3d23e32273">&#9670;&#160;</a></span>HOOnHit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.IHitObject.HOOnHit </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判定があった時のイベント </p>
+
+<p><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a1c1363cd02bbbe7e9cbbb6e907a3a575">LIVINGHOUSE.App.Character</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun.html#a0ae5f28f82b5c5625fac3c863d31f00b">LIVINGHOUSE.App.HitObject_WaterGun</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html#a1b43f073af1f3c0cecadb22e30939e66">LIVINGHOUSE.App.ICanMoveObject</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy01.html#a2eeee16e516602805a371f78e35d7400">LIVINGHOUSE.App.Enemy01</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#aafa1acdec86fcbcf655d6b68c99c5126">LIVINGHOUSE.App.Enemy02</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#af31be51d7f1e79689f513fb0e8cfa5e1">LIVINGHOUSE.App.Player</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="aab22516b133cb5b81dfeebc181b1385d" name="aab22516b133cb5b81dfeebc181b1385d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab22516b133cb5b81dfeebc181b1385d">&#9670;&#160;</a></span>HOUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.IHitObject.HOUpdate </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>更新 </p>
+
+<p><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a40df22842f8fb03fe195db3fc2068ed5">LIVINGHOUSE.App.Character</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun.html#a75a5692677bc56a99422e94e862d3169">LIVINGHOUSE.App.HitObject_WaterGun</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html#aa6d37d6ffdbe20e9854d1758639a2896">LIVINGHOUSE.App.ICanMoveObject</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy01.html#a6a85fcb03237bd594cfba49a5c5a38cc">LIVINGHOUSE.App.Enemy01</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#a49b26803dd4177b3a72f0d86e7b642e0">LIVINGHOUSE.App.Enemy02</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#a3f451d6180a7cd981f2f6a6033a5d284">LIVINGHOUSE.App.Player</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="a46b08f488eb931f6d5fa8ec9a30b04a3" name="a46b08f488eb931f6d5fa8ec9a30b04a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46b08f488eb931f6d5fa8ec9a30b04a3">&#9670;&#160;</a></span>SetHOHitIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.IHitObject.SetHOHitIndex </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判定対象を設定 </p>
+<p>&lt;remark&gt; HitObjectManager内のList&lt;IHitObject&gt;の配列番号 &lt;/remark&gt; </p><dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>配列番号 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#afce5b8dd66b8c8aba139ea646884da50">LIVINGHOUSE.App.Character</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun.html#a5429eca21fdf96f310775e0f0b771b63">LIVINGHOUSE.App.HitObject_WaterGun</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html#af6728c2b81ce7d5b09ce75556f341119">LIVINGHOUSE.App.ICanMoveObject</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy01.html#ab8454522562878ea8ae7e056ed1c7ce8">LIVINGHOUSE.App.Enemy01</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#a7d5ceddc1cf0df51c550456ee7cafbc6">LIVINGHOUSE.App.Enemy02</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#a908d6f90d574d7d496b54868a40b4de6">LIVINGHOUSE.App.Player</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="aade5e68a2f1ec4e1fe82e85f4b3ceafc" name="aade5e68a2f1ec4e1fe82e85f4b3ceafc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aade5e68a2f1ec4e1fe82e85f4b3ceafc">&#9670;&#160;</a></span>SetHOIsHit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.IHitObject.SetHOIsHit </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isHit</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判定結果を設定 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isHit</td><td>判定結果 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a632fee315d0eac9ec56260c3c301fb46">LIVINGHOUSE.App.Character</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun.html#a4de624e1b22f3cf9b9238165d370d94b">LIVINGHOUSE.App.HitObject_WaterGun</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html#aac6a8e66bd8f314f7fbf8db754e5ff01">LIVINGHOUSE.App.ICanMoveObject</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy01.html#a4b58f4b35ba10f9e4e4399ec505169bd">LIVINGHOUSE.App.Enemy01</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#ab0ed705eaec278b76c4b3faf9a03ef1b">LIVINGHOUSE.App.Enemy02</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#ab26f17905e31ef118c1a0413771a9d95">LIVINGHOUSE.App.Player</a>で実装されています。</p>
+
+</div>
+</div>
+<h2 class="groupheader">プロパティ詳解</h2>
+<a id="a45cb6a568952908b13d20a927f4ecc9d" name="a45cb6a568952908b13d20a927f4ecc9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45cb6a568952908b13d20a927f4ecc9d">&#9670;&#160;</a></span>hitObjectData</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object_data.html">HitObjectData</a> LIVINGHOUSE.App.IHitObject.hitObjectData</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>当たり判定データ </p>
+
+<p><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#aeec84e861907c9edf638987d231ada57">LIVINGHOUSE.App.Character</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun.html#aa7799efe880e57103a0869302e87bb71">LIVINGHOUSE.App.HitObject_WaterGun</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html#a99b3dc48588a2755082e08a447186460">LIVINGHOUSE.App.ICanMoveObject</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy01.html#adfc8e32db734dc379f318f4d5fd232e3">LIVINGHOUSE.App.Enemy01</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#a4e588fa65f8ef33fa0151f79484219d6">LIVINGHOUSE.App.Enemy02</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#afeff637da53e4810489ffbe858ea8319">LIVINGHOUSE.App.Player</a>で実装されています。</p>
+
+<p class="definition"> <a class="el" href="_i_hit_object_8cs_source.html">IHitObject.cs</a> の <a class="el" href="_i_hit_object_8cs_source.html#l00116">116</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<hr/>このインタフェース詳解は次のファイルから抽出されました:<ul>
+<li>D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/HItObject/Base/<a class="el" href="_i_hit_object_8cs_source.html">IHitObject.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e.html">LIVINGHOUSE</a></li><li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">App</a></li><li class="navelem"><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html">IHitObject</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

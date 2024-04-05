@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.App.IBuff.UpdateInvoke" name="LIVINGHOUSE.App.IBuff.UpdateInvoke">
+<area shape="rect" id="Node000001" title="更新時" alt="" coords="5,5,215,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a3840586262b0e327cd52e6ee8e7318a2" title="デストラクター" alt="" coords="263,13,478,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,24,248,24,248,29,215,29"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#ad72b610197611b3a4313d68555ebe0c2" title="デアクティベート時" alt="" coords="526,5,710,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="478,24,511,24,511,29,478,29"/>
+</map>

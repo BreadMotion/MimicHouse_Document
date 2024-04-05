@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.App.IBuff.IBuff" name="LIVINGHOUSE.App.IBuff.IBuff">
+<area shape="rect" id="Node000001" title="デフォルトコンストラクター(コンテキスト以外での使用禁止)" alt="" coords="242,21,435,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_buff_manager.html#aa59647d20d32026640744b66aec71367" title="バフ生成" alt="" coords="5,5,194,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,37,194,37,194,32,227,32"/>
+</map>

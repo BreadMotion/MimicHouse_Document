@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.App.ItemSlot" name="LIVINGHOUSE.App.ItemSlot">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,193,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="44,5,154,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,47,102,80,96,80,96,47"/>
+</map>

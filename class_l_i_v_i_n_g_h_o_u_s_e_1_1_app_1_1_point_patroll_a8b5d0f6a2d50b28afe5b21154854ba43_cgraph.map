@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.App.PointPatroll.AddNextPoint" name="LIVINGHOUSE.App.PointPatroll.AddNextPoint">
+<area shape="rect" id="Node000001" title="次ポイントを生成" alt="" coords="5,5,216,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a969e2838fa0a0e22c56e107dfa597455" title="生成関数" alt="" coords="264,5,474,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,24,248,24,248,29,216,29"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a7faa6977632e9245a5947348b986eac5" title="初期化" alt="" coords="522,5,732,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="475,24,507,24,507,29,475,29"/>
+</map>

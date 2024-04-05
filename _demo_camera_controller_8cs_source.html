@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/Camera/DemoCameraController.cs ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('_demo_camera_controller_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">DemoCameraController.cs</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_demo_camera_controller_8cs.html">[詳解]</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>UnityEngine;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html">LIVINGHOUSE.Manager</a>;</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>UnityEngine.Rendering;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    [RequireComponent(typeof(Camera))]</div>
+<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html">   11</a></span>    <span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html">DemoCameraController</a> : MonoBehaviour</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    {</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">        #region Member Variable</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        <span class="comment">// TODO: このへんの変数InputManagerが持っているべき</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a8cbff7d160991ba39e5623d284292fd3">   15</a></span>        <span class="keyword">private</span> <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a8cbff7d160991ba39e5623d284292fd3">m_oldMouseRightDown</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ad8b314349fbe9eced1302cd3476c212d">   16</a></span>        <span class="keyword">private</span> <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ad8b314349fbe9eced1302cd3476c212d">m_nowMouseRightDown</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a2d61ff6cfbeb5ce2d0e3411c41aae76b">   20</a></span>        <span class="keyword">private</span> Transform <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a2d61ff6cfbeb5ce2d0e3411c41aae76b">m_transform</a> = <span class="keyword">null</span>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">        #endregion</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">        #region Can Setting Member Variable</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ab789588d86269c2c706c95c47eb8c4ec">   23</a></span>        [SerializeField] <span class="keyword">private</span> <span class="keywordtype">float</span> <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ab789588d86269c2c706c95c47eb8c4ec">m_cameraLocationSencity</a> = 1.0f;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#aa32cf412184534751488db6c91cef17a">   24</a></span>        [SerializeField] <span class="keyword">private</span> <span class="keywordtype">float</span> <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#aa32cf412184534751488db6c91cef17a">m_cameraRotationSencity</a> = 1.0f;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a7730855534a3a0d5d2da8d61d57eb5c5">   25</a></span>        <span class="keyword">private</span> <span class="keywordtype">float</span> <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a7730855534a3a0d5d2da8d61d57eb5c5">m_cameraRotLimitX</a> = 80.0f;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#af19b6030804963577ddb84fd186af538">   26</a></span>        <span class="keyword">private</span> <span class="keywordtype">float</span> <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#af19b6030804963577ddb84fd186af538">m_cameraVerticalRotation</a> = 0.0f;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">        #endregion</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">        #region Override Functions</span></div>
+<div class="foldopen" id="foldopen00032" data-start="{" data-end="}">
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a2586cf792638dee61ce9efdbfb471d5a">   32</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a2586cf792638dee61ce9efdbfb471d5a">Start</a>()</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        {</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a2d61ff6cfbeb5ce2d0e3411c41aae76b">m_transform</a> = this.transform;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        }</div>
+</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="foldopen" id="foldopen00040" data-start="{" data-end="}">
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ac0bd54eaf22997458b8ec5ea849c8d7a">   40</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ac0bd54eaf22997458b8ec5ea849c8d7a">Update</a>()</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ac692cb2f50fcbe5accd20402fec87dbb">CursorInputAccepteControll</a>();</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ad8b314349fbe9eced1302cd3476c212d">m_nowMouseRightDown</a>)</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            {</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ae36b9aa19059c693d0d25df92c00a28a">CameraRotationControll</a>();</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>                <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#aae8cb21f4352f35ce6ea8b7f754521a7">CameraLocationControll</a>();</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>            }</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a8cbff7d160991ba39e5623d284292fd3">m_oldMouseRightDown</a> = <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ad8b314349fbe9eced1302cd3476c212d">m_nowMouseRightDown</a>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        }</div>
+</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">        #endregion</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">        #region Uniequ Functions</span></div>
+<div class="foldopen" id="foldopen00055" data-start="{" data-end="}">
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ac692cb2f50fcbe5accd20402fec87dbb">   55</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ac692cb2f50fcbe5accd20402fec87dbb">CursorInputAccepteControll</a>()</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        {</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ad8b314349fbe9eced1302cd3476c212d">m_nowMouseRightDown</a> = <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_input_manager.html">InputManager</a>.<a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html#adb3b21a470bdf42bb8634e1b0d2c3428">I</a>.GetMouseInput(0);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_input_manager.html">InputManager</a>.<a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html#adb3b21a470bdf42bb8634e1b0d2c3428">I</a>.SetCursorVisibleFlag(!<a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ad8b314349fbe9eced1302cd3476c212d">m_nowMouseRightDown</a>);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        }</div>
+</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="foldopen" id="foldopen00064" data-start="{" data-end="}">
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ae36b9aa19059c693d0d25df92c00a28a">   64</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ae36b9aa19059c693d0d25df92c00a28a">CameraRotationControll</a>()</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        {</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            <span class="keywordtype">float</span> inputX = Input.GetAxis(<span class="stringliteral">&quot;Mouse X&quot;</span>) * <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#aa32cf412184534751488db6c91cef17a">m_cameraRotationSencity</a> * Manager.ApplicationManager.I.Setting.mouseSencity * Time.deltaTime;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            <span class="keywordtype">float</span> inputY = Input.GetAxis(<span class="stringliteral">&quot;Mouse Y&quot;</span>) * <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#aa32cf412184534751488db6c91cef17a">m_cameraRotationSencity</a> * Manager.ApplicationManager.I.Setting.mouseSencity * Time.deltaTime;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#af19b6030804963577ddb84fd186af538">m_cameraVerticalRotation</a> -= inputY;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#af19b6030804963577ddb84fd186af538">m_cameraVerticalRotation</a> = Mathf.Clamp(<a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#af19b6030804963577ddb84fd186af538">m_cameraVerticalRotation</a>, -<a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a7730855534a3a0d5d2da8d61d57eb5c5">m_cameraRotLimitX</a>, <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a7730855534a3a0d5d2da8d61d57eb5c5">m_cameraRotLimitX</a>);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            transform.localEulerAngles = (Vector3.right * <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#af19b6030804963577ddb84fd186af538">m_cameraVerticalRotation</a>) + Vector3.up * (inputX + transform.localEulerAngles.y);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        }</div>
+</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="foldopen" id="foldopen00077" data-start="{" data-end="}">
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#aae8cb21f4352f35ce6ea8b7f754521a7">   77</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#aae8cb21f4352f35ce6ea8b7f754521a7">CameraLocationControll</a>()</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        {</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>            <span class="keywordtype">float</span> vecX = 0.0f;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>            <span class="keywordtype">float</span> vecY = 0.0f;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            <span class="keywordtype">float</span> vecZ = 0.0f;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_input_manager.html">InputManager</a>.<a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html#adb3b21a470bdf42bb8634e1b0d2c3428">I</a>.GetKeyInput(KeyCode.W)) vecY += 1.0f;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_input_manager.html">InputManager</a>.<a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html#adb3b21a470bdf42bb8634e1b0d2c3428">I</a>.GetKeyInput(KeyCode.S)) vecY -= 1.0f;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_input_manager.html">InputManager</a>.<a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html#adb3b21a470bdf42bb8634e1b0d2c3428">I</a>.GetKeyInput(KeyCode.A)) vecX -= 1.0f;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_input_manager.html">InputManager</a>.<a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html#adb3b21a470bdf42bb8634e1b0d2c3428">I</a>.GetKeyInput(KeyCode.D)) vecX += 1.0f;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_input_manager.html">InputManager</a>.<a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html#adb3b21a470bdf42bb8634e1b0d2c3428">I</a>.GetKeyInput(KeyCode.Q)) vecZ -= 1.0f;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_input_manager.html">InputManager</a>.<a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html#adb3b21a470bdf42bb8634e1b0d2c3428">I</a>.GetKeyInput(KeyCode.E)) vecZ += 1.0f;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            var position = transform.position;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>            position += ((m_transform.forward * vecY * <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ab789588d86269c2c706c95c47eb8c4ec">m_cameraLocationSencity</a>)</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>                      + (<a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a2d61ff6cfbeb5ce2d0e3411c41aae76b">m_transform</a>.right * vecX * <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ab789588d86269c2c706c95c47eb8c4ec">m_cameraLocationSencity</a>)</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>                      + (m_transform.up * vecZ * <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ab789588d86269c2c706c95c47eb8c4ec">m_cameraLocationSencity</a>)) * Time.deltaTime;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>            transform.position = position;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        }</div>
+</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="preprocessor">        #endregion</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    }</div>
+</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>}</div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html">LIVINGHOUSE.App.DemoCameraController</a></div><div class="ttdoc">デモ用カメラ操作クラス</div><div class="ttdef"><b>Definition</b> <a href="#l00011">DemoCameraController.cs:12</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller_html_a2586cf792638dee61ce9efdbfb471d5a"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a2586cf792638dee61ce9efdbfb471d5a">LIVINGHOUSE.App.DemoCameraController.Start</a></div><div class="ttdeci">void Start()</div><div class="ttdoc">初期化</div><div class="ttdef"><b>Definition</b> <a href="#l00032">DemoCameraController.cs:32</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller_html_a2d61ff6cfbeb5ce2d0e3411c41aae76b"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a2d61ff6cfbeb5ce2d0e3411c41aae76b">LIVINGHOUSE.App.DemoCameraController.m_transform</a></div><div class="ttdeci">Transform m_transform</div><div class="ttdef"><b>Definition</b> <a href="#l00020">DemoCameraController.cs:20</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller_html_a7730855534a3a0d5d2da8d61d57eb5c5"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a7730855534a3a0d5d2da8d61d57eb5c5">LIVINGHOUSE.App.DemoCameraController.m_cameraRotLimitX</a></div><div class="ttdeci">float m_cameraRotLimitX</div><div class="ttdef"><b>Definition</b> <a href="#l00025">DemoCameraController.cs:25</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller_html_a8cbff7d160991ba39e5623d284292fd3"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a8cbff7d160991ba39e5623d284292fd3">LIVINGHOUSE.App.DemoCameraController.m_oldMouseRightDown</a></div><div class="ttdeci">bool m_oldMouseRightDown</div><div class="ttdef"><b>Definition</b> <a href="#l00015">DemoCameraController.cs:15</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller_html_aa32cf412184534751488db6c91cef17a"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#aa32cf412184534751488db6c91cef17a">LIVINGHOUSE.App.DemoCameraController.m_cameraRotationSencity</a></div><div class="ttdeci">float m_cameraRotationSencity</div><div class="ttdef"><b>Definition</b> <a href="#l00024">DemoCameraController.cs:24</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller_html_aae8cb21f4352f35ce6ea8b7f754521a7"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#aae8cb21f4352f35ce6ea8b7f754521a7">LIVINGHOUSE.App.DemoCameraController.CameraLocationControll</a></div><div class="ttdeci">void CameraLocationControll()</div><div class="ttdoc">カメラ平行移動制御</div><div class="ttdef"><b>Definition</b> <a href="#l00077">DemoCameraController.cs:77</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller_html_ab789588d86269c2c706c95c47eb8c4ec"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ab789588d86269c2c706c95c47eb8c4ec">LIVINGHOUSE.App.DemoCameraController.m_cameraLocationSencity</a></div><div class="ttdeci">float m_cameraLocationSencity</div><div class="ttdef"><b>Definition</b> <a href="#l00023">DemoCameraController.cs:23</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller_html_ac0bd54eaf22997458b8ec5ea849c8d7a"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ac0bd54eaf22997458b8ec5ea849c8d7a">LIVINGHOUSE.App.DemoCameraController.Update</a></div><div class="ttdeci">void Update()</div><div class="ttdoc">更新</div><div class="ttdef"><b>Definition</b> <a href="#l00040">DemoCameraController.cs:40</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller_html_ac692cb2f50fcbe5accd20402fec87dbb"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ac692cb2f50fcbe5accd20402fec87dbb">LIVINGHOUSE.App.DemoCameraController.CursorInputAccepteControll</a></div><div class="ttdeci">void CursorInputAccepteControll()</div><div class="ttdoc">入力許可制御</div><div class="ttdef"><b>Definition</b> <a href="#l00055">DemoCameraController.cs:55</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller_html_ad8b314349fbe9eced1302cd3476c212d"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ad8b314349fbe9eced1302cd3476c212d">LIVINGHOUSE.App.DemoCameraController.m_nowMouseRightDown</a></div><div class="ttdeci">bool m_nowMouseRightDown</div><div class="ttdef"><b>Definition</b> <a href="#l00016">DemoCameraController.cs:16</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller_html_ae36b9aa19059c693d0d25df92c00a28a"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ae36b9aa19059c693d0d25df92c00a28a">LIVINGHOUSE.App.DemoCameraController.CameraRotationControll</a></div><div class="ttdeci">void CameraRotationControll()</div><div class="ttdoc">カメラ回転制御</div><div class="ttdef"><b>Definition</b> <a href="#l00064">DemoCameraController.cs:64</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller_html_af19b6030804963577ddb84fd186af538"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#af19b6030804963577ddb84fd186af538">LIVINGHOUSE.App.DemoCameraController.m_cameraVerticalRotation</a></div><div class="ttdeci">float m_cameraVerticalRotation</div><div class="ttdef"><b>Definition</b> <a href="#l00026">DemoCameraController.cs:26</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_input_manager_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_input_manager.html">LIVINGHOUSE.Manager.InputManager</a></div><div class="ttdoc">入力管理クラス</div><div class="ttdef"><b>Definition</b> <a href="_input_manager_8cs_source.html#l00007">InputManager.cs:8</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_html_adb3b21a470bdf42bb8634e1b0d2c3428"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html#adb3b21a470bdf42bb8634e1b0d2c3428">LIVINGHOUSE.Utility.Singleton.I</a></div><div class="ttdeci">static T I</div><div class="ttdef"><b>Definition</b> <a href="_singleton_8cs_source.html#l00008">Singleton.cs:9</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div><div class="ttdef"><b>Definition</b> <a href="_audio_controller_8cs_source.html#l00004">AudioController.cs:5</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html">LIVINGHOUSE.Manager</a></div><div class="ttdef"><b>Definition</b> <a href="_application_manager_8cs_source.html#l00003">ApplicationManager.cs:4</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_3d328b3dca154a477d99beb656992be2.html">Unity</a></li><li class="navelem"><a class="el" href="dir_3b33dffaa21a2ac6f7978a949ffd4e41.html">Assets</a></li><li class="navelem"><a class="el" href="dir_817f9772e3e161556b23fdd8948b88aa.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_9e2633ee6edb8c4cb72d28d060b37fa1.html">App</a></li><li class="navelem"><a class="el" href="dir_028683d796a4153836af8c2e9ebbcca4.html">Camera</a></li><li class="navelem"><a class="el" href="_demo_camera_controller_8cs.html">DemoCameraController.cs</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

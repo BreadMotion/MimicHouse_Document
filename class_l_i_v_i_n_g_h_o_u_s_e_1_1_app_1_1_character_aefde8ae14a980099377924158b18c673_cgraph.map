@@ -1,0 +1,9 @@
+<map id="LIVINGHOUSE.App.Character.Start" name="LIVINGHOUSE.App.Character.Start">
+<area shape="rect" id="Node000001" title="初期化" alt="" coords="5,72,205,115"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html#aac6fcfbb1b07f04a6ab99872456acedf" title="初期化" alt="" coords="253,5,452,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,69,256,50,257,55,187,74"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html#a379b1670e76d8b7d6f8256058e04325e" title="初期化" alt="" coords="255,72,450,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,91,240,91,240,96,205,96"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a6cbe8a5d4eb57028e73f7fb6324ddc19" title="インスタンス存在チェック" alt="" coords="253,139,452,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="187,113,257,132,256,137,186,118"/>
+</map>

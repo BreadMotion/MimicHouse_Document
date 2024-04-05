@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.Utility.UnsafeList&lt; T &gt;" name="LIVINGHOUSE.Utility.UnsafeList&lt; T &gt;">
+<area shape="rect" id="Node000001" title="List.Add()が遅いのでListから配列を引きずり出して直接入力するために使用." alt="" coords="5,80,195,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="38,5,162,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,47,103,80,97,80,97,47"/>
+</map>

@@ -1,0 +1,532 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: LIVINGHOUSE.Manager.ItemManager クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">公開型</a> &#124;
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-methods">非公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">LIVINGHOUSE.Manager.ItemManager クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>　アイテム管理クラス　  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+LIVINGHOUSE.Manager.ItemManager の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager__inherit__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_item_manager_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_item_manager_inherit__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_item_manager_inherit__map">
+<area shape="rect" title="　アイテム管理クラス　" alt="" coords="12,96,203,139"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="5,5,210,48"/>
+<area shape="poly" title=" " alt="" coords="110,63,110,96,105,96,105,63"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+LIVINGHOUSE.Manager.ItemManager 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager__coll__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_item_manager_coll__map" alt="Collaboration graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_item_manager_coll__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_item_manager_coll__map">
+<area shape="rect" title="　アイテム管理クラス　" alt="" coords="12,96,203,139"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="5,5,210,48"/>
+<area shape="poly" title=" " alt="" coords="110,63,110,96,105,96,105,63"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+公開型</h2></td></tr>
+<tr class="memitem:aa8dcdf94096140093c720ac993d58e59" id="r_aa8dcdf94096140093c720ac993d58e59"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8dcdf94096140093c720ac993d58e59">ItemLayer</a> { <br />
+&#160;&#160;<a class="el" href="#aa8dcdf94096140093c720ac993d58e59afe76eb436cd9cc05817edd2f7435b467">BlueEye</a> = 0
+, <a class="el" href="#aa8dcdf94096140093c720ac993d58e59a1dc4ffd3e86f840e9983935488108239">EMFMeter</a> = 1
+, <a class="el" href="#aa8dcdf94096140093c720ac993d58e59a3e3709b258894cf3e58ac35ab5f0f63b">KeyOminous</a> = 2
+, <a class="el" href="#aa8dcdf94096140093c720ac993d58e59a73a1e41a9b544039bc799097c7ca4cb7">KeyStandard</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="#aa8dcdf94096140093c720ac993d58e59ac088118f20c231f0c4ab83e1e2001cdf">RainCoat</a> = 4
+, <a class="el" href="#aa8dcdf94096140093c720ac993d58e59a2a364058574373d59b6acbc4a0a11d7e">RedEye</a> = 5
+, <a class="el" href="#aa8dcdf94096140093c720ac993d58e59a6dc6413fec99ded871482afeefeb0e08">Strawdoll</a> = 6
+, <a class="el" href="#aa8dcdf94096140093c720ac993d58e59a91e0703aceed2a05cba02c792821d8b6">Umbrella</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="#aa8dcdf94096140093c720ac993d58e59abb65cc2ac0bc32a5d45a557fcd77e0dc">WaterGun</a> = 8
+, <a class="el" href="#aa8dcdf94096140093c720ac993d58e59ab1c94ca2fbc3e78fc30069c8d0f01680">All</a>
+<br />
+ }</td></tr>
+<tr class="separator:aa8dcdf94096140093c720ac993d58e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:ae6ad93888d031e3dd7f7d692efb43e87" id="r_ae6ad93888d031e3dd7f7d692efb43e87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html">App.IItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6ad93888d031e3dd7f7d692efb43e87">GenerateItem</a> (<a class="el" href="#aa8dcdf94096140093c720ac993d58e59">ItemLayer</a> itemLayer)</td></tr>
+<tr class="memdesc:ae6ad93888d031e3dd7f7d692efb43e87"><td class="mdescLeft">&#160;</td><td class="mdescRight">アイテムを構築する  <br /></td></tr>
+<tr class="separator:ae6ad93888d031e3dd7f7d692efb43e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab18ab39bd07385f09c1b5dc893111769" id="r_ab18ab39bd07385f09c1b5dc893111769"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html">App.IItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab18ab39bd07385f09c1b5dc893111769">GetItem</a> (<a class="el" href="#aa8dcdf94096140093c720ac993d58e59">ItemLayer</a> itemLayer)</td></tr>
+<tr class="memdesc:ab18ab39bd07385f09c1b5dc893111769"><td class="mdescLeft">&#160;</td><td class="mdescRight">アイテムを取得する  <br /></td></tr>
+<tr class="separator:ab18ab39bd07385f09c1b5dc893111769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bcb03876e5bdeeb0161181b7c8784a6" id="r_a7bcb03876e5bdeeb0161181b7c8784a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_item_spawn_scriptable_object.html">ItemSpawnScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bcb03876e5bdeeb0161181b7c8784a6">GetItemSpawnerContext</a> (<a class="el" href="#aa8dcdf94096140093c720ac993d58e59">ItemLayer</a> itemLayer)</td></tr>
+<tr class="memdesc:a7bcb03876e5bdeeb0161181b7c8784a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">アイテムコンテキストを取得する  <br /></td></tr>
+<tr class="separator:a7bcb03876e5bdeeb0161181b7c8784a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35633399d596bfa2b2902ee9ea557b29" id="r_a35633399d596bfa2b2902ee9ea557b29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_item_scriptable_object.html">ItemScriptableObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35633399d596bfa2b2902ee9ea557b29">GetItemContext</a> (<a class="el" href="#aa8dcdf94096140093c720ac993d58e59">ItemLayer</a> itemLayer)</td></tr>
+<tr class="memdesc:a35633399d596bfa2b2902ee9ea557b29"><td class="mdescLeft">&#160;</td><td class="mdescRight">アイテムスポーンコンテキストを取得する  <br /></td></tr>
+<tr class="separator:a35633399d596bfa2b2902ee9ea557b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2d817e52c5ea329f23daff33f3d383c" id="r_aa2d817e52c5ea329f23daff33f3d383c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2d817e52c5ea329f23daff33f3d383c">GetItemNowCount</a> (<a class="el" href="#aa8dcdf94096140093c720ac993d58e59">ItemLayer</a> itemLayer)</td></tr>
+<tr class="memdesc:aa2d817e52c5ea329f23daff33f3d383c"><td class="mdescLeft">&#160;</td><td class="mdescRight">アイテムの所持数を取得する  <br /></td></tr>
+<tr class="separator:aa2d817e52c5ea329f23daff33f3d383c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr class="memitem:a93d7293d6671953d0dbf8bd2d1c13e40" id="r_a93d7293d6671953d0dbf8bd2d1c13e40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93d7293d6671953d0dbf8bd2d1c13e40">Start</a> ()</td></tr>
+<tr class="memdesc:a93d7293d6671953d0dbf8bd2d1c13e40"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化  <br /></td></tr>
+<tr class="separator:a93d7293d6671953d0dbf8bd2d1c13e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae584b31dd72aea890705acc5a49be337" id="r_ae584b31dd72aea890705acc5a49be337"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae584b31dd72aea890705acc5a49be337">Update</a> ()</td></tr>
+<tr class="memdesc:ae584b31dd72aea890705acc5a49be337"><td class="mdescLeft">&#160;</td><td class="mdescRight">更新処理  <br /></td></tr>
+<tr class="separator:ae584b31dd72aea890705acc5a49be337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a10953e1d3880e42a31b5458da56b8996" id="r_a10953e1d3880e42a31b5458da56b8996"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html">App.IItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10953e1d3880e42a31b5458da56b8996">m_itemList</a></td></tr>
+<tr class="separator:a10953e1d3880e42a31b5458da56b8996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae39f95ec6843189c66aed04359a4a4ff" id="r_ae39f95ec6843189c66aed04359a4a4ff"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_item_scriptable_object.html">ItemScriptableObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae39f95ec6843189c66aed04359a4a4ff">m_itemContentList</a> = new(9)</td></tr>
+<tr class="separator:ae39f95ec6843189c66aed04359a4a4ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6d45ee28b755faf0f6e98632ebf076f" id="r_ae6d45ee28b755faf0f6e98632ebf076f"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_item_spawn_scriptable_object.html">ItemSpawnScriptableObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6d45ee28b755faf0f6e98632ebf076f">m_itemSpawnContentList</a> = new(9)</td></tr>
+<tr class="separator:ae6d45ee28b755faf0f6e98632ebf076f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+その他の継承メンバ</h2></td></tr>
+<tr class="inherit_header pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">LIVINGHOUSE.Utility.SingletonMonoBehaviour&lt; ItemManager &gt;</a> に属する継承静的公開メンバ関数</td></tr>
+<tr class="memitem:a7e740ea4461ac0e988cc098b09b1791b inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour" id="r_a7e740ea4461ac0e988cc098b09b1791b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a7e740ea4461ac0e988cc098b09b1791b">TryGetInstance</a> (out T instance)</td></tr>
+<tr class="memdesc:a7e740ea4461ac0e988cc098b09b1791b inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンス生成されているかチェックする  <br /></td></tr>
+<tr class="separator:a7e740ea4461ac0e988cc098b09b1791b inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab59b849973b8d751b8f7b26c72d2bf31 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour" id="r_ab59b849973b8d751b8f7b26c72d2bf31"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#ab59b849973b8d751b8f7b26c72d2bf31">GetOrCreateInstance</a> (bool dontDestroy=true)</td></tr>
+<tr class="memdesc:ab59b849973b8d751b8f7b26c72d2bf31 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンスを取得するか生成して取得するかを行う  <br /></td></tr>
+<tr class="separator:ab59b849973b8d751b8f7b26c72d2bf31 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e57b9e448073281cd6b2ec093b4d84a inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour" id="r_a2e57b9e448073281cd6b2ec093b4d84a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a2e57b9e448073281cd6b2ec093b4d84a">IsValid</a> ()</td></tr>
+<tr class="memdesc:a2e57b9e448073281cd6b2ec093b4d84a inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンスがあるか調べる  <br /></td></tr>
+<tr class="separator:a2e57b9e448073281cd6b2ec093b4d84a inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82b6de86ce50247fd7f49e587a9c57e9 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour" id="r_a82b6de86ce50247fd7f49e587a9c57e9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a82b6de86ce50247fd7f49e587a9c57e9">Release</a> ()</td></tr>
+<tr class="memdesc:a82b6de86ce50247fd7f49e587a9c57e9 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">解放する  <br /></td></tr>
+<tr class="separator:a82b6de86ce50247fd7f49e587a9c57e9 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">LIVINGHOUSE.Utility.SingletonMonoBehaviour&lt; ItemManager &gt;</a> に属する継承限定公開メンバ関数</td></tr>
+<tr class="memitem:a61050fe1f02b55e2b1cc020eb0c16429 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour" id="r_a61050fe1f02b55e2b1cc020eb0c16429"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a61050fe1f02b55e2b1cc020eb0c16429">OnDestroy</a> ()</td></tr>
+<tr class="memdesc:a61050fe1f02b55e2b1cc020eb0c16429 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">破棄処理  <br /></td></tr>
+<tr class="separator:a61050fe1f02b55e2b1cc020eb0c16429 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f60b7cd168aeced30d653f95a254828 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour" id="r_a7f60b7cd168aeced30d653f95a254828"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a7f60b7cd168aeced30d653f95a254828">Awake</a> ()</td></tr>
+<tr class="memdesc:a7f60b7cd168aeced30d653f95a254828 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">事前初期化  <br /></td></tr>
+<tr class="separator:a7f60b7cd168aeced30d653f95a254828 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade29dc36363e4bc1652609acd7f07314 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour" id="r_ade29dc36363e4bc1652609acd7f07314"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#ade29dc36363e4bc1652609acd7f07314">CheckInstance</a> ()</td></tr>
+<tr class="memdesc:ade29dc36363e4bc1652609acd7f07314 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンスが生存期間を超えていないか調べる  <br /></td></tr>
+<tr class="separator:ade29dc36363e4bc1652609acd7f07314 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">LIVINGHOUSE.Utility.SingletonMonoBehaviour&lt; ItemManager &gt;</a> に属する継承プロパティ</td></tr>
+<tr class="memitem:ac0cfa308fecdda89f8b4a0ec5fed72b5 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour" id="r_ac0cfa308fecdda89f8b4a0ec5fed72b5"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#ac0cfa308fecdda89f8b4a0ec5fed72b5">I</a><code> [get]</code></td></tr>
+<tr class="separator:ac0cfa308fecdda89f8b4a0ec5fed72b5 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>　アイテム管理クラス　 </p>
+
+<p class="definition"> <a class="el" href="_item_manager_8cs_source.html">ItemManager.cs</a> の <a class="el" href="_item_manager_8cs_source.html#l00011">11</a> 行目に定義があります。</p>
+</div><h2 class="groupheader">列挙型メンバ詳解</h2>
+<a id="aa8dcdf94096140093c720ac993d58e59" name="aa8dcdf94096140093c720ac993d58e59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8dcdf94096140093c720ac993d58e59">&#9670;&#160;</a></span>ItemLayer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#aa8dcdf94096140093c720ac993d58e59">LIVINGHOUSE.Manager.ItemManager.ItemLayer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">列挙値</th></tr><tr><td class="fieldname"><a id="aa8dcdf94096140093c720ac993d58e59afe76eb436cd9cc05817edd2f7435b467" name="aa8dcdf94096140093c720ac993d58e59afe76eb436cd9cc05817edd2f7435b467"></a>BlueEye&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa8dcdf94096140093c720ac993d58e59a1dc4ffd3e86f840e9983935488108239" name="aa8dcdf94096140093c720ac993d58e59a1dc4ffd3e86f840e9983935488108239"></a>EMFMeter&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa8dcdf94096140093c720ac993d58e59a3e3709b258894cf3e58ac35ab5f0f63b" name="aa8dcdf94096140093c720ac993d58e59a3e3709b258894cf3e58ac35ab5f0f63b"></a>KeyOminous&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa8dcdf94096140093c720ac993d58e59a73a1e41a9b544039bc799097c7ca4cb7" name="aa8dcdf94096140093c720ac993d58e59a73a1e41a9b544039bc799097c7ca4cb7"></a>KeyStandard&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa8dcdf94096140093c720ac993d58e59ac088118f20c231f0c4ab83e1e2001cdf" name="aa8dcdf94096140093c720ac993d58e59ac088118f20c231f0c4ab83e1e2001cdf"></a>RainCoat&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa8dcdf94096140093c720ac993d58e59a2a364058574373d59b6acbc4a0a11d7e" name="aa8dcdf94096140093c720ac993d58e59a2a364058574373d59b6acbc4a0a11d7e"></a>RedEye&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa8dcdf94096140093c720ac993d58e59a6dc6413fec99ded871482afeefeb0e08" name="aa8dcdf94096140093c720ac993d58e59a6dc6413fec99ded871482afeefeb0e08"></a>Strawdoll&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa8dcdf94096140093c720ac993d58e59a91e0703aceed2a05cba02c792821d8b6" name="aa8dcdf94096140093c720ac993d58e59a91e0703aceed2a05cba02c792821d8b6"></a>Umbrella&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa8dcdf94096140093c720ac993d58e59abb65cc2ac0bc32a5d45a557fcd77e0dc" name="aa8dcdf94096140093c720ac993d58e59abb65cc2ac0bc32a5d45a557fcd77e0dc"></a>WaterGun&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa8dcdf94096140093c720ac993d58e59ab1c94ca2fbc3e78fc30069c8d0f01680" name="aa8dcdf94096140093c720ac993d58e59ab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition"> <a class="el" href="_item_manager_8cs_source.html">ItemManager.cs</a> の <a class="el" href="_item_manager_8cs_source.html#l00021">21</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<h2 class="groupheader">メソッド詳解</h2>
+<a id="ae6ad93888d031e3dd7f7d692efb43e87" name="ae6ad93888d031e3dd7f7d692efb43e87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6ad93888d031e3dd7f7d692efb43e87">&#9670;&#160;</a></span>GenerateItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html">App.IItem</a> LIVINGHOUSE.Manager.ItemManager.GenerateItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa8dcdf94096140093c720ac993d58e59">ItemLayer</a></td>          <td class="paramname"><span class="paramname"><em>itemLayer</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>アイテムを構築する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itemLayer</td><td>アイテムの種類</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>アイテムインスタンス</dd></dl>
+
+<p class="definition"> <a class="el" href="_item_manager_8cs_source.html">ItemManager.cs</a> の <a class="el" href="_item_manager_8cs_source.html#l00060">60</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ab18ab39bd07385f09c1b5dc893111769" name="ab18ab39bd07385f09c1b5dc893111769"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab18ab39bd07385f09c1b5dc893111769">&#9670;&#160;</a></span>GetItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html">App.IItem</a> LIVINGHOUSE.Manager.ItemManager.GetItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa8dcdf94096140093c720ac993d58e59">ItemLayer</a></td>          <td class="paramname"><span class="paramname"><em>itemLayer</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>アイテムを取得する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itemLayer</td><td>アイテムの種類 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>　アイテム　</dd></dl>
+
+</div>
+</div>
+<a id="a35633399d596bfa2b2902ee9ea557b29" name="a35633399d596bfa2b2902ee9ea557b29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35633399d596bfa2b2902ee9ea557b29">&#9670;&#160;</a></span>GetItemContext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_item_scriptable_object.html">ItemScriptableObject</a> LIVINGHOUSE.Manager.ItemManager.GetItemContext </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa8dcdf94096140093c720ac993d58e59">ItemLayer</a></td>          <td class="paramname"><span class="paramname"><em>itemLayer</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>アイテムスポーンコンテキストを取得する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itemLayer</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aa2d817e52c5ea329f23daff33f3d383c" name="aa2d817e52c5ea329f23daff33f3d383c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2d817e52c5ea329f23daff33f3d383c">&#9670;&#160;</a></span>GetItemNowCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int LIVINGHOUSE.Manager.ItemManager.GetItemNowCount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa8dcdf94096140093c720ac993d58e59">ItemLayer</a></td>          <td class="paramname"><span class="paramname"><em>itemLayer</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>アイテムの所持数を取得する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itemLayer</td><td>アイテムの種類 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>アイテムの所持数 </dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager_aa2d817e52c5ea329f23daff33f3d383c_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager_aa2d817e52c5ea329f23daff33f3d383c_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager_aa2d817e52c5ea329f23daff33f3d383c_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager_aa2d817e52c5ea329f23daff33f3d383c_icgraph">
+<area shape="rect" title="アイテムの所持数を取得する" alt="" coords="253,5,444,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_check_key_event.html#a8df07dd02af8e4238e57d641b590780d" title="ReturnValueの計算" alt="" coords="5,5,205,48"/>
+<area shape="poly" title=" " alt="" coords="238,29,205,29,205,24,238,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7bcb03876e5bdeeb0161181b7c8784a6" name="a7bcb03876e5bdeeb0161181b7c8784a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bcb03876e5bdeeb0161181b7c8784a6">&#9670;&#160;</a></span>GetItemSpawnerContext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_item_spawn_scriptable_object.html">ItemSpawnScriptableObject</a> LIVINGHOUSE.Manager.ItemManager.GetItemSpawnerContext </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa8dcdf94096140093c720ac993d58e59">ItemLayer</a></td>          <td class="paramname"><span class="paramname"><em>itemLayer</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>アイテムコンテキストを取得する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itemLayer</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a93d7293d6671953d0dbf8bd2d1c13e40" name="a93d7293d6671953d0dbf8bd2d1c13e40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93d7293d6671953d0dbf8bd2d1c13e40">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.Manager.ItemManager.Start </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>初期化 </p>
+
+<p class="definition"> <a class="el" href="_item_manager_8cs_source.html">ItemManager.cs</a> の <a class="el" href="_item_manager_8cs_source.html#l00115">115</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ae584b31dd72aea890705acc5a49be337" name="ae584b31dd72aea890705acc5a49be337"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae584b31dd72aea890705acc5a49be337">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.Manager.ItemManager.Update </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>更新処理 </p>
+
+<p class="definition"> <a class="el" href="_item_manager_8cs_source.html">ItemManager.cs</a> の <a class="el" href="_item_manager_8cs_source.html#l00136">136</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="ae39f95ec6843189c66aed04359a4a4ff" name="ae39f95ec6843189c66aed04359a4a4ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae39f95ec6843189c66aed04359a4a4ff">&#9670;&#160;</a></span>m_itemContentList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_item_scriptable_object.html">ItemScriptableObject</a>&gt; LIVINGHOUSE.Manager.ItemManager.m_itemContentList = new(9)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_item_manager_8cs_source.html">ItemManager.cs</a> の <a class="el" href="_item_manager_8cs_source.html#l00016">16</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a10953e1d3880e42a31b5458da56b8996" name="a10953e1d3880e42a31b5458da56b8996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10953e1d3880e42a31b5458da56b8996">&#9670;&#160;</a></span>m_itemList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html">App.IItem</a>&gt; LIVINGHOUSE.Manager.ItemManager.m_itemList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_item_manager_8cs_source.html">ItemManager.cs</a> の <a class="el" href="_item_manager_8cs_source.html#l00014">14</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ae6d45ee28b755faf0f6e98632ebf076f" name="ae6d45ee28b755faf0f6e98632ebf076f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6d45ee28b755faf0f6e98632ebf076f">&#9670;&#160;</a></span>m_itemSpawnContentList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_item_spawn_scriptable_object.html">ItemSpawnScriptableObject</a>&gt; LIVINGHOUSE.Manager.ItemManager.m_itemSpawnContentList = new(9)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_item_manager_8cs_source.html">ItemManager.cs</a> の <a class="el" href="_item_manager_8cs_source.html#l00018">18</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/Manager/<a class="el" href="_item_manager_8cs_source.html">ItemManager.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e.html">LIVINGHOUSE</a></li><li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html">Manager</a></li><li class="navelem"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html">ItemManager</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

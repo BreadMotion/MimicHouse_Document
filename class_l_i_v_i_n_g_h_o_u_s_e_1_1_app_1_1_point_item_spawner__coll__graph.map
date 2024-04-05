@@ -1,0 +1,11 @@
+<map id="LIVINGHOUSE.App.PointItemSpawner" name="LIVINGHOUSE.App.PointItemSpawner">
+<area shape="rect" id="Node000001" title=" " alt="" coords="44,204,239,247"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html" title=" " alt="" coords="42,105,97,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,143,129,202,125,205,84,146"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,13,115,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="65,55,71,105,65,105,60,55"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html" title="　アイテム管理クラス　" alt="" coords="138,97,329,140"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="208,153,161,205,157,202,204,149"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="139,5,344,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="241,63,238,97,232,97,236,63"/>
+</map>

@@ -1,0 +1,641 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: LIVINGHOUSE.Manager.HitObjectManager クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">クラス</a> &#124;
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-methods">非公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">LIVINGHOUSE.Manager.HitObjectManager クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>ダメージ、被ダメージ判定のあるオブジェクト  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+LIVINGHOUSE.Manager.HitObjectManager の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager__inherit__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_hit_object_manager_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_hit_object_manager_inherit__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_hit_object_manager_inherit__map">
+<area shape="rect" title="ダメージ、被ダメージ判定のあるオブジェクト" alt="" coords="5,96,226,139"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="34,5,197,48"/>
+<area shape="poly" title=" " alt="" coords="118,63,118,96,113,96,113,63"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+LIVINGHOUSE.Manager.HitObjectManager 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager__coll__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_hit_object_manager_coll__map" alt="Collaboration graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_hit_object_manager_coll__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_hit_object_manager_coll__map">
+<area shape="rect" title="ダメージ、被ダメージ判定のあるオブジェクト" alt="" coords="5,96,226,139"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="34,5,197,48"/>
+<area shape="poly" title=" " alt="" coords="118,63,118,96,113,96,113,63"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+クラス</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_1_1_hit_check.html">HitCheck</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">当たり判定ジョブ  <a href="struct_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_1_1_hit_check.html#details">[詳解]</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:ac243d57f3dfe1561017dfb9a1ce7c516" id="r_ac243d57f3dfe1561017dfb9a1ce7c516"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac243d57f3dfe1561017dfb9a1ce7c516">Start</a> ()</td></tr>
+<tr class="memdesc:ac243d57f3dfe1561017dfb9a1ce7c516"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化  <br /></td></tr>
+<tr class="separator:ac243d57f3dfe1561017dfb9a1ce7c516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81757f9a464515c0a8817b2039fa2c0c" id="r_a81757f9a464515c0a8817b2039fa2c0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81757f9a464515c0a8817b2039fa2c0c">Update</a> ()</td></tr>
+<tr class="memdesc:a81757f9a464515c0a8817b2039fa2c0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">更新  <br /></td></tr>
+<tr class="separator:a81757f9a464515c0a8817b2039fa2c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ebb7064ffbed362379121cf284eca68" id="r_a5ebb7064ffbed362379121cf284eca68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ebb7064ffbed362379121cf284eca68">LateUpdate</a> ()</td></tr>
+<tr class="memdesc:a5ebb7064ffbed362379121cf284eca68"><td class="mdescLeft">&#160;</td><td class="mdescRight">遅延更新  <br /></td></tr>
+<tr class="separator:a5ebb7064ffbed362379121cf284eca68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abef376e880a64be6564094191d7fd77c" id="r_abef376e880a64be6564094191d7fd77c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abef376e880a64be6564094191d7fd77c">RegistHitObject</a> (<a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html">IHitObject</a> source)</td></tr>
+<tr class="memdesc:abef376e880a64be6564094191d7fd77c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ヒットオブジェクトの登録  <br /></td></tr>
+<tr class="separator:abef376e880a64be6564094191d7fd77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1f51930925c2951fdbb65b275f17e46" id="r_af1f51930925c2951fdbb65b275f17e46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1f51930925c2951fdbb65b275f17e46">RegistHitObject</a> (<a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html">IHitObject</a> source, Transform sourceTransform)</td></tr>
+<tr class="memdesc:af1f51930925c2951fdbb65b275f17e46"><td class="mdescLeft">&#160;</td><td class="mdescRight">ヒットオブジェクトの登録  <br /></td></tr>
+<tr class="separator:af1f51930925c2951fdbb65b275f17e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e641d01e306586554739a0c21f5cdc0" id="r_a0e641d01e306586554739a0c21f5cdc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e641d01e306586554739a0c21f5cdc0">UnRegistHitObject</a> (<a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html">IHitObject</a> source)</td></tr>
+<tr class="memdesc:a0e641d01e306586554739a0c21f5cdc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">ヒットオブジェクトの登録解除  <br /></td></tr>
+<tr class="separator:a0e641d01e306586554739a0c21f5cdc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf4b5debecd9ddc92d70843bc33031f0" id="r_abf4b5debecd9ddc92d70843bc33031f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf4b5debecd9ddc92d70843bc33031f0">UnRegistHitObject</a> (int index)</td></tr>
+<tr class="memdesc:abf4b5debecd9ddc92d70843bc33031f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">ヒットオブジェクトの登録解除  <br /></td></tr>
+<tr class="separator:abf4b5debecd9ddc92d70843bc33031f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr class="memitem:a8d188b9958d0abc6880aa25cd57c744d" id="r_a8d188b9958d0abc6880aa25cd57c744d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d188b9958d0abc6880aa25cd57c744d">ExecuteJobs</a> ()</td></tr>
+<tr class="memdesc:a8d188b9958d0abc6880aa25cd57c744d"><td class="mdescLeft">&#160;</td><td class="mdescRight">並列処理を呼び出す  <br /></td></tr>
+<tr class="separator:a8d188b9958d0abc6880aa25cd57c744d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a492c1081801953bdc7ceddd930946444" id="r_a492c1081801953bdc7ceddd930946444"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a492c1081801953bdc7ceddd930946444">WaitJobs</a> ()</td></tr>
+<tr class="memdesc:a492c1081801953bdc7ceddd930946444"><td class="mdescLeft">&#160;</td><td class="mdescRight">ジョブ完了待機  <br /></td></tr>
+<tr class="separator:a492c1081801953bdc7ceddd930946444"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea976d3b34f199e58d8e2c6c3ea24a62" id="r_aea976d3b34f199e58d8e2c6c3ea24a62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea976d3b34f199e58d8e2c6c3ea24a62">ApplyResult</a> ()</td></tr>
+<tr class="memdesc:aea976d3b34f199e58d8e2c6c3ea24a62"><td class="mdescLeft">&#160;</td><td class="mdescRight">結果を反映する  <br /></td></tr>
+<tr class="separator:aea976d3b34f199e58d8e2c6c3ea24a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a913ec62da1cdb25f5673441187cd2193" id="r_a913ec62da1cdb25f5673441187cd2193"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html">IHitObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a913ec62da1cdb25f5673441187cd2193">m_hos</a></td></tr>
+<tr class="separator:a913ec62da1cdb25f5673441187cd2193"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4027f645eb8e7064c7f4d08c6c2f60f1" id="r_a4027f645eb8e7064c7f4d08c6c2f60f1"><td class="memItemLeft" align="right" valign="top">NativeList&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4027f645eb8e7064c7f4d08c6c2f60f1">m_hoResults</a></td></tr>
+<tr class="separator:a4027f645eb8e7064c7f4d08c6c2f60f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6d779f7c5adf613042cac8f7ca90a83" id="r_ae6d779f7c5adf613042cac8f7ca90a83"><td class="memItemLeft" align="right" valign="top">NativeList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6d779f7c5adf613042cac8f7ca90a83">m_hoResultIndex</a></td></tr>
+<tr class="separator:ae6d779f7c5adf613042cac8f7ca90a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8600470c26037b6cbef6605c1522951d" id="r_a8600470c26037b6cbef6605c1522951d"><td class="memItemLeft" align="right" valign="top">Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8600470c26037b6cbef6605c1522951d">WaitJobComplete</a></td></tr>
+<tr class="separator:a8600470c26037b6cbef6605c1522951d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+その他の継承メンバ</h2></td></tr>
+<tr class="inherit_header pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">LIVINGHOUSE.Utility.SingletonMonoBehaviour&lt; HitObjectManager &gt;</a> に属する継承静的公開メンバ関数</td></tr>
+<tr class="memitem:a7e740ea4461ac0e988cc098b09b1791b inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour" id="r_a7e740ea4461ac0e988cc098b09b1791b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a7e740ea4461ac0e988cc098b09b1791b">TryGetInstance</a> (out T instance)</td></tr>
+<tr class="memdesc:a7e740ea4461ac0e988cc098b09b1791b inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンス生成されているかチェックする  <br /></td></tr>
+<tr class="separator:a7e740ea4461ac0e988cc098b09b1791b inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab59b849973b8d751b8f7b26c72d2bf31 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour" id="r_ab59b849973b8d751b8f7b26c72d2bf31"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#ab59b849973b8d751b8f7b26c72d2bf31">GetOrCreateInstance</a> (bool dontDestroy=true)</td></tr>
+<tr class="memdesc:ab59b849973b8d751b8f7b26c72d2bf31 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンスを取得するか生成して取得するかを行う  <br /></td></tr>
+<tr class="separator:ab59b849973b8d751b8f7b26c72d2bf31 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e57b9e448073281cd6b2ec093b4d84a inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour" id="r_a2e57b9e448073281cd6b2ec093b4d84a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a2e57b9e448073281cd6b2ec093b4d84a">IsValid</a> ()</td></tr>
+<tr class="memdesc:a2e57b9e448073281cd6b2ec093b4d84a inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンスがあるか調べる  <br /></td></tr>
+<tr class="separator:a2e57b9e448073281cd6b2ec093b4d84a inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82b6de86ce50247fd7f49e587a9c57e9 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour" id="r_a82b6de86ce50247fd7f49e587a9c57e9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a82b6de86ce50247fd7f49e587a9c57e9">Release</a> ()</td></tr>
+<tr class="memdesc:a82b6de86ce50247fd7f49e587a9c57e9 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">解放する  <br /></td></tr>
+<tr class="separator:a82b6de86ce50247fd7f49e587a9c57e9 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">LIVINGHOUSE.Utility.SingletonMonoBehaviour&lt; HitObjectManager &gt;</a> に属する継承限定公開メンバ関数</td></tr>
+<tr class="memitem:a61050fe1f02b55e2b1cc020eb0c16429 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour" id="r_a61050fe1f02b55e2b1cc020eb0c16429"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a61050fe1f02b55e2b1cc020eb0c16429">OnDestroy</a> ()</td></tr>
+<tr class="memdesc:a61050fe1f02b55e2b1cc020eb0c16429 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">破棄処理  <br /></td></tr>
+<tr class="separator:a61050fe1f02b55e2b1cc020eb0c16429 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f60b7cd168aeced30d653f95a254828 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour" id="r_a7f60b7cd168aeced30d653f95a254828"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a7f60b7cd168aeced30d653f95a254828">Awake</a> ()</td></tr>
+<tr class="memdesc:a7f60b7cd168aeced30d653f95a254828 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">事前初期化  <br /></td></tr>
+<tr class="separator:a7f60b7cd168aeced30d653f95a254828 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade29dc36363e4bc1652609acd7f07314 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour" id="r_ade29dc36363e4bc1652609acd7f07314"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#ade29dc36363e4bc1652609acd7f07314">CheckInstance</a> ()</td></tr>
+<tr class="memdesc:ade29dc36363e4bc1652609acd7f07314 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンスが生存期間を超えていないか調べる  <br /></td></tr>
+<tr class="separator:ade29dc36363e4bc1652609acd7f07314 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">LIVINGHOUSE.Utility.SingletonMonoBehaviour&lt; HitObjectManager &gt;</a> に属する継承プロパティ</td></tr>
+<tr class="memitem:ac0cfa308fecdda89f8b4a0ec5fed72b5 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour" id="r_ac0cfa308fecdda89f8b4a0ec5fed72b5"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#ac0cfa308fecdda89f8b4a0ec5fed72b5">I</a><code> [get]</code></td></tr>
+<tr class="separator:ac0cfa308fecdda89f8b4a0ec5fed72b5 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>ダメージ、被ダメージ判定のあるオブジェクト </p>
+
+<p class="definition"> <a class="el" href="_hit_object_manager_8cs_source.html">HitObjectManager.cs</a> の <a class="el" href="_hit_object_manager_8cs_source.html#l00019">19</a> 行目に定義があります。</p>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="aea976d3b34f199e58d8e2c6c3ea24a62" name="aea976d3b34f199e58d8e2c6c3ea24a62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea976d3b34f199e58d8e2c6c3ea24a62">&#9670;&#160;</a></span>ApplyResult()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.Manager.HitObjectManager.ApplyResult </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>結果を反映する </p>
+
+<p class="definition"> <a class="el" href="_hit_object_manager_8cs_source.html">HitObjectManager.cs</a> の <a class="el" href="_hit_object_manager_8cs_source.html#l00148">148</a> 行目に定義があります。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_aea976d3b34f199e58d8e2c6c3ea24a62_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_aea976d3b34f199e58d8e2c6c3ea24a62_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_aea976d3b34f199e58d8e2c6c3ea24a62_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_aea976d3b34f199e58d8e2c6c3ea24a62_icgraph">
+<area shape="rect" title="結果を反映する" alt="" coords="274,5,494,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager.html#a81757f9a464515c0a8817b2039fa2c0c" title="更新" alt="" coords="5,5,226,48"/>
+<area shape="poly" title=" " alt="" coords="259,29,226,29,226,24,259,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8d188b9958d0abc6880aa25cd57c744d" name="a8d188b9958d0abc6880aa25cd57c744d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d188b9958d0abc6880aa25cd57c744d">&#9670;&#160;</a></span>ExecuteJobs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.Manager.HitObjectManager.ExecuteJobs </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>並列処理を呼び出す </p>
+
+<p class="definition"> <a class="el" href="_hit_object_manager_8cs_source.html">HitObjectManager.cs</a> の <a class="el" href="_hit_object_manager_8cs_source.html#l00119">119</a> 行目に定義があります。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_a8d188b9958d0abc6880aa25cd57c744d_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_a8d188b9958d0abc6880aa25cd57c744d_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_a8d188b9958d0abc6880aa25cd57c744d_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_a8d188b9958d0abc6880aa25cd57c744d_icgraph">
+<area shape="rect" title="並列処理を呼び出す" alt="" coords="274,5,494,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager.html#a5ebb7064ffbed362379121cf284eca68" title="遅延更新" alt="" coords="5,5,226,48"/>
+<area shape="poly" title=" " alt="" coords="259,29,226,29,226,24,259,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5ebb7064ffbed362379121cf284eca68" name="a5ebb7064ffbed362379121cf284eca68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ebb7064ffbed362379121cf284eca68">&#9670;&#160;</a></span>LateUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.Manager.HitObjectManager.LateUpdate </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>遅延更新 </p>
+
+<p class="definition"> <a class="el" href="_hit_object_manager_8cs_source.html">HitObjectManager.cs</a> の <a class="el" href="_hit_object_manager_8cs_source.html#l00047">47</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_a5ebb7064ffbed362379121cf284eca68_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_a5ebb7064ffbed362379121cf284eca68_cgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_a5ebb7064ffbed362379121cf284eca68_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_a5ebb7064ffbed362379121cf284eca68_cgraph">
+<area shape="rect" title="遅延更新" alt="" coords="5,5,226,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager.html#a8d188b9958d0abc6880aa25cd57c744d" title="並列処理を呼び出す" alt="" coords="274,5,494,48"/>
+<area shape="poly" title=" " alt="" coords="226,24,259,24,259,29,226,29"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abef376e880a64be6564094191d7fd77c" name="abef376e880a64be6564094191d7fd77c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abef376e880a64be6564094191d7fd77c">&#9670;&#160;</a></span>RegistHitObject() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.Manager.HitObjectManager.RegistHitObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html">IHitObject</a></td>          <td class="paramname"><span class="paramname"><em>source</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ヒットオブジェクトの登録 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>登録対象 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition"> <a class="el" href="_hit_object_manager_8cs_source.html">HitObjectManager.cs</a> の <a class="el" href="_hit_object_manager_8cs_source.html#l00069">69</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="af1f51930925c2951fdbb65b275f17e46" name="af1f51930925c2951fdbb65b275f17e46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1f51930925c2951fdbb65b275f17e46">&#9670;&#160;</a></span>RegistHitObject() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.Manager.HitObjectManager.RegistHitObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html">IHitObject</a></td>          <td class="paramname"><span class="paramname"><em>source</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Transform</td>          <td class="paramname"><span class="paramname"><em>sourceTransform</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ヒットオブジェクトの登録 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>登録対象 </td></tr>
+    <tr><td class="paramname">sourceTransform</td><td>登録対象のTransform </td></tr>
+  </table>
+  </dd>
+</dl>
+<p>&gt; </p>
+
+<p class="definition"> <a class="el" href="_hit_object_manager_8cs_source.html">HitObjectManager.cs</a> の <a class="el" href="_hit_object_manager_8cs_source.html#l00082">82</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ac243d57f3dfe1561017dfb9a1ce7c516" name="ac243d57f3dfe1561017dfb9a1ce7c516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac243d57f3dfe1561017dfb9a1ce7c516">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.Manager.HitObjectManager.Start </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初期化 </p>
+
+<p class="definition"> <a class="el" href="_hit_object_manager_8cs_source.html">HitObjectManager.cs</a> の <a class="el" href="_hit_object_manager_8cs_source.html#l00030">30</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a0e641d01e306586554739a0c21f5cdc0" name="a0e641d01e306586554739a0c21f5cdc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e641d01e306586554739a0c21f5cdc0">&#9670;&#160;</a></span>UnRegistHitObject() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.Manager.HitObjectManager.UnRegistHitObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html">IHitObject</a></td>          <td class="paramname"><span class="paramname"><em>source</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ヒットオブジェクトの登録解除 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>登録解除対象 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition"> <a class="el" href="_hit_object_manager_8cs_source.html">HitObjectManager.cs</a> の <a class="el" href="_hit_object_manager_8cs_source.html#l00097">97</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="abf4b5debecd9ddc92d70843bc33031f0" name="abf4b5debecd9ddc92d70843bc33031f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf4b5debecd9ddc92d70843bc33031f0">&#9670;&#160;</a></span>UnRegistHitObject() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.Manager.HitObjectManager.UnRegistHitObject </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ヒットオブジェクトの登録解除 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>登録解除対象 配列番号 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition"> <a class="el" href="_hit_object_manager_8cs_source.html">HitObjectManager.cs</a> の <a class="el" href="_hit_object_manager_8cs_source.html#l00110">110</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a81757f9a464515c0a8817b2039fa2c0c" name="a81757f9a464515c0a8817b2039fa2c0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81757f9a464515c0a8817b2039fa2c0c">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.Manager.HitObjectManager.Update </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>更新 </p>
+
+<p class="definition"> <a class="el" href="_hit_object_manager_8cs_source.html">HitObjectManager.cs</a> の <a class="el" href="_hit_object_manager_8cs_source.html#l00039">39</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_a81757f9a464515c0a8817b2039fa2c0c_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_a81757f9a464515c0a8817b2039fa2c0c_cgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_a81757f9a464515c0a8817b2039fa2c0c_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_a81757f9a464515c0a8817b2039fa2c0c_cgraph">
+<area shape="rect" title="更新" alt="" coords="5,39,226,81"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager.html#aea976d3b34f199e58d8e2c6c3ea24a62" title="結果を反映する" alt="" coords="274,5,494,48"/>
+<area shape="poly" title=" " alt="" coords="226,44,259,40,259,45,226,49"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager.html#a492c1081801953bdc7ceddd930946444" title="ジョブ完了待機" alt="" coords="274,72,494,115"/>
+<area shape="poly" title=" " alt="" coords="226,71,259,75,259,80,226,76"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a492c1081801953bdc7ceddd930946444" name="a492c1081801953bdc7ceddd930946444"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a492c1081801953bdc7ceddd930946444">&#9670;&#160;</a></span>WaitJobs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.Manager.HitObjectManager.WaitJobs </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ジョブ完了待機 </p>
+
+<p class="definition"> <a class="el" href="_hit_object_manager_8cs_source.html">HitObjectManager.cs</a> の <a class="el" href="_hit_object_manager_8cs_source.html#l00140">140</a> 行目に定義があります。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_a492c1081801953bdc7ceddd930946444_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_a492c1081801953bdc7ceddd930946444_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_a492c1081801953bdc7ceddd930946444_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_a492c1081801953bdc7ceddd930946444_icgraph">
+<area shape="rect" title="ジョブ完了待機" alt="" coords="274,5,494,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager.html#a81757f9a464515c0a8817b2039fa2c0c" title="更新" alt="" coords="5,5,226,48"/>
+<area shape="poly" title=" " alt="" coords="259,29,226,29,226,24,259,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="ae6d779f7c5adf613042cac8f7ca90a83" name="ae6d779f7c5adf613042cac8f7ca90a83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6d779f7c5adf613042cac8f7ca90a83">&#9670;&#160;</a></span>m_hoResultIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">NativeList&lt;int&gt; LIVINGHOUSE.Manager.HitObjectManager.m_hoResultIndex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_hit_object_manager_8cs_source.html">HitObjectManager.cs</a> の <a class="el" href="_hit_object_manager_8cs_source.html#l00024">24</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a4027f645eb8e7064c7f4d08c6c2f60f1" name="a4027f645eb8e7064c7f4d08c6c2f60f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4027f645eb8e7064c7f4d08c6c2f60f1">&#9670;&#160;</a></span>m_hoResults</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">NativeList&lt;bool&gt; LIVINGHOUSE.Manager.HitObjectManager.m_hoResults</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_hit_object_manager_8cs_source.html">HitObjectManager.cs</a> の <a class="el" href="_hit_object_manager_8cs_source.html#l00023">23</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a913ec62da1cdb25f5673441187cd2193" name="a913ec62da1cdb25f5673441187cd2193"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a913ec62da1cdb25f5673441187cd2193">&#9670;&#160;</a></span>m_hos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html">IHitObject</a>&gt; LIVINGHOUSE.Manager.HitObjectManager.m_hos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_hit_object_manager_8cs_source.html">HitObjectManager.cs</a> の <a class="el" href="_hit_object_manager_8cs_source.html#l00021">21</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a8600470c26037b6cbef6605c1522951d" name="a8600470c26037b6cbef6605c1522951d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8600470c26037b6cbef6605c1522951d">&#9670;&#160;</a></span>WaitJobComplete</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action LIVINGHOUSE.Manager.HitObjectManager.WaitJobComplete</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_hit_object_manager_8cs_source.html">HitObjectManager.cs</a> の <a class="el" href="_hit_object_manager_8cs_source.html#l00026">26</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/Manager/<a class="el" href="_hit_object_manager_8cs_source.html">HitObjectManager.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e.html">LIVINGHOUSE</a></li><li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html">Manager</a></li><li class="navelem"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager.html">HitObjectManager</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

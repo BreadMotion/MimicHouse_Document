@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.Manager.CameraManager.DereferenceSceneMainCamera" name="LIVINGHOUSE.Manager.CameraManager.DereferenceSceneMainCamera">
+<area shape="rect" id="Node000001" title="SceneMainCameraの参照を外す" alt="" coords="265,5,519,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_camera_manager.html#a8d5c041bebdaaebc7df62a48bf8290cd" title="破棄前処理" alt="" coords="5,5,217,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,29,217,29,217,24,250,24"/>
+</map>

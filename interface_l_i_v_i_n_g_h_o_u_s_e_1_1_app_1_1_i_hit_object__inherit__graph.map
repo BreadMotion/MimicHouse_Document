@@ -1,0 +1,17 @@
+<map id="LIVINGHOUSE.App.IHitObject" name="LIVINGHOUSE.App.IHitObject">
+<area shape="rect" id="Node000001" title="当たり判定を取るオブジェクトインターフェース" alt="" coords="5,64,202,91"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html" title="全キャラクター共通のシステムクラス" alt="" coords="250,5,445,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,57,288,30,289,35,177,63"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun.html" title=" " alt="" coords="251,56,444,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="217,75,250,75,250,80,217,80"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html" title="キャラクター動作" alt="" coords="250,123,445,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="170,93,267,119,266,125,168,98"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_enemy.html" title="Enemyのインターフェースクラス" alt="" coords="493,105,676,132"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="459,129,492,126,493,131,460,135"/>
+<area shape="rect" id="Node000008" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html" title="プレイヤークラス" alt="" coords="497,156,673,183"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="460,153,496,157,496,163,459,159"/>
+<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy01.html" title="Enemy01クラス" alt="" coords="724,80,919,107"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="691,105,724,101,724,106,691,110"/>
+<area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html" title="Enemy02クラス" alt="" coords="724,131,919,157"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="691,127,724,131,724,136,691,133"/>
+</map>

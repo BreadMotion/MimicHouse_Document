@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.App.HitObject_WaterGun" name="LIVINGHOUSE.App.HitObject_WaterGun">
+<area shape="rect" id="Node000001" title=" " alt="" coords="22,80,215,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,115,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,43,106,78,102,81,76,46"/>
+<area shape="rect" id="Node000003" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html" title="当たり判定を取るオブジェクトインターフェース" alt="" coords="138,5,217,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,46,136,81,131,78,157,43"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.App.ICanMoveObject.InitializeInvoke" name="LIVINGHOUSE.App.ICanMoveObject.InitializeInvoke">
+<area shape="rect" id="Node000001" title="初期化" alt="" coords="253,39,448,81"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#abcfac6d8fe47994761b8a892ae1fc772" title="MoveObjectを登録" alt="" coords="5,5,205,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,47,205,43,205,38,238,42"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#aefde8ae14a980099377924158b18c673" title="初期化" alt="" coords="5,72,205,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="238,78,205,82,205,77,237,73"/>
+</map>

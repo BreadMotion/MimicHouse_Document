@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.Utility.SingletonMonoBehaviour.CheckInstance" name="LIVINGHOUSE.Utility.SingletonMonoBehaviour.CheckInstance">
+<area shape="rect" id="Node000001" title="インスタンスが生存期間を超えていないか調べる" alt="" coords="257,5,460,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a7f60b7cd168aeced30d653f95a254828" title="事前初期化" alt="" coords="5,5,209,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,29,209,29,209,24,242,24"/>
+</map>

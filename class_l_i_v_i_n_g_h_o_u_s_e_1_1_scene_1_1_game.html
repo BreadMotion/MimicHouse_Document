@@ -1,0 +1,456 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: LIVINGHOUSE.Scene.Game クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-methods">非公開メンバ関数</a> &#124;
+<a href="#pri-static-attribs">静的非公開変数類</a> &#124;
+<a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">LIVINGHOUSE.Scene.Game クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>ゲームシーン　システムクラス  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+LIVINGHOUSE.Scene.Game の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game__inherit__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_scene_8_game_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_scene_8_game_inherit__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_scene_8_game_inherit__map">
+<area shape="rect" title="ゲームシーン　システムクラス" alt="" coords="5,80,194,107"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html" title=" " alt="" coords="69,5,130,32"/>
+<area shape="poly" title=" " alt="" coords="102,47,102,80,97,80,97,47"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+LIVINGHOUSE.Scene.Game 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game__coll__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_scene_8_game_coll__map" alt="Collaboration graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_scene_8_game_coll__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_scene_8_game_coll__map">
+<area shape="rect" title="ゲームシーン　システムクラス" alt="" coords="5,80,194,107"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html" title=" " alt="" coords="69,5,130,32"/>
+<area shape="poly" title=" " alt="" coords="102,47,102,80,97,80,97,47"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a83b7ef52f7e083d29e47b2ab83997ab1" id="r_a83b7ef52f7e083d29e47b2ab83997ab1"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83b7ef52f7e083d29e47b2ab83997ab1">OnEnter</a> ()</td></tr>
+<tr class="memdesc:a83b7ef52f7e083d29e47b2ab83997ab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">シーンに入った時  <br /></td></tr>
+<tr class="separator:a83b7ef52f7e083d29e47b2ab83997ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06714120f246707cf2293b0486d4a7b4" id="r_a06714120f246707cf2293b0486d4a7b4"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06714120f246707cf2293b0486d4a7b4">OnExit</a> ()</td></tr>
+<tr class="memdesc:a06714120f246707cf2293b0486d4a7b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">シーンを出た時  <br /></td></tr>
+<tr class="separator:a06714120f246707cf2293b0486d4a7b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9da274526ed983ee00a32e4577982bf" id="r_ad9da274526ed983ee00a32e4577982bf"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9da274526ed983ee00a32e4577982bf">PreInitialize</a> ()</td></tr>
+<tr class="memdesc:ad9da274526ed983ee00a32e4577982bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">事前初期化  <br /></td></tr>
+<tr class="separator:ad9da274526ed983ee00a32e4577982bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a797319d7debfde7a4e2ca6c6dd8830b7" id="r_a797319d7debfde7a4e2ca6c6dd8830b7"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a797319d7debfde7a4e2ca6c6dd8830b7">Initialize</a> ()</td></tr>
+<tr class="memdesc:a797319d7debfde7a4e2ca6c6dd8830b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化  <br /></td></tr>
+<tr class="separator:a797319d7debfde7a4e2ca6c6dd8830b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb1007fc4b0544759cb541e3beec6b0a" id="r_acb1007fc4b0544759cb541e3beec6b0a"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb1007fc4b0544759cb541e3beec6b0a">PreExecute</a> ()</td></tr>
+<tr class="memdesc:acb1007fc4b0544759cb541e3beec6b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">事前更新  <br /></td></tr>
+<tr class="separator:acb1007fc4b0544759cb541e3beec6b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a260fd57054c858593c029794e3c47030" id="r_a260fd57054c858593c029794e3c47030"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a260fd57054c858593c029794e3c47030">Execute</a> ()</td></tr>
+<tr class="memdesc:a260fd57054c858593c029794e3c47030"><td class="mdescLeft">&#160;</td><td class="mdescRight">更新  <br /></td></tr>
+<tr class="separator:a260fd57054c858593c029794e3c47030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1a70f5f92d53013d64c00b3d5826b31" id="r_ad1a70f5f92d53013d64c00b3d5826b31"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1a70f5f92d53013d64c00b3d5826b31">LateExecute</a> ()</td></tr>
+<tr class="memdesc:ad1a70f5f92d53013d64c00b3d5826b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">事後更新  <br /></td></tr>
+<tr class="separator:ad1a70f5f92d53013d64c00b3d5826b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html">LIVINGHOUSE.Scene.IScene</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a326788118a4c09cd9a307b64584baed0 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene" id="r_a326788118a4c09cd9a307b64584baed0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html#a326788118a4c09cd9a307b64584baed0">OnEnter</a> ()</td></tr>
+<tr class="memdesc:a326788118a4c09cd9a307b64584baed0 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td class="mdescLeft">&#160;</td><td class="mdescRight">シーンに入った時  <br /></td></tr>
+<tr class="separator:a326788118a4c09cd9a307b64584baed0 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acae6b1d30181975ba5cad4ed9cec3fee inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene" id="r_acae6b1d30181975ba5cad4ed9cec3fee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html#acae6b1d30181975ba5cad4ed9cec3fee">OnExit</a> ()</td></tr>
+<tr class="memdesc:acae6b1d30181975ba5cad4ed9cec3fee inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td class="mdescLeft">&#160;</td><td class="mdescRight">シーンを出た時  <br /></td></tr>
+<tr class="separator:acae6b1d30181975ba5cad4ed9cec3fee inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21f43ae370466de79e6b8d1d54139e3c inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene" id="r_a21f43ae370466de79e6b8d1d54139e3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html#a21f43ae370466de79e6b8d1d54139e3c">PreInitialize</a> ()</td></tr>
+<tr class="memdesc:a21f43ae370466de79e6b8d1d54139e3c inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td class="mdescLeft">&#160;</td><td class="mdescRight">事前初期化  <br /></td></tr>
+<tr class="separator:a21f43ae370466de79e6b8d1d54139e3c inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb1c7759221580e0ce840be6cc08fe41 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene" id="r_acb1c7759221580e0ce840be6cc08fe41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html#acb1c7759221580e0ce840be6cc08fe41">Initialize</a> ()</td></tr>
+<tr class="memdesc:acb1c7759221580e0ce840be6cc08fe41 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化  <br /></td></tr>
+<tr class="separator:acb1c7759221580e0ce840be6cc08fe41 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe2a1d26f6c5b73c6acc8ad4ad1f3e16 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene" id="r_afe2a1d26f6c5b73c6acc8ad4ad1f3e16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html#afe2a1d26f6c5b73c6acc8ad4ad1f3e16">PreExecute</a> ()</td></tr>
+<tr class="memdesc:afe2a1d26f6c5b73c6acc8ad4ad1f3e16 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td class="mdescLeft">&#160;</td><td class="mdescRight">事前更新  <br /></td></tr>
+<tr class="separator:afe2a1d26f6c5b73c6acc8ad4ad1f3e16 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad169edf431d34e4fcd2a801d7cf4545f inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene" id="r_ad169edf431d34e4fcd2a801d7cf4545f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html#ad169edf431d34e4fcd2a801d7cf4545f">Execute</a> ()</td></tr>
+<tr class="memdesc:ad169edf431d34e4fcd2a801d7cf4545f inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td class="mdescLeft">&#160;</td><td class="mdescRight">更新  <br /></td></tr>
+<tr class="separator:ad169edf431d34e4fcd2a801d7cf4545f inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e99227dbfccbcbb2b331ffed1c65868 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene" id="r_a4e99227dbfccbcbb2b331ffed1c65868"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html#a4e99227dbfccbcbb2b331ffed1c65868">LateExecute</a> ()</td></tr>
+<tr class="memdesc:a4e99227dbfccbcbb2b331ffed1c65868 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td class="mdescLeft">&#160;</td><td class="mdescRight">事後更新  <br /></td></tr>
+<tr class="separator:a4e99227dbfccbcbb2b331ffed1c65868 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr class="memitem:aa270963c964d35daa0906d2695047574" id="r_aa270963c964d35daa0906d2695047574"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa270963c964d35daa0906d2695047574">ChangeTitleScene</a> ()</td></tr>
+<tr class="memdesc:aa270963c964d35daa0906d2695047574"><td class="mdescLeft">&#160;</td><td class="mdescRight">タイトルシーンに遷移する  <br /></td></tr>
+<tr class="separator:aa270963c964d35daa0906d2695047574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+静的非公開変数類</h2></td></tr>
+<tr class="memitem:ae0522a91558821ea1f198c92cde4f177" id="r_ae0522a91558821ea1f198c92cde4f177"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0522a91558821ea1f198c92cde4f177">SCENE_NAME</a> = &quot;InGame&quot;</td></tr>
+<tr class="separator:ae0522a91558821ea1f198c92cde4f177"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a476b4e960cc8970a5ce5b52bce0abc70" id="r_a476b4e960cc8970a5ce5b52bce0abc70"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a476b4e960cc8970a5ce5b52bce0abc70">NEXT_SCENE_NAME</a> = &quot;Title&quot;</td></tr>
+<tr class="separator:a476b4e960cc8970a5ce5b52bce0abc70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+その他の継承メンバ</h2></td></tr>
+<tr class="inherit_header pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html">LIVINGHOUSE.Scene.IScene</a> に属する継承限定公開メンバ関数</td></tr>
+<tr class="memitem:abb7a5645dbee9857d776f24f08f1bd6e inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene" id="r_abb7a5645dbee9857d776f24f08f1bd6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html#abb7a5645dbee9857d776f24f08f1bd6e">IScene</a> ()</td></tr>
+<tr class="memdesc:abb7a5645dbee9857d776f24f08f1bd6e inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td class="mdescLeft">&#160;</td><td class="mdescRight">デフォルトコンストラクター  <br /></td></tr>
+<tr class="separator:abb7a5645dbee9857d776f24f08f1bd6e inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>ゲームシーン　システムクラス </p>
+
+<p class="definition"> <a class="el" href="_game_8cs_source.html">Game.cs</a> の <a class="el" href="_game_8cs_source.html#l00009">9</a> 行目に定義があります。</p>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="aa270963c964d35daa0906d2695047574" name="aa270963c964d35daa0906d2695047574"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa270963c964d35daa0906d2695047574">&#9670;&#160;</a></span>ChangeTitleScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.Scene.Game.ChangeTitleScene </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>タイトルシーンに遷移する </p>
+
+<p class="definition"> <a class="el" href="_game_8cs_source.html">Game.cs</a> の <a class="el" href="_game_8cs_source.html#l00068">68</a> 行目に定義があります。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game_aa270963c964d35daa0906d2695047574_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game_aa270963c964d35daa0906d2695047574_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game_aa270963c964d35daa0906d2695047574_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game_aa270963c964d35daa0906d2695047574_icgraph">
+<area shape="rect" title="タイトルシーンに遷移する" alt="" coords="271,5,507,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game.html#ad1a70f5f92d53013d64c00b3d5826b31" title="事後更新" alt="" coords="5,5,223,48"/>
+<area shape="poly" title=" " alt="" coords="255,29,223,29,223,24,255,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a260fd57054c858593c029794e3c47030" name="a260fd57054c858593c029794e3c47030"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a260fd57054c858593c029794e3c47030">&#9670;&#160;</a></span>Execute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void LIVINGHOUSE.Scene.Game.Execute </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>更新 </p>
+
+<p class="definition"> <a class="el" href="_game_8cs_source.html">Game.cs</a> の <a class="el" href="_game_8cs_source.html#l00054">54</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a797319d7debfde7a4e2ca6c6dd8830b7" name="a797319d7debfde7a4e2ca6c6dd8830b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a797319d7debfde7a4e2ca6c6dd8830b7">&#9670;&#160;</a></span>Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void LIVINGHOUSE.Scene.Game.Initialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初期化 </p>
+
+<p class="definition"> <a class="el" href="_game_8cs_source.html">Game.cs</a> の <a class="el" href="_game_8cs_source.html#l00040">40</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ad1a70f5f92d53013d64c00b3d5826b31" name="ad1a70f5f92d53013d64c00b3d5826b31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1a70f5f92d53013d64c00b3d5826b31">&#9670;&#160;</a></span>LateExecute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void LIVINGHOUSE.Scene.Game.LateExecute </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>事後更新 </p>
+
+<p class="definition"> <a class="el" href="_game_8cs_source.html">Game.cs</a> の <a class="el" href="_game_8cs_source.html#l00058">58</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game_ad1a70f5f92d53013d64c00b3d5826b31_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game_ad1a70f5f92d53013d64c00b3d5826b31_cgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game_ad1a70f5f92d53013d64c00b3d5826b31_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game_ad1a70f5f92d53013d64c00b3d5826b31_cgraph">
+<area shape="rect" title="事後更新" alt="" coords="5,5,223,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game.html#aa270963c964d35daa0906d2695047574" title="タイトルシーンに遷移する" alt="" coords="271,5,507,48"/>
+<area shape="poly" title=" " alt="" coords="223,24,256,24,256,29,223,29"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a83b7ef52f7e083d29e47b2ab83997ab1" name="a83b7ef52f7e083d29e47b2ab83997ab1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83b7ef52f7e083d29e47b2ab83997ab1">&#9670;&#160;</a></span>OnEnter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void LIVINGHOUSE.Scene.Game.OnEnter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>シーンに入った時 </p>
+
+<p class="definition"> <a class="el" href="_game_8cs_source.html">Game.cs</a> の <a class="el" href="_game_8cs_source.html#l00017">17</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a06714120f246707cf2293b0486d4a7b4" name="a06714120f246707cf2293b0486d4a7b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06714120f246707cf2293b0486d4a7b4">&#9670;&#160;</a></span>OnExit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void LIVINGHOUSE.Scene.Game.OnExit </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>シーンを出た時 </p>
+
+<p class="definition"> <a class="el" href="_game_8cs_source.html">Game.cs</a> の <a class="el" href="_game_8cs_source.html#l00027">27</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="acb1007fc4b0544759cb541e3beec6b0a" name="acb1007fc4b0544759cb541e3beec6b0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb1007fc4b0544759cb541e3beec6b0a">&#9670;&#160;</a></span>PreExecute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void LIVINGHOUSE.Scene.Game.PreExecute </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>事前更新 </p>
+
+<p class="definition"> <a class="el" href="_game_8cs_source.html">Game.cs</a> の <a class="el" href="_game_8cs_source.html#l00050">50</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ad9da274526ed983ee00a32e4577982bf" name="ad9da274526ed983ee00a32e4577982bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9da274526ed983ee00a32e4577982bf">&#9670;&#160;</a></span>PreInitialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void LIVINGHOUSE.Scene.Game.PreInitialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>事前初期化 </p>
+
+<p class="definition"> <a class="el" href="_game_8cs_source.html">Game.cs</a> の <a class="el" href="_game_8cs_source.html#l00036">36</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a476b4e960cc8970a5ce5b52bce0abc70" name="a476b4e960cc8970a5ce5b52bce0abc70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a476b4e960cc8970a5ce5b52bce0abc70">&#9670;&#160;</a></span>NEXT_SCENE_NAME</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string LIVINGHOUSE.Scene.Game.NEXT_SCENE_NAME = &quot;Title&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_game_8cs_source.html">Game.cs</a> の <a class="el" href="_game_8cs_source.html#l00012">12</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ae0522a91558821ea1f198c92cde4f177" name="ae0522a91558821ea1f198c92cde4f177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0522a91558821ea1f198c92cde4f177">&#9670;&#160;</a></span>SCENE_NAME</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string LIVINGHOUSE.Scene.Game.SCENE_NAME = &quot;InGame&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_game_8cs_source.html">Game.cs</a> の <a class="el" href="_game_8cs_source.html#l00011">11</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/Scene/<a class="el" href="_game_8cs_source.html">Game.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e.html">LIVINGHOUSE</a></li><li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_scene.html">Scene</a></li><li class="navelem"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game.html">Game</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

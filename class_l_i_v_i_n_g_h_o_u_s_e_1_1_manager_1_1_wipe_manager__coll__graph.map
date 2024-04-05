@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.Manager.WipeManager" name="LIVINGHOUSE.Manager.WipeManager">
+<area shape="rect" id="Node000001" title="非同期遷移クラス" alt="" coords="54,128,251,171"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="5,5,169,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,59,144,126,139,129,102,62"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="192,13,246,40"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,54,166,129,161,126,203,51"/>
+</map>

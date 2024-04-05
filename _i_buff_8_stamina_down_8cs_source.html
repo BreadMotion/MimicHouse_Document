@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/Buff/IBuff.StaminaDown.cs ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('_i_buff_8_stamina_down_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">IBuff.StaminaDown.cs</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_i_buff_8_stamina_down_8cs.html">[詳解]</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute.html">LIVINGHOUSE.Attribute</a>;</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>{</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>    [Serializable, Name(<span class="stringliteral">&quot;スタミナ上限減少&quot;</span>)]</div>
+<div class="foldopen" id="foldopen00007" data-start="{" data-end="};">
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html">    7</a></span>    <span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html">BuffStaminaDown</a> : <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html">IBuff</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    {</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#af33708af05532b5ec63409f17e6347fd">    9</a></span>        <span class="keyword">private</span> <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a> <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#af33708af05532b5ec63409f17e6347fd">m_targetCharacter</a> = <span class="keyword">null</span>;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#ae0cfe74db480e001d89a68f5c4099598">   13</a></span>        <span class="keyword">public</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#ae0cfe74db480e001d89a68f5c4099598">BuffStaminaDown</a>() : base() { }</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="}">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#a4b76d63e81c557d7eb1694af7f930567">   17</a></span>        <span class="keyword">public</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#a4b76d63e81c557d7eb1694af7f930567">BuffStaminaDown</a>(<a class="code hl_enumeration" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403">BUFFTYPE</a> buffType, <span class="keywordtype">int</span> ownCharaID, <span class="keywordtype">int</span> targetCharaID)</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>            : base(buffType, ownCharaID, targetCharaID)</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        {<span class="comment">//ヒール対象のキャラクターをキャッシュしておく</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#af33708af05532b5ec63409f17e6347fd">m_targetCharacter</a> = Manager.CharacterManager.I.GetCharacter(ownCharaID == targetCharaID ? ownCharaID : targetCharaID);</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        }</div>
+</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="foldopen" id="foldopen00025" data-start="{" data-end="}">
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#a069a8e604750f9f1757653d263ee2ba0">   25</a></span>        <span class="keyword">protected</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#a069a8e604750f9f1757653d263ee2ba0">ActivateInvoke</a>()</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>            m_targetCharacter.CharacterState.stamina -= <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a71a4068f4c6121ca7d7a710e576532bd">EffectValue_float</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            base.ActivateInvoke();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        }</div>
+</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="foldopen" id="foldopen00033" data-start="{" data-end="}">
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#a17809a8b592a4f96ad7dd47592f52b37">   33</a></span>        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#a17809a8b592a4f96ad7dd47592f52b37">StartInvoke</a>()</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        {</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>            base.StartInvoke();</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        }</div>
+</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="foldopen" id="foldopen00040" data-start="{" data-end="}">
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#ab5e9ce7d78e0f38c0600834617fa56aa">   40</a></span>        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#ab5e9ce7d78e0f38c0600834617fa56aa">UpdateInvoke</a>()</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            base.UpdateInvoke();</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        }</div>
+</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="foldopen" id="foldopen00047" data-start="{" data-end="}">
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#a9a3cfb4fc1f05ef8fa28327aae661ef4">   47</a></span>        <span class="keyword">protected</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#a9a3cfb4fc1f05ef8fa28327aae661ef4">DeActivateInvoke</a>()</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        {</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            m_targetCharacter.CharacterState.stamina += <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a71a4068f4c6121ca7d7a710e576532bd">EffectValue_float</a>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            base.DeActivateInvoke();</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        }</div>
+</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    }</div>
+</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>}</div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html">LIVINGHOUSE.App.BuffStaminaDown</a></div><div class="ttdef"><b>Definition</b> <a href="#l00007">IBuff.StaminaDown.cs:8</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down_html_a069a8e604750f9f1757653d263ee2ba0"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#a069a8e604750f9f1757653d263ee2ba0">LIVINGHOUSE.App.BuffStaminaDown.ActivateInvoke</a></div><div class="ttdeci">override void ActivateInvoke()</div><div class="ttdoc">アクティベート時</div><div class="ttdef"><b>Definition</b> <a href="#l00025">IBuff.StaminaDown.cs:25</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down_html_a17809a8b592a4f96ad7dd47592f52b37"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#a17809a8b592a4f96ad7dd47592f52b37">LIVINGHOUSE.App.BuffStaminaDown.StartInvoke</a></div><div class="ttdeci">override void StartInvoke()</div><div class="ttdoc">初期化時</div><div class="ttdef"><b>Definition</b> <a href="#l00033">IBuff.StaminaDown.cs:33</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down_html_a4b76d63e81c557d7eb1694af7f930567"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#a4b76d63e81c557d7eb1694af7f930567">LIVINGHOUSE.App.BuffStaminaDown.BuffStaminaDown</a></div><div class="ttdeci">BuffStaminaDown(BUFFTYPE buffType, int ownCharaID, int targetCharaID)</div><div class="ttdoc">コンストラクター</div><div class="ttdef"><b>Definition</b> <a href="#l00017">IBuff.StaminaDown.cs:17</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down_html_a9a3cfb4fc1f05ef8fa28327aae661ef4"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#a9a3cfb4fc1f05ef8fa28327aae661ef4">LIVINGHOUSE.App.BuffStaminaDown.DeActivateInvoke</a></div><div class="ttdeci">override void DeActivateInvoke()</div><div class="ttdoc">デアクティベート時</div><div class="ttdef"><b>Definition</b> <a href="#l00047">IBuff.StaminaDown.cs:47</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down_html_ab5e9ce7d78e0f38c0600834617fa56aa"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#ab5e9ce7d78e0f38c0600834617fa56aa">LIVINGHOUSE.App.BuffStaminaDown.UpdateInvoke</a></div><div class="ttdeci">override void UpdateInvoke()</div><div class="ttdoc">更新時</div><div class="ttdef"><b>Definition</b> <a href="#l00040">IBuff.StaminaDown.cs:40</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down_html_ae0cfe74db480e001d89a68f5c4099598"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#ae0cfe74db480e001d89a68f5c4099598">LIVINGHOUSE.App.BuffStaminaDown.BuffStaminaDown</a></div><div class="ttdeci">BuffStaminaDown()</div><div class="ttdoc">デフォルトコンストラクター(コンテキスト以外での使用禁止)</div><div class="ttdef"><b>Definition</b> <a href="#l00013">IBuff.StaminaDown.cs:13</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down_html_af33708af05532b5ec63409f17e6347fd"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html#af33708af05532b5ec63409f17e6347fd">LIVINGHOUSE.App.BuffStaminaDown.m_targetCharacter</a></div><div class="ttdeci">Character m_targetCharacter</div><div class="ttdef"><b>Definition</b> <a href="#l00009">IBuff.StaminaDown.cs:9</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">LIVINGHOUSE.App.Character</a></div><div class="ttdoc">全キャラクター共通のシステムクラス</div><div class="ttdef"><b>Definition</b> <a href="_character_8cs_source.html#l00014">Character.cs:15</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html">LIVINGHOUSE.App.IBuff</a></div><div class="ttdef"><b>Definition</b> <a href="_i_buff_8cs_source.html#l00010">IBuff.cs:11</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff_html_a71a4068f4c6121ca7d7a710e576532bd"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a71a4068f4c6121ca7d7a710e576532bd">LIVINGHOUSE.App.IBuff.EffectValue_float</a></div><div class="ttdeci">float EffectValue_float</div><div class="ttdoc">Float型効果値</div><div class="ttdef"><b>Definition</b> <a href="_i_buff_8cs_source.html#l00128">IBuff.cs:129</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff_html_abb0a5c71d50759c6c5fe6cde52aad403"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403">LIVINGHOUSE.App.IBuff.BUFFTYPE</a></div><div class="ttdeci">BUFFTYPE</div><div class="ttdef"><b>Definition</b> <a href="_i_buff_8cs_source.html#l00012">IBuff.cs:13</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div><div class="ttdef"><b>Definition</b> <a href="_audio_controller_8cs_source.html#l00004">AudioController.cs:5</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute.html">LIVINGHOUSE.Attribute</a></div><div class="ttdef"><b>Definition</b> <a href="_class_name_attribute_8cs_source.html#l00003">ClassNameAttribute.cs:4</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_3d328b3dca154a477d99beb656992be2.html">Unity</a></li><li class="navelem"><a class="el" href="dir_3b33dffaa21a2ac6f7978a949ffd4e41.html">Assets</a></li><li class="navelem"><a class="el" href="dir_817f9772e3e161556b23fdd8948b88aa.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_9e2633ee6edb8c4cb72d28d060b37fa1.html">App</a></li><li class="navelem"><a class="el" href="dir_bd57142454613a2985c62a5a674b772a.html">Buff</a></li><li class="navelem"><a class="el" href="_i_buff_8_stamina_down_8cs.html">IBuff.StaminaDown.cs</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

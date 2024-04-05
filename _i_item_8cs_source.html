@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/Item/Base/IItem.cs ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('_i_item_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">IItem.cs</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_i_item_8cs.html">[詳解]</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>UnityEngine;</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html">LIVINGHOUSE.Manager</a>;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    [Serializable]</div>
+<div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html">    9</a></span>    <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class </span><a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html">IItem</a></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a4ed9f4d1a86fd47c9341c75902166eae">   12</a></span>        <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keywordtype">int</span> <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a4ed9f4d1a86fd47c9341c75902166eae">NowCount</a> { <span class="keyword">get</span>; }</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a1d05c485cb969bd431c18618f43fb7df">   16</a></span>        <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keywordtype">float</span> <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a1d05c485cb969bd431c18618f43fb7df">CoolDown</a> { <span class="keyword">get</span>; }</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#addc59b97fb40eb109a7951e536df2097">   20</a></span>        <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keywordtype">float</span> <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#addc59b97fb40eb109a7951e536df2097">RemainingCoolDown</a> { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ac2d65ceb26977e3ee10ebda3dd26251b">   24</a></span>        <span class="keyword">public</span> <span class="keyword">abstract</span> <a class="code hl_enumeration" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html#aa8dcdf94096140093c720ac993d58e59">ItemManager.ItemLayer</a> <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ac2d65ceb26977e3ee10ebda3dd26251b">ItemLayer</a> { <span class="keyword">get</span>; }</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a40330444e90dbfbe094265a882ea2593">   29</a></span>        <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keywordtype">int</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a40330444e90dbfbe094265a882ea2593">AddNowCount</a>();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#aae338e63837556db151372d22eb8b13b">   34</a></span>        <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keywordtype">int</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#aae338e63837556db151372d22eb8b13b">DownNowCount</a>();</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a7ba451cc36491792570f26352d822052">   38</a></span>        <span class="keyword">public</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a7ba451cc36491792570f26352d822052">Execute</a>() { }</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a379aafb960d6bde4b093fa364fbb0da0">   43</a></span>        <span class="keyword">public</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a379aafb960d6bde4b093fa364fbb0da0">Update</a>() </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        {</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html">ItemSlotManager</a>.<a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#ac0cfa308fecdda89f8b4a0ec5fed72b5">I</a>.SetItemCountText(<a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ac2d65ceb26977e3ee10ebda3dd26251b">ItemLayer</a>, <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a4ed9f4d1a86fd47c9341c75902166eae">NowCount</a>.ToString());</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        }</div>
+</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a081576c9152c45749e90feb053dbfd0c">   51</a></span>        <span class="keyword">protected</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a081576c9152c45749e90feb053dbfd0c">IsCountZero</a>() =&gt; </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a4ed9f4d1a86fd47c9341c75902166eae">NowCount</a> == 0;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ac68b116bda1ca94db10eafc30ca28e0e">   57</a></span>        <span class="keyword">protected</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ac68b116bda1ca94db10eafc30ca28e0e">IsCoolDown</a>() =&gt; </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#addc59b97fb40eb109a7951e536df2097">RemainingCoolDown</a> &gt; 0.0f;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a713073551daa2f752ca5ea1875f251bd">   62</a></span>        <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a713073551daa2f752ca5ea1875f251bd">UpdateCoolDownTime</a>() =&gt; </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#addc59b97fb40eb109a7951e536df2097">RemainingCoolDown</a> += Time.captureDeltaTime;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ab2d85b824e55bf2e4326762653b4af03">   67</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ab2d85b824e55bf2e4326762653b4af03">Initialize&lt;T1&gt;</a>(T1 arg1) { Initialize_Impl(arg1); }</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a89ebd9476f00707905b2e5ce4278da9c">   68</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a89ebd9476f00707905b2e5ce4278da9c">Initialize&lt;T1, T2&gt;</a>(T1 arg1, T2 arg2) { Initialize_Impl(arg1, arg2); }</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#acd7e90b38ab49c90f2097a6900315864">   69</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#acd7e90b38ab49c90f2097a6900315864">Initialize&lt;T1, T2, T3&gt;</a>(T1 arg1, T2 arg2, T3 arg3) { Initialize_Impl(arg1, arg2, arg3); }</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a046820900183981fda5641869e1b24a6">   73</a></span>        <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a046820900183981fda5641869e1b24a6">Initialize_Impl&lt;T1&gt;</a>(T1 arg1) { }</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a5c8709436220255566c7ac572fd02c8d">   74</a></span>        <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a5c8709436220255566c7ac572fd02c8d">Initialize_Impl&lt;T1, T2&gt;</a>(T1 arg1, T2 arg2) { }</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a7799cee90f45a0a786985d33dc22fc7e">   75</a></span>        <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a7799cee90f45a0a786985d33dc22fc7e">Initialize_Impl&lt;T1, T2, T3&gt;</a>(T1 arg1, T2 arg2, T3 arg3) { }</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    }</div>
+</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>}</div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html">LIVINGHOUSE.App.IItem</a></div><div class="ttdoc">基底アイテムクラス</div><div class="ttdef"><b>Definition</b> <a href="#l00009">IItem.cs:10</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_a046820900183981fda5641869e1b24a6"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a046820900183981fda5641869e1b24a6">LIVINGHOUSE.App.IItem.Initialize_Impl&lt; T1 &gt;</a></div><div class="ttdeci">virtual void Initialize_Impl&lt; T1 &gt;(T1 arg1)</div><div class="ttdoc">派生クラスで定義する用初期化関数</div><div class="ttdef"><b>Definition</b> <a href="#l00073">IItem.cs:73</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_a081576c9152c45749e90feb053dbfd0c"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a081576c9152c45749e90feb053dbfd0c">LIVINGHOUSE.App.IItem.IsCountZero</a></div><div class="ttdeci">bool IsCountZero()</div><div class="ttdoc">カウントがゼロチェック</div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_a1d05c485cb969bd431c18618f43fb7df"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a1d05c485cb969bd431c18618f43fb7df">LIVINGHOUSE.App.IItem.CoolDown</a></div><div class="ttdeci">float CoolDown</div><div class="ttdoc">クールダウン</div><div class="ttdef"><b>Definition</b> <a href="#l00016">IItem.cs:16</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_a379aafb960d6bde4b093fa364fbb0da0"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a379aafb960d6bde4b093fa364fbb0da0">LIVINGHOUSE.App.IItem.Update</a></div><div class="ttdeci">virtual void Update()</div><div class="ttdoc">更新</div><div class="ttdef"><b>Definition</b> <a href="#l00043">IItem.cs:43</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_a40330444e90dbfbe094265a882ea2593"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a40330444e90dbfbe094265a882ea2593">LIVINGHOUSE.App.IItem.AddNowCount</a></div><div class="ttdeci">int AddNowCount()</div><div class="ttdoc">カウント増加</div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_a4ed9f4d1a86fd47c9341c75902166eae"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a4ed9f4d1a86fd47c9341c75902166eae">LIVINGHOUSE.App.IItem.NowCount</a></div><div class="ttdeci">int NowCount</div><div class="ttdoc">現在のカウント</div><div class="ttdef"><b>Definition</b> <a href="#l00012">IItem.cs:12</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_a5c8709436220255566c7ac572fd02c8d"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a5c8709436220255566c7ac572fd02c8d">LIVINGHOUSE.App.IItem.Initialize_Impl&lt; T1, T2 &gt;</a></div><div class="ttdeci">virtual void Initialize_Impl&lt; T1, T2 &gt;(T1 arg1, T2 arg2)</div><div class="ttdef"><b>Definition</b> <a href="#l00074">IItem.cs:74</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_a713073551daa2f752ca5ea1875f251bd"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a713073551daa2f752ca5ea1875f251bd">LIVINGHOUSE.App.IItem.UpdateCoolDownTime</a></div><div class="ttdeci">virtual void UpdateCoolDownTime()</div><div class="ttdoc">クールダウンの残時間の更新</div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_a7799cee90f45a0a786985d33dc22fc7e"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a7799cee90f45a0a786985d33dc22fc7e">LIVINGHOUSE.App.IItem.Initialize_Impl&lt; T1, T2, T3 &gt;</a></div><div class="ttdeci">virtual void Initialize_Impl&lt; T1, T2, T3 &gt;(T1 arg1, T2 arg2, T3 arg3)</div><div class="ttdef"><b>Definition</b> <a href="#l00075">IItem.cs:75</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_a7ba451cc36491792570f26352d822052"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a7ba451cc36491792570f26352d822052">LIVINGHOUSE.App.IItem.Execute</a></div><div class="ttdeci">virtual void Execute()</div><div class="ttdoc">呼び出し</div><div class="ttdef"><b>Definition</b> <a href="#l00038">IItem.cs:38</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_a89ebd9476f00707905b2e5ce4278da9c"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a89ebd9476f00707905b2e5ce4278da9c">LIVINGHOUSE.App.IItem.Initialize&lt; T1, T2 &gt;</a></div><div class="ttdeci">void Initialize&lt; T1, T2 &gt;(T1 arg1, T2 arg2)</div><div class="ttdef"><b>Definition</b> <a href="#l00068">IItem.cs:68</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_aae338e63837556db151372d22eb8b13b"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#aae338e63837556db151372d22eb8b13b">LIVINGHOUSE.App.IItem.DownNowCount</a></div><div class="ttdeci">int DownNowCount()</div><div class="ttdoc">カウント減少</div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_ab2d85b824e55bf2e4326762653b4af03"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ab2d85b824e55bf2e4326762653b4af03">LIVINGHOUSE.App.IItem.Initialize&lt; T1 &gt;</a></div><div class="ttdeci">void Initialize&lt; T1 &gt;(T1 arg1)</div><div class="ttdoc">外部で扱う初期化クラス</div><div class="ttdef"><b>Definition</b> <a href="#l00067">IItem.cs:67</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_ac2d65ceb26977e3ee10ebda3dd26251b"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ac2d65ceb26977e3ee10ebda3dd26251b">LIVINGHOUSE.App.IItem.ItemLayer</a></div><div class="ttdeci">ItemManager.ItemLayer ItemLayer</div><div class="ttdoc">アイテムの種類</div><div class="ttdef"><b>Definition</b> <a href="#l00024">IItem.cs:24</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_ac68b116bda1ca94db10eafc30ca28e0e"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ac68b116bda1ca94db10eafc30ca28e0e">LIVINGHOUSE.App.IItem.IsCoolDown</a></div><div class="ttdeci">bool IsCoolDown()</div><div class="ttdoc">クールダウン中か</div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_acd7e90b38ab49c90f2097a6900315864"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#acd7e90b38ab49c90f2097a6900315864">LIVINGHOUSE.App.IItem.Initialize&lt; T1, T2, T3 &gt;</a></div><div class="ttdeci">void Initialize&lt; T1, T2, T3 &gt;(T1 arg1, T2 arg2, T3 arg3)</div><div class="ttdef"><b>Definition</b> <a href="#l00069">IItem.cs:69</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_addc59b97fb40eb109a7951e536df2097"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#addc59b97fb40eb109a7951e536df2097">LIVINGHOUSE.App.IItem.RemainingCoolDown</a></div><div class="ttdeci">float RemainingCoolDown</div><div class="ttdoc">クールダウン残時間</div><div class="ttdef"><b>Definition</b> <a href="#l00020">IItem.cs:20</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager_html_aa8dcdf94096140093c720ac993d58e59"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html#aa8dcdf94096140093c720ac993d58e59">LIVINGHOUSE.Manager.ItemManager.ItemLayer</a></div><div class="ttdeci">ItemLayer</div><div class="ttdef"><b>Definition</b> <a href="_item_manager_8cs_source.html#l00021">ItemManager.cs:22</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html">LIVINGHOUSE.Manager.ItemSlotManager</a></div><div class="ttdef"><b>Definition</b> <a href="_item_slot_manager_8cs_source.html#l00013">ItemSlotManager.cs:14</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_html_ac0cfa308fecdda89f8b4a0ec5fed72b5"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#ac0cfa308fecdda89f8b4a0ec5fed72b5">LIVINGHOUSE.Utility.SingletonMonoBehaviour.I</a></div><div class="ttdeci">static T I</div><div class="ttdef"><b>Definition</b> <a href="_singletone_mono_behaviour_8cs_source.html#l00013">SingletoneMonoBehaviour.cs:14</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div><div class="ttdef"><b>Definition</b> <a href="_audio_controller_8cs_source.html#l00004">AudioController.cs:5</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html">LIVINGHOUSE.Manager</a></div><div class="ttdef"><b>Definition</b> <a href="_application_manager_8cs_source.html#l00003">ApplicationManager.cs:4</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_3d328b3dca154a477d99beb656992be2.html">Unity</a></li><li class="navelem"><a class="el" href="dir_3b33dffaa21a2ac6f7978a949ffd4e41.html">Assets</a></li><li class="navelem"><a class="el" href="dir_817f9772e3e161556b23fdd8948b88aa.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_9e2633ee6edb8c4cb72d28d060b37fa1.html">App</a></li><li class="navelem"><a class="el" href="dir_f875bbc17494db705dc3dbdb95f25f44.html">Item</a></li><li class="navelem"><a class="el" href="dir_fe137cdbe743865ddf3ab6458f48fa6c.html">Base</a></li><li class="navelem"><a class="el" href="_i_item_8cs.html">IItem.cs</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

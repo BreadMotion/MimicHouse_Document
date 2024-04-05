@@ -1,0 +1,9 @@
+<map id="LIVINGHOUSE.App.RedEye.Update" name="LIVINGHOUSE.App.RedEye.Update">
+<area shape="rect" id="Node000001" title="更新" alt="" coords="5,80,236,107"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ac68b116bda1ca94db10eafc30ca28e0e" title="クールダウン中か" alt="" coords="299,5,481,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,77,286,50,287,55,178,82"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a081576c9152c45749e90feb053dbfd0c" title="カウントがゼロチェック" alt="" coords="299,72,481,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="236,91,284,91,284,96,236,96"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a713073551daa2f752ca5ea1875f251bd" title="クールダウンの残時間の更新" alt="" coords="284,139,496,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="178,105,287,132,286,137,177,110"/>
+</map>

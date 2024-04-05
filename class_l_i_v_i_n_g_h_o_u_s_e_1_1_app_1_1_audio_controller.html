@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: LIVINGHOUSE.App.AudioController クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-methods">非公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">LIVINGHOUSE.App.AudioController クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>音声再生クラス  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+LIVINGHOUSE.App.AudioController の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller__inherit__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_audio_controller_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_audio_controller_inherit__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_audio_controller_inherit__map">
+<area shape="rect" title="音声再生クラス" alt="" coords="5,80,233,107"/>
+<area shape="rect" title=" " alt="" coords="64,5,174,32"/>
+<area shape="poly" title=" " alt="" coords="122,47,122,80,116,80,116,47"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+LIVINGHOUSE.App.AudioController 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller__coll__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_audio_controller_coll__map" alt="Collaboration graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_audio_controller_coll__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_audio_controller_coll__map">
+<area shape="rect" title="音声再生クラス" alt="" coords="5,80,233,107"/>
+<area shape="rect" title=" " alt="" coords="64,5,174,32"/>
+<area shape="poly" title=" " alt="" coords="122,47,122,80,116,80,116,47"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:ade07ff4251b7b59f2a4836ee7cf2261d" id="r_ade07ff4251b7b59f2a4836ee7cf2261d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade07ff4251b7b59f2a4836ee7cf2261d">Play</a> ()</td></tr>
+<tr class="memdesc:ade07ff4251b7b59f2a4836ee7cf2261d"><td class="mdescLeft">&#160;</td><td class="mdescRight">再生  <br /></td></tr>
+<tr class="separator:ade07ff4251b7b59f2a4836ee7cf2261d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f09a51f7ce1c4d5edd47a30682836e5" id="r_a3f09a51f7ce1c4d5edd47a30682836e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f09a51f7ce1c4d5edd47a30682836e5">Stop</a> ()</td></tr>
+<tr class="memdesc:a3f09a51f7ce1c4d5edd47a30682836e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">停止  <br /></td></tr>
+<tr class="separator:a3f09a51f7ce1c4d5edd47a30682836e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26413f3f97180887aca22f678db53354" id="r_a26413f3f97180887aca22f678db53354"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26413f3f97180887aca22f678db53354">SetTime</a> (float time)</td></tr>
+<tr class="memdesc:a26413f3f97180887aca22f678db53354"><td class="mdescLeft">&#160;</td><td class="mdescRight">再生位置指定  <br /></td></tr>
+<tr class="separator:a26413f3f97180887aca22f678db53354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr class="memitem:affa004e48e3b0b671b266b6739a97f0c" id="r_affa004e48e3b0b671b266b6739a97f0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affa004e48e3b0b671b266b6739a97f0c">Start</a> ()</td></tr>
+<tr class="memdesc:affa004e48e3b0b671b266b6739a97f0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化  <br /></td></tr>
+<tr class="separator:affa004e48e3b0b671b266b6739a97f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a139ba9b24a26d3f1182bab22b6072adf" id="r_a139ba9b24a26d3f1182bab22b6072adf"><td class="memItemLeft" align="right" valign="top">AudioSource&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a139ba9b24a26d3f1182bab22b6072adf">resource</a> = null</td></tr>
+<tr class="separator:a139ba9b24a26d3f1182bab22b6072adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e3cae64e91637d02db2f8050f5ea079" id="r_a1e3cae64e91637d02db2f8050f5ea079"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e3cae64e91637d02db2f8050f5ea079">startTimePosition</a> = 0.0f</td></tr>
+<tr class="separator:a1e3cae64e91637d02db2f8050f5ea079"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa9f2d7cbf4ce65f3fe7dc1294179751" id="r_afa9f2d7cbf4ce65f3fe7dc1294179751"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa9f2d7cbf4ce65f3fe7dc1294179751">isFirstPlay</a> = true</td></tr>
+<tr class="separator:afa9f2d7cbf4ce65f3fe7dc1294179751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>音声再生クラス </p>
+
+<p class="definition"> <a class="el" href="_audio_controller_8cs_source.html">AudioController.cs</a> の <a class="el" href="_audio_controller_8cs_source.html#l00008">8</a> 行目に定義があります。</p>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="ade07ff4251b7b59f2a4836ee7cf2261d" name="ade07ff4251b7b59f2a4836ee7cf2261d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade07ff4251b7b59f2a4836ee7cf2261d">&#9670;&#160;</a></span>Play()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.AudioController.Play </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>再生 </p>
+
+<p class="definition"> <a class="el" href="_audio_controller_8cs_source.html">AudioController.cs</a> の <a class="el" href="_audio_controller_8cs_source.html#l00037">37</a> 行目に定義があります。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller_ade07ff4251b7b59f2a4836ee7cf2261d_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller_ade07ff4251b7b59f2a4836ee7cf2261d_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller_ade07ff4251b7b59f2a4836ee7cf2261d_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller_ade07ff4251b7b59f2a4836ee7cf2261d_icgraph">
+<area shape="rect" title="再生" alt="" coords="285,13,542,40"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller.html#affa004e48e3b0b671b266b6739a97f0c" title="初期化" alt="" coords="5,5,237,48"/>
+<area shape="poly" title=" " alt="" coords="270,29,237,29,237,24,270,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a26413f3f97180887aca22f678db53354" name="a26413f3f97180887aca22f678db53354"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26413f3f97180887aca22f678db53354">&#9670;&#160;</a></span>SetTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.AudioController.SetTime </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>time</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>再生位置指定 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition"> <a class="el" href="_audio_controller_8cs_source.html">AudioController.cs</a> の <a class="el" href="_audio_controller_8cs_source.html#l00054">54</a> 行目に定義があります。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller_a26413f3f97180887aca22f678db53354_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller_a26413f3f97180887aca22f678db53354_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller_a26413f3f97180887aca22f678db53354_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller_a26413f3f97180887aca22f678db53354_icgraph">
+<area shape="rect" title="再生位置指定" alt="" coords="285,5,516,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller.html#affa004e48e3b0b671b266b6739a97f0c" title="初期化" alt="" coords="5,5,237,48"/>
+<area shape="poly" title=" " alt="" coords="270,29,237,29,237,24,270,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="affa004e48e3b0b671b266b6739a97f0c" name="affa004e48e3b0b671b266b6739a97f0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affa004e48e3b0b671b266b6739a97f0c">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.AudioController.Start </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>初期化 </p>
+
+<p class="definition"> <a class="el" href="_audio_controller_8cs_source.html">AudioController.cs</a> の <a class="el" href="_audio_controller_8cs_source.html#l00020">20</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller_affa004e48e3b0b671b266b6739a97f0c_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller_affa004e48e3b0b671b266b6739a97f0c_cgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller_affa004e48e3b0b671b266b6739a97f0c_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller_affa004e48e3b0b671b266b6739a97f0c_cgraph">
+<area shape="rect" title="初期化" alt="" coords="5,56,237,99"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller.html#ade07ff4251b7b59f2a4836ee7cf2261d" title="再生" alt="" coords="285,5,543,32"/>
+<area shape="poly" title=" " alt="" coords="228,53,284,41,327,33,328,38,285,47,229,58"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller.html#a26413f3f97180887aca22f678db53354" title="再生位置指定" alt="" coords="298,56,530,99"/>
+<area shape="poly" title=" " alt="" coords="237,75,283,75,283,80,237,80"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller.html#a3f09a51f7ce1c4d5edd47a30682836e5" title="停止" alt="" coords="285,123,543,149"/>
+<area shape="poly" title=" " alt="" coords="229,97,285,108,328,117,327,122,284,113,228,102"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3f09a51f7ce1c4d5edd47a30682836e5" name="a3f09a51f7ce1c4d5edd47a30682836e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f09a51f7ce1c4d5edd47a30682836e5">&#9670;&#160;</a></span>Stop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.AudioController.Stop </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>停止 </p>
+
+<p class="definition"> <a class="el" href="_audio_controller_8cs_source.html">AudioController.cs</a> の <a class="el" href="_audio_controller_8cs_source.html#l00044">44</a> 行目に定義があります。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller_a3f09a51f7ce1c4d5edd47a30682836e5_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller_a3f09a51f7ce1c4d5edd47a30682836e5_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller_a3f09a51f7ce1c4d5edd47a30682836e5_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller_a3f09a51f7ce1c4d5edd47a30682836e5_icgraph">
+<area shape="rect" title="停止" alt="" coords="285,13,543,40"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller.html#affa004e48e3b0b671b266b6739a97f0c" title="初期化" alt="" coords="5,5,237,48"/>
+<area shape="poly" title=" " alt="" coords="270,29,237,29,237,24,270,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="afa9f2d7cbf4ce65f3fe7dc1294179751" name="afa9f2d7cbf4ce65f3fe7dc1294179751"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa9f2d7cbf4ce65f3fe7dc1294179751">&#9670;&#160;</a></span>isFirstPlay</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.App.AudioController.isFirstPlay = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_audio_controller_8cs_source.html">AudioController.cs</a> の <a class="el" href="_audio_controller_8cs_source.html#l00016">16</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a139ba9b24a26d3f1182bab22b6072adf" name="a139ba9b24a26d3f1182bab22b6072adf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a139ba9b24a26d3f1182bab22b6072adf">&#9670;&#160;</a></span>resource</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AudioSource LIVINGHOUSE.App.AudioController.resource = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_audio_controller_8cs_source.html">AudioController.cs</a> の <a class="el" href="_audio_controller_8cs_source.html#l00010">10</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a1e3cae64e91637d02db2f8050f5ea079" name="a1e3cae64e91637d02db2f8050f5ea079"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e3cae64e91637d02db2f8050f5ea079">&#9670;&#160;</a></span>startTimePosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float LIVINGHOUSE.App.AudioController.startTimePosition = 0.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_audio_controller_8cs_source.html">AudioController.cs</a> の <a class="el" href="_audio_controller_8cs_source.html#l00013">13</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/Audio/<a class="el" href="_audio_controller_8cs_source.html">AudioController.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e.html">LIVINGHOUSE</a></li><li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">App</a></li><li class="navelem"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller.html">AudioController</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

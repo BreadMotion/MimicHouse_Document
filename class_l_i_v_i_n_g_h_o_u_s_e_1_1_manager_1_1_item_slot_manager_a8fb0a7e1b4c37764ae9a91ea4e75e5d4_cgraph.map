@@ -1,0 +1,6 @@
+<map id="LIVINGHOUSE.Manager.ItemSlotManager.SetItemCountText" name="LIVINGHOUSE.Manager.ItemSlotManager.SetItemCountText">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,208,72"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#abffbaeee2170a562de59e007896a1d11" title="アイテムコンテキストのロード" alt="" coords="256,29,447,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,48,241,48,241,53,208,53"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="305,29,303,19,311,10,327,5,351,3,379,5,394,12,392,17,377,10,351,8,328,10,314,15,308,21,310,28"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.Scene.Game" name="LIVINGHOUSE.Scene.Game">
+<area shape="rect" id="Node000001" title="ゲームシーン　システムクラス" alt="" coords="5,80,194,107"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html" title=" " alt="" coords="69,5,130,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,47,102,80,97,80,97,47"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.Manager.WipeManager.OnAfterSceneCreate" name="LIVINGHOUSE.Manager.WipeManager.OnAfterSceneCreate">
+<area shape="rect" id="Node000001" title="シーン遷移後のシーン準備完了後処理" alt="" coords="250,5,446,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_wipe_manager.html#a8bad08e3bf21fae48a715dc53308de3e" title="初期化" alt="" coords="5,5,202,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,29,202,29,202,24,235,24"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="LIVINGHOUSE.App.IBuff.DeActivateInvoke" name="LIVINGHOUSE.App.IBuff.DeActivateInvoke">
+<area shape="rect" id="Node000001" title="デアクティベート時" alt="" coords="526,39,710,81"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a3840586262b0e327cd52e6ee8e7318a2" title="デストラクター" alt="" coords="263,47,478,73"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="511,63,478,63,478,57,511,57"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a1cc7e73047c6ac346684b90c61fcac12" title="初期化" alt="" coords="12,5,208,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="248,47,208,42,209,37,248,42"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#afd77643cc0b8390f873a2786a85daaab" title="更新時" alt="" coords="5,72,215,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="248,78,215,83,215,77,248,73"/>
+</map>

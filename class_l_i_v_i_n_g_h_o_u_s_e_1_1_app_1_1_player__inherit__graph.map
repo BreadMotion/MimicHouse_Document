@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.App.Player" name="LIVINGHOUSE.App.Player">
+<area shape="rect" id="Node000001" title="プレイヤークラス" alt="" coords="5,155,182,181"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html" title="キャラクター動作" alt="" coords="36,80,151,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,122,96,154,91,154,91,122"/>
+<area shape="rect" id="Node000003" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html" title="当たり判定を取るオブジェクトインターフェース" alt="" coords="54,5,133,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,47,96,80,91,80,91,47"/>
+</map>

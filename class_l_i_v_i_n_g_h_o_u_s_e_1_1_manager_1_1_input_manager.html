@@ -1,0 +1,393 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: LIVINGHOUSE.Manager.InputManager クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_input_manager.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_input_manager-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">LIVINGHOUSE.Manager.InputManager クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>入力管理クラス  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+LIVINGHOUSE.Manager.InputManager の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_input_manager__inherit__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_input_manager_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_input_manager_inherit__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_input_manager_inherit__map">
+<area shape="rect" title="入力管理クラス" alt="" coords="5,96,200,139"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html" title=" " alt="" coords="41,5,164,48"/>
+<area shape="poly" title=" " alt="" coords="105,63,105,96,100,96,100,63"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+LIVINGHOUSE.Manager.InputManager 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_input_manager__coll__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_input_manager_coll__map" alt="Collaboration graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_input_manager_coll__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_input_manager_coll__map">
+<area shape="rect" title="入力管理クラス" alt="" coords="5,96,200,139"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html" title=" " alt="" coords="41,5,164,48"/>
+<area shape="poly" title=" " alt="" coords="105,63,105,96,100,96,100,63"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a1939b0ccb91fc16c7ac5839cb5fdf324" id="r_a1939b0ccb91fc16c7ac5839cb5fdf324"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1939b0ccb91fc16c7ac5839cb5fdf324">Initialize</a> ()</td></tr>
+<tr class="memdesc:a1939b0ccb91fc16c7ac5839cb5fdf324"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化  <br /></td></tr>
+<tr class="separator:a1939b0ccb91fc16c7ac5839cb5fdf324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12295376a422fb083b2111896476108d" id="r_a12295376a422fb083b2111896476108d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12295376a422fb083b2111896476108d">OnFinalize</a> ()</td></tr>
+<tr class="memdesc:a12295376a422fb083b2111896476108d"><td class="mdescLeft">&#160;</td><td class="mdescRight">破棄前処理  <br /></td></tr>
+<tr class="separator:a12295376a422fb083b2111896476108d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cf8b180a77c1472d94e182869a2cda7" id="r_a7cf8b180a77c1472d94e182869a2cda7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cf8b180a77c1472d94e182869a2cda7">GetKeyInput</a> (KeyCode key)</td></tr>
+<tr class="separator:a7cf8b180a77c1472d94e182869a2cda7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94fead2e8351525b42d0ed2f96a11919" id="r_a94fead2e8351525b42d0ed2f96a11919"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94fead2e8351525b42d0ed2f96a11919">GetKeyDown</a> (KeyCode key)</td></tr>
+<tr class="separator:a94fead2e8351525b42d0ed2f96a11919"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45a7035c8ff0e248d7fab9b9c4e6cb64" id="r_a45a7035c8ff0e248d7fab9b9c4e6cb64"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45a7035c8ff0e248d7fab9b9c4e6cb64">GetKeyUp</a> (KeyCode key)</td></tr>
+<tr class="separator:a45a7035c8ff0e248d7fab9b9c4e6cb64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fcc60e1efd08ab0ca7fef1843b78276" id="r_a1fcc60e1efd08ab0ca7fef1843b78276"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fcc60e1efd08ab0ca7fef1843b78276">GetMouseInput</a> (int button)</td></tr>
+<tr class="separator:a1fcc60e1efd08ab0ca7fef1843b78276"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3bfc1f59aaaa595a5feea91d243d487" id="r_ab3bfc1f59aaaa595a5feea91d243d487"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3bfc1f59aaaa595a5feea91d243d487">GetMouseInputDown</a> (int button)</td></tr>
+<tr class="separator:ab3bfc1f59aaaa595a5feea91d243d487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a873293de4336ee7c0867d662ef9cbf8a" id="r_a873293de4336ee7c0867d662ef9cbf8a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a873293de4336ee7c0867d662ef9cbf8a">GetMouseInputUp</a> (int button)</td></tr>
+<tr class="separator:a873293de4336ee7c0867d662ef9cbf8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcc8493ed16f237142a511ee265418b2" id="r_abcc8493ed16f237142a511ee265418b2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcc8493ed16f237142a511ee265418b2">GetMousePositionX</a> ()</td></tr>
+<tr class="separator:abcc8493ed16f237142a511ee265418b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2df8e71d3440ba757a0b2aa42df83303" id="r_a2df8e71d3440ba757a0b2aa42df83303"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2df8e71d3440ba757a0b2aa42df83303">GetMousePositionY</a> ()</td></tr>
+<tr class="separator:a2df8e71d3440ba757a0b2aa42df83303"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee7e463fd50daf5288b41c71f04fad80" id="r_aee7e463fd50daf5288b41c71f04fad80"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee7e463fd50daf5288b41c71f04fad80">GetMousePosition</a> ()</td></tr>
+<tr class="separator:aee7e463fd50daf5288b41c71f04fad80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2c684b7df4ac99e9c828dd4311cfe95" id="r_ad2c684b7df4ac99e9c828dd4311cfe95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2c684b7df4ac99e9c828dd4311cfe95">SetCursorVisibleFlag</a> (bool fixFlag)</td></tr>
+<tr class="separator:ad2c684b7df4ac99e9c828dd4311cfe95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+その他の継承メンバ</h2></td></tr>
+<tr class="inherit_header pro_static_attribs_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html">LIVINGHOUSE.Utility.Singleton&lt; InputManager &gt;</a> に属する継承静的限定公開変数類</td></tr>
+<tr class="memitem:ac0c5a8eb39227ed0b54ee6f8a994cc23 inherit pro_static_attribs_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton" id="r_ac0c5a8eb39227ed0b54ee6f8a994cc23"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html#ac0c5a8eb39227ed0b54ee6f8a994cc23">instance</a></td></tr>
+<tr class="separator:ac0c5a8eb39227ed0b54ee6f8a994cc23 inherit pro_static_attribs_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html">LIVINGHOUSE.Utility.Singleton&lt; InputManager &gt;</a> に属する継承プロパティ</td></tr>
+<tr class="memitem:adb3b21a470bdf42bb8634e1b0d2c3428 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton" id="r_adb3b21a470bdf42bb8634e1b0d2c3428"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html#adb3b21a470bdf42bb8634e1b0d2c3428">I</a><code> [get]</code></td></tr>
+<tr class="separator:adb3b21a470bdf42bb8634e1b0d2c3428 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>入力管理クラス </p>
+
+<p class="definition"> <a class="el" href="_input_manager_8cs_source.html">InputManager.cs</a> の <a class="el" href="_input_manager_8cs_source.html#l00007">7</a> 行目に定義があります。</p>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="a94fead2e8351525b42d0ed2f96a11919" name="a94fead2e8351525b42d0ed2f96a11919"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94fead2e8351525b42d0ed2f96a11919">&#9670;&#160;</a></span>GetKeyDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.Manager.InputManager.GetKeyDown </td>
+          <td>(</td>
+          <td class="paramtype">KeyCode</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7cf8b180a77c1472d94e182869a2cda7" name="a7cf8b180a77c1472d94e182869a2cda7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cf8b180a77c1472d94e182869a2cda7">&#9670;&#160;</a></span>GetKeyInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.Manager.InputManager.GetKeyInput </td>
+          <td>(</td>
+          <td class="paramtype">KeyCode</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a45a7035c8ff0e248d7fab9b9c4e6cb64" name="a45a7035c8ff0e248d7fab9b9c4e6cb64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45a7035c8ff0e248d7fab9b9c4e6cb64">&#9670;&#160;</a></span>GetKeyUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.Manager.InputManager.GetKeyUp </td>
+          <td>(</td>
+          <td class="paramtype">KeyCode</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1fcc60e1efd08ab0ca7fef1843b78276" name="a1fcc60e1efd08ab0ca7fef1843b78276"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fcc60e1efd08ab0ca7fef1843b78276">&#9670;&#160;</a></span>GetMouseInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.Manager.InputManager.GetMouseInput </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>button</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab3bfc1f59aaaa595a5feea91d243d487" name="ab3bfc1f59aaaa595a5feea91d243d487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3bfc1f59aaaa595a5feea91d243d487">&#9670;&#160;</a></span>GetMouseInputDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.Manager.InputManager.GetMouseInputDown </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>button</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a873293de4336ee7c0867d662ef9cbf8a" name="a873293de4336ee7c0867d662ef9cbf8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a873293de4336ee7c0867d662ef9cbf8a">&#9670;&#160;</a></span>GetMouseInputUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.Manager.InputManager.GetMouseInputUp </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>button</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee7e463fd50daf5288b41c71f04fad80" name="aee7e463fd50daf5288b41c71f04fad80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee7e463fd50daf5288b41c71f04fad80">&#9670;&#160;</a></span>GetMousePosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 LIVINGHOUSE.Manager.InputManager.GetMousePosition </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abcc8493ed16f237142a511ee265418b2" name="abcc8493ed16f237142a511ee265418b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcc8493ed16f237142a511ee265418b2">&#9670;&#160;</a></span>GetMousePositionX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float LIVINGHOUSE.Manager.InputManager.GetMousePositionX </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2df8e71d3440ba757a0b2aa42df83303" name="a2df8e71d3440ba757a0b2aa42df83303"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2df8e71d3440ba757a0b2aa42df83303">&#9670;&#160;</a></span>GetMousePositionY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float LIVINGHOUSE.Manager.InputManager.GetMousePositionY </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1939b0ccb91fc16c7ac5839cb5fdf324" name="a1939b0ccb91fc16c7ac5839cb5fdf324"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1939b0ccb91fc16c7ac5839cb5fdf324">&#9670;&#160;</a></span>Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.Manager.InputManager.Initialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初期化 </p>
+
+<p class="definition"> <a class="el" href="_input_manager_8cs_source.html">InputManager.cs</a> の <a class="el" href="_input_manager_8cs_source.html#l00011">11</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a12295376a422fb083b2111896476108d" name="a12295376a422fb083b2111896476108d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12295376a422fb083b2111896476108d">&#9670;&#160;</a></span>OnFinalize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.Manager.InputManager.OnFinalize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>破棄前処理 </p>
+
+<p class="definition"> <a class="el" href="_input_manager_8cs_source.html">InputManager.cs</a> の <a class="el" href="_input_manager_8cs_source.html#l00020">20</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ad2c684b7df4ac99e9c828dd4311cfe95" name="ad2c684b7df4ac99e9c828dd4311cfe95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2c684b7df4ac99e9c828dd4311cfe95">&#9670;&#160;</a></span>SetCursorVisibleFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.Manager.InputManager.SetCursorVisibleFlag </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>fixFlag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/Manager/<a class="el" href="_input_manager_8cs_source.html">InputManager.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e.html">LIVINGHOUSE</a></li><li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html">Manager</a></li><li class="navelem"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_input_manager.html">InputManager</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

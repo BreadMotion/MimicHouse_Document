@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.Utility.SingletonMonoBehaviour.TryGetInstance" name="LIVINGHOUSE.Utility.SingletonMonoBehaviour.TryGetInstance">
+<area shape="rect" id="Node000001" title="インスタンス生成されているかチェックする" alt="" coords="5,39,209,81"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#afee240eee5b5a73e13f4a7e631f9181a" title="インスタンス生成されているかチェックしされていなければ生成する。" alt="" coords="257,5,504,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,45,241,41,242,46,209,50"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a2e57b9e448073281cd6b2ec093b4d84a" title="インスタンスがあるか調べる" alt="" coords="279,72,482,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,70,264,76,263,82,209,75"/>
+</map>

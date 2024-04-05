@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.App.PointItemSpawner.Initialize" name="LIVINGHOUSE.App.PointItemSpawner.Initialize">
+<area shape="rect" id="Node000001" title="初期化" alt="" coords="5,5,200,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html#a967424c30e4472260c3f6e29fcaaf132" title="解放処理" alt="" coords="248,13,471,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,24,233,24,233,29,200,29"/>
+</map>

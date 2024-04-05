@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.SO.CharacterScriptableObject" name="LIVINGHOUSE.SO.CharacterScriptableObject">
+<area shape="rect" id="Node000001" title="キャラクターコンテキスト" alt="" coords="20,96,212,139"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,123,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,44,107,94,102,97,75,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="147,5,192,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,46,130,97,125,94,153,44"/>
+</map>

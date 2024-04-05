@@ -1,0 +1,11 @@
+<map id="LIVINGHOUSE.App.IPoint" name="LIVINGHOUSE.App.IPoint">
+<area shape="rect" id="Node000001" title=" " alt="" coords="128,80,301,107"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_item_spawner.html" title=" " alt="" coords="5,155,200,197"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,118,133,156,130,152,184,113"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html" title="索敵ポイント" alt="" coords="223,163,430,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="245,113,311,160,308,164,242,117"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="160,5,269,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,47,217,80,212,80,212,47"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_enemy_spawner.html" title=" " alt="" coords="221,245,432,288"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="329,204,329,245,324,245,324,204"/>
+</map>

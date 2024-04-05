@@ -1,0 +1,648 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: LIVINGHOUSE.Utility.SingletonMonoBehaviour&lt; T &gt; クラステンプレート</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">静的公開メンバ関数</a> &#124;
+<a href="#pro-methods">限定公開メンバ関数</a> &#124;
+<a href="#properties">プロパティ</a> &#124;
+<a href="#pri-static-methods">静的非公開メンバ関数</a> &#124;
+<a href="#pri-static-attribs">静的非公開変数類</a> &#124;
+<a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">LIVINGHOUSE.Utility.SingletonMonoBehaviour&lt; T &gt; クラステンプレート</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>GameObjectを持つシングルトン  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+LIVINGHOUSE.Utility.SingletonMonoBehaviour&lt; T &gt; の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour__inherit__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_utility_8_singleton_mono_behaviour_3_01_t_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_utility_8_singleton_mono_behaviour_3_01_t_01_4_inherit__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_utility_8_singleton_mono_behaviour_3_01_t_01_4_inherit__map">
+<area shape="rect" title="GameObjectを持つシングルトン" alt="" coords="5,229,209,272"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html" title="OnDisable 時に通知する機能付き MonoBehaviour" alt="" coords="14,155,200,181"/>
+<area shape="poly" title=" " alt="" coords="110,196,110,229,104,229,104,196"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title=" " alt="" coords="30,80,184,107"/>
+<area shape="poly" title=" " alt="" coords="110,122,110,154,104,154,104,122"/>
+<area shape="rect" title=" " alt="" coords="52,5,162,32"/>
+<area shape="poly" title=" " alt="" coords="110,47,110,80,104,80,104,47"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+LIVINGHOUSE.Utility.SingletonMonoBehaviour&lt; T &gt; 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour__coll__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_utility_8_singleton_mono_behaviour_3_01_t_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_utility_8_singleton_mono_behaviour_3_01_t_01_4_coll__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_utility_8_singleton_mono_behaviour_3_01_t_01_4_coll__map">
+<area shape="rect" title="GameObjectを持つシングルトン" alt="" coords="68,355,272,397"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html" title="OnDisable 時に通知する機能付き MonoBehaviour" alt="" coords="5,264,191,291"/>
+<area shape="poly" title=" " alt="" coords="118,301,157,352,152,356,114,304"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title=" " alt="" coords="16,81,170,108"/>
+<area shape="poly" title=" " alt="" coords="96,123,100,263,95,264,91,123"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html" title="OnDisable 時に通知する機能付き MonoBehaviour" alt="" coords="114,157,306,200"/>
+<area shape="poly" title=" " alt="" coords="124,114,182,155,179,159,121,119"/>
+<area shape="rect" title=" " alt="" coords="38,5,147,32"/>
+<area shape="poly" title=" " alt="" coords="95,47,95,81,90,81,90,47"/>
+<area shape="poly" title=" " alt="" coords="177,211,114,266,111,262,174,207"/>
+<area shape="poly" title=" " alt="" coords="322,171,333,179,325,186,307,189,306,184,323,181,328,179,319,175"/>
+<area shape="rect" title=" " alt="" coords="215,264,269,291"/>
+<area shape="poly" title=" " alt="" coords="226,304,188,356,183,352,222,301"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:a7e740ea4461ac0e988cc098b09b1791b" id="r_a7e740ea4461ac0e988cc098b09b1791b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e740ea4461ac0e988cc098b09b1791b">TryGetInstance</a> (out T instance)</td></tr>
+<tr class="memdesc:a7e740ea4461ac0e988cc098b09b1791b"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンス生成されているかチェックする  <br /></td></tr>
+<tr class="separator:a7e740ea4461ac0e988cc098b09b1791b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab59b849973b8d751b8f7b26c72d2bf31" id="r_ab59b849973b8d751b8f7b26c72d2bf31"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab59b849973b8d751b8f7b26c72d2bf31">GetOrCreateInstance</a> (bool dontDestroy=true)</td></tr>
+<tr class="memdesc:ab59b849973b8d751b8f7b26c72d2bf31"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンスを取得するか生成して取得するかを行う  <br /></td></tr>
+<tr class="separator:ab59b849973b8d751b8f7b26c72d2bf31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e57b9e448073281cd6b2ec093b4d84a" id="r_a2e57b9e448073281cd6b2ec093b4d84a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e57b9e448073281cd6b2ec093b4d84a">IsValid</a> ()</td></tr>
+<tr class="memdesc:a2e57b9e448073281cd6b2ec093b4d84a"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンスがあるか調べる  <br /></td></tr>
+<tr class="separator:a2e57b9e448073281cd6b2ec093b4d84a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82b6de86ce50247fd7f49e587a9c57e9" id="r_a82b6de86ce50247fd7f49e587a9c57e9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82b6de86ce50247fd7f49e587a9c57e9">Release</a> ()</td></tr>
+<tr class="memdesc:a82b6de86ce50247fd7f49e587a9c57e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">解放する  <br /></td></tr>
+<tr class="separator:a82b6de86ce50247fd7f49e587a9c57e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+限定公開メンバ関数</h2></td></tr>
+<tr class="memitem:a61050fe1f02b55e2b1cc020eb0c16429" id="r_a61050fe1f02b55e2b1cc020eb0c16429"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61050fe1f02b55e2b1cc020eb0c16429">OnDestroy</a> ()</td></tr>
+<tr class="memdesc:a61050fe1f02b55e2b1cc020eb0c16429"><td class="mdescLeft">&#160;</td><td class="mdescRight">破棄処理  <br /></td></tr>
+<tr class="separator:a61050fe1f02b55e2b1cc020eb0c16429"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f60b7cd168aeced30d653f95a254828" id="r_a7f60b7cd168aeced30d653f95a254828"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f60b7cd168aeced30d653f95a254828">Awake</a> ()</td></tr>
+<tr class="memdesc:a7f60b7cd168aeced30d653f95a254828"><td class="mdescLeft">&#160;</td><td class="mdescRight">事前初期化  <br /></td></tr>
+<tr class="separator:a7f60b7cd168aeced30d653f95a254828"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade29dc36363e4bc1652609acd7f07314" id="r_ade29dc36363e4bc1652609acd7f07314"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade29dc36363e4bc1652609acd7f07314">CheckInstance</a> ()</td></tr>
+<tr class="memdesc:ade29dc36363e4bc1652609acd7f07314"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンスが生存期間を超えていないか調べる  <br /></td></tr>
+<tr class="separator:ade29dc36363e4bc1652609acd7f07314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html">LIVINGHOUSE.Utility.DisableNotifyMonoBehaviour</a> に属する継承限定公開メンバ関数</td></tr>
+<tr class="memitem:a3b60d4d9e57b0aafffbe4baaa85f2dfa inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour" id="r_a3b60d4d9e57b0aafffbe4baaa85f2dfa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html#a3b60d4d9e57b0aafffbe4baaa85f2dfa">OnDisable</a> ()</td></tr>
+<tr class="memdesc:a3b60d4d9e57b0aafffbe4baaa85f2dfa inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable 時  <br /></td></tr>
+<tr class="separator:a3b60d4d9e57b0aafffbe4baaa85f2dfa inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0622acf1f57d7339110f292a192c4419 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour" id="r_a0622acf1f57d7339110f292a192c4419"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html#a0622acf1f57d7339110f292a192c4419">OnDisableMaster</a> ()</td></tr>
+<tr class="memdesc:a0622acf1f57d7339110f292a192c4419 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">マスターが Disable 時に呼ばれる  <br /></td></tr>
+<tr class="separator:a0622acf1f57d7339110f292a192c4419 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5a3dbbdc92266cda25deebd4a293aa3 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour" id="r_ac5a3dbbdc92266cda25deebd4a293aa3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html#ac5a3dbbdc92266cda25deebd4a293aa3">OnAttachServant</a> (<a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html">DisableNotifyMonoBehaviour</a> servant)</td></tr>
+<tr class="memdesc:ac5a3dbbdc92266cda25deebd4a293aa3 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">Master に Servant が追加された時に呼ばれる  <br /></td></tr>
+<tr class="separator:ac5a3dbbdc92266cda25deebd4a293aa3 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af08b468cada62990d2f8d68583b64d4b inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour" id="r_af08b468cada62990d2f8d68583b64d4b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html#af08b468cada62990d2f8d68583b64d4b">OnDetachServant</a> (<a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html">DisableNotifyMonoBehaviour</a> servant)</td></tr>
+<tr class="memdesc:af08b468cada62990d2f8d68583b64d4b inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">Master (自身) から Servant が離れた時に呼ばれる  <br /></td></tr>
+<tr class="separator:af08b468cada62990d2f8d68583b64d4b inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:ac0cfa308fecdda89f8b4a0ec5fed72b5" id="r_ac0cfa308fecdda89f8b4a0ec5fed72b5"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0cfa308fecdda89f8b4a0ec5fed72b5">I</a><code> [get]</code></td></tr>
+<tr class="separator:ac0cfa308fecdda89f8b4a0ec5fed72b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html">LIVINGHOUSE.Utility.DisableNotifyMonoBehaviour</a> に属する継承プロパティ</td></tr>
+<tr class="memitem:a0fe5d7914ba4d561bd191601b9d0bab3 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour" id="r_a0fe5d7914ba4d561bd191601b9d0bab3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html">DisableNotifyMonoBehaviour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html#a0fe5d7914ba4d561bd191601b9d0bab3">notifyMaster</a><code> [get]</code></td></tr>
+<tr class="separator:a0fe5d7914ba4d561bd191601b9d0bab3 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee7c54190f96964cf943e16c58363635 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour" id="r_aee7c54190f96964cf943e16c58363635"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html">DisableNotifyMonoBehaviour</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html#aee7c54190f96964cf943e16c58363635">notifyServants</a><code> [get]</code></td></tr>
+<tr class="separator:aee7c54190f96964cf943e16c58363635 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html">LIVINGHOUSE.Utility.CustomMonoBehaviour</a> に属する継承プロパティ</td></tr>
+<tr class="memitem:aeba77ce958d8107b0ca1736681311ed0 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour" id="r_aeba77ce958d8107b0ca1736681311ed0"><td class="memItemLeft" align="right" valign="top">new GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html#aeba77ce958d8107b0ca1736681311ed0">gameObject</a><code> [get]</code></td></tr>
+<tr class="separator:aeba77ce958d8107b0ca1736681311ed0 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec007c81721222db9bab63337860269c inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour" id="r_aec007c81721222db9bab63337860269c"><td class="memItemLeft" align="right" valign="top">new Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html#aec007c81721222db9bab63337860269c">transform</a><code> [get]</code></td></tr>
+<tr class="separator:aec007c81721222db9bab63337860269c inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+静的非公開メンバ関数</h2></td></tr>
+<tr class="memitem:afee240eee5b5a73e13f4a7e631f9181a" id="r_afee240eee5b5a73e13f4a7e631f9181a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afee240eee5b5a73e13f4a7e631f9181a">CheckAndFindInstance</a> ()</td></tr>
+<tr class="memdesc:afee240eee5b5a73e13f4a7e631f9181a"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンス生成されているかチェックしされていなければ生成する。  <br /></td></tr>
+<tr class="separator:afee240eee5b5a73e13f4a7e631f9181a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+静的非公開変数類</h2></td></tr>
+<tr class="memitem:a0b274dcb2d507037431764291105d564" id="r_a0b274dcb2d507037431764291105d564"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b274dcb2d507037431764291105d564">s_instance</a> = null</td></tr>
+<tr class="separator:a0b274dcb2d507037431764291105d564"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+その他の継承メンバ</h2></td></tr>
+<tr class="inherit_header pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html">LIVINGHOUSE.Utility.DisableNotifyMonoBehaviour</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a921b48618127f02ef21d9b9a354dc790 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour" id="r_a921b48618127f02ef21d9b9a354dc790"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html#a921b48618127f02ef21d9b9a354dc790">SetNotifyMaster</a> (<a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html">DisableNotifyMonoBehaviour</a> master)</td></tr>
+<tr class="memdesc:a921b48618127f02ef21d9b9a354dc790 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">マスターを設定する  <br /></td></tr>
+<tr class="separator:a921b48618127f02ef21d9b9a354dc790 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfb098a88db527f5484893f6d2f7bc7f inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour" id="r_acfb098a88db527f5484893f6d2f7bc7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html#acfb098a88db527f5484893f6d2f7bc7f">ResetNotifyMaster</a> ()</td></tr>
+<tr class="memdesc:acfb098a88db527f5484893f6d2f7bc7f inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">マスターを解除する  <br /></td></tr>
+<tr class="separator:acfb098a88db527f5484893f6d2f7bc7f inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>GameObjectを持つシングルトン </p>
+<dl class="tparams"><dt>テンプレート引数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="typeconstraint">
+<dl><dt><b>型制約</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>MonoBehaviour</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+<p class="definition"> <a class="el" href="_singletone_mono_behaviour_8cs_source.html">SingletoneMonoBehaviour.cs</a> の <a class="el" href="_singletone_mono_behaviour_8cs_source.html#l00011">11</a> 行目に定義があります。</p>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="a7f60b7cd168aeced30d653f95a254828" name="a7f60b7cd168aeced30d653f95a254828"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f60b7cd168aeced30d653f95a254828">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">LIVINGHOUSE.Utility.SingletonMonoBehaviour</a>&lt; T &gt;.Awake </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>事前初期化 </p>
+
+<p><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_character_manager.html#aa5e3af5b5d02f49879e60f3fbce3c3d8">LIVINGHOUSE.Manager.CharacterManager</a>で再実装されています。</p>
+
+<p class="definition"> <a class="el" href="_singletone_mono_behaviour_8cs_source.html">SingletoneMonoBehaviour.cs</a> の <a class="el" href="_singletone_mono_behaviour_8cs_source.html#l00075">75</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a7f60b7cd168aeced30d653f95a254828_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a7f60b7cd168aeced30d653f95a254828_cgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a7f60b7cd168aeced30d653f95a254828_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a7f60b7cd168aeced30d653f95a254828_cgraph">
+<area shape="rect" title="事前初期化" alt="" coords="5,5,209,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#ade29dc36363e4bc1652609acd7f07314" title="インスタンスが生存期間を超えていないか調べる" alt="" coords="257,5,460,48"/>
+<area shape="poly" title=" " alt="" coords="209,24,241,24,241,29,209,29"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a2e57b9e448073281cd6b2ec093b4d84a" title="インスタンスがあるか調べる" alt="" coords="508,5,711,48"/>
+<area shape="poly" title=" " alt="" coords="460,24,493,24,493,29,460,29"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afee240eee5b5a73e13f4a7e631f9181a" name="afee240eee5b5a73e13f4a7e631f9181a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afee240eee5b5a73e13f4a7e631f9181a">&#9670;&#160;</a></span>CheckAndFindInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">LIVINGHOUSE.Utility.SingletonMonoBehaviour</a>&lt; T &gt;.CheckAndFindInstance </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>インスタンス生成されているかチェックしされていなければ生成する。 </p>
+
+<p class="definition"> <a class="el" href="_singletone_mono_behaviour_8cs_source.html">SingletoneMonoBehaviour.cs</a> の <a class="el" href="_singletone_mono_behaviour_8cs_source.html#l00042">42</a> 行目に定義があります。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_afee240eee5b5a73e13f4a7e631f9181a_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_afee240eee5b5a73e13f4a7e631f9181a_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_afee240eee5b5a73e13f4a7e631f9181a_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_afee240eee5b5a73e13f4a7e631f9181a_icgraph">
+<area shape="rect" title="インスタンス生成されているかチェックしされていなければ生成する。" alt="" coords="508,5,755,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a7e740ea4461ac0e988cc098b09b1791b" title="インスタンス生成されているかチェックする" alt="" coords="257,5,460,48"/>
+<area shape="poly" title=" " alt="" coords="493,29,460,29,460,24,493,24"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_frame_manager.html#ac27ba6c68de69e61a991796e94f0186a" title="初期化" alt="" coords="5,5,209,48"/>
+<area shape="poly" title=" " alt="" coords="242,29,209,29,209,24,242,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ade29dc36363e4bc1652609acd7f07314" name="ade29dc36363e4bc1652609acd7f07314"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade29dc36363e4bc1652609acd7f07314">&#9670;&#160;</a></span>CheckInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">LIVINGHOUSE.Utility.SingletonMonoBehaviour</a>&lt; T &gt;.CheckInstance </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>インスタンスが生存期間を超えていないか調べる </p>
+<dl class="section return"><dt>戻り値</dt><dd></dd></dl>
+
+<p class="definition"> <a class="el" href="_singletone_mono_behaviour_8cs_source.html">SingletoneMonoBehaviour.cs</a> の <a class="el" href="_singletone_mono_behaviour_8cs_source.html#l00084">84</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_ade29dc36363e4bc1652609acd7f07314_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_ade29dc36363e4bc1652609acd7f07314_cgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_ade29dc36363e4bc1652609acd7f07314_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_ade29dc36363e4bc1652609acd7f07314_cgraph">
+<area shape="rect" title="インスタンスが生存期間を超えていないか調べる" alt="" coords="5,5,209,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a2e57b9e448073281cd6b2ec093b4d84a" title="インスタンスがあるか調べる" alt="" coords="257,5,460,48"/>
+<area shape="poly" title=" " alt="" coords="209,24,241,24,241,29,209,29"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_ade29dc36363e4bc1652609acd7f07314_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_ade29dc36363e4bc1652609acd7f07314_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_ade29dc36363e4bc1652609acd7f07314_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_ade29dc36363e4bc1652609acd7f07314_icgraph">
+<area shape="rect" title="インスタンスが生存期間を超えていないか調べる" alt="" coords="257,5,460,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a7f60b7cd168aeced30d653f95a254828" title="事前初期化" alt="" coords="5,5,209,48"/>
+<area shape="poly" title=" " alt="" coords="242,29,209,29,209,24,242,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab59b849973b8d751b8f7b26c72d2bf31" name="ab59b849973b8d751b8f7b26c72d2bf31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab59b849973b8d751b8f7b26c72d2bf31">&#9670;&#160;</a></span>GetOrCreateInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static T <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">LIVINGHOUSE.Utility.SingletonMonoBehaviour</a>&lt; T &gt;.GetOrCreateInstance </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>dontDestroy</em><span class="paramdefsep"> = </span><span class="paramdefval">true</span></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>インスタンスを取得するか生成して取得するかを行う </p>
+
+<p class="definition"> <a class="el" href="_singletone_mono_behaviour_8cs_source.html">SingletoneMonoBehaviour.cs</a> の <a class="el" href="_singletone_mono_behaviour_8cs_source.html#l00051">51</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_ab59b849973b8d751b8f7b26c72d2bf31_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_ab59b849973b8d751b8f7b26c72d2bf31_cgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_ab59b849973b8d751b8f7b26c72d2bf31_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_ab59b849973b8d751b8f7b26c72d2bf31_cgraph">
+<area shape="rect" title="インスタンスを取得するか生成して取得するかを行う" alt="" coords="5,5,241,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a2e57b9e448073281cd6b2ec093b4d84a" title="インスタンスがあるか調べる" alt="" coords="289,5,492,48"/>
+<area shape="poly" title=" " alt="" coords="241,24,274,24,274,29,241,29"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2e57b9e448073281cd6b2ec093b4d84a" name="a2e57b9e448073281cd6b2ec093b4d84a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e57b9e448073281cd6b2ec093b4d84a">&#9670;&#160;</a></span>IsValid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">LIVINGHOUSE.Utility.SingletonMonoBehaviour</a>&lt; T &gt;.IsValid </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>インスタンスがあるか調べる </p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a2e57b9e448073281cd6b2ec093b4d84a_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a2e57b9e448073281cd6b2ec093b4d84a_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a2e57b9e448073281cd6b2ec093b4d84a_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a2e57b9e448073281cd6b2ec093b4d84a_icgraph">
+<area shape="rect" title="インスタンスがあるか調べる" alt="" coords="540,72,743,115"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#ade29dc36363e4bc1652609acd7f07314" title="インスタンスが生存期間を超えていないか調べる" alt="" coords="273,5,476,48"/>
+<area shape="poly" title=" " alt="" coords="538,70,462,51,463,46,540,65"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#ab59b849973b8d751b8f7b26c72d2bf31" title="インスタンスを取得するか生成して取得するかを行う" alt="" coords="257,72,492,115"/>
+<area shape="poly" title=" " alt="" coords="525,96,493,96,493,91,525,91"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a7e740ea4461ac0e988cc098b09b1791b" title="インスタンス生成されているかチェックする" alt="" coords="273,139,476,181"/>
+<area shape="poly" title=" " alt="" coords="540,121,463,141,462,135,538,116"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a7f60b7cd168aeced30d653f95a254828" title="事前初期化" alt="" coords="5,5,209,48"/>
+<area shape="poly" title=" " alt="" coords="258,29,209,29,209,24,258,24"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_frame_manager.html#ac27ba6c68de69e61a991796e94f0186a" title="初期化" alt="" coords="5,139,209,181"/>
+<area shape="poly" title=" " alt="" coords="258,163,209,163,209,157,258,157"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a61050fe1f02b55e2b1cc020eb0c16429" name="a61050fe1f02b55e2b1cc020eb0c16429"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61050fe1f02b55e2b1cc020eb0c16429">&#9670;&#160;</a></span>OnDestroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">LIVINGHOUSE.Utility.SingletonMonoBehaviour</a>&lt; T &gt;.OnDestroy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>破棄処理 </p>
+
+<p class="definition"> <a class="el" href="_singletone_mono_behaviour_8cs_source.html">SingletoneMonoBehaviour.cs</a> の <a class="el" href="_singletone_mono_behaviour_8cs_source.html#l00067">67</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a61050fe1f02b55e2b1cc020eb0c16429_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a61050fe1f02b55e2b1cc020eb0c16429_cgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a61050fe1f02b55e2b1cc020eb0c16429_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a61050fe1f02b55e2b1cc020eb0c16429_cgraph">
+<area shape="rect" title="破棄処理" alt="" coords="5,5,209,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a82b6de86ce50247fd7f49e587a9c57e9" title="解放する" alt="" coords="257,5,460,48"/>
+<area shape="poly" title=" " alt="" coords="209,24,241,24,241,29,209,29"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a82b6de86ce50247fd7f49e587a9c57e9" name="a82b6de86ce50247fd7f49e587a9c57e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82b6de86ce50247fd7f49e587a9c57e9">&#9670;&#160;</a></span>Release()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">LIVINGHOUSE.Utility.SingletonMonoBehaviour</a>&lt; T &gt;.Release </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>解放する </p>
+
+<p class="definition"> <a class="el" href="_singletone_mono_behaviour_8cs_source.html">SingletoneMonoBehaviour.cs</a> の <a class="el" href="_singletone_mono_behaviour_8cs_source.html#l00114">114</a> 行目に定義があります。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a82b6de86ce50247fd7f49e587a9c57e9_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a82b6de86ce50247fd7f49e587a9c57e9_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a82b6de86ce50247fd7f49e587a9c57e9_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a82b6de86ce50247fd7f49e587a9c57e9_icgraph">
+<area shape="rect" title="解放する" alt="" coords="257,5,460,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a61050fe1f02b55e2b1cc020eb0c16429" title="破棄処理" alt="" coords="5,5,209,48"/>
+<area shape="poly" title=" " alt="" coords="242,29,209,29,209,24,242,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7e740ea4461ac0e988cc098b09b1791b" name="a7e740ea4461ac0e988cc098b09b1791b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e740ea4461ac0e988cc098b09b1791b">&#9670;&#160;</a></span>TryGetInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">LIVINGHOUSE.Utility.SingletonMonoBehaviour</a>&lt; T &gt;.TryGetInstance </td>
+          <td>(</td>
+          <td class="paramtype">out T</td>          <td class="paramname"><span class="paramname"><em>instance</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>インスタンス生成されているかチェックする </p>
+
+<p class="definition"> <a class="el" href="_singletone_mono_behaviour_8cs_source.html">SingletoneMonoBehaviour.cs</a> の <a class="el" href="_singletone_mono_behaviour_8cs_source.html#l00032">32</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a7e740ea4461ac0e988cc098b09b1791b_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a7e740ea4461ac0e988cc098b09b1791b_cgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a7e740ea4461ac0e988cc098b09b1791b_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a7e740ea4461ac0e988cc098b09b1791b_cgraph">
+<area shape="rect" title="インスタンス生成されているかチェックする" alt="" coords="5,39,209,81"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#afee240eee5b5a73e13f4a7e631f9181a" title="インスタンス生成されているかチェックしされていなければ生成する。" alt="" coords="257,5,504,48"/>
+<area shape="poly" title=" " alt="" coords="209,45,241,41,242,46,209,50"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a2e57b9e448073281cd6b2ec093b4d84a" title="インスタンスがあるか調べる" alt="" coords="279,72,482,115"/>
+<area shape="poly" title=" " alt="" coords="209,70,264,76,263,82,209,75"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a7e740ea4461ac0e988cc098b09b1791b_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a7e740ea4461ac0e988cc098b09b1791b_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a7e740ea4461ac0e988cc098b09b1791b_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour_a7e740ea4461ac0e988cc098b09b1791b_icgraph">
+<area shape="rect" title="インスタンス生成されているかチェックする" alt="" coords="257,5,460,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_frame_manager.html#ac27ba6c68de69e61a991796e94f0186a" title="初期化" alt="" coords="5,5,209,48"/>
+<area shape="poly" title=" " alt="" coords="242,29,209,29,209,24,242,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a0b274dcb2d507037431764291105d564" name="a0b274dcb2d507037431764291105d564"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b274dcb2d507037431764291105d564">&#9670;&#160;</a></span>s_instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">LIVINGHOUSE.Utility.SingletonMonoBehaviour</a>&lt; T &gt;.s_instance = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_singletone_mono_behaviour_8cs_source.html">SingletoneMonoBehaviour.cs</a> の <a class="el" href="_singletone_mono_behaviour_8cs_source.html#l00027">27</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<h2 class="groupheader">プロパティ詳解</h2>
+<a id="ac0cfa308fecdda89f8b4a0ec5fed72b5" name="ac0cfa308fecdda89f8b4a0ec5fed72b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0cfa308fecdda89f8b4a0ec5fed72b5">&#9670;&#160;</a></span>I</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">LIVINGHOUSE.Utility.SingletonMonoBehaviour</a>&lt; T &gt;.I</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_singletone_mono_behaviour_8cs_source.html">SingletoneMonoBehaviour.cs</a> の <a class="el" href="_singletone_mono_behaviour_8cs_source.html#l00013">13</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/Utility/<a class="el" href="_singletone_mono_behaviour_8cs_source.html">SingletoneMonoBehaviour.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e.html">LIVINGHOUSE</a></li><li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_utility.html">Utility</a></li><li class="navelem"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">SingletonMonoBehaviour</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

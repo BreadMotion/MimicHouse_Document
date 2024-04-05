@@ -1,0 +1,9 @@
+<map id="LIVINGHOUSE.App.HitObject_WaterGun.Update" name="LIVINGHOUSE.App.HitObject_WaterGun.Update">
+<area shape="rect" id="Node000001" title="更新" alt="" coords="5,72,199,115"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun.html#adfff8e2699e31e39d156893e3ca7a727" title="HO判定チェック" alt="" coords="247,5,440,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,69,249,50,250,55,182,74"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun.html#a0ae5f28f82b5c5625fac3c863d31f00b" title="HO判定があった時の処理" alt="" coords="247,72,440,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,91,232,91,232,96,199,96"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun.html#a75a5692677bc56a99422e94e862d3169" title="HO更新" alt="" coords="247,139,440,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="182,113,250,132,249,137,181,118"/>
+</map>

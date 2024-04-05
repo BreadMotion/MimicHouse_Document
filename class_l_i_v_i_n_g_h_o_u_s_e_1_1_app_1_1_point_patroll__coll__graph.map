@@ -1,0 +1,11 @@
+<map id="LIVINGHOUSE.App.PointPatroll" name="LIVINGHOUSE.App.PointPatroll">
+<area shape="rect" id="Node000001" title="索敵ポイント" alt="" coords="5,248,212,275"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html" title=" " alt="" coords="76,81,130,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,123,111,247,105,248,101,123"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html" title="索敵ポイント" alt="" coords="124,157,330,184"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="138,113,207,155,205,159,135,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="49,5,158,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="106,47,106,81,101,81,101,47"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="200,195,127,250,124,245,197,191"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="347,164,357,171,349,177,331,180,331,174,347,172,352,171,344,169"/>
+</map>

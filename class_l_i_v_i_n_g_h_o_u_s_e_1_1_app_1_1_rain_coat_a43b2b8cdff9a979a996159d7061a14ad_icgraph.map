@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.App.RainCoat.DownNowCount" name="LIVINGHOUSE.App.RainCoat.DownNowCount">
+<area shape="rect" id="Node000001" title="カウント減少" alt="" coords="250,5,446,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_rain_coat.html#a8caa3d534805ea91405aee1538688be6" title="呼び出し" alt="" coords="5,5,202,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,29,202,29,202,24,235,24"/>
+</map>

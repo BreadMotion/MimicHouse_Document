@@ -1,0 +1,9 @@
+<map id="LIVINGHOUSE.App.RainCoat.Update" name="LIVINGHOUSE.App.RainCoat.Update">
+<area shape="rect" id="Node000001" title="更新" alt="" coords="5,72,202,115"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ac68b116bda1ca94db10eafc30ca28e0e" title="クールダウン中か" alt="" coords="265,5,447,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,69,258,50,259,55,188,74"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a081576c9152c45749e90feb053dbfd0c" title="カウントがゼロチェック" alt="" coords="265,72,447,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,91,250,91,250,96,202,96"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a713073551daa2f752ca5ea1875f251bd" title="クールダウンの残時間の更新" alt="" coords="250,139,462,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="188,113,259,132,258,137,186,118"/>
+</map>

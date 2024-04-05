@@ -1,0 +1,9 @@
+<map id="LIVINGHOUSE.Utility.CustomMonoBehaviour" name="LIVINGHOUSE.Utility.CustomMonoBehaviour">
+<area shape="rect" id="Node000001" title=" " alt="" coords="10,80,204,123"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html" title="OnDisable 時に通知する機能付き MonoBehaviour" alt="" coords="11,171,203,213"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="110,137,110,170,104,170,104,137"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="52,5,162,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,47,110,80,104,80,104,47"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title="GameObjectを持つシングルトン" alt="" coords="5,261,209,304"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="110,228,110,261,104,261,104,228"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="LIVINGHOUSE.App.Player.TryDeletableHaveItem" name="LIVINGHOUSE.App.Player.TryDeletableHaveItem">
+<area shape="rect" id="Node000001" title="所持アイテム削除(解放)を試みる" alt="" coords="5,29,204,72"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#ae86b162d3d6b12f36b5514f350b56151" title="アイテムスロットが格納されているか調べる" alt="" coords="252,29,452,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,48,236,48,236,53,204,53"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#abffbaeee2170a562de59e007896a1d11" title="アイテムコンテキストのロード" alt="" coords="500,29,691,72"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="453,48,485,48,485,53,453,53"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="550,29,548,19,555,10,572,5,596,3,623,5,638,12,636,17,622,10,596,8,573,10,558,15,553,21,555,28"/>
+</map>

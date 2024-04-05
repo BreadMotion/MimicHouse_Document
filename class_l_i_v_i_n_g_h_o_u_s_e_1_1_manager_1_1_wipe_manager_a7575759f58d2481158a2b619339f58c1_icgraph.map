@@ -1,0 +1,12 @@
+<map id="LIVINGHOUSE.Manager.WipeManager.WipeOutInner" name="LIVINGHOUSE.Manager.WipeManager.WipeOutInner">
+<area shape="rect" id="Node000001" title="画面暗転から抜ける" alt="" coords="496,72,692,115"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_wipe_manager.html#a0e8d8d982eeaa9c449a606de85c49354" title="シーン遷移後のシーン準備完了後処理" alt="" coords="251,5,447,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="498,70,429,51,431,46,500,65"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_wipe_manager.html#af2cecb110ba5d538339ad4e465444615" title=" " alt="" coords="250,72,448,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="481,96,448,96,448,91,481,91"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_wipe_manager.html#a0e4187ac5c1f0cd4c7f8ccb554462a6a" title="ワイプアウト指示" alt="" coords="251,139,447,181"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="500,122,431,141,429,135,498,117"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_wipe_manager.html#a8bad08e3bf21fae48a715dc53308de3e" title="初期化" alt="" coords="5,39,202,81"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="236,45,203,49,202,44,236,39"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="234,81,202,76,203,71,235,75"/>
+</map>

@@ -1,0 +1,586 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: LIVINGHOUSE.App.EnemyController クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#properties">プロパティ</a> &#124;
+<a href="#pri-methods">非公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">LIVINGHOUSE.App.EnemyController クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>プレイヤークラス  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+LIVINGHOUSE.App.EnemyController の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller__inherit__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_enemy_controller_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_enemy_controller_inherit__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_enemy_controller_inherit__map">
+<area shape="rect" title="プレイヤークラス" alt="" coords="5,80,241,107"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html" title="基底キャラクター操作クラス" alt="" coords="55,5,191,32"/>
+<area shape="poly" title=" " alt="" coords="126,47,126,80,120,80,120,47"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+LIVINGHOUSE.App.EnemyController 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller__coll__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_enemy_controller_coll__map" alt="Collaboration graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_enemy_controller_coll__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_enemy_controller_coll__map">
+<area shape="rect" title="プレイヤークラス" alt="" coords="1633,109,1868,136"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html" title="基底キャラクター操作クラス" alt="" coords="1314,59,1450,85"/>
+<area shape="poly" title=" " alt="" coords="1464,79,1609,99,1659,106,1658,111,1608,104,1464,85"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html" title="全キャラクター共通のシステムクラス" alt="" coords="585,165,781,192"/>
+<area shape="poly" title=" " alt="" coords="795,174,1101,164,1473,145,1632,132,1632,137,1474,151,1101,169,795,179"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_enemy.html" title="Enemyのインターフェースクラス" alt="" coords="1290,109,1474,136"/>
+<area shape="poly" title=" " alt="" coords="786,160,810,157,1071,136,1290,124,1290,129,1071,141,810,163,787,165"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_scouter.html" title="抽象索敵クラス" alt="" coords="979,240,1166,267"/>
+<area shape="poly" title=" " alt="" coords="726,196,767,213,811,227,896,242,979,249,978,254,896,247,809,232,765,218,724,201"/>
+<area shape="rect" title=" " alt="" coords="21,361,131,388"/>
+<area shape="poly" title=" " alt="" coords="145,371,232,364,338,348,394,335,449,318,503,296,554,270,578,250,660,190,663,195,581,254,557,274,506,301,451,323,395,340,339,353,233,370,146,376"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html" title=" " alt="" coords="279,392,333,419"/>
+<area shape="poly" title=" " alt="" coords="146,381,279,399,278,404,145,386"/>
+<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html" title="当たり判定を取るオブジェクトインターフェース" alt="" coords="37,48,115,75"/>
+<area shape="poly" title=" " alt="" coords="130,75,197,92,297,112,376,124,556,151,615,162,614,167,555,156,375,129,296,117,195,97,129,80"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html" title="キャラクター動作" alt="" coords="209,40,404,83"/>
+<area shape="poly" title=" " alt="" coords="130,59,208,59,208,64,130,64"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html" title="キャラクター動作" alt="" coords="440,5,556,32"/>
+<area shape="poly" title=" " alt="" coords="129,41,196,25,261,18,327,14,440,14,440,19,327,19,261,23,196,31,130,46"/>
+<area shape="poly" title=" " alt="" coords="418,67,488,79,557,99,618,130,665,163,662,167,615,135,555,104,486,84,418,72"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html" title="基底キャラクター操作クラス" alt="" coords="207,275,405,317"/>
+<area shape="poly" title=" " alt="" coords="419,269,555,231,652,190,654,195,557,236,420,274"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_state.html" title=" " alt="" coords="207,208,405,251"/>
+<area shape="poly" title=" " alt="" coords="420,213,555,195,588,190,589,195,556,200,420,218"/>
+<area shape="rect" title=" " alt="" coords="5,216,147,243"/>
+<area shape="poly" title=" " alt="" coords="161,227,206,227,206,232,161,232"/>
+<area shape="rect" href="struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object_data.html" title="当たり判定データ" alt="" coords="196,157,416,184"/>
+<area shape="poly" title=" " alt="" coords="431,171,585,174,585,179,431,176"/>
+<area shape="poly" title=" " alt="" coords="1489,120,1632,120,1632,125,1489,125"/>
+<area shape="poly" title=" " alt="" coords="571,24,1290,109,1290,115,570,30"/>
+<area shape="poly" title=" " alt="" coords="1180,245,1224,236,1265,222,1297,202,1326,179,1368,135,1372,138,1330,183,1300,207,1267,226,1225,242,1182,251"/>
+<area shape="rect" title=" " alt="" coords="647,264,719,291"/>
+<area shape="poly" title=" " alt="" coords="733,277,836,279,955,273,1011,265,1012,270,955,279,836,284,733,283"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html" title="索敵ポイント" alt="" coords="580,364,786,391"/>
+<area shape="poly" title=" " alt="" coords="759,357,853,333,954,301,1042,265,1044,270,956,307,854,338,761,363"/>
+<area shape="poly" title=" " alt="" coords="648,347,660,340,683,337,703,339,716,346,720,355,714,365,710,362,715,355,712,349,702,345,683,343,661,345,651,352"/>
+<area shape="poly" title=" " alt="" coords="348,400,579,382,580,388,349,405"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a5afa5acc989313f9eb022f92c8575aba" id="r_a5afa5acc989313f9eb022f92c8575aba"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5afa5acc989313f9eb022f92c8575aba">InitializeInvoke</a> ()</td></tr>
+<tr class="memdesc:a5afa5acc989313f9eb022f92c8575aba"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化  <br /></td></tr>
+<tr class="separator:a5afa5acc989313f9eb022f92c8575aba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e0ffd5e69b84d66258f7166434f73d9" id="r_a2e0ffd5e69b84d66258f7166434f73d9"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e0ffd5e69b84d66258f7166434f73d9">UpdateInvoke</a> ()</td></tr>
+<tr class="memdesc:a2e0ffd5e69b84d66258f7166434f73d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">更新  <br /></td></tr>
+<tr class="separator:a2e0ffd5e69b84d66258f7166434f73d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html">LIVINGHOUSE.App.ICharacterController</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:aac6fcfbb1b07f04a6ab99872456acedf inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller" id="r_aac6fcfbb1b07f04a6ab99872456acedf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html#aac6fcfbb1b07f04a6ab99872456acedf">InitializeInvoke</a> ()</td></tr>
+<tr class="memdesc:aac6fcfbb1b07f04a6ab99872456acedf inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化  <br /></td></tr>
+<tr class="separator:aac6fcfbb1b07f04a6ab99872456acedf inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc86483479b35efbc37b6251a2717565 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller" id="r_acc86483479b35efbc37b6251a2717565"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html#acc86483479b35efbc37b6251a2717565">UpdateInvoke</a> ()</td></tr>
+<tr class="memdesc:acc86483479b35efbc37b6251a2717565 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">更新  <br /></td></tr>
+<tr class="separator:acc86483479b35efbc37b6251a2717565 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:a2264180360b4e59189f9ba124da73b4a" id="r_a2264180360b4e59189f9ba124da73b4a"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2264180360b4e59189f9ba124da73b4a">character</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a2264180360b4e59189f9ba124da73b4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクター  <br /></td></tr>
+<tr class="separator:a2264180360b4e59189f9ba124da73b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae36895d4da60ac2597e953f18a1839f6" id="r_ae36895d4da60ac2597e953f18a1839f6"><td class="memItemLeft" align="right" valign="top">override CharacterController&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae36895d4da60ac2597e953f18a1839f6">characterController</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ae36895d4da60ac2597e953f18a1839f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターコントローラー  <br /></td></tr>
+<tr class="separator:ae36895d4da60ac2597e953f18a1839f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67462909faf68d708b08b6509cb0be41" id="r_a67462909faf68d708b08b6509cb0be41"><td class="memItemLeft" align="right" valign="top">override float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67462909faf68d708b08b6509cb0be41">moveSpeed</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a67462909faf68d708b08b6509cb0be41"><td class="mdescLeft">&#160;</td><td class="mdescRight">移動速度  <br /></td></tr>
+<tr class="separator:a67462909faf68d708b08b6509cb0be41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02f15737ed48d4e76e9b5f214d4f57a8" id="r_a02f15737ed48d4e76e9b5f214d4f57a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02f15737ed48d4e76e9b5f214d4f57a8">AgentEnable</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a02f15737ed48d4e76e9b5f214d4f57a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">ナビエージェントのアクティブ状態  <br /></td></tr>
+<tr class="separator:a02f15737ed48d4e76e9b5f214d4f57a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3a8dc64727a16f9f1821f4472f4ec98" id="r_ad3a8dc64727a16f9f1821f4472f4ec98"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3a8dc64727a16f9f1821f4472f4ec98">ControllerEnable</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ad3a8dc64727a16f9f1821f4472f4ec98"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターコントローラーが機能しているか  <br /></td></tr>
+<tr class="separator:ad3a8dc64727a16f9f1821f4472f4ec98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html">LIVINGHOUSE.App.ICharacterController</a> に属する継承プロパティ</td></tr>
+<tr class="memitem:ae516f73fbd9ddc11cd6668a47207f8fb inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller" id="r_ae516f73fbd9ddc11cd6668a47207f8fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html#ae516f73fbd9ddc11cd6668a47207f8fb">character</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ae516f73fbd9ddc11cd6668a47207f8fb inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクター  <br /></td></tr>
+<tr class="separator:ae516f73fbd9ddc11cd6668a47207f8fb inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ee152163c0b41ef235b3e0364be5492 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller" id="r_a5ee152163c0b41ef235b3e0364be5492"><td class="memItemLeft" align="right" valign="top">CharacterController&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html#a5ee152163c0b41ef235b3e0364be5492">characterController</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a5ee152163c0b41ef235b3e0364be5492 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターコントローラー  <br /></td></tr>
+<tr class="separator:a5ee152163c0b41ef235b3e0364be5492 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2389caeacef9e9b0a16baaab0f5a7bf7 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller" id="r_a2389caeacef9e9b0a16baaab0f5a7bf7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html#a2389caeacef9e9b0a16baaab0f5a7bf7">moveSpeed</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a2389caeacef9e9b0a16baaab0f5a7bf7 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">移動速度  <br /></td></tr>
+<tr class="separator:a2389caeacef9e9b0a16baaab0f5a7bf7 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr class="memitem:ad0f8dfc574fa5da814d9e174b0026310" id="r_ad0f8dfc574fa5da814d9e174b0026310"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0f8dfc574fa5da814d9e174b0026310">UpdateAgent</a> ()</td></tr>
+<tr class="memdesc:ad0f8dfc574fa5da814d9e174b0026310"><td class="mdescLeft">&#160;</td><td class="mdescRight">ナビメッシュエージェントの更新  <br /></td></tr>
+<tr class="separator:ad0f8dfc574fa5da814d9e174b0026310"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a2ff8f57e562f7893f8ea022be9f73364" id="r_a2ff8f57e562f7893f8ea022be9f73364"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ff8f57e562f7893f8ea022be9f73364">m_character</a> = null</td></tr>
+<tr class="separator:a2ff8f57e562f7893f8ea022be9f73364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c88429becc22e836d9aa5ad4c9a594b" id="r_a0c88429becc22e836d9aa5ad4c9a594b"><td class="memItemLeft" align="right" valign="top">CharacterController&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c88429becc22e836d9aa5ad4c9a594b">m_characterController</a> = null</td></tr>
+<tr class="separator:a0c88429becc22e836d9aa5ad4c9a594b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dc0ad1e67063dfaad77b88a21cbb453" id="r_a6dc0ad1e67063dfaad77b88a21cbb453"><td class="memItemLeft" align="right" valign="top">NavMeshAgent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dc0ad1e67063dfaad77b88a21cbb453">m_agent</a> = null</td></tr>
+<tr class="separator:a6dc0ad1e67063dfaad77b88a21cbb453"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad85f5236029a0d228b8aee454c763039" id="r_ad85f5236029a0d228b8aee454c763039"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_enemy.html">IEnemy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad85f5236029a0d228b8aee454c763039">m_canMoveObject</a> = null</td></tr>
+<tr class="separator:ad85f5236029a0d228b8aee454c763039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90ba71e15556a462bf7c44514b4440e5" id="r_a90ba71e15556a462bf7c44514b4440e5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90ba71e15556a462bf7c44514b4440e5">m_moveSpeed</a> = 0.1f</td></tr>
+<tr class="separator:a90ba71e15556a462bf7c44514b4440e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>プレイヤークラス </p>
+
+<p class="definition"> <a class="el" href="_i_character_controller_8_enemy_8cs_source.html">ICharacterController.Enemy.cs</a> の <a class="el" href="_i_character_controller_8_enemy_8cs_source.html#l00008">8</a> 行目に定義があります。</p>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="a5afa5acc989313f9eb022f92c8575aba" name="a5afa5acc989313f9eb022f92c8575aba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5afa5acc989313f9eb022f92c8575aba">&#9670;&#160;</a></span>InitializeInvoke()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void LIVINGHOUSE.App.EnemyController.InitializeInvoke </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初期化 </p>
+
+<p class="definition"> <a class="el" href="_i_character_controller_8_enemy_8cs_source.html">ICharacterController.Enemy.cs</a> の <a class="el" href="_i_character_controller_8_enemy_8cs_source.html#l00062">62</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ad0f8dfc574fa5da814d9e174b0026310" name="ad0f8dfc574fa5da814d9e174b0026310"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0f8dfc574fa5da814d9e174b0026310">&#9670;&#160;</a></span>UpdateAgent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.EnemyController.UpdateAgent </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ナビメッシュエージェントの更新 </p>
+
+<p class="definition"> <a class="el" href="_i_character_controller_8_enemy_8cs_source.html">ICharacterController.Enemy.cs</a> の <a class="el" href="_i_character_controller_8_enemy_8cs_source.html#l00077">77</a> 行目に定義があります。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller_ad0f8dfc574fa5da814d9e174b0026310_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller_ad0f8dfc574fa5da814d9e174b0026310_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller_ad0f8dfc574fa5da814d9e174b0026310_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller_ad0f8dfc574fa5da814d9e174b0026310_icgraph">
+<area shape="rect" title="ナビメッシュエージェントの更新" alt="" coords="293,5,532,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller.html#a2e0ffd5e69b84d66258f7166434f73d9" title="更新" alt="" coords="5,5,245,48"/>
+<area shape="poly" title=" " alt="" coords="278,29,245,29,245,24,278,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2e0ffd5e69b84d66258f7166434f73d9" name="a2e0ffd5e69b84d66258f7166434f73d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e0ffd5e69b84d66258f7166434f73d9">&#9670;&#160;</a></span>UpdateInvoke()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void LIVINGHOUSE.App.EnemyController.UpdateInvoke </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>更新 </p>
+
+<p class="definition"> <a class="el" href="_i_character_controller_8_enemy_8cs_source.html">ICharacterController.Enemy.cs</a> の <a class="el" href="_i_character_controller_8_enemy_8cs_source.html#l00070">70</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller_a2e0ffd5e69b84d66258f7166434f73d9_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller_a2e0ffd5e69b84d66258f7166434f73d9_cgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller_a2e0ffd5e69b84d66258f7166434f73d9_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller_a2e0ffd5e69b84d66258f7166434f73d9_cgraph">
+<area shape="rect" title="更新" alt="" coords="5,5,245,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller.html#ad0f8dfc574fa5da814d9e174b0026310" title="ナビメッシュエージェントの更新" alt="" coords="293,5,532,48"/>
+<area shape="poly" title=" " alt="" coords="245,24,278,24,278,29,245,29"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a6dc0ad1e67063dfaad77b88a21cbb453" name="a6dc0ad1e67063dfaad77b88a21cbb453"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dc0ad1e67063dfaad77b88a21cbb453">&#9670;&#160;</a></span>m_agent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">NavMeshAgent LIVINGHOUSE.App.EnemyController.m_agent = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_i_character_controller_8_enemy_8cs_source.html">ICharacterController.Enemy.cs</a> の <a class="el" href="_i_character_controller_8_enemy_8cs_source.html#l00014">14</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ad85f5236029a0d228b8aee454c763039" name="ad85f5236029a0d228b8aee454c763039"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad85f5236029a0d228b8aee454c763039">&#9670;&#160;</a></span>m_canMoveObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_enemy.html">IEnemy</a> LIVINGHOUSE.App.EnemyController.m_canMoveObject = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_i_character_controller_8_enemy_8cs_source.html">ICharacterController.Enemy.cs</a> の <a class="el" href="_i_character_controller_8_enemy_8cs_source.html#l00016">16</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a2ff8f57e562f7893f8ea022be9f73364" name="a2ff8f57e562f7893f8ea022be9f73364"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ff8f57e562f7893f8ea022be9f73364">&#9670;&#160;</a></span>m_character</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a> LIVINGHOUSE.App.EnemyController.m_character = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_i_character_controller_8_enemy_8cs_source.html">ICharacterController.Enemy.cs</a> の <a class="el" href="_i_character_controller_8_enemy_8cs_source.html#l00010">10</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a0c88429becc22e836d9aa5ad4c9a594b" name="a0c88429becc22e836d9aa5ad4c9a594b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c88429becc22e836d9aa5ad4c9a594b">&#9670;&#160;</a></span>m_characterController</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CharacterController LIVINGHOUSE.App.EnemyController.m_characterController = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_i_character_controller_8_enemy_8cs_source.html">ICharacterController.Enemy.cs</a> の <a class="el" href="_i_character_controller_8_enemy_8cs_source.html#l00012">12</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a90ba71e15556a462bf7c44514b4440e5" name="a90ba71e15556a462bf7c44514b4440e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90ba71e15556a462bf7c44514b4440e5">&#9670;&#160;</a></span>m_moveSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float LIVINGHOUSE.App.EnemyController.m_moveSpeed = 0.1f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_i_character_controller_8_enemy_8cs_source.html">ICharacterController.Enemy.cs</a> の <a class="el" href="_i_character_controller_8_enemy_8cs_source.html#l00018">18</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<h2 class="groupheader">プロパティ詳解</h2>
+<a id="a02f15737ed48d4e76e9b5f214d4f57a8" name="a02f15737ed48d4e76e9b5f214d4f57a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02f15737ed48d4e76e9b5f214d4f57a8">&#9670;&#160;</a></span>AgentEnable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.App.EnemyController.AgentEnable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ナビエージェントのアクティブ状態 </p>
+
+<p class="definition"> <a class="el" href="_i_character_controller_8_enemy_8cs_source.html">ICharacterController.Enemy.cs</a> の <a class="el" href="_i_character_controller_8_enemy_8cs_source.html#l00046">46</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a2264180360b4e59189f9ba124da73b4a" name="a2264180360b4e59189f9ba124da73b4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2264180360b4e59189f9ba124da73b4a">&#9670;&#160;</a></span>character</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a> LIVINGHOUSE.App.EnemyController.character</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>キャラクター </p>
+
+<p class="definition"> <a class="el" href="_i_character_controller_8_enemy_8cs_source.html">ICharacterController.Enemy.cs</a> の <a class="el" href="_i_character_controller_8_enemy_8cs_source.html#l00022">22</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ae36895d4da60ac2597e953f18a1839f6" name="ae36895d4da60ac2597e953f18a1839f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae36895d4da60ac2597e953f18a1839f6">&#9670;&#160;</a></span>characterController</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override CharacterController LIVINGHOUSE.App.EnemyController.characterController</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>キャラクターコントローラー </p>
+
+<p class="definition"> <a class="el" href="_i_character_controller_8_enemy_8cs_source.html">ICharacterController.Enemy.cs</a> の <a class="el" href="_i_character_controller_8_enemy_8cs_source.html#l00030">30</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ad3a8dc64727a16f9f1821f4472f4ec98" name="ad3a8dc64727a16f9f1821f4472f4ec98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3a8dc64727a16f9f1821f4472f4ec98">&#9670;&#160;</a></span>ControllerEnable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.App.EnemyController.ControllerEnable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>キャラクターコントローラーが機能しているか </p>
+
+<p class="definition"> <a class="el" href="_i_character_controller_8_enemy_8cs_source.html">ICharacterController.Enemy.cs</a> の <a class="el" href="_i_character_controller_8_enemy_8cs_source.html#l00054">54</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a67462909faf68d708b08b6509cb0be41" name="a67462909faf68d708b08b6509cb0be41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67462909faf68d708b08b6509cb0be41">&#9670;&#160;</a></span>moveSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override float LIVINGHOUSE.App.EnemyController.moveSpeed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>移動速度 </p>
+
+<p class="definition"> <a class="el" href="_i_character_controller_8_enemy_8cs_source.html">ICharacterController.Enemy.cs</a> の <a class="el" href="_i_character_controller_8_enemy_8cs_source.html#l00038">38</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/Character/<a class="el" href="_i_character_controller_8_enemy_8cs_source.html">ICharacterController.Enemy.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e.html">LIVINGHOUSE</a></li><li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">App</a></li><li class="navelem"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller.html">EnemyController</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

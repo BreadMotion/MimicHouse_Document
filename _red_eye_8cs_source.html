@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/Item/RedEye.cs ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('_red_eye_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">RedEye.cs</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_red_eye_8cs.html">[詳解]</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html">LIVINGHOUSE.Manager</a>;</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute.html">LIVINGHOUSE.Attribute</a>;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>System.ComponentModel;</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    [Serializable, Name(<span class="stringliteral">&quot;紅い目&quot;</span>)]</div>
+<div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html">    9</a></span>    <span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html">RedEye</a> : <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html">IItem</a></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    {</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        [Description(<span class="stringliteral">&quot;現在のカウント&quot;</span>)]</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a26bc6ca835ec2d791094178a3951764d">   12</a></span>        <span class="keyword">private</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a26bc6ca835ec2d791094178a3951764d">m_nowCount</a> = 0;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        [Description(<span class="stringliteral">&quot;クールダウン&quot;</span>)]</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#aec13d7b5e83cdc9e6049f9d228c815ba">   15</a></span>        <span class="keyword">private</span> <span class="keywordtype">float</span> <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#aec13d7b5e83cdc9e6049f9d228c815ba">m_cooldown</a> = 0.0f;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a587dafa4f51621762466a5bdf5c0a22e">   19</a></span>        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">int</span> <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a587dafa4f51621762466a5bdf5c0a22e">NowCount</a></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>            <span class="keyword">get</span> =&gt; <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a26bc6ca835ec2d791094178a3951764d">m_nowCount</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        }</div>
+</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="};">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a602b60b3a857383c430f716a43fbd4e9">   26</a></span>        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">float</span> <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a602b60b3a857383c430f716a43fbd4e9">CoolDown</a></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        {</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            <span class="keyword">get</span> =&gt; <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#aec13d7b5e83cdc9e6049f9d228c815ba">m_cooldown</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        }</div>
+</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="foldopen" id="foldopen00033" data-start="{" data-end="};">
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a265c140e0714188b7ed9eb91c7518421">   33</a></span>        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">float</span> <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a265c140e0714188b7ed9eb91c7518421">RemainingCoolDown</a></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        {</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>            <span class="keyword">get</span> =&gt; <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#aec13d7b5e83cdc9e6049f9d228c815ba">m_cooldown</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            <span class="keyword">set</span> =&gt; _ = value;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        }</div>
+</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="foldopen" id="foldopen00041" data-start="{" data-end="};">
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a566beb413f60d31ca2237c84ecd7d455">   41</a></span>        <span class="keyword">public</span> <span class="keyword">override</span> <a class="code hl_enumeration" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html#aa8dcdf94096140093c720ac993d58e59">ItemManager.ItemLayer</a> <a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a566beb413f60d31ca2237c84ecd7d455">ItemLayer</a></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        {</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            <span class="keyword">get</span> =&gt; <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html">ItemManager</a>.<a class="code hl_enumeration" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html#aa8dcdf94096140093c720ac993d58e59">ItemLayer</a>.RedEye;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        }</div>
+</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#af034d8cdcbc7a69d2920b5dc12e145e9">   51</a></span>        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">int</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#af034d8cdcbc7a69d2920b5dc12e145e9">AddNowCount</a>() =&gt; <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a26bc6ca835ec2d791094178a3951764d">m_nowCount</a>++;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#ab623f72b573b2f986c1249ee648a6d8f">   58</a></span>        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">int</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#ab623f72b573b2f986c1249ee648a6d8f">DownNowCount</a>() =&gt; <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a26bc6ca835ec2d791094178a3951764d">m_nowCount</a>--;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="foldopen" id="foldopen00062" data-start="{" data-end="}">
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#ae577466636d61c48efbcdb6797880e35">   62</a></span>        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#ae577466636d61c48efbcdb6797880e35">Execute</a>()</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        {</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            base.Execute();</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a081576c9152c45749e90feb053dbfd0c">IsCountZero</a>()) <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>            <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#ab623f72b573b2f986c1249ee648a6d8f">DownNowCount</a>();</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        }</div>
+</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="foldopen" id="foldopen00073" data-start="{" data-end="}">
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a226db4ef90f58126c5625b8930a07700">   73</a></span>        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a226db4ef90f58126c5625b8930a07700">Update</a>()</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        {</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>            base.Update();</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>            <span class="keywordflow">if</span>(<a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ac68b116bda1ca94db10eafc30ca28e0e">IsCoolDown</a>()) <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a713073551daa2f752ca5ea1875f251bd">UpdateCoolDownTime</a>();</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a081576c9152c45749e90feb053dbfd0c">IsCountZero</a>()) <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        }</div>
+</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="foldopen" id="foldopen00087" data-start="{" data-end="}">
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#aca0f899fde49f13b078712f079973bc7">   87</a></span>        <span class="keyword">protected</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#aca0f899fde49f13b078712f079973bc7">Initialize_Impl&lt;T1&gt;</a>(T1 arg1)</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        {</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            <a class="code hl_variable" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#aec13d7b5e83cdc9e6049f9d228c815ba">m_cooldown</a> = (float)Convert.ChangeType(arg1, typeof(<span class="keywordtype">float</span>));</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        }</div>
+</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    }</div>
+</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>}</div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html">LIVINGHOUSE.App.IItem</a></div><div class="ttdoc">基底アイテムクラス</div><div class="ttdef"><b>Definition</b> <a href="_i_item_8cs_source.html#l00009">IItem.cs:10</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_a081576c9152c45749e90feb053dbfd0c"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a081576c9152c45749e90feb053dbfd0c">LIVINGHOUSE.App.IItem.IsCountZero</a></div><div class="ttdeci">bool IsCountZero()</div><div class="ttdoc">カウントがゼロチェック</div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_a713073551daa2f752ca5ea1875f251bd"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a713073551daa2f752ca5ea1875f251bd">LIVINGHOUSE.App.IItem.UpdateCoolDownTime</a></div><div class="ttdeci">virtual void UpdateCoolDownTime()</div><div class="ttdoc">クールダウンの残時間の更新</div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item_html_ac68b116bda1ca94db10eafc30ca28e0e"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ac68b116bda1ca94db10eafc30ca28e0e">LIVINGHOUSE.App.IItem.IsCoolDown</a></div><div class="ttdeci">bool IsCoolDown()</div><div class="ttdoc">クールダウン中か</div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html">LIVINGHOUSE.App.RedEye</a></div><div class="ttdef"><b>Definition</b> <a href="#l00009">RedEye.cs:10</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye_html_a226db4ef90f58126c5625b8930a07700"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a226db4ef90f58126c5625b8930a07700">LIVINGHOUSE.App.RedEye.Update</a></div><div class="ttdeci">override void Update()</div><div class="ttdoc">更新</div><div class="ttdef"><b>Definition</b> <a href="#l00073">RedEye.cs:73</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye_html_a265c140e0714188b7ed9eb91c7518421"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a265c140e0714188b7ed9eb91c7518421">LIVINGHOUSE.App.RedEye.RemainingCoolDown</a></div><div class="ttdeci">override float RemainingCoolDown</div><div class="ttdoc">クールダウン残時間</div><div class="ttdef"><b>Definition</b> <a href="#l00033">RedEye.cs:34</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye_html_a26bc6ca835ec2d791094178a3951764d"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a26bc6ca835ec2d791094178a3951764d">LIVINGHOUSE.App.RedEye.m_nowCount</a></div><div class="ttdeci">int m_nowCount</div><div class="ttdef"><b>Definition</b> <a href="#l00012">RedEye.cs:12</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye_html_a566beb413f60d31ca2237c84ecd7d455"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a566beb413f60d31ca2237c84ecd7d455">LIVINGHOUSE.App.RedEye.ItemLayer</a></div><div class="ttdeci">override ItemManager.ItemLayer ItemLayer</div><div class="ttdoc">アイテムの種類</div><div class="ttdef"><b>Definition</b> <a href="#l00041">RedEye.cs:42</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye_html_a587dafa4f51621762466a5bdf5c0a22e"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a587dafa4f51621762466a5bdf5c0a22e">LIVINGHOUSE.App.RedEye.NowCount</a></div><div class="ttdeci">override int NowCount</div><div class="ttdoc">現在のカウント</div><div class="ttdef"><b>Definition</b> <a href="#l00019">RedEye.cs:20</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye_html_a602b60b3a857383c430f716a43fbd4e9"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#a602b60b3a857383c430f716a43fbd4e9">LIVINGHOUSE.App.RedEye.CoolDown</a></div><div class="ttdeci">override float CoolDown</div><div class="ttdoc">クールダウン</div><div class="ttdef"><b>Definition</b> <a href="#l00026">RedEye.cs:27</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye_html_ab623f72b573b2f986c1249ee648a6d8f"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#ab623f72b573b2f986c1249ee648a6d8f">LIVINGHOUSE.App.RedEye.DownNowCount</a></div><div class="ttdeci">override int DownNowCount()</div><div class="ttdoc">カウント減少</div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye_html_aca0f899fde49f13b078712f079973bc7"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#aca0f899fde49f13b078712f079973bc7">LIVINGHOUSE.App.RedEye.Initialize_Impl&lt; T1 &gt;</a></div><div class="ttdeci">override void Initialize_Impl&lt; T1 &gt;(T1 arg1)</div><div class="ttdoc">初期化を定義</div><div class="ttdef"><b>Definition</b> <a href="#l00087">RedEye.cs:87</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye_html_ae577466636d61c48efbcdb6797880e35"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#ae577466636d61c48efbcdb6797880e35">LIVINGHOUSE.App.RedEye.Execute</a></div><div class="ttdeci">override void Execute()</div><div class="ttdoc">呼び出し</div><div class="ttdef"><b>Definition</b> <a href="#l00062">RedEye.cs:62</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye_html_aec13d7b5e83cdc9e6049f9d228c815ba"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#aec13d7b5e83cdc9e6049f9d228c815ba">LIVINGHOUSE.App.RedEye.m_cooldown</a></div><div class="ttdeci">float m_cooldown</div><div class="ttdef"><b>Definition</b> <a href="#l00015">RedEye.cs:15</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye_html_af034d8cdcbc7a69d2920b5dc12e145e9"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#af034d8cdcbc7a69d2920b5dc12e145e9">LIVINGHOUSE.App.RedEye.AddNowCount</a></div><div class="ttdeci">override int AddNowCount()</div><div class="ttdoc">カウント増加</div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html">LIVINGHOUSE.Manager.ItemManager</a></div><div class="ttdoc">　アイテム管理クラス　</div><div class="ttdef"><b>Definition</b> <a href="_item_manager_8cs_source.html#l00011">ItemManager.cs:12</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager_html_aa8dcdf94096140093c720ac993d58e59"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html#aa8dcdf94096140093c720ac993d58e59">LIVINGHOUSE.Manager.ItemManager.ItemLayer</a></div><div class="ttdeci">ItemLayer</div><div class="ttdef"><b>Definition</b> <a href="_item_manager_8cs_source.html#l00021">ItemManager.cs:22</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div><div class="ttdef"><b>Definition</b> <a href="_audio_controller_8cs_source.html#l00004">AudioController.cs:5</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute.html">LIVINGHOUSE.Attribute</a></div><div class="ttdef"><b>Definition</b> <a href="_class_name_attribute_8cs_source.html#l00003">ClassNameAttribute.cs:4</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html">LIVINGHOUSE.Manager</a></div><div class="ttdef"><b>Definition</b> <a href="_application_manager_8cs_source.html#l00003">ApplicationManager.cs:4</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_3d328b3dca154a477d99beb656992be2.html">Unity</a></li><li class="navelem"><a class="el" href="dir_3b33dffaa21a2ac6f7978a949ffd4e41.html">Assets</a></li><li class="navelem"><a class="el" href="dir_817f9772e3e161556b23fdd8948b88aa.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_9e2633ee6edb8c4cb72d28d060b37fa1.html">App</a></li><li class="navelem"><a class="el" href="dir_f875bbc17494db705dc3dbdb95f25f44.html">Item</a></li><li class="navelem"><a class="el" href="_red_eye_8cs.html">RedEye.cs</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.Manager.WipeManager.WipeOut" name="LIVINGHOUSE.Manager.WipeManager.WipeOut">
+<area shape="rect" id="Node000001" title="ワイプアウト指示" alt="" coords="5,5,202,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_wipe_manager.html#a7575759f58d2481158a2b619339f58c1" title="画面暗転から抜ける" alt="" coords="250,5,446,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,24,234,24,234,29,202,29"/>
+</map>

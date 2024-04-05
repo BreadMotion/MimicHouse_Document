@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.Manager.BuffManager.GenerateBuff&lt; BuffType &gt;" name="LIVINGHOUSE.Manager.BuffManager.GenerateBuff&lt; BuffType &gt;">
+<area shape="rect" id="Node000001" title="バフ生成" alt="" coords="5,5,194,64"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a66123ce5460ad9518688cac1e1fbadd6" title="デフォルトコンストラクター(コンテキスト以外での使用禁止)" alt="" coords="242,21,435,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,32,227,32,227,37,194,37"/>
+</map>

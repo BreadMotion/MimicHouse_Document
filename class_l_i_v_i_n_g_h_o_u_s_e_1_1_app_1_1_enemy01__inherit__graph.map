@@ -1,0 +1,9 @@
+<map id="LIVINGHOUSE.App.Enemy01" name="LIVINGHOUSE.App.Enemy01">
+<area shape="rect" id="Node000001" title="Enemy01クラス" alt="" coords="5,229,200,256"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_enemy.html" title="Enemyのインターフェースクラス" alt="" coords="70,155,135,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,196,105,229,100,229,100,196"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html" title="キャラクター動作" alt="" coords="45,80,160,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,122,105,154,100,154,100,122"/>
+<area shape="rect" id="Node000004" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html" title="当たり判定を取るオブジェクトインターフェース" alt="" coords="63,5,142,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="105,47,105,80,100,80,100,47"/>
+</map>
