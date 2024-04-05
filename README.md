@@ -1,0 +1,2 @@
+# MimicHouse_Document
+生き家プロジェクトのドキュメント
