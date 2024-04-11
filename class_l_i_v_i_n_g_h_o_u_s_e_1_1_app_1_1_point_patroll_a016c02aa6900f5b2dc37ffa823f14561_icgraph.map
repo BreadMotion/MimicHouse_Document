@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.App.PointPatroll.GetNextPoints" name="LIVINGHOUSE.App.PointPatroll.GetNextPoints">
+<area shape="rect" id="Node000001" title="次ポイントリストを取得" alt="" coords="588,5,798,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_scouter_enemy01.html#a552a92c9896c4cc7f3303cb509d5b8f7" title="次の目標ポイントを考える" alt="" coords="297,5,540,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="573,29,541,29,541,24,573,24"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_scouter_enemy01.html#a8fc3f31f200a03def95c8b41fefa4cec" title="更新" alt="" coords="5,5,249,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="282,29,249,29,249,24,282,24"/>
+</map>

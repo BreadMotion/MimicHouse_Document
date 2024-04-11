@@ -1,7 +1,9 @@
 <map id="LIVINGHOUSE.SO.ItemScriptableObject" name="LIVINGHOUSE.SO.ItemScriptableObject">
-<area shape="rect" id="Node000001" title="アイテムコンテキスト" alt="" coords="14,96,232,139"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,123,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,44,112,94,108,97,77,46"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="147,5,218,32"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,46,138,97,133,94,165,44"/>
+<area shape="rect" id="Node000001" title="アイテムコンテキスト" alt="" coords="5,204,224,247"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="35,105,152,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,146,113,203,108,204,96,147"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html" title="　アイテム管理　" alt="" coords="176,97,368,140"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="230,151,147,206,144,201,227,146"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="190,5,354,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="275,63,275,97,269,97,269,63"/>
 </map>

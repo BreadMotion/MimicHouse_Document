@@ -10,6 +10,7 @@ var _i_hit_object_8cs =
       [ "PlayerBullet", "_i_hit_object_8cs.html#a0178990a757b696cc22f48a467d938f4a4a797370a4fb1a46730f795f5a8e2150", null ],
       [ "EnemyBullet", "_i_hit_object_8cs.html#a0178990a757b696cc22f48a467d938f4a87da8c547ceb34e5da159875a8960231", null ],
       [ "PlayerGroup", "_i_hit_object_8cs.html#a0178990a757b696cc22f48a467d938f4ab11086ae742db93be89e1349cf85d343", null ],
-      [ "EnemyGroup", "_i_hit_object_8cs.html#a0178990a757b696cc22f48a467d938f4a62627b88900c88a03b719ce108efcd20", null ]
+      [ "EnemyGroup", "_i_hit_object_8cs.html#a0178990a757b696cc22f48a467d938f4a62627b88900c88a03b719ce108efcd20", null ],
+      [ "Goal", "_i_hit_object_8cs.html#a0178990a757b696cc22f48a467d938f4a12c74214cb4c18cf36d885303d6aa2e1", null ]
     ] ]
 ];

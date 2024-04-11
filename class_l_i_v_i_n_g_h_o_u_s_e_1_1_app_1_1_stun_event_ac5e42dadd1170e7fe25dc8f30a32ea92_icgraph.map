@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.App.StunEvent.GetCharacter" name="LIVINGHOUSE.App.StunEvent.GetCharacter">
+<area shape="rect" id="Node000001" title="キャラクターの参照を取得" alt="" coords="256,39,458,81"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_stun_event.html#a3de278196296c8117739917e156b969a" title="成功時呼び出し" alt="" coords="5,5,208,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="240,47,208,43,208,37,241,42"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_stun_event.html#a2f89dd5c87d27d0d86f82545eeb86346" title="条件演算" alt="" coords="5,72,208,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="241,78,208,83,208,77,240,73"/>
+</map>

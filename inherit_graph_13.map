@@ -1,3 +1,7 @@
 <map id="クラス階層図" name="クラス階層図">
-<area shape="rect" id="Node000000" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_serialize_interface.html" title="Interfaceを継承したクラスに参照するためのクラス" alt="" coords="5,5,205,48"/>
+<area shape="rect" id="Node000000" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html" title="基底シーンインターフェース" alt="" coords="5,31,199,57"/>
+<area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game.html" title="ゲームシーン" alt="" coords="247,5,435,32"/>
+<area shape="poly" id="edge70_Node000000_Node000001" title=" " alt="" coords="213,30,246,26,247,31,214,35"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_title.html" title="タイトルシーン" alt="" coords="252,56,430,83"/>
+<area shape="poly" id="edge71_Node000000_Node000002" title=" " alt="" coords="214,53,252,57,251,63,213,58"/>
 </map>

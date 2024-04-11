@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.App.DeathEvent.IsCooldown" name="LIVINGHOUSE.App.DeathEvent.IsCooldown">
+<area shape="rect" id="Node000001" title="クールダウンの計算を行う" alt="" coords="263,5,472,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a6f638fce8944f9d6554e6162f4580d8e" title="条件演算" alt="" coords="5,5,215,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="248,29,215,29,215,24,248,24"/>
+</map>

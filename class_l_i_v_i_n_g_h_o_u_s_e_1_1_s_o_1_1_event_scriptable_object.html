@@ -126,10 +126,10 @@ LIVINGHOUSE.SO.EventScriptableObject 連携図</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 プロパティ</h2></td></tr>
 <tr class="memitem:a0d0cbb58b1791a4cbc92874a41ff8d8d" id="r_a0d0cbb58b1791a4cbc92874a41ff8d8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d0cbb58b1791a4cbc92874a41ff8d8d">FinishIfFalse</a><code> [get]</code></td></tr>
-<tr class="memdesc:a0d0cbb58b1791a4cbc92874a41ff8d8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">それぞれのイベント実行中に実行結果がfalseのイベントがあったら強制終了する  <br /></td></tr>
+<tr class="memdesc:a0d0cbb58b1791a4cbc92874a41ff8d8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">False時即終了  <br /></td></tr>
 <tr class="separator:a0d0cbb58b1791a4cbc92874a41ff8d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6576532baa7080ebdf891daf21b31a5" id="r_ad6576532baa7080ebdf891daf21b31a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6576532baa7080ebdf891daf21b31a5">AllModifierIsTrueWhenExecute</a><code> [get]</code></td></tr>
-<tr class="memdesc:ad6576532baa7080ebdf891daf21b31a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">すべてのModifierInvoke実行結果のReturnValueがTrueだった時にコンテンツ関数を実行する  <br /></td></tr>
+<tr class="memdesc:ad6576532baa7080ebdf891daf21b31a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">全イベントTrue時実行  <br /></td></tr>
 <tr class="separator:ad6576532baa7080ebdf891daf21b31a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d5008c2ed08ff536324a040d0c37dd8" id="r_a1d5008c2ed08ff536324a040d0c37dd8"><td class="memItemLeft" align="right" valign="top">List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d5008c2ed08ff536324a040d0c37dd8">EventName</a><code> [get]</code></td></tr>
 <tr class="memdesc:a1d5008c2ed08ff536324a040d0c37dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">イベント名リスト　  <br /></td></tr>
@@ -141,12 +141,16 @@ LIVINGHOUSE.SO.EventScriptableObject 連携図</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 非公開変数類</h2></td></tr>
 <tr class="memitem:abfdacf07cc02260c1e80c4d66ac6c8bc" id="r_abfdacf07cc02260c1e80c4d66ac6c8bc"><td class="memItemLeft" align="right" valign="top">List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfdacf07cc02260c1e80c4d66ac6c8bc">m_eventName</a></td></tr>
+<tr class="memdesc:abfdacf07cc02260c1e80c4d66ac6c8bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">イベント名リスト  <br /></td></tr>
 <tr class="separator:abfdacf07cc02260c1e80c4d66ac6c8bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a489457c2ab2f2819a73ea96bcdea0bab" id="r_a489457c2ab2f2819a73ea96bcdea0bab"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html">App.IEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a489457c2ab2f2819a73ea96bcdea0bab">m_event</a></td></tr>
+<tr class="memdesc:a489457c2ab2f2819a73ea96bcdea0bab"><td class="mdescLeft">&#160;</td><td class="mdescRight">イベントリスト  <br /></td></tr>
 <tr class="separator:a489457c2ab2f2819a73ea96bcdea0bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4875b974877d303537b13295c165438e" id="r_a4875b974877d303537b13295c165438e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4875b974877d303537b13295c165438e">m_finishIfFalse</a> = false</td></tr>
+<tr class="memdesc:a4875b974877d303537b13295c165438e"><td class="mdescLeft">&#160;</td><td class="mdescRight">False時即終了  <br /></td></tr>
 <tr class="separator:a4875b974877d303537b13295c165438e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace32752d8f2092188d27958e0fbe5c99" id="r_ace32752d8f2092188d27958e0fbe5c99"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace32752d8f2092188d27958e0fbe5c99">m_allModifierIfTrueWhenExecute</a> = false</td></tr>
+<tr class="memdesc:ace32752d8f2092188d27958e0fbe5c99"><td class="mdescLeft">&#160;</td><td class="mdescRight">全イベントTrue時実行  <br /></td></tr>
 <tr class="separator:ace32752d8f2092188d27958e0fbe5c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
@@ -174,7 +178,9 @@ LIVINGHOUSE.SO.EventScriptableObject 連携図</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition"> <a class="el" href="_event_scriptable_object_8cs_source.html">EventScriptableObject.cs</a> の <a class="el" href="_event_scriptable_object_8cs_source.html#l00022">22</a> 行目に定義があります。</p>
+<p>全イベントTrue時実行 </p>
+
+<p class="definition"> <a class="el" href="_event_scriptable_object_8cs_source.html">EventScriptableObject.cs</a> の <a class="el" href="_event_scriptable_object_8cs_source.html#l00025">25</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -198,7 +204,9 @@ LIVINGHOUSE.SO.EventScriptableObject 連携図</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition"> <a class="el" href="_event_scriptable_object_8cs_source.html">EventScriptableObject.cs</a> の <a class="el" href="_event_scriptable_object_8cs_source.html#l00015">15</a> 行目に定義があります。</p>
+<p>イベントリスト </p>
+
+<p class="definition"> <a class="el" href="_event_scriptable_object_8cs_source.html">EventScriptableObject.cs</a> の <a class="el" href="_event_scriptable_object_8cs_source.html#l00017">17</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -222,7 +230,9 @@ LIVINGHOUSE.SO.EventScriptableObject 連携図</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition"> <a class="el" href="_event_scriptable_object_8cs_source.html">EventScriptableObject.cs</a> の <a class="el" href="_event_scriptable_object_8cs_source.html#l00012">12</a> 行目に定義があります。</p>
+<p>イベント名リスト </p>
+
+<p class="definition"> <a class="el" href="_event_scriptable_object_8cs_source.html">EventScriptableObject.cs</a> の <a class="el" href="_event_scriptable_object_8cs_source.html#l00013">13</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -246,7 +256,9 @@ LIVINGHOUSE.SO.EventScriptableObject 連携図</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition"> <a class="el" href="_event_scriptable_object_8cs_source.html">EventScriptableObject.cs</a> の <a class="el" href="_event_scriptable_object_8cs_source.html#l00019">19</a> 行目に定義があります。</p>
+<p>False時即終了 </p>
+
+<p class="definition"> <a class="el" href="_event_scriptable_object_8cs_source.html">EventScriptableObject.cs</a> の <a class="el" href="_event_scriptable_object_8cs_source.html#l00021">21</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -271,9 +283,9 @@ LIVINGHOUSE.SO.EventScriptableObject 連携図</div>
 </table>
 </div><div class="memdoc">
 
-<p>すべてのModifierInvoke実行結果のReturnValueがTrueだった時にコンテンツ関数を実行する </p>
+<p>全イベントTrue時実行 </p>
 
-<p class="definition"> <a class="el" href="_event_scriptable_object_8cs_source.html">EventScriptableObject.cs</a> の <a class="el" href="_event_scriptable_object_8cs_source.html#l00036">36</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_event_scriptable_object_8cs_source.html">EventScriptableObject.cs</a> の <a class="el" href="_event_scriptable_object_8cs_source.html#l00039">39</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -299,7 +311,7 @@ LIVINGHOUSE.SO.EventScriptableObject 連携図</div>
 
 <p>イベントリスト　 </p>
 
-<p class="definition"> <a class="el" href="_event_scriptable_object_8cs_source.html">EventScriptableObject.cs</a> の <a class="el" href="_event_scriptable_object_8cs_source.html#l00056">56</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_event_scriptable_object_8cs_source.html">EventScriptableObject.cs</a> の <a class="el" href="_event_scriptable_object_8cs_source.html#l00059">59</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -325,7 +337,7 @@ LIVINGHOUSE.SO.EventScriptableObject 連携図</div>
 
 <p>イベント名リスト　 </p>
 
-<p class="definition"> <a class="el" href="_event_scriptable_object_8cs_source.html">EventScriptableObject.cs</a> の <a class="el" href="_event_scriptable_object_8cs_source.html#l00046">46</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_event_scriptable_object_8cs_source.html">EventScriptableObject.cs</a> の <a class="el" href="_event_scriptable_object_8cs_source.html#l00049">49</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -349,9 +361,9 @@ LIVINGHOUSE.SO.EventScriptableObject 連携図</div>
 </table>
 </div><div class="memdoc">
 
-<p>それぞれのイベント実行中に実行結果がfalseのイベントがあったら強制終了する </p>
+<p>False時即終了 </p>
 
-<p class="definition"> <a class="el" href="_event_scriptable_object_8cs_source.html">EventScriptableObject.cs</a> の <a class="el" href="_event_scriptable_object_8cs_source.html#l00026">26</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_event_scriptable_object_8cs_source.html">EventScriptableObject.cs</a> の <a class="el" href="_event_scriptable_object_8cs_source.html#l00029">29</a> 行目に定義があります。</p>
 
 </div>
 </div>

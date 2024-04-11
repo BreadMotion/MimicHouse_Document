@@ -8,6 +8,7 @@ var class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02 =
     [ "InterProcByIsInvisible", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#a0ad34fd7eeaf57056677e8e3afd0c2d6", null ],
     [ "MoveByEntityState", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#a1d8c76d82884223145d6947e70247caf", null ],
     [ "MoveByInvisibleState", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#a33d524dfd29bcdc0b7b17d4fb25c6668", null ],
+    [ "OnDeath", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#aa35ad2333631ecef238e0688a12ef347", null ],
     [ "SetHOHitIndex", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#a7d5ceddc1cf0df51c550456ee7cafbc6", null ],
     [ "SetHOIsHit", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#ab0ed705eaec278b76c4b3faf9a03ef1b", null ],
     [ "UpdateChangeByInvisible", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#a4d2c19cf4b820b500209abae74474923", null ],

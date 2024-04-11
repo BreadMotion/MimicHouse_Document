@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.App.PointPatroll.ExecBuild" name="LIVINGHOUSE.App.PointPatroll.ExecBuild">
+<area shape="rect" id="Node000001" title="ポイントビルド" alt="" coords="264,39,474,81"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a695681deb1d3a76ed73154c231b1af3a" title="各パトロールポイント群のマージ" alt="" coords="5,5,216,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,47,216,43,217,38,249,42"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a3eadea6742bbea04cc4d5e4ba037b212" title="アプリケーション上での初期化" alt="" coords="5,72,216,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="249,78,217,82,216,77,249,73"/>
+</map>

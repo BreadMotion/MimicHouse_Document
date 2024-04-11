@@ -97,16 +97,19 @@ $(function(){initNavTree('class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_check_key_even
 <a href="#properties">プロパティ</a> &#124;
 <a href="#pri-attribs">非公開変数類</a> &#124;
 <a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_check_key_event-members.html">全メンバ一覧</a>  </div>
-  <div class="headertitle"><div class="title">LIVINGHOUSE.App.CheckKeyEvent クラス</div></div>
+  <div class="headertitle"><div class="title">LIVINGHOUSE.App.CheckKeyEvent クラス<span class="mlabels"><span class="mlabel">sealed</span></span></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>鍵使用イベント  
+ <a href="#details">[詳解]</a></p>
 <div class="dynheader">
 LIVINGHOUSE.App.CheckKeyEvent の継承関係図</div>
 <div class="dyncontent">
 <div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_check_key_event__inherit__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_check_key_event_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_check_key_event_inherit__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_check_key_event_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,80,205,123"/>
-<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html" title="基底イベントクラス" alt="" coords="77,5,133,32"/>
+<area shape="rect" title="鍵使用イベント" alt="" coords="5,80,205,123"/>
+<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html" title="基底イベントインターフェース" alt="" coords="77,5,133,32"/>
 <area shape="poly" title=" " alt="" coords="108,47,108,80,102,80,102,47"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
@@ -115,12 +118,12 @@ LIVINGHOUSE.App.CheckKeyEvent 連携図</div>
 <div class="dyncontent">
 <div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_check_key_event__coll__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_check_key_event_coll__map" alt="Collaboration graph"/></div>
 <map name="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_check_key_event_coll__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_check_key_event_coll__map">
-<area shape="rect" title=" " alt="" coords="5,204,205,247"/>
-<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html" title="基底イベントクラス" alt="" coords="56,105,112,132"/>
+<area shape="rect" title="鍵使用イベント" alt="" coords="5,204,205,247"/>
+<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html" title="基底イベントインターフェース" alt="" coords="56,105,112,132"/>
 <area shape="poly" title=" " alt="" coords="92,146,103,203,98,204,86,147"/>
-<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html" title="　アイテム管理クラス　" alt="" coords="136,97,327,140"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html" title="　アイテム管理　" alt="" coords="136,97,327,140"/>
 <area shape="poly" title=" " alt="" coords="197,152,132,206,128,201,194,148"/>
-<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="130,5,334,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="150,5,313,48"/>
 <area shape="poly" title=" " alt="" coords="234,63,234,97,229,97,229,63"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
@@ -128,30 +131,41 @@ LIVINGHOUSE.App.CheckKeyEvent 連携図</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 公開メンバ関数</h2></td></tr>
 <tr class="memitem:a8df07dd02af8e4238e57d641b590780d" id="r_a8df07dd02af8e4238e57d641b590780d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8df07dd02af8e4238e57d641b590780d">ModifierInvoke</a> (GameObject owner, Dictionary&lt; string, <a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html">IEvent</a> &gt; otherEvents)</td></tr>
-<tr class="memdesc:a8df07dd02af8e4238e57d641b590780d"><td class="mdescLeft">&#160;</td><td class="mdescRight">ReturnValueの計算  <br /></td></tr>
+<tr class="memdesc:a8df07dd02af8e4238e57d641b590780d"><td class="mdescLeft">&#160;</td><td class="mdescRight">条件演算  <br /></td></tr>
 <tr class="separator:a8df07dd02af8e4238e57d641b590780d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3655e262e316ea45edb65fd30df8425e" id="r_a3655e262e316ea45edb65fd30df8425e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3655e262e316ea45edb65fd30df8425e">ContentInvoke</a> (GameObject owner, Dictionary&lt; string, <a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html">IEvent</a> &gt; otherEvents)</td></tr>
+<tr class="memdesc:a3655e262e316ea45edb65fd30df8425e"><td class="mdescLeft">&#160;</td><td class="mdescRight">成功時呼び出し  <br /></td></tr>
 <tr class="separator:a3655e262e316ea45edb65fd30df8425e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f491c0e996f78495b65879b234057d0" id="r_a2f491c0e996f78495b65879b234057d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f491c0e996f78495b65879b234057d0">NotModifierContentInvoke</a> (GameObject owner, Dictionary&lt; string, <a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html">IEvent</a> &gt; otherEvents)</td></tr>
+<tr class="memdesc:a2f491c0e996f78495b65879b234057d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">失敗時呼び出し  <br /></td></tr>
 <tr class="separator:a2f491c0e996f78495b65879b234057d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 プロパティ</h2></td></tr>
 <tr class="memitem:ae9203097cd70589091b5287f2d0442e5" id="r_ae9203097cd70589091b5287f2d0442e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9203097cd70589091b5287f2d0442e5">ReturnValue</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:ae9203097cd70589091b5287f2d0442e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">条件結果  <br /></td></tr>
+<tr class="memdesc:ae9203097cd70589091b5287f2d0442e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">演算結果  <br /></td></tr>
 <tr class="separator:ae9203097cd70589091b5287f2d0442e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23828ba6d39922659b0732b7c5355b45" id="r_a23828ba6d39922659b0732b7c5355b45"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23828ba6d39922659b0732b7c5355b45">RemoveThis</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a23828ba6d39922659b0732b7c5355b45"><td class="mdescLeft">&#160;</td><td class="mdescRight">削除フラグ  <br /></td></tr>
+<tr class="separator:a23828ba6d39922659b0732b7c5355b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html">LIVINGHOUSE.App.IEvent</a> に属する継承プロパティ</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 非公開変数類</h2></td></tr>
-<tr class="memitem:ac6f2129b8278c7ba23c1579827a7eba9" id="r_ac6f2129b8278c7ba23c1579827a7eba9"><td class="memItemLeft" align="right" valign="top">ItemManager.ItemLayer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6f2129b8278c7ba23c1579827a7eba9">m_targetLayer</a></td></tr>
-<tr class="separator:ac6f2129b8278c7ba23c1579827a7eba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a731245dede00c453625ad99e0fad268b" id="r_a731245dede00c453625ad99e0fad268b"><td class="memItemLeft" align="right" valign="top">ItemManager.ItemLayer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a731245dede00c453625ad99e0fad268b">m_itemLayer</a></td></tr>
+<tr class="memdesc:a731245dede00c453625ad99e0fad268b"><td class="mdescLeft">&#160;</td><td class="mdescRight">アイテムタイプ  <br /></td></tr>
+<tr class="separator:a731245dede00c453625ad99e0fad268b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a073c8dacba5170b3370cf18ab8e76e98" id="r_a073c8dacba5170b3370cf18ab8e76e98"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a073c8dacba5170b3370cf18ab8e76e98">m_returnValue</a></td></tr>
+<tr class="memdesc:a073c8dacba5170b3370cf18ab8e76e98"><td class="mdescLeft">&#160;</td><td class="mdescRight">演算結果  <br /></td></tr>
 <tr class="separator:a073c8dacba5170b3370cf18ab8e76e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7e005cc93851f668b65d4c24b6ee7db" id="r_aa7e005cc93851f668b65d4c24b6ee7db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7e005cc93851f668b65d4c24b6ee7db">m_removeThis</a></td></tr>
+<tr class="memdesc:aa7e005cc93851f668b65d4c24b6ee7db"><td class="mdescLeft">&#160;</td><td class="mdescRight">削除フラグ  <br /></td></tr>
+<tr class="separator:aa7e005cc93851f668b65d4c24b6ee7db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
-<div class="textblock">
-<p class="definition"> <a class="el" href="_check_key_event_8cs_source.html">CheckKeyEvent.cs</a> の <a class="el" href="_check_key_event_8cs_source.html#l00011">11</a> 行目に定義があります。</p>
+<div class="textblock"><p>鍵使用イベント </p>
+
+<p class="definition"> <a class="el" href="_check_key_event_8cs_source.html">CheckKeyEvent.cs</a> の <a class="el" href="_check_key_event_8cs_source.html#l00012">12</a> 行目に定義があります。</p>
 </div><h2 class="groupheader">メソッド詳解</h2>
 <a id="a3655e262e316ea45edb65fd30df8425e" name="a3655e262e316ea45edb65fd30df8425e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3655e262e316ea45edb65fd30df8425e">&#9670;&#160;</a></span>ContentInvoke()</h2>
@@ -171,17 +185,19 @@ LIVINGHOUSE.App.CheckKeyEvent 連携図</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="params"><dt>引数</dt><dd>
+
+<p>成功時呼び出し </p>
+<p>&lt;remark&gt; ModifierInvokeがTrueだった時に呼び出される &lt;/remark&gt; </p><dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">owner</td><td></td></tr>
-    <tr><td class="paramname">otherEvents</td><td></td></tr>
+    <tr><td class="paramname">owner</td><td>所有しているGameObject </td></tr>
+    <tr><td class="paramname">otherEvents</td><td>所有者が所有している他イベントテーブル </td></tr>
   </table>
   </dd>
 </dl>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#a43c75df194b9b3af55727afe77d668f1">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_check_key_event_8cs_source.html">CheckKeyEvent.cs</a> の <a class="el" href="_check_key_event_8cs_source.html#l00061">61</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_check_key_event_8cs_source.html">CheckKeyEvent.cs</a> の <a class="el" href="_check_key_event_8cs_source.html#l00076">76</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -204,17 +220,24 @@ LIVINGHOUSE.App.CheckKeyEvent 連携図</div>
       </table>
 </div><div class="memdoc">
 
-<p>ReturnValueの計算 </p>
+<p>条件演算 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">owner</td><td>所有しているGameObject </td></tr>
+    <tr><td class="paramname">otherEvents</td><td>所有者が所有している他イベントテーブル </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#abaddd3069674ddde0792868d6ae6c3fd">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_check_key_event_8cs_source.html">CheckKeyEvent.cs</a> の <a class="el" href="_check_key_event_8cs_source.html#l00035">35</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_check_key_event_8cs_source.html">CheckKeyEvent.cs</a> の <a class="el" href="_check_key_event_8cs_source.html#l00051">51</a> 行目に定義があります。</p>
 <div class="dynheader">
 呼び出し関係図:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_check_key_event_a8df07dd02af8e4238e57d641b590780d_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_check_key_event_a8df07dd02af8e4238e57d641b590780d_cgraph" alt=""/></div>
 <map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_check_key_event_a8df07dd02af8e4238e57d641b590780d_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_check_key_event_a8df07dd02af8e4238e57d641b590780d_cgraph">
-<area shape="rect" title="ReturnValueの計算" alt="" coords="5,5,205,48"/>
+<area shape="rect" title="条件演算" alt="" coords="5,5,205,48"/>
 <area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html#aa2d817e52c5ea329f23daff33f3d383c" title="アイテムの所持数を取得する" alt="" coords="253,5,444,48"/>
 <area shape="poly" title=" " alt="" coords="205,24,238,24,238,29,205,29"/>
 </map>
@@ -240,21 +263,75 @@ LIVINGHOUSE.App.CheckKeyEvent 連携図</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="params"><dt>引数</dt><dd>
+
+<p>失敗時呼び出し </p>
+<p>&lt;remark&gt; ModifierInvokeがFalseだった時に呼び出される &lt;/remark&gt; </p><dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">owner</td><td></td></tr>
-    <tr><td class="paramname">otherEvents</td><td></td></tr>
+    <tr><td class="paramname">owner</td><td>所有しているGameObject </td></tr>
+    <tr><td class="paramname">otherEvents</td><td>所有者が所有している他イベントテーブル </td></tr>
   </table>
   </dd>
 </dl>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#afe8615515a2abf806d148b36cf610143">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_check_key_event_8cs_source.html">CheckKeyEvent.cs</a> の <a class="el" href="_check_key_event_8cs_source.html#l00073">73</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_check_key_event_8cs_source.html">CheckKeyEvent.cs</a> の <a class="el" href="_check_key_event_8cs_source.html#l00085">85</a> 行目に定義があります。</p>
 
 </div>
 </div>
 <h2 class="groupheader">メンバ詳解</h2>
+<a id="a731245dede00c453625ad99e0fad268b" name="a731245dede00c453625ad99e0fad268b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a731245dede00c453625ad99e0fad268b">&#9670;&#160;</a></span>m_itemLayer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ItemManager.ItemLayer LIVINGHOUSE.App.CheckKeyEvent.m_itemLayer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>アイテムタイプ </p>
+
+<p class="definition"> <a class="el" href="_check_key_event_8cs_source.html">CheckKeyEvent.cs</a> の <a class="el" href="_check_key_event_8cs_source.html#l00016">16</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="aa7e005cc93851f668b65d4c24b6ee7db" name="aa7e005cc93851f668b65d4c24b6ee7db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7e005cc93851f668b65d4c24b6ee7db">&#9670;&#160;</a></span>m_removeThis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.App.CheckKeyEvent.m_removeThis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>削除フラグ </p>
+
+<p class="definition"> <a class="el" href="_check_key_event_8cs_source.html">CheckKeyEvent.cs</a> の <a class="el" href="_check_key_event_8cs_source.html#l00024">24</a> 行目に定義があります。</p>
+
+</div>
+</div>
 <a id="a073c8dacba5170b3370cf18ab8e76e98" name="a073c8dacba5170b3370cf18ab8e76e98"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a073c8dacba5170b3370cf18ab8e76e98">&#9670;&#160;</a></span>m_returnValue</h2>
 
@@ -275,12 +352,15 @@ LIVINGHOUSE.App.CheckKeyEvent 連携図</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition"> <a class="el" href="_check_key_event_8cs_source.html">CheckKeyEvent.cs</a> の <a class="el" href="_check_key_event_8cs_source.html#l00016">16</a> 行目に定義があります。</p>
+<p>演算結果 </p>
+
+<p class="definition"> <a class="el" href="_check_key_event_8cs_source.html">CheckKeyEvent.cs</a> の <a class="el" href="_check_key_event_8cs_source.html#l00020">20</a> 行目に定義があります。</p>
 
 </div>
 </div>
-<a id="ac6f2129b8278c7ba23c1579827a7eba9" name="ac6f2129b8278c7ba23c1579827a7eba9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6f2129b8278c7ba23c1579827a7eba9">&#9670;&#160;</a></span>m_targetLayer</h2>
+<h2 class="groupheader">プロパティ詳解</h2>
+<a id="a23828ba6d39922659b0732b7c5355b45" name="a23828ba6d39922659b0732b7c5355b45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23828ba6d39922659b0732b7c5355b45">&#9670;&#160;</a></span>RemoveThis</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -289,21 +369,24 @@ LIVINGHOUSE.App.CheckKeyEvent 連携図</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ItemManager.ItemLayer LIVINGHOUSE.App.CheckKeyEvent.m_targetLayer</td>
+          <td class="memname">bool LIVINGHOUSE.App.CheckKeyEvent.RemoveThis</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span><span class="mlabel">remove</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition"> <a class="el" href="_check_key_event_8cs_source.html">CheckKeyEvent.cs</a> の <a class="el" href="_check_key_event_8cs_source.html#l00014">14</a> 行目に定義があります。</p>
+<p>削除フラグ </p>
+
+<p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#aa3281cca5fdcfeb0727f97af52dc4e4f">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
+
+<p class="definition"> <a class="el" href="_check_key_event_8cs_source.html">CheckKeyEvent.cs</a> の <a class="el" href="_check_key_event_8cs_source.html#l00036">36</a> 行目に定義があります。</p>
 
 </div>
 </div>
-<h2 class="groupheader">プロパティ詳解</h2>
 <a id="ae9203097cd70589091b5287f2d0442e5" name="ae9203097cd70589091b5287f2d0442e5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae9203097cd70589091b5287f2d0442e5">&#9670;&#160;</a></span>ReturnValue</h2>
 
@@ -324,12 +407,11 @@ LIVINGHOUSE.App.CheckKeyEvent 連携図</div>
 </table>
 </div><div class="memdoc">
 
-<p>条件結果 </p>
-<p>ModifierInVokeでの演算結果を返す </p>
+<p>演算結果 </p>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#ab796c418f7c8e7020e62cae9ac73abdb">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_check_key_event_8cs_source.html">CheckKeyEvent.cs</a> の <a class="el" href="_check_key_event_8cs_source.html#l00019">19</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_check_key_event_8cs_source.html">CheckKeyEvent.cs</a> の <a class="el" href="_check_key_event_8cs_source.html#l00028">28</a> 行目に定義があります。</p>
 
 </div>
 </div>

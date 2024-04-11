@@ -1,7 +1,7 @@
 <map id="LIVINGHOUSE.App.BuffStaminaDown" name="LIVINGHOUSE.App.BuffStaminaDown">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,155,247,181"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html" title=" " alt="" coords="103,80,149,107"/>
+<area shape="rect" id="Node000001" title="スタミナ上限現象" alt="" coords="5,155,247,181"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html" title="基底バフ" alt="" coords="103,80,149,107"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,122,129,154,123,154,123,122"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="55,5,197,32"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="82,5,170,32"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="129,47,129,80,123,80,123,47"/>
 </map>

@@ -12,5 +12,5 @@ var searchData=
   ['wipemanager_2ecs_9',['WipeManager.cs',['../_wipe_manager_8cs.html',1,'']]],
   ['wipeout_10',['WipeOut',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_wipe_manager.html#a0e4187ac5c1f0cd4c7f8ccb554462a6a',1,'LIVINGHOUSE::Manager::WipeManager']]],
   ['wipeoutinner_11',['WipeOutInner',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_wipe_manager.html#a7575759f58d2481158a2b619339f58c1',1,'LIVINGHOUSE::Manager::WipeManager']]],
-  ['wipeouttype_12',['WipeOutType',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_wipe_manager.html#afa209b4bfab84cb071b883780d377731',1,'LIVINGHOUSE::Manager::WipeManager']]]
+  ['wipeouttype_12',['WipeOutType',['../namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html#aa96bf39a01379726d6c89207fae304ca',1,'LIVINGHOUSE::Manager']]]
 ];

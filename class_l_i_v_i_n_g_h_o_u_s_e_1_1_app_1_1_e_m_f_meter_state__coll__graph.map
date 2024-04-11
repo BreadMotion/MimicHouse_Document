@@ -1,5 +1,5 @@
 <map id="LIVINGHOUSE.App.EMFMeterState" name="LIVINGHOUSE.App.EMFMeterState">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,206,123"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html" title="基底アイテムクラス" alt="" coords="81,5,130,32"/>
+<area shape="rect" id="Node000001" title="EMFメーター" alt="" coords="5,80,206,123"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html" title="基底アイテム" alt="" coords="81,5,130,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,47,108,80,103,80,103,47"/>
 </map>

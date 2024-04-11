@@ -1,26 +1,6 @@
 var class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff =
 [
-    [ "BUFFTYPE", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403", [
-      [ "HEAL", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403a3a25f1406daa84785c1291a745018fae", null ],
-      [ "DAMAGE", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403a806bb06d54f268f1d2ce74bde5b48f34", null ],
-      [ "STAMINA_UP", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403a1025e8f4915d7acb131bb2b2f766da0e", null ],
-      [ "STAMINA_DOWN", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403a02f0d4e0f7a985696173c99b5c68852c", null ],
-      [ "STAMINA_HEAL_START_DURATION_UP", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403af780dd2884118214c5ec4801489a6bce", null ],
-      [ "STAMINA_HEAL_START_DURATION_DOWN", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403a9d32115fcf8f6283245b1a77c8f91bea", null ],
-      [ "STAMINA_HEALSPEED_UP", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403a6835c24d210db98cd59c1f24fb776505", null ],
-      [ "STAMINA_HEALSPEED_DOWN", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403a4706ea6c38fe2cbc9317306b6a4544aa", null ],
-      [ "SPEED_UP", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403a18fc989e412ad64bd82a0cbc9a6a93c8", null ],
-      [ "SPPED_DOWN", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403a81890fe61d3899229e59c687f6ed8fc0", null ],
-      [ "CANT_MOVE", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403aacf36d2c963b60ca7722588be7e0172a", null ],
-      [ "EYE_INVISIBLE", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403a140fb972d01e2439903170e14e538b52", null ],
-      [ "BODY_INVISIBLE", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403a9a4637f0022c3ba77fa7ce7a3642c589", null ],
-      [ "NOT_HIT_BG", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403a25b6f5c317d2bef22c01d23041222d20", null ],
-      [ "NOT_HIT_ATTACK", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403a22f76a319dc93ddf66e5805ba17ed106", null ],
-      [ "NOT_HIT_CHARACTER", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403ac5675f1483e9a8adf1883ae61363679d", null ],
-      [ "All", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abb0a5c71d50759c6c5fe6cde52aad403ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
-    ] ],
-    [ "IBuff", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a66123ce5460ad9518688cac1e1fbadd6", null ],
-    [ "IBuff", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a3c0e8de1f7d43b01b6adddefc4fd0d18", null ],
+    [ "IBuff", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a9dc17d23f36a4a87b6d1bbf8f7e030bb", null ],
     [ "ActivateInvoke", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#ab988388241b0e9567f0bf9755e204f8a", null ],
     [ "DeActivateInvoke", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#ad72b610197611b3a4313d68555ebe0c2", null ],
     [ "Dispose", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a3840586262b0e327cd52e6ee8e7318a2", null ],
@@ -31,13 +11,13 @@ var class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff =
     [ "m_effectValue_bool", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#ae8acf762b51f6d41fd56e8e75b5851a5", null ],
     [ "m_effectValue_float", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#af2411914d519af57b1196f74f153d59f", null ],
     [ "m_effectValue_int", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a77b97d04b4e886748079853e21713dae", null ],
-    [ "m_ownerCharacterID", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#ae9f80c2ffe48c5c50e933f305abc387f", null ],
-    [ "m_targetCharacterID", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#ae15c5bd1c9b2b67d9ae595ad2d149397", null ],
+    [ "m_ownerCharacterID", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a412422e4d4ad8947dde9b799499fc979", null ],
+    [ "m_targetCharacterID", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a58333507b8078fbd0091eeee46cb867a", null ],
     [ "BuffType", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a8757be1b1b6fb5bd6de9cc3aec118363", null ],
     [ "EffectDuration", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#aa96509ba7054774b13ca23a30d02d755", null ],
     [ "EffectValue_bool", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a536efa75c0e58d952449f33bfff5ce43", null ],
     [ "EffectValue_float", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a71a4068f4c6121ca7d7a710e576532bd", null ],
     [ "EffectValue_int", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abc231b903ec23c31e875550608af3d26", null ],
-    [ "ownerCharacterID", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a28c40943327cd4f5f57e67216b9020e1", null ],
-    [ "targetCharacterID", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#ae54ab56262fe2bf9393164a00c8e18f8", null ]
+    [ "ownerCharacterID", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#af8d257ca59e6ab6737cd016f7328ca6c", null ],
+    [ "targetCharacterID", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a2d71625535d8c61f2c868d159dc5b569", null ]
 ];

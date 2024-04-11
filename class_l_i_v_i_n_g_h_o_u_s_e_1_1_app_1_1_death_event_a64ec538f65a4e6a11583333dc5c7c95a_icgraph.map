@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.App.DeathEvent.GetCharacter" name="LIVINGHOUSE.App.DeathEvent.GetCharacter">
+<area shape="rect" id="Node000001" title="キャラクターの取得" alt="" coords="263,39,472,81"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a290421a4ecfd2dddc6fc56c9a65f69a1" title="成功時呼び出し" alt="" coords="5,5,215,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,47,215,43,215,38,248,42"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a6f638fce8944f9d6554e6162f4580d8e" title="条件演算" alt="" coords="5,72,215,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="248,78,215,82,215,77,247,73"/>
+</map>

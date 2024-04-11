@@ -94,6 +94,7 @@ $(function(){initNavTree('class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_obj
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pro-attribs">限定公開変数類</a> &#124;
 <a href="#properties">プロパティ</a> &#124;
 <a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object-members.html">全メンバ一覧</a>  </div>
   <div class="headertitle"><div class="title">LIVINGHOUSE.App.ICanMoveObject クラス<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
@@ -125,9 +126,23 @@ LIVINGHOUSE.App.ICanMoveObject 連携図</div>
 <div class="dyncontent">
 <div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object__coll__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_i_can_move_object_coll__map" alt="Collaboration graph"/></div>
 <map name="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_i_can_move_object_coll__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_i_can_move_object_coll__map">
-<area shape="rect" title="キャラクター動作" alt="" coords="5,80,201,123"/>
-<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html" title="当たり判定を取るオブジェクトインターフェース" alt="" coords="64,5,142,32"/>
-<area shape="poly" title=" " alt="" coords="106,47,106,80,100,80,100,47"/>
+<area shape="rect" title="キャラクター動作" alt="" coords="820,9,1015,52"/>
+<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html" title="当たり判定を取るオブジェクトインターフェース" alt="" coords="21,5,99,32"/>
+<area shape="poly" title=" " alt="" coords="114,10,140,9,362,12,820,25,819,30,362,17,140,15,114,16"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html" title="キャラクター動作" alt="" coords="166,27,361,69"/>
+<area shape="poly" title=" " alt="" coords="114,24,165,31,165,36,114,29"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html" title="全キャラクター共通のシステムクラス" alt="" coords="500,91,696,117"/>
+<area shape="poly" title=" " alt="" coords="673,84,820,50,822,55,674,89"/>
+<area shape="poly" title=" " alt="" coords="485,101,386,88,326,73,328,67,387,83,486,96"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="182,93,344,136"/>
+<area shape="poly" title=" " alt="" coords="359,109,476,105,500,105,500,110,476,111,359,114"/>
+<area shape="rect" title=" " alt="" coords="5,101,115,128"/>
+<area shape="poly" title=" " alt="" coords="129,112,182,112,182,117,129,117"/>
+<area shape="rect" href="struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character_state.html" title="キャラクターステート" alt="" coords="166,160,361,203"/>
+<area shape="poly" title=" " alt="" coords="375,154,476,131,540,115,541,121,477,136,376,159"/>
+<area shape="poly" title=" " alt="" coords="376,50,477,63,562,88,560,93,476,68,375,55"/>
+<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html" title="基底キャラクター操作インターフェース" alt="" coords="164,227,362,269"/>
+<area shape="poly" title=" " alt="" coords="342,219,362,212,419,194,475,172,530,143,575,116,577,120,532,148,477,177,421,199,363,217,344,224"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
 <table class="memberdecls">
@@ -139,6 +154,9 @@ LIVINGHOUSE.App.ICanMoveObject 連携図</div>
 <tr class="memitem:a584e9264e2cb6976806952e191f51bd2" id="r_a584e9264e2cb6976806952e191f51bd2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a584e9264e2cb6976806952e191f51bd2">UpdateInvoke</a> ()</td></tr>
 <tr class="memdesc:a584e9264e2cb6976806952e191f51bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">更新  <br /></td></tr>
 <tr class="separator:a584e9264e2cb6976806952e191f51bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51740a7371fd27a9dc02c00ea65bba5f" id="r_a51740a7371fd27a9dc02c00ea65bba5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51740a7371fd27a9dc02c00ea65bba5f">OnDeath</a> ()</td></tr>
+<tr class="memdesc:a51740a7371fd27a9dc02c00ea65bba5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">死亡時処理  <br /></td></tr>
+<tr class="separator:a51740a7371fd27a9dc02c00ea65bba5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeaf5c9c18fb3c57a7a090e88d84297d5" id="r_aeaf5c9c18fb3c57a7a090e88d84297d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaf5c9c18fb3c57a7a090e88d84297d5">HOInitialize</a> ()</td></tr>
 <tr class="memdesc:aeaf5c9c18fb3c57a7a090e88d84297d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">IHitObject初期化  <br /></td></tr>
 <tr class="separator:aeaf5c9c18fb3c57a7a090e88d84297d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,6 +176,12 @@ LIVINGHOUSE.App.ICanMoveObject 連携図</div>
 <tr class="memdesc:af6728c2b81ce7d5b09ce75556f341119"><td class="mdescLeft">&#160;</td><td class="mdescRight">IHitObject判定対象を設定  <br /></td></tr>
 <tr class="separator:af6728c2b81ce7d5b09ce75556f341119"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+限定公開変数類</h2></td></tr>
+<tr class="memitem:a4a6294b5ded1da43ee9b0f9f30b511d7" id="r_a4a6294b5ded1da43ee9b0f9f30b511d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a6294b5ded1da43ee9b0f9f30b511d7">m_character</a> = null</td></tr>
+<tr class="memdesc:a4a6294b5ded1da43ee9b0f9f30b511d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクター  <br /></td></tr>
+<tr class="separator:a4a6294b5ded1da43ee9b0f9f30b511d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 プロパティ</h2></td></tr>
 <tr class="memitem:a21e0395d46ee38c22f974848d035a5d5" id="r_a21e0395d46ee38c22f974848d035a5d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21e0395d46ee38c22f974848d035a5d5">character</a><code> [get, set]</code></td></tr>
@@ -166,16 +190,16 @@ LIVINGHOUSE.App.ICanMoveObject 連携図</div>
 <tr class="memitem:a99b3dc48588a2755082e08a447186460" id="r_a99b3dc48588a2755082e08a447186460"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object_data.html">HitObjectData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99b3dc48588a2755082e08a447186460">hitObjectData</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a99b3dc48588a2755082e08a447186460"><td class="mdescLeft">&#160;</td><td class="mdescRight">当たり判定データのプロパティ  <br /></td></tr>
 <tr class="separator:a99b3dc48588a2755082e08a447186460"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bd25a9b40169e206d9f20a2976641c7" id="r_a6bd25a9b40169e206d9f20a2976641c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_character_manager.html#a9ce7a5a12df782544b922b5f59632d67">CharacterManager.CharacterType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bd25a9b40169e206d9f20a2976641c7">CharacterType</a><code> [get]</code></td></tr>
-<tr class="memdesc:a6bd25a9b40169e206d9f20a2976641c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクタータイプ  <br /></td></tr>
-<tr class="separator:a6bd25a9b40169e206d9f20a2976641c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02da8f3ad53733a7a9090ec442069fa3" id="r_a02da8f3ad53733a7a9090ec442069fa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html#a6c4a22071cd8f73bb62677c9d9d762c0">CharacterType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02da8f3ad53733a7a9090ec442069fa3">CharacterType</a><code> [get]</code></td></tr>
+<tr class="memdesc:a02da8f3ad53733a7a9090ec442069fa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクタータイプ  <br /></td></tr>
+<tr class="separator:a02da8f3ad53733a7a9090ec442069fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html">LIVINGHOUSE.App.IHitObject</a> に属する継承プロパティ</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
 <div class="textblock"><p>キャラクター動作 </p>
 <p>&lt;remark&gt; 派生先のクラスでキャラクター動作を定義するとポリモーフィズムにキャラクターを生成させることが可能。 &lt;/remark&gt; </p>
 
-<p class="definition"> <a class="el" href="_i_can_move_object_8cs_source.html">ICanMoveObject.cs</a> の <a class="el" href="_i_can_move_object_8cs_source.html#l00010">10</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_i_can_move_object_8cs_source.html">ICanMoveObject.cs</a> の <a class="el" href="_i_can_move_object_8cs_source.html#l00012">12</a> 行目に定義があります。</p>
 </div><h2 class="groupheader">メソッド詳解</h2>
 <a id="a54307db2f9cd1be684d6bd785eb2f3f2" name="a54307db2f9cd1be684d6bd785eb2f3f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a54307db2f9cd1be684d6bd785eb2f3f2">&#9670;&#160;</a></span>HOHitCheck()</h2>
@@ -332,6 +356,47 @@ LIVINGHOUSE.App.ICanMoveObject 連携図</div>
 
 </div>
 </div>
+<a id="a51740a7371fd27a9dc02c00ea65bba5f" name="a51740a7371fd27a9dc02c00ea65bba5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51740a7371fd27a9dc02c00ea65bba5f">&#9670;&#160;</a></span>OnDeath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.ICanMoveObject.OnDeath </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>死亡時処理 </p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object_a51740a7371fd27a9dc02c00ea65bba5f_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object_a51740a7371fd27a9dc02c00ea65bba5f_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object_a51740a7371fd27a9dc02c00ea65bba5f_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object_a51740a7371fd27a9dc02c00ea65bba5f_icgraph">
+<area shape="rect" title="死亡時処理" alt="" coords="747,5,943,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#acff1f815763e3369d2182fc448a9d545" title="対象破棄" alt="" coords="500,5,699,48"/>
+<area shape="poly" title=" " alt="" coords="732,29,700,29,700,24,732,24"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a85b07231fc0a58cd49db073b04ee54ed" title="キャラクターステート更新" alt="" coords="253,5,452,48"/>
+<area shape="poly" title=" " alt="" coords="485,29,452,29,452,24,485,24"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#ac3a2b3b418b9f1f6e7719942f61f87f9" title="更新" alt="" coords="5,5,205,48"/>
+<area shape="poly" title=" " alt="" coords="238,29,205,29,205,24,238,24"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="af6728c2b81ce7d5b09ce75556f341119" name="af6728c2b81ce7d5b09ce75556f341119"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af6728c2b81ce7d5b09ce75556f341119">&#9670;&#160;</a></span>SetHOHitIndex()</h2>
 
@@ -439,6 +504,33 @@ LIVINGHOUSE.App.ICanMoveObject 連携図</div>
 
 </div>
 </div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a4a6294b5ded1da43ee9b0f9f30b511d7" name="a4a6294b5ded1da43ee9b0f9f30b511d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a6294b5ded1da43ee9b0f9f30b511d7">&#9670;&#160;</a></span>m_character</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a> LIVINGHOUSE.App.ICanMoveObject.m_character = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>キャラクター </p>
+
+<p class="definition"> <a class="el" href="_i_can_move_object_8cs_source.html">ICanMoveObject.cs</a> の <a class="el" href="_i_can_move_object_8cs_source.html#l00016">16</a> 行目に定義があります。</p>
+
+</div>
+</div>
 <h2 class="groupheader">プロパティ詳解</h2>
 <a id="a21e0395d46ee38c22f974848d035a5d5" name="a21e0395d46ee38c22f974848d035a5d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a21e0395d46ee38c22f974848d035a5d5">&#9670;&#160;</a></span>character</h2>
@@ -455,7 +547,7 @@ LIVINGHOUSE.App.ICanMoveObject 連携図</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span><span class="mlabel">abstract</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -463,12 +555,12 @@ LIVINGHOUSE.App.ICanMoveObject 連携図</div>
 <p>キャラクターのプロパティ </p>
 <p>&lt;remark&gt; 生成したキャラクターの参照。オーナー。 &lt;/remark&gt;&gt; </p>
 
-<p class="definition"> <a class="el" href="_i_can_move_object_8cs_source.html">ICanMoveObject.cs</a> の <a class="el" href="_i_can_move_object_8cs_source.html#l00014">14</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_i_can_move_object_8cs_source.html">ICanMoveObject.cs</a> の <a class="el" href="_i_can_move_object_8cs_source.html#l00021">21</a> 行目に定義があります。</p>
 
 </div>
 </div>
-<a id="a6bd25a9b40169e206d9f20a2976641c7" name="a6bd25a9b40169e206d9f20a2976641c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bd25a9b40169e206d9f20a2976641c7">&#9670;&#160;</a></span>CharacterType</h2>
+<a id="a02da8f3ad53733a7a9090ec442069fa3" name="a02da8f3ad53733a7a9090ec442069fa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02da8f3ad53733a7a9090ec442069fa3">&#9670;&#160;</a></span>CharacterType</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -477,7 +569,7 @@ LIVINGHOUSE.App.ICanMoveObject 連携図</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_character_manager.html#a9ce7a5a12df782544b922b5f59632d67">CharacterManager.CharacterType</a> LIVINGHOUSE.App.ICanMoveObject.CharacterType</td>
+          <td class="memname"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html#a6c4a22071cd8f73bb62677c9d9d762c0">CharacterType</a> LIVINGHOUSE.App.ICanMoveObject.CharacterType</td>
         </tr>
       </table>
   </td>
@@ -489,7 +581,7 @@ LIVINGHOUSE.App.ICanMoveObject 連携図</div>
 
 <p>キャラクタータイプ </p>
 
-<p class="definition"> <a class="el" href="_i_can_move_object_8cs_source.html">ICanMoveObject.cs</a> の <a class="el" href="_i_can_move_object_8cs_source.html#l00022">22</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_i_can_move_object_8cs_source.html">ICanMoveObject.cs</a> の <a class="el" href="_i_can_move_object_8cs_source.html#l00033">33</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -517,12 +609,12 @@ LIVINGHOUSE.App.ICanMoveObject 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html#a45cb6a568952908b13d20a927f4ecc9d">LIVINGHOUSE.App.IHitObject</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_i_can_move_object_8cs_source.html">ICanMoveObject.cs</a> の <a class="el" href="_i_can_move_object_8cs_source.html#l00018">18</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_i_can_move_object_8cs_source.html">ICanMoveObject.cs</a> の <a class="el" href="_i_can_move_object_8cs_source.html#l00029">29</a> 行目に定義があります。</p>
 
 </div>
 </div>
 <hr/>このクラス詳解は次のファイルから抽出されました:<ul>
-<li>D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/ICanMoveObject/Base/<a class="el" href="_i_can_move_object_8cs_source.html">ICanMoveObject.cs</a></li>
+<li>D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/CanMoveObject/Base/<a class="el" href="_i_can_move_object_8cs_source.html">ICanMoveObject.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

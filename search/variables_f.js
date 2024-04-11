@@ -8,9 +8,7 @@ var searchData=
   ['shouldtakeairresistance_5',['shouldTakeAirResistance',['../struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object_emitter.html#adda22db141c474b744e686086b283e39',1,'LIVINGHOUSE::App::HitObjectEmitter']]],
   ['shouldtakegravity_6',['shouldTakeGravity',['../struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object_emitter.html#a2fb468e281227106893f4c56d08e39c7',1,'LIVINGHOUSE::App::HitObjectEmitter']]],
   ['sizemag_7',['SizeMag',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#ae834b93eb636e8e4f8569f01a6756e72',1,'LIVINGHOUSE::Manager::ItemSlotManager']]],
-  ['speed_8',['speed',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_state.html#a2a10bbb0493cca7128505dc0d10a52ca',1,'LIVINGHOUSE.App.ICharacterState.speed'],['../struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object_emitter.html#a057141da2ecdc8bf60aec792fa99a277',1,'LIVINGHOUSE.App.HitObjectEmitter.speed']]],
-  ['stamina_9',['stamina',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_state.html#af6c02c4b349e6460399a0fcb598e2b98',1,'LIVINGHOUSE::App::ICharacterState']]],
-  ['staminarecoveryspeed_10',['staminaRecoverySpeed',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_state.html#a3a8222c51c57add887b4c41d2d5952df',1,'LIVINGHOUSE::App::ICharacterState']]],
-  ['starttimeposition_11',['startTimePosition',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller.html#a1e3cae64e91637d02db2f8050f5ea079',1,'LIVINGHOUSE::App::AudioController']]],
-  ['structure_5fparent_5fname_12',['STRUCTURE_PARENT_NAME',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#a6becaf34505c5b10ca510c6be0f3a737',1,'LIVINGHOUSE::Manager::SceneManager']]]
+  ['speed_8',['speed',['../struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object_emitter.html#a057141da2ecdc8bf60aec792fa99a277',1,'LIVINGHOUSE::App::HitObjectEmitter']]],
+  ['starttimeposition_9',['startTimePosition',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller.html#a1e3cae64e91637d02db2f8050f5ea079',1,'LIVINGHOUSE::App::AudioController']]],
+  ['structure_5fparent_5fname_10',['STRUCTURE_PARENT_NAME',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#a6becaf34505c5b10ca510c6be0f3a737',1,'LIVINGHOUSE::Manager::SceneManager']]]
 ];

@@ -1,5 +1,5 @@
 <map id="LIVINGHOUSE.Manager.ResourceManager" name="LIVINGHOUSE.Manager.ResourceManager">
-<area shape="rect" id="Node000001" title="リソース管理クラス" alt="" coords="5,96,227,139"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html" title=" " alt="" coords="41,5,191,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,63,119,96,113,96,113,63"/>
+<area shape="rect" id="Node000001" title="リソース管理" alt="" coords="5,80,227,123"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html" title=" " alt="" coords="14,5,218,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,47,119,80,113,80,113,47"/>
 </map>

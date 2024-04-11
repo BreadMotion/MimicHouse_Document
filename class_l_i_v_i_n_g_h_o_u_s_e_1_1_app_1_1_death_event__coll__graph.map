@@ -1,0 +1,9 @@
+<map id="LIVINGHOUSE.App.DeathEvent" name="LIVINGHOUSE.App.DeathEvent">
+<area shape="rect" id="Node000001" title="死亡イベント" alt="" coords="38,80,243,107"/>
+<area shape="rect" id="Node000002" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html" title="基底イベントインターフェース" alt="" coords="5,5,62,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,38,123,77,120,82,63,43"/>
+<area shape="rect" id="Node000003" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown.html" title="クールダウンを持っている" alt="" coords="86,5,194,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="143,47,143,80,138,80,138,47"/>
+<area shape="rect" id="Node000004" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_character.html" title="キャラクターを持っている" alt="" coords="218,5,326,32"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="238,42,165,82,162,77,235,37"/>
+</map>

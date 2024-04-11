@@ -1,17 +1,9 @@
 <map id="クラス階層図" name="クラス階層図">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,197,123,224"/>
-<area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_buff_scriptable_object.html" title="バフコンテキスト" alt="" coords="184,5,399,48"/>
-<area shape="poly" id="edge65_Node000000_Node000001" title=" " alt="" coords="75,183,111,120,137,86,169,58,189,46,192,51,172,62,141,90,115,123,79,185"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_cache_event_s_o.html" title=" " alt="" coords="180,72,403,99"/>
-<area shape="poly" id="edge66_Node000000_Node000002" title=" " alt="" coords="83,184,120,145,144,125,169,108,198,97,200,102,172,113,147,129,123,148,86,188"/>
-<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html" title="キャラクターコンテキスト" alt="" coords="196,123,387,165"/>
-<area shape="poly" id="edge67_Node000000_Node000003" title=" " alt="" coords="121,190,170,175,210,163,211,168,171,180,123,195"/>
-<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_event_scriptable_object.html" title="イベントコンテキスト" alt="" coords="179,189,404,232"/>
-<area shape="poly" id="edge68_Node000000_Node000004" title=" " alt="" coords="137,208,178,208,178,213,137,213"/>
-<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_item_scriptable_object.html" title="アイテムコンテキスト" alt="" coords="182,256,401,299"/>
-<area shape="poly" id="edge69_Node000000_Node000005" title=" " alt="" coords="123,227,171,241,211,253,210,258,170,247,121,232"/>
-<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_item_slot_scriptable_object.html" title="アイテムスロットコンテキスト" alt="" coords="171,323,412,365"/>
-<area shape="poly" id="edge70_Node000000_Node000006" title=" " alt="" coords="87,233,124,272,172,308,196,320,194,325,169,313,121,276,83,237"/>
-<area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_item_spawn_scriptable_object.html" title="アイテムスポーンコンテキスト" alt="" coords="192,389,391,432"/>
-<area shape="poly" id="edge71_Node000000_Node000007" title=" " alt="" coords="78,237,92,269,113,306,139,344,172,375,193,387,190,392,169,379,135,347,108,309,87,271,73,239"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,80,125,107"/>
+<area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_1_1_label_attribute.html" title="表示名" alt="" coords="184,5,381,48"/>
+<area shape="poly" id="edge86_Node000000_Node000001" title=" " alt="" coords="124,72,172,57,209,46,211,51,173,63,125,78"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_1_1_read_only_attribute.html" title="読み込み専用" alt="" coords="185,72,380,115"/>
+<area shape="poly" id="edge87_Node000000_Node000002" title=" " alt="" coords="140,91,184,91,184,96,140,96"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_1_1_subclass_selector_attribute.html" title="プレーンクラス表示" alt="" coords="173,139,392,181"/>
+<area shape="poly" id="edge88_Node000000_Node000003" title=" " alt="" coords="125,109,173,124,211,136,209,141,172,129,124,114"/>
 </map>

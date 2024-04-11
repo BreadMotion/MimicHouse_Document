@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.Scene.Game.OnEnter" name="LIVINGHOUSE.Scene.Game.OnEnter">
+<area shape="rect" id="Node000001" title="シーンに入った時" alt="" coords="281,5,490,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game.html#acbb72094c539c45216cbb89c93c948ec" title="デフォルトコンストラクター" alt="" coords="5,13,233,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="266,29,233,29,233,24,266,24"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.App.StunEvent.ContentInvoke" name="LIVINGHOUSE.App.StunEvent.ContentInvoke">
+<area shape="rect" id="Node000001" title="成功時呼び出し" alt="" coords="5,5,208,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_stun_event.html#ac5e42dadd1170e7fe25dc8f30a32ea92" title="キャラクターの参照を取得" alt="" coords="256,5,458,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,24,241,24,241,29,208,29"/>
+</map>

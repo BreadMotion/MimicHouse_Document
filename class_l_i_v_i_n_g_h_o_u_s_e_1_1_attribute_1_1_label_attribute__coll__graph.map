@@ -1,5 +1,5 @@
 <map id="LIVINGHOUSE.Attribute.LabelAttribute" name="LIVINGHOUSE.Attribute.LabelAttribute">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,202,123"/>
+<area shape="rect" id="Node000001" title="表示名" alt="" coords="5,80,202,123"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="44,5,163,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,47,106,80,101,80,101,47"/>
 </map>

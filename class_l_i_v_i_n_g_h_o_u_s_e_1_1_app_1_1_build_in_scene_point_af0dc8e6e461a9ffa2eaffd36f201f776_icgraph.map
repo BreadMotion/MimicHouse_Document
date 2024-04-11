@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.App.BuildInScenePoint.BuildPoint" name="LIVINGHOUSE.App.BuildInScenePoint.BuildPoint">
+<area shape="rect" id="Node000001" title="シーン内全ポイントのビルドを行う" alt="" coords="269,5,484,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point.html#a0651bb41cf324b14078963ee26e56db2" title="初期化" alt="" coords="5,5,221,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,29,221,29,221,24,254,24"/>
+</map>

@@ -1,18 +1,12 @@
 <map id="LIVINGHOUSE.Manager.ItemSlotManager.LoadItemSO" name="LIVINGHOUSE.Manager.ItemSlotManager.LoadItemSO">
-<area shape="rect" id="Node000001" title="アイテムコンテキストのロード" alt="" coords="1056,105,1247,148"/>
-<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="1192,93,1177,86,1151,84,1128,86,1114,91,1108,97,1110,104,1105,105,1103,95,1111,86,1127,81,1151,79,1179,81,1194,88"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#ae86b162d3d6b12f36b5514f350b56151" title="アイテムスロットが格納されているか調べる" alt="" coords="806,5,1007,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1093,101,1007,62,976,51,978,46,1009,58,1095,96"/>
-<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#a8fb0a7e1b4c37764ae9a91ea4e75e5d4" title=" " alt="" coords="805,72,1008,115"/>
-<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="1041,114,1008,110,1008,104,1041,109"/>
-<area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#a1edabfb5a669eeb54357c5ee451e962e" title="初期化" alt="" coords="811,139,1002,181"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="1041,144,1003,150,1002,144,1041,139"/>
-<area shape="rect" id="Node000008" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#ab55ca55b10dc74c4d89a99741f690b95" title="更新" alt="" coords="811,205,1002,248"/>
-<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="1095,157,1009,196,978,207,976,202,1007,191,1093,152"/>
-<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#a5af6d4fe205f251975243f415ed8dda2" title="所持アイテム削除(解放)を試みる" alt="" coords="559,5,757,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="791,29,758,29,758,24,791,24"/>
-<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#abeceb9e475d561ed1733f165b4ee79cc" title="入力によるアイテム生成操作の動作" alt="" coords="275,5,511,48"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="544,29,511,29,511,24,544,24"/>
-<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#ac9be71ec4ad3ce596e86c24f104da34c" title="更新" alt="" coords="5,5,227,48"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="259,29,227,29,227,24,259,24"/>
+<area shape="rect" id="Node000001" title="アイテムコンテキストのロード" alt="" coords="256,105,447,148"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="392,93,377,86,351,84,328,86,314,91,308,97,310,104,305,105,303,95,311,86,327,81,351,79,379,81,394,88"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#ae86b162d3d6b12f36b5514f350b56151" title="アイテムスロットが格納されているか調べる" alt="" coords="6,5,207,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="293,101,207,62,176,51,178,46,209,58,295,96"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#a8fb0a7e1b4c37764ae9a91ea4e75e5d4" title=" " alt="" coords="5,72,208,115"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="241,114,208,110,208,104,241,109"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#a1edabfb5a669eeb54357c5ee451e962e" title="初期化" alt="" coords="11,139,202,181"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="241,144,203,150,202,144,241,139"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#ab55ca55b10dc74c4d89a99741f690b95" title="更新" alt="" coords="11,205,202,248"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="295,157,209,196,178,207,176,202,207,191,293,152"/>
 </map>

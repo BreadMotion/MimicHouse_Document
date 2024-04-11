@@ -1,48 +1,7 @@
 <map id="クラス階層図" name="クラス階層図">
-<area shape="rect" id="Node000000" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html" title="当たり判定を取るオブジェクトインターフェース" alt="" coords="5,97,202,124"/>
-<area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html" title="全キャラクター共通のシステムクラス" alt="" coords="270,156,465,183"/>
-<area shape="poly" id="edge11_Node000000_Node000001" title=" " alt="" coords="179,125,250,141,302,153,301,158,249,147,178,130"/>
-<area shape="rect" id="Node000008" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun.html" title=" " alt="" coords="271,89,464,132"/>
-<area shape="poly" id="edge12_Node000000_Node000008" title=" " alt="" coords="216,108,270,108,270,113,216,113"/>
-<area shape="rect" id="Node000018" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html" title="キャラクター動作" alt="" coords="270,23,465,65"/>
-<area shape="poly" id="edge13_Node000000_Node000018" title=" " alt="" coords="173,91,279,63,281,69,174,96"/>
-<area shape="rect" id="Node000019" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_enemy.html" title="Enemyのインターフェースクラス" alt="" coords="545,56,728,83"/>
-<area shape="poly" id="edge14_Node000018_Node000019" title=" " alt="" coords="480,52,545,58,544,63,479,57"/>
-<area shape="rect" id="Node000022" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html" title="プレイヤークラス" alt="" coords="548,5,724,32"/>
-<area shape="poly" id="edge17_Node000018_Node000022" title=" " alt="" coords="479,31,548,24,548,30,480,36"/>
-<area shape="rect" id="Node000020" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy01.html" title="Enemy01クラス" alt="" coords="795,31,990,57"/>
-<area shape="poly" id="edge15_Node000019_Node000020" title=" " alt="" coords="742,56,795,51,795,56,743,61"/>
-<area shape="rect" id="Node000021" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html" title="Enemy02クラス" alt="" coords="795,81,990,108"/>
-<area shape="poly" id="edge16_Node000019_Node000021" title=" " alt="" coords="743,77,795,82,795,88,742,82"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="49,375,158,401"/>
-<area shape="poly" id="edge19_Node000002_Node000001" title=" " alt="" coords="115,360,135,322,164,276,202,231,248,192,272,181,274,186,251,197,206,234,169,279,140,325,119,363"/>
-<area shape="poly" id="edge24_Node000002_Node000008" title=" " alt="" coords="111,360,129,313,158,254,197,194,221,166,248,142,269,129,272,134,251,146,225,170,201,197,162,256,134,315,116,362"/>
-<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller.html" title="音声再生クラス" alt="" coords="254,644,481,671"/>
-<area shape="poly" id="edge18_Node000002_Node000003" title=" " alt="" coords="116,415,133,462,161,521,200,580,224,607,251,630,272,641,269,646,248,634,221,611,196,584,157,524,128,464,111,417"/>
-<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html" title="デモ用カメラ操作クラス" alt="" coords="258,207,477,249"/>
-<area shape="poly" id="edge20_Node000002_Node000004" title=" " alt="" coords="124,362,177,310,212,283,248,259,274,247,276,252,251,264,215,287,181,314,128,366"/>
-<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_door_state.html" title="ドアの状態管理" alt="" coords="269,273,466,300"/>
-<area shape="poly" id="edge21_Node000002_Node000005" title=" " alt="" coords="138,364,189,336,249,309,287,298,289,303,251,315,191,341,140,369"/>
-<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner.html" title="イベント処理を行う" alt="" coords="261,324,474,351"/>
-<area shape="poly" id="edge22_Node000002_Node000006" title=" " alt="" coords="172,372,294,349,295,354,173,377"/>
-<area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_follow_camera.html" title="遅延追跡カメラ" alt="" coords="257,375,478,401"/>
-<area shape="poly" id="edge23_Node000002_Node000007" title=" " alt="" coords="173,385,257,385,257,391,173,391"/>
-<area shape="rect" id="Node000009" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html" title=" " alt="" coords="281,425,454,452"/>
-<area shape="poly" id="edge25_Node000002_Node000009" title=" " alt="" coords="173,399,295,422,294,427,172,404"/>
-<area shape="rect" id="Node000013" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_item_selector_slot.html" title=" " alt="" coords="250,476,485,503"/>
-<area shape="poly" id="edge29_Node000002_Node000013" title=" " alt="" coords="140,407,191,435,251,461,289,473,287,478,249,467,189,440,138,412"/>
-<area shape="rect" id="Node000014" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_item_slot.html" title=" " alt="" coords="274,527,461,553"/>
-<area shape="poly" id="edge30_Node000002_Node000014" title=" " alt="" coords="128,411,180,463,214,490,251,512,280,524,278,529,248,517,211,494,177,467,124,415"/>
-<area shape="rect" id="Node000015" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title=" " alt="" coords="270,577,465,620"/>
-<area shape="poly" id="edge31_Node000002_Node000015" title=" " alt="" coords="122,413,143,448,173,488,209,529,251,563,272,575,270,579,248,568,205,533,168,491,139,451,117,416"/>
-<area shape="rect" id="Node000010" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_item_spawner.html" title=" " alt="" coords="539,388,733,431"/>
-<area shape="poly" id="edge26_Node000009_Node000010" title=" " alt="" coords="468,425,538,417,539,423,468,430"/>
-<area shape="rect" id="Node000011" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html" title="索敵ポイント" alt="" coords="533,455,739,481"/>
-<area shape="poly" id="edge27_Node000009_Node000011" title=" " alt="" coords="469,447,533,454,533,459,468,452"/>
-<area shape="rect" id="Node000012" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_enemy_spawner.html" title=" " alt="" coords="787,447,998,489"/>
-<area shape="poly" id="edge28_Node000011_Node000012" title=" " alt="" coords="754,465,787,465,787,471,754,471"/>
-<area shape="rect" id="Node000016" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html" title="OnDisable 時に通知する機能付き MonoBehaviour" alt="" coords="540,577,732,620"/>
-<area shape="poly" id="edge32_Node000015_Node000016" title=" " alt="" coords="480,596,540,596,540,601,480,601"/>
-<area shape="rect" id="Node000017" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title="GameObjectを持つシングルトン" alt="" coords="791,577,994,620"/>
-<area shape="poly" id="edge33_Node000016_Node000017" title=" " alt="" coords="747,596,790,596,790,601,747,601"/>
+<area shape="rect" id="Node000000" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html" title="基底キャラクター操作インターフェース" alt="" coords="5,23,204,65"/>
+<area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller.html" title="エネミーコントローラー" alt="" coords="252,5,487,32"/>
+<area shape="poly" id="edge16_Node000000_Node000001" title=" " alt="" coords="218,30,251,27,252,33,219,36"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller.html" title="プレイヤーコントローラー" alt="" coords="254,56,485,83"/>
+<area shape="poly" id="edge17_Node000000_Node000002" title=" " alt="" coords="219,52,253,56,253,61,218,58"/>
 </map>

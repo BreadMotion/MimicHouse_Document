@@ -1,5 +1,5 @@
 <map id="LIVINGHOUSE.Manager.ItemSlotManager" name="LIVINGHOUSE.Manager.ItemSlotManager">
-<area shape="rect" id="Node000001" title=" " alt="" coords="12,96,203,139"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="5,5,210,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,63,110,96,105,96,105,63"/>
+<area shape="rect" id="Node000001" title="アイテムスロット管理" alt="" coords="5,96,197,139"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="19,5,183,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,63,104,96,98,96,98,63"/>
 </map>

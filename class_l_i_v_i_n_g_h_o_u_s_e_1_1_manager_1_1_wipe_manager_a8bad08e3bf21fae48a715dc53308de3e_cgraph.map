@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title="初期化" alt="" coords="5,39,202,81"/>
 <area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_wipe_manager.html#a0e8d8d982eeaa9c449a606de85c49354" title="シーン遷移後のシーン準備完了後処理" alt="" coords="251,5,447,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,44,236,39,236,45,202,49"/>
-<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_wipe_manager.html#af2cecb110ba5d538339ad4e465444615" title=" " alt="" coords="250,72,448,115"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_wipe_manager.html#af2cecb110ba5d538339ad4e465444615" title="アニメ終了トリガー" alt="" coords="250,72,448,115"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="202,71,235,75,235,81,202,76"/>
 <area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_wipe_manager.html#a7575759f58d2481158a2b619339f58c1" title="画面暗転から抜ける" alt="" coords="496,39,692,81"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="448,37,482,42,481,47,447,43"/>

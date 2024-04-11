@@ -1,13 +1,3 @@
 <map id="クラス階層図" name="クラス階層図">
-<area shape="rect" id="Node000000" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html" title="基底イベントクラス" alt="" coords="5,147,180,173"/>
-<area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_check_key_event.html" title=" " alt="" coords="235,5,435,48"/>
-<area shape="poly" id="edge6_Node000000_Node000001" title=" " alt="" coords="118,134,167,95,226,58,253,46,255,51,229,62,170,100,121,139"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_door_interact_event.html" title=" " alt="" coords="230,72,440,115"/>
-<area shape="poly" id="edge7_Node000000_Node000002" title=" " alt="" coords="157,140,254,113,255,118,159,145"/>
-<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_gimmick_ray_hit_event.html" title=" " alt="" coords="228,139,442,181"/>
-<area shape="poly" id="edge8_Node000000_Node000003" title=" " alt="" coords="195,157,227,157,227,163,195,163"/>
-<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_item_interact_event.html" title="アイテムインタラクトイベント" alt="" coords="231,205,439,248"/>
-<area shape="poly" id="edge9_Node000000_Node000004" title=" " alt="" coords="159,175,255,202,254,207,157,180"/>
-<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_item_ray_hit_event.html" title="アイテム用レイイベント" alt="" coords="233,272,437,315"/>
-<area shape="poly" id="edge10_Node000000_Node000005" title=" " alt="" coords="121,181,170,220,229,258,255,269,253,274,226,262,167,225,118,186"/>
+<area shape="rect" id="Node000000" href="$struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object_emitter.html" title="発射データ" alt="" coords="5,5,199,48"/>
 </map>

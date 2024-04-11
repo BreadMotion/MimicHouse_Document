@@ -4,13 +4,14 @@ var hierarchy =
       [ "LIVINGHOUSE.Attribute.NameAttribute", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_1_1_name_attribute.html", null ]
     ] ],
     [ "LIVINGHOUSE.App.EventRunner.CacheEventData", "struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner_1_1_cache_event_data.html", null ],
+    [ "LIVINGHOUSE.App.CharacterState", "struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character_state.html", null ],
     [ "LIVINGHOUSE.App.HitObjectData", "struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object_data.html", null ],
     [ "LIVINGHOUSE.App.HitObjectEmitter", "struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object_emitter.html", null ],
-    [ "LIVINGHOUSE.App.ICharacterController", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html", [
+    [ "LIVINGHOUSE.App.ICharacterController", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html", [
       [ "LIVINGHOUSE.App.EnemyController", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller.html", null ],
       [ "LIVINGHOUSE.App.PlayerController", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller.html", null ]
     ] ],
-    [ "System.IDisposable", null, [
+    [ "IDisposable", null, [
       [ "LIVINGHOUSE.App.IBuff", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html", [
         [ "LIVINGHOUSE.App.BuffCantMove", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_cant_move.html", null ],
         [ "LIVINGHOUSE.App.BuffDamage", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_damage.html", null ],
@@ -23,8 +24,7 @@ var hierarchy =
         [ "LIVINGHOUSE.App.BuffStaminaSpeedDown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_speed_down.html", null ],
         [ "LIVINGHOUSE.App.BuffStaminaSpeedUp", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_speed_up.html", null ],
         [ "LIVINGHOUSE.App.BuffStaminaUp", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_up.html", null ]
-      ] ],
-      [ "LIVINGHOUSE.App.ICharacterState", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_state.html", null ]
+      ] ]
     ] ],
     [ "IEnumerable", null, [
       [ "LIVINGHOUSE.Utility.UnsafeList< T >", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_unsafe_list.html", null ]
@@ -34,13 +34,27 @@ var hierarchy =
     ] ],
     [ "LIVINGHOUSE.App.IEvent", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html", [
       [ "LIVINGHOUSE.App.CheckKeyEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_check_key_event.html", null ],
+      [ "LIVINGHOUSE.App.DamageEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event.html", null ],
+      [ "LIVINGHOUSE.App.DeathEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html", null ],
       [ "LIVINGHOUSE.App.DoorInteractEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_door_interact_event.html", null ],
       [ "LIVINGHOUSE.App.GimmickRayHitEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_gimmick_ray_hit_event.html", null ],
       [ "LIVINGHOUSE.App.ItemInteractEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_item_interact_event.html", null ],
-      [ "LIVINGHOUSE.App.ItemRayHitEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_item_ray_hit_event.html", null ]
+      [ "LIVINGHOUSE.App.ItemRayHitEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_item_ray_hit_event.html", null ],
+      [ "LIVINGHOUSE.App.ScapegoatEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_scapegoat_event.html", null ],
+      [ "LIVINGHOUSE.App.StunEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_stun_event.html", null ]
+    ] ],
+    [ "LIVINGHOUSE.App.IHaveCharacter", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_character.html", [
+      [ "LIVINGHOUSE.App.DamageEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event.html", null ],
+      [ "LIVINGHOUSE.App.DeathEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html", null ],
+      [ "LIVINGHOUSE.App.ScapegoatEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_scapegoat_event.html", null ],
+      [ "LIVINGHOUSE.App.StunEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_stun_event.html", null ]
+    ] ],
+    [ "LIVINGHOUSE.App.IHaveCooldown", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown.html", [
+      [ "LIVINGHOUSE.App.DamageEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event.html", null ],
+      [ "LIVINGHOUSE.App.DeathEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html", null ],
+      [ "LIVINGHOUSE.App.StunEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_stun_event.html", null ]
     ] ],
     [ "LIVINGHOUSE.App.IHitObject", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html", [
-      [ "LIVINGHOUSE.App.Character", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html", null ],
       [ "LIVINGHOUSE.App.HitObject_WaterGun", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun.html", null ],
       [ "LIVINGHOUSE.App.ICanMoveObject", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html", [
         [ "LIVINGHOUSE.App.IEnemy", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_enemy.html", [
@@ -62,9 +76,9 @@ var hierarchy =
       [ "LIVINGHOUSE.App.WarterGun", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html", null ]
     ] ],
     [ "IJobParallelFor", null, [
-      [ "LIVINGHOUSE.Manager.HitObjectManager.HitCheck", "struct_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager_1_1_hit_check.html", null ]
+      [ "LIVINGHOUSE.Job.JobHitCheck", "struct_l_i_v_i_n_g_h_o_u_s_e_1_1_job_1_1_job_hit_check.html", null ]
     ] ],
-    [ "LIVINGHOUSE.Scene.IScene", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html", [
+    [ "LIVINGHOUSE.Scene.IScene", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html", [
       [ "LIVINGHOUSE.Scene.Game", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game.html", null ],
       [ "LIVINGHOUSE.Scene.Title", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_title.html", null ]
     ] ],
@@ -74,22 +88,25 @@ var hierarchy =
     ] ],
     [ "LIVINGHOUSE.Utility.KeyAndValue< TKey, TValue >", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_key_and_value.html", null ],
     [ "MonoBehaviour", null, [
-      [ "LIVINGHOUSE.App.AudioController", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller.html", null ],
-      [ "LIVINGHOUSE.App.Character", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html", null ],
-      [ "LIVINGHOUSE.App.DemoCameraController", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html", null ],
-      [ "LIVINGHOUSE.App.DoorState", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_door_state.html", null ],
-      [ "LIVINGHOUSE.App.EventRunner", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner.html", null ],
-      [ "LIVINGHOUSE.App.FollowCamera", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_follow_camera.html", null ],
-      [ "LIVINGHOUSE.App.HitObject_WaterGun", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun.html", null ],
-      [ "LIVINGHOUSE.App.IPoint", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html", [
-        [ "LIVINGHOUSE.App.PointItemSpawner", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_item_spawner.html", null ],
-        [ "LIVINGHOUSE.App.PointPatroll", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html", [
-          [ "LIVINGHOUSE.App.PointEnemySpawner", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_enemy_spawner.html", null ]
-        ] ]
-      ] ],
-      [ "LIVINGHOUSE.App.ItemSelectorSlot", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_item_selector_slot.html", null ],
-      [ "LIVINGHOUSE.App.ItemSlot", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_item_slot.html", null ],
       [ "LIVINGHOUSE.Utility.CustomMonoBehaviour", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html", [
+        [ "LIVINGHOUSE.App.AudioController", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller.html", null ],
+        [ "LIVINGHOUSE.App.BuildInScenePoint", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point.html", null ],
+        [ "LIVINGHOUSE.App.Character", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html", null ],
+        [ "LIVINGHOUSE.App.DemoCameraController", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html", null ],
+        [ "LIVINGHOUSE.App.DoorState", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_door_state.html", null ],
+        [ "LIVINGHOUSE.App.EventRunner", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner.html", null ],
+        [ "LIVINGHOUSE.App.FollowCamera", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_follow_camera.html", null ],
+        [ "LIVINGHOUSE.App.HitObject_Goal", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___goal.html", null ],
+        [ "LIVINGHOUSE.App.HitObject_WaterGun", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun.html", null ],
+        [ "LIVINGHOUSE.App.IPoint", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html", [
+          [ "LIVINGHOUSE.App.PointPatroll", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html", [
+            [ "LIVINGHOUSE.App.PointEnemySpawner", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_enemy_spawner.html", null ],
+            [ "LIVINGHOUSE.App.PointGoalSpawner", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_goal_spawner.html", null ],
+            [ "LIVINGHOUSE.App.PointItemSpawner", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_item_spawner.html", null ]
+          ] ]
+        ] ],
+        [ "LIVINGHOUSE.App.ItemSelectorSlot", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_item_selector_slot.html", null ],
+        [ "LIVINGHOUSE.App.ItemSlot", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_item_slot.html", null ],
         [ "LIVINGHOUSE.Utility.DisableNotifyMonoBehaviour", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_disable_notify_mono_behaviour.html", [
           [ "LIVINGHOUSE.Utility.SingletonMonoBehaviour< T >", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html", null ]
         ] ]

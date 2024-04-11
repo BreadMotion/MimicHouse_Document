@@ -1,5 +1,5 @@
 <map id="LIVINGHOUSE.Manager.SceneManager" name="LIVINGHOUSE.Manager.SceneManager">
-<area shape="rect" id="Node000001" title="シーン管理クラス" alt="" coords="5,96,209,139"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html" title=" " alt="" coords="41,5,173,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,63,110,96,104,96,104,63"/>
+<area shape="rect" id="Node000001" title="シーン管理クラス" alt="" coords="5,80,209,123"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html" title=" " alt="" coords="14,5,200,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,47,110,80,104,80,104,47"/>
 </map>

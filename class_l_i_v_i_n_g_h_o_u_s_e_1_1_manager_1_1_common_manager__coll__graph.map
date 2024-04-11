@@ -1,5 +1,5 @@
 <map id="LIVINGHOUSE.Manager.CommonManager" name="LIVINGHOUSE.Manager.CommonManager">
-<area shape="rect" id="Node000001" title="常駐管理クラス" alt="" coords="5,96,224,139"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html" title=" " alt="" coords="41,5,188,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,63,117,96,112,96,112,63"/>
+<area shape="rect" id="Node000001" title="常駐管理クラス" alt="" coords="5,80,224,123"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html" title=" " alt="" coords="14,5,215,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,47,117,80,112,80,112,47"/>
 </map>

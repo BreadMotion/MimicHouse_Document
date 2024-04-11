@@ -93,22 +93,24 @@ $(function(){initNavTree('class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_character_
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">公開型</a> &#124;
 <a href="#pub-methods">公開メンバ関数</a> &#124;
 <a href="#pro-methods">限定公開メンバ関数</a> &#124;
 <a href="#pri-methods">非公開メンバ関数</a> &#124;
 <a href="#pri-attribs">非公開変数類</a> &#124;
 <a href="#pri-static-attribs">静的非公開変数類</a> &#124;
 <a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_character_manager-members.html">全メンバ一覧</a>  </div>
-  <div class="headertitle"><div class="title">LIVINGHOUSE.Manager.CharacterManager クラス</div></div>
+  <div class="headertitle"><div class="title">LIVINGHOUSE.Manager.CharacterManager クラス<span class="mlabels"><span class="mlabel">sealed</span></span></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>キャラクター管理  
+ <a href="#details">[詳解]</a></p>
 <div class="dynheader">
 LIVINGHOUSE.Manager.CharacterManager の継承関係図</div>
 <div class="dyncontent">
 <div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_character_manager__inherit__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_character_manager_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_character_manager_inherit__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_character_manager_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,96,228,139"/>
+<area shape="rect" title="キャラクター管理" alt="" coords="5,96,228,139"/>
 <area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="35,5,198,48"/>
 <area shape="poly" title=" " alt="" coords="119,63,119,96,114,96,114,63"/>
 </map>
@@ -118,40 +120,32 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 <div class="dyncontent">
 <div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_character_manager__coll__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_character_manager_coll__map" alt="Collaboration graph"/></div>
 <map name="a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_character_manager_coll__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_manager_8_character_manager_coll__map">
-<area shape="rect" title=" " alt="" coords="5,96,228,139"/>
+<area shape="rect" title="キャラクター管理" alt="" coords="5,96,228,139"/>
 <area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="35,5,198,48"/>
 <area shape="poly" title=" " alt="" coords="119,63,119,96,114,96,114,63"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-公開型</h2></td></tr>
-<tr class="memitem:a9ce7a5a12df782544b922b5f59632d67" id="r_a9ce7a5a12df782544b922b5f59632d67"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ce7a5a12df782544b922b5f59632d67">CharacterType</a> { <a class="el" href="#a9ce7a5a12df782544b922b5f59632d67a636da1d35e805b00eae0fcd8333f9234">Player</a>
-, <a class="el" href="#a9ce7a5a12df782544b922b5f59632d67a8c6d21187fb58b7a079d70030686b33e">Enemy</a>
-, <a class="el" href="#a9ce7a5a12df782544b922b5f59632d67ab1c94ca2fbc3e78fc30069c8d0f01680">All</a>
- }</td></tr>
-<tr class="memdesc:a9ce7a5a12df782544b922b5f59632d67"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクタータイプ  <a href="#a9ce7a5a12df782544b922b5f59632d67">[詳解]</a><br /></td></tr>
-<tr class="separator:a9ce7a5a12df782544b922b5f59632d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 公開メンバ関数</h2></td></tr>
-<tr class="memitem:a0bf351b82f2c395a9983ab7d37b3a090" id="r_a0bf351b82f2c395a9983ab7d37b3a090"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bf351b82f2c395a9983ab7d37b3a090">RegistCharacter</a> (<a class="el" href="#a9ce7a5a12df782544b922b5f59632d67">CharacterType</a> characterType, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">App.Character</a> instance)</td></tr>
-<tr class="memdesc:a0bf351b82f2c395a9983ab7d37b3a090"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターを管理下に置くため登録する  <br /></td></tr>
-<tr class="separator:a0bf351b82f2c395a9983ab7d37b3a090"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a6f8485937dfdc5a9378a9d18afc144" id="r_a1a6f8485937dfdc5a9378a9d18afc144"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a6f8485937dfdc5a9378a9d18afc144">UnRegistCharacter</a> (<a class="el" href="#a9ce7a5a12df782544b922b5f59632d67">CharacterType</a> characterType, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">App.Character</a> instance)</td></tr>
-<tr class="memdesc:a1a6f8485937dfdc5a9378a9d18afc144"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターの登録を解除する。  <br /></td></tr>
-<tr class="separator:a1a6f8485937dfdc5a9378a9d18afc144"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7df5446f783a27b03fd5c08fc144bf64" id="r_a7df5446f783a27b03fd5c08fc144bf64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">App.Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7df5446f783a27b03fd5c08fc144bf64">GetCharacter</a> (int characterID)</td></tr>
-<tr class="memdesc:a7df5446f783a27b03fd5c08fc144bf64"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターの取得  <br /></td></tr>
-<tr class="separator:a7df5446f783a27b03fd5c08fc144bf64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a394eba8d5c85b72186b8b1c9a5769465" id="r_a394eba8d5c85b72186b8b1c9a5769465"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">App.Character</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a394eba8d5c85b72186b8b1c9a5769465">GetCharacters</a> (<a class="el" href="#a9ce7a5a12df782544b922b5f59632d67">CharacterType</a> characterType)</td></tr>
-<tr class="memdesc:a394eba8d5c85b72186b8b1c9a5769465"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターリストの取得  <br /></td></tr>
-<tr class="separator:a394eba8d5c85b72186b8b1c9a5769465"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3078b114e8fc1a174e3ea4d2fc37c0f" id="r_ad3078b114e8fc1a174e3ea4d2fc37c0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">App.Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3078b114e8fc1a174e3ea4d2fc37c0f">GenerateCharacter</a> (int prefabIndex)</td></tr>
-<tr class="memdesc:ad3078b114e8fc1a174e3ea4d2fc37c0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクター生成  <br /></td></tr>
-<tr class="separator:ad3078b114e8fc1a174e3ea4d2fc37c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bb5064ceb76f0d3586eeebf4dd932d9" id="r_a0bb5064ceb76f0d3586eeebf4dd932d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">App.Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bb5064ceb76f0d3586eeebf4dd932d9">GenerateCharacter</a> (Vector3 position, int prefabIndex)</td></tr>
-<tr class="separator:a0bb5064ceb76f0d3586eeebf4dd932d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9339072da3b9514ce53d0dfeb0ccb625" id="r_a9339072da3b9514ce53d0dfeb0ccb625"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9339072da3b9514ce53d0dfeb0ccb625">RegistCharacter</a> (<a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html#a6c4a22071cd8f73bb62677c9d9d762c0">CharacterType</a> characterType, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a> instance)</td></tr>
+<tr class="memdesc:a9339072da3b9514ce53d0dfeb0ccb625"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターを管理下に置くため登録する  <br /></td></tr>
+<tr class="separator:a9339072da3b9514ce53d0dfeb0ccb625"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefd0223dd947b133d5da52213a156307" id="r_aefd0223dd947b133d5da52213a156307"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefd0223dd947b133d5da52213a156307">UnRegistCharacter</a> (<a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html#a6c4a22071cd8f73bb62677c9d9d762c0">CharacterType</a> characterType, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a> instance)</td></tr>
+<tr class="memdesc:aefd0223dd947b133d5da52213a156307"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターの登録を解除する。  <br /></td></tr>
+<tr class="separator:aefd0223dd947b133d5da52213a156307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22eff360c4c3d9d516c5e6832957f847" id="r_a22eff360c4c3d9d516c5e6832957f847"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">App.Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22eff360c4c3d9d516c5e6832957f847">GetCharacter</a> (uint characterID)</td></tr>
+<tr class="memdesc:a22eff360c4c3d9d516c5e6832957f847"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターの取得  <br /></td></tr>
+<tr class="separator:a22eff360c4c3d9d516c5e6832957f847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95d0eb6e527e2adb4bc8d7c34c6df542" id="r_a95d0eb6e527e2adb4bc8d7c34c6df542"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95d0eb6e527e2adb4bc8d7c34c6df542">GetCharacters</a> (<a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html#a6c4a22071cd8f73bb62677c9d9d762c0">CharacterType</a> characterType)</td></tr>
+<tr class="memdesc:a95d0eb6e527e2adb4bc8d7c34c6df542"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターリストの取得  <br /></td></tr>
+<tr class="separator:a95d0eb6e527e2adb4bc8d7c34c6df542"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae97c8d9d0c1a068909d561e440560861" id="r_ae97c8d9d0c1a068909d561e440560861"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae97c8d9d0c1a068909d561e440560861">GenerateCharacter</a> (int prefabIndex)</td></tr>
+<tr class="memdesc:ae97c8d9d0c1a068909d561e440560861"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクター生成  <br /></td></tr>
+<tr class="separator:ae97c8d9d0c1a068909d561e440560861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af09b8a8f85c94fb8e1ca9108cf0ae50d" id="r_af09b8a8f85c94fb8e1ca9108cf0ae50d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af09b8a8f85c94fb8e1ca9108cf0ae50d">GenerateCharacter</a> (Vector3 position, int prefabIndex)</td></tr>
+<tr class="memdesc:af09b8a8f85c94fb8e1ca9108cf0ae50d"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクター生成  <br /></td></tr>
+<tr class="separator:af09b8a8f85c94fb8e1ca9108cf0ae50d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 限定公開メンバ関数</h2></td></tr>
@@ -181,12 +175,16 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 非公開変数類</h2></td></tr>
 <tr class="memitem:a921e8b2f1d60854feecc9df9ad36b77a" id="r_a921e8b2f1d60854feecc9df9ad36b77a"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a921e8b2f1d60854feecc9df9ad36b77a">m_uniqueCharacterID</a> = 0</td></tr>
+<tr class="memdesc:a921e8b2f1d60854feecc9df9ad36b77a"><td class="mdescLeft">&#160;</td><td class="mdescRight">ユニーク番号  <br /></td></tr>
 <tr class="separator:a921e8b2f1d60854feecc9df9ad36b77a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57dcfebba1234f4b76481fe8dba8b43f" id="r_a57dcfebba1234f4b76481fe8dba8b43f"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; <a class="el" href="#a9ce7a5a12df782544b922b5f59632d67">CharacterType</a>, List&lt; <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">App.Character</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57dcfebba1234f4b76481fe8dba8b43f">m_characters</a></td></tr>
-<tr class="separator:a57dcfebba1234f4b76481fe8dba8b43f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a022cb60c839791a57f498d329aa13f59" id="r_a022cb60c839791a57f498d329aa13f59"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; <a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html#a6c4a22071cd8f73bb62677c9d9d762c0">CharacterType</a>, List&lt; <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a022cb60c839791a57f498d329aa13f59">m_characters</a></td></tr>
+<tr class="memdesc:a022cb60c839791a57f498d329aa13f59"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターリスト  <br /></td></tr>
+<tr class="separator:a022cb60c839791a57f498d329aa13f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae27750b692de1d880405163c210d0282" id="r_ae27750b692de1d880405163c210d0282"><td class="memItemLeft" align="right" valign="top">List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae27750b692de1d880405163c210d0282">m_characterPrefabs</a></td></tr>
+<tr class="memdesc:ae27750b692de1d880405163c210d0282"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクタープレファブリスト  <br /></td></tr>
 <tr class="separator:ae27750b692de1d880405163c210d0282"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32a3f6a8e4ab0df6f32b0fb5c598d906" id="r_a32a3f6a8e4ab0df6f32b0fb5c598d906"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html">SO.CharacterScriptableObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32a3f6a8e4ab0df6f32b0fb5c598d906">m_characterStates</a></td></tr>
+<tr class="memdesc:a32a3f6a8e4ab0df6f32b0fb5c598d906"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターステートコンテキストリスト  <br /></td></tr>
 <tr class="separator:a32a3f6a8e4ab0df6f32b0fb5c598d906"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
@@ -215,36 +213,14 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 <tr class="separator:a82b6de86ce50247fd7f49e587a9c57e9 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html">LIVINGHOUSE.Utility.SingletonMonoBehaviour&lt; CharacterManager &gt;</a> に属する継承プロパティ</td></tr>
 <tr class="memitem:ac0cfa308fecdda89f8b4a0ec5fed72b5 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour" id="r_ac0cfa308fecdda89f8b4a0ec5fed72b5"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#ac0cfa308fecdda89f8b4a0ec5fed72b5">I</a><code> [get]</code></td></tr>
+<tr class="memdesc:ac0cfa308fecdda89f8b4a0ec5fed72b5 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンス  <br /></td></tr>
 <tr class="separator:ac0cfa308fecdda89f8b4a0ec5fed72b5 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
-<div class="textblock">
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00011">11</a> 行目に定義があります。</p>
-</div><h2 class="groupheader">列挙型メンバ詳解</h2>
-<a id="a9ce7a5a12df782544b922b5f59632d67" name="a9ce7a5a12df782544b922b5f59632d67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ce7a5a12df782544b922b5f59632d67">&#9670;&#160;</a></span>CharacterType</h2>
+<div class="textblock"><p>キャラクター管理 </p>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#a9ce7a5a12df782544b922b5f59632d67">LIVINGHOUSE.Manager.CharacterManager.CharacterType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>キャラクタータイプ </p>
-<table class="fieldtable">
-<tr><th colspan="2">列挙値</th></tr><tr><td class="fieldname"><a id="a9ce7a5a12df782544b922b5f59632d67a636da1d35e805b00eae0fcd8333f9234" name="a9ce7a5a12df782544b922b5f59632d67a636da1d35e805b00eae0fcd8333f9234"></a>Player&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ce7a5a12df782544b922b5f59632d67a8c6d21187fb58b7a079d70030686b33e" name="a9ce7a5a12df782544b922b5f59632d67a8c6d21187fb58b7a079d70030686b33e"></a>Enemy&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ce7a5a12df782544b922b5f59632d67ab1c94ca2fbc3e78fc30069c8d0f01680" name="a9ce7a5a12df782544b922b5f59632d67ab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00020">20</a> 行目に定義があります。</p>
-
-</div>
-</div>
-<h2 class="groupheader">メソッド詳解</h2>
+<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00017">17</a> 行目に定義があります。</p>
+</div><h2 class="groupheader">メソッド詳解</h2>
 <a id="aa5e3af5b5d02f49879e60f3fbce3c3d8" name="aa5e3af5b5d02f49879e60f3fbce3c3d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa5e3af5b5d02f49879e60f3fbce3c3d8">&#9670;&#160;</a></span>Awake()</h2>
 
@@ -272,7 +248,7 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 
 <p><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html#a7f60b7cd168aeced30d653f95a254828">LIVINGHOUSE.Utility.SingletonMonoBehaviour&lt; CharacterManager &gt;</a>を再実装しています。</p>
 
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00034">34</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00044">44</a> 行目に定義があります。</p>
 <div class="dynheader">
 呼び出し関係図:</div>
 <div class="dyncontent">
@@ -290,14 +266,14 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 
 </div>
 </div>
-<a id="ad3078b114e8fc1a174e3ea4d2fc37c0f" name="ad3078b114e8fc1a174e3ea4d2fc37c0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3078b114e8fc1a174e3ea4d2fc37c0f">&#9670;&#160;</a></span>GenerateCharacter() <span class="overload">[1/2]</span></h2>
+<a id="ae97c8d9d0c1a068909d561e440560861" name="ae97c8d9d0c1a068909d561e440560861"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae97c8d9d0c1a068909d561e440560861">&#9670;&#160;</a></span>GenerateCharacter() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">App.Character</a> LIVINGHOUSE.Manager.CharacterManager.GenerateCharacter </td>
+          <td class="memname"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a> LIVINGHOUSE.Manager.CharacterManager.GenerateCharacter </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>prefabIndex</em></span></td><td>)</td>
           <td></td>
@@ -307,18 +283,18 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 
 <p>キャラクター生成 </p>
 
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00130">130</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00139">139</a> 行目に定義があります。</p>
 
 </div>
 </div>
-<a id="a0bb5064ceb76f0d3586eeebf4dd932d9" name="a0bb5064ceb76f0d3586eeebf4dd932d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bb5064ceb76f0d3586eeebf4dd932d9">&#9670;&#160;</a></span>GenerateCharacter() <span class="overload">[2/2]</span></h2>
+<a id="af09b8a8f85c94fb8e1ca9108cf0ae50d" name="af09b8a8f85c94fb8e1ca9108cf0ae50d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af09b8a8f85c94fb8e1ca9108cf0ae50d">&#9670;&#160;</a></span>GenerateCharacter() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">App.Character</a> LIVINGHOUSE.Manager.CharacterManager.GenerateCharacter </td>
+          <td class="memname"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a> LIVINGHOUSE.Manager.CharacterManager.GenerateCharacter </td>
           <td>(</td>
           <td class="paramtype">Vector3</td>          <td class="paramname"><span class="paramname"><em>position</em>, </span></td>
         </tr>
@@ -330,12 +306,22 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00156">156</a> 行目に定義があります。</p>
+<p>キャラクター生成 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>生成座標</td></tr>
+    <tr><td class="paramname">prefabIndex</td><td>プレファブ番号</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>キャラクター</dd></dl>
+
+<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00170">170</a> 行目に定義があります。</p>
 
 </div>
 </div>
-<a id="a7df5446f783a27b03fd5c08fc144bf64" name="a7df5446f783a27b03fd5c08fc144bf64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7df5446f783a27b03fd5c08fc144bf64">&#9670;&#160;</a></span>GetCharacter()</h2>
+<a id="a22eff360c4c3d9d516c5e6832957f847" name="a22eff360c4c3d9d516c5e6832957f847"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22eff360c4c3d9d516c5e6832957f847">&#9670;&#160;</a></span>GetCharacter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -343,7 +329,7 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
         <tr>
           <td class="memname"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">App.Character</a> LIVINGHOUSE.Manager.CharacterManager.GetCharacter </td>
           <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>characterID</em></span></td><td>)</td>
+          <td class="paramtype">uint</td>          <td class="paramname"><span class="paramname"><em>characterID</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -351,20 +337,20 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 
 <p>キャラクターの取得 </p>
 
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00103">103</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00112">112</a> 行目に定義があります。</p>
 
 </div>
 </div>
-<a id="a394eba8d5c85b72186b8b1c9a5769465" name="a394eba8d5c85b72186b8b1c9a5769465"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a394eba8d5c85b72186b8b1c9a5769465">&#9670;&#160;</a></span>GetCharacters()</h2>
+<a id="a95d0eb6e527e2adb4bc8d7c34c6df542" name="a95d0eb6e527e2adb4bc8d7c34c6df542"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95d0eb6e527e2adb4bc8d7c34c6df542">&#9670;&#160;</a></span>GetCharacters()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt; <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">App.Character</a> &gt; LIVINGHOUSE.Manager.CharacterManager.GetCharacters </td>
+          <td class="memname">List&lt; <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a> &gt; LIVINGHOUSE.Manager.CharacterManager.GetCharacters </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a9ce7a5a12df782544b922b5f59632d67">CharacterType</a></td>          <td class="paramname"><span class="paramname"><em>characterType</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html#a6c4a22071cd8f73bb62677c9d9d762c0">CharacterType</a></td>          <td class="paramname"><span class="paramname"><em>characterType</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -372,7 +358,7 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 
 <p>キャラクターリストの取得 </p>
 
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00123">123</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00132">132</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -401,7 +387,7 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 
 <p>キャラクターリストの初期化 </p>
 
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00043">43</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00053">53</a> 行目に定義があります。</p>
 <div class="dynheader">
 被呼び出し関係図:</div>
 <div class="dyncontent">
@@ -440,7 +426,7 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 
 <p>キャラクタープレファブリストの初期化 </p>
 
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00057">57</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00067">67</a> 行目に定義があります。</p>
 <div class="dynheader">
 被呼び出し関係図:</div>
 <div class="dyncontent">
@@ -479,7 +465,7 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 
 <p>キャラクターステートの初期化 </p>
 
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00065">65</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00075">75</a> 行目に定義があります。</p>
 <div class="dynheader">
 被呼び出し関係図:</div>
 <div class="dyncontent">
@@ -493,8 +479,8 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 
 </div>
 </div>
-<a id="a0bf351b82f2c395a9983ab7d37b3a090" name="a0bf351b82f2c395a9983ab7d37b3a090"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bf351b82f2c395a9983ab7d37b3a090">&#9670;&#160;</a></span>RegistCharacter()</h2>
+<a id="a9339072da3b9514ce53d0dfeb0ccb625" name="a9339072da3b9514ce53d0dfeb0ccb625"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9339072da3b9514ce53d0dfeb0ccb625">&#9670;&#160;</a></span>RegistCharacter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -502,12 +488,12 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
         <tr>
           <td class="memname">UInt32 LIVINGHOUSE.Manager.CharacterManager.RegistCharacter </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a9ce7a5a12df782544b922b5f59632d67">CharacterType</a></td>          <td class="paramname"><span class="paramname"><em>characterType</em>, </span></td>
+          <td class="paramtype"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html#a6c4a22071cd8f73bb62677c9d9d762c0">CharacterType</a></td>          <td class="paramname"><span class="paramname"><em>characterType</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">App::Character</a></td>          <td class="paramname"><span class="paramname"><em>instance</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a></td>          <td class="paramname"><span class="paramname"><em>instance</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -522,12 +508,12 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 </dl>
 <dl class="section return"><dt>戻り値</dt><dd>追加したキャラクター用に発行されたキャラクターID </dd></dl>
 
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00078">78</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00086">86</a> 行目に定義があります。</p>
 
 </div>
 </div>
-<a id="a1a6f8485937dfdc5a9378a9d18afc144" name="a1a6f8485937dfdc5a9378a9d18afc144"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a6f8485937dfdc5a9378a9d18afc144">&#9670;&#160;</a></span>UnRegistCharacter()</h2>
+<a id="aefd0223dd947b133d5da52213a156307" name="aefd0223dd947b133d5da52213a156307"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefd0223dd947b133d5da52213a156307">&#9670;&#160;</a></span>UnRegistCharacter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -535,19 +521,19 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
         <tr>
           <td class="memname">void LIVINGHOUSE.Manager.CharacterManager.UnRegistCharacter </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a9ce7a5a12df782544b922b5f59632d67">CharacterType</a></td>          <td class="paramname"><span class="paramname"><em>characterType</em>, </span></td>
+          <td class="paramtype"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html#a6c4a22071cd8f73bb62677c9d9d762c0">CharacterType</a></td>          <td class="paramname"><span class="paramname"><em>characterType</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">App::Character</a></td>          <td class="paramname"><span class="paramname"><em>instance</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a></td>          <td class="paramname"><span class="paramname"><em>instance</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>キャラクターの登録を解除する。 </p>
 
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00093">93</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00101">101</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -574,7 +560,7 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 
 <p>キャラクターステートコンテキスト格納ディレクトリパス </p>
 
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00016">16</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00023">23</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -598,12 +584,14 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00029">29</a> 行目に定義があります。</p>
+<p>キャラクタープレファブリスト </p>
+
+<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00036">36</a> 行目に定義があります。</p>
 
 </div>
 </div>
-<a id="a57dcfebba1234f4b76481fe8dba8b43f" name="a57dcfebba1234f4b76481fe8dba8b43f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57dcfebba1234f4b76481fe8dba8b43f">&#9670;&#160;</a></span>m_characters</h2>
+<a id="a022cb60c839791a57f498d329aa13f59" name="a022cb60c839791a57f498d329aa13f59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a022cb60c839791a57f498d329aa13f59">&#9670;&#160;</a></span>m_characters</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -612,7 +600,7 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Dictionary&lt;<a class="el" href="#a9ce7a5a12df782544b922b5f59632d67">CharacterType</a>, List&lt;<a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">App.Character</a>&gt; &gt; LIVINGHOUSE.Manager.CharacterManager.m_characters</td>
+          <td class="memname">Dictionary&lt;<a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html#a6c4a22071cd8f73bb62677c9d9d762c0">CharacterType</a>, List&lt;<a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a>&gt; &gt; LIVINGHOUSE.Manager.CharacterManager.m_characters</td>
         </tr>
       </table>
   </td>
@@ -622,7 +610,9 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00028">28</a> 行目に定義があります。</p>
+<p>キャラクターリスト </p>
+
+<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00032">32</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -646,7 +636,9 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00030">30</a> 行目に定義があります。</p>
+<p>キャラクターステートコンテキストリスト </p>
+
+<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00040">40</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -670,7 +662,9 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00027">27</a> 行目に定義があります。</p>
+<p>ユニーク番号 </p>
+
+<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00028">28</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -696,7 +690,7 @@ LIVINGHOUSE.Manager.CharacterManager 連携図</div>
 
 <p>キャラクタープレファブ格納ディレクトリパス </p>
 
-<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00014">14</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_character_manager_8cs_source.html">CharacterManager.cs</a> の <a class="el" href="_character_manager_8cs_source.html#l00020">20</a> 行目に定義があります。</p>
 
 </div>
 </div>

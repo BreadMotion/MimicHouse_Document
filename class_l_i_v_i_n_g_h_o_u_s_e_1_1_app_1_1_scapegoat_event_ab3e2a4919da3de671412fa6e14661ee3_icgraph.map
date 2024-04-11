@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.App.ScapegoatEvent.GetCharacter" name="LIVINGHOUSE.App.ScapegoatEvent.GetCharacter">
+<area shape="rect" id="Node000001" title="キャラクターの参照を取得" alt="" coords="255,5,456,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_scapegoat_event.html#a2318b47bb19c2faf1dbe1094dedcb388" title="成功時呼び出し" alt="" coords="5,5,207,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,29,207,29,207,24,239,24"/>
+</map>

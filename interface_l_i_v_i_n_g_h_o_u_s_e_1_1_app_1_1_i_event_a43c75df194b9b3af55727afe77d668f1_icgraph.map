@@ -1,9 +1,11 @@
 <map id="LIVINGHOUSE.App.IEvent.ContentInvoke" name="LIVINGHOUSE.App.IEvent.ContentInvoke">
-<area shape="rect" id="Node000001" title="成功時呼び出し" alt="" coords="798,5,1022,48"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner.html#ae3353d26d19f18ec03411efd54027aba" title="イベントが条件を満たしている場合実行する" alt="" coords="534,5,750,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="783,29,751,29,751,24,783,24"/>
-<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner.html#a6aabaad9bb51135ae27f21a4ac29e571" title="各イベント実行" alt="" coords="270,5,486,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="519,29,487,29,487,24,519,24"/>
-<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner.html#a64bf16734143e7dfa3194a85264e78a3" title="更新" alt="" coords="5,5,222,48"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="255,29,222,29,222,24,255,24"/>
+<area shape="rect" id="Node000001" title="成功時呼び出し" alt="" coords="798,39,1022,81"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner.html#a2bfae2d87ec8ae4ec301382be1f7f4b7" title="イベントの追加" alt="" coords="534,5,750,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="783,47,750,43,751,37,784,42"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner.html#ae3353d26d19f18ec03411efd54027aba" title="イベントが条件を満たしている場合実行する" alt="" coords="534,72,750,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="784,78,751,83,750,77,783,73"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner.html#a6aabaad9bb51135ae27f21a4ac29e571" title="各イベント実行" alt="" coords="270,72,486,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="519,96,487,96,487,91,519,91"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner.html#a64bf16734143e7dfa3194a85264e78a3" title="更新" alt="" coords="5,72,222,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="255,96,222,96,222,91,255,91"/>
 </map>

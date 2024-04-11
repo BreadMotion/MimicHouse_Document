@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.App.PlayerController.InitializeInvoke" name="LIVINGHOUSE.App.PlayerController.InitializeInvoke">
+<area shape="rect" id="Node000001" title="初期化" alt="" coords="5,5,241,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller.html#ae88f1e67acc04215e517e1201395895d" title="カメラの初期設定" alt="" coords="289,5,524,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="241,24,274,24,274,29,241,29"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_follow_camera.html#a58c8817f8d8102d4ee55db0de06f1808" title="追従先トランスフォームの登録" alt="" coords="572,5,797,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="525,24,557,24,557,29,525,29"/>
+</map>

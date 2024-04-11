@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/Bg/ForStageBuild/PointBuild/BuildInScenePoint.cs ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('_build_in_scene_point_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">BuildInScenePoint.cs</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_build_in_scene_point_8cs.html">[詳解]</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections.Generic;</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>UnityEngine;</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">using </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute.html">LIVINGHOUSE.Attribute</a>;</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">using </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_utility.html">LIVINGHOUSE.Utility</a>;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    [Serializable, Name(<span class="stringliteral">&quot;ポイントビルド&quot;</span>)]</div>
+<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point.html">   15</a></span>    <span class="keyword">public</span> <span class="keyword">sealed</span> <span class="keyword">class </span><a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point.html">BuildInScenePoint</a> : <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html">CustomMonoBehaviour</a></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    {</div>
+<div class="foldopen" id="foldopen00018" data-start="{" data-end="}">
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point.html#a0651bb41cf324b14078963ee26e56db2">   18</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point.html#a0651bb41cf324b14078963ee26e56db2">Start</a>()</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        {</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point.html#af0dc8e6e461a9ffa2eaffd36f201f776">BuildPoint</a>();</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        }</div>
+</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="foldopen" id="foldopen00025" data-start="{" data-end="}">
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point.html#af0dc8e6e461a9ffa2eaffd36f201f776">   25</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point.html#af0dc8e6e461a9ffa2eaffd36f201f776">BuildPoint</a>()</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>            <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a>[] points = GameObject.FindObjectsByType&lt;<a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a>&gt;(FindObjectsSortMode.InstanceID);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            List&lt;PointPatroll&gt; startPoints = <span class="keyword">new</span>();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            Transform originStartPoint = <span class="keyword">null</span>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            <span class="keywordflow">foreach</span> (var point <span class="keywordflow">in</span> points)</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            {</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>                <span class="keywordflow">if</span> (point.PointType == <a class="code hl_enumeration" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a>.START)</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>                    startPoints.Add(point);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            }</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>            <span class="keywordtype">bool</span> isOverElement = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            <span class="keywordflow">foreach</span> (var startPoint <span class="keywordflow">in</span> startPoints)</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>                <span class="keywordflow">if</span> (!isOverElement)</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>                {</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>                    <span class="keywordflow">if</span> (startPoint.IsGameStartPoint)</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                    {</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>                        isOverElement = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>                        originStartPoint = startPoint.<a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html#aec007c81721222db9bab63337860269c">transform</a>.parent;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>                    }</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>                }</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (startPoint.IsGameStartPoint)</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                {</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                    Debug.LogWarning($<span class="stringliteral">&quot;ゲーム開始地点フラグがオンのオブジェクトが複数あります。{startPoint.name}をゲーム開始地点対象から排除します。&quot;</span>);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                }</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            }</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>            <span class="keywordflow">foreach</span> (var startPoint <span class="keywordflow">in</span> startPoints)</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            {</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>                <span class="keywordflow">if</span> (startPoint.transform.parent == originStartPoint)</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                {</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>                }</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>                var preParent = startPoint.transform.parent;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                startPoint.transform.parent = originStartPoint;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>                Destroy(preParent.gameObject);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            }</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        }</div>
+</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    }</div>
+</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>}</div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point.html">LIVINGHOUSE.App.BuildInScenePoint</a></div><div class="ttdoc">パトロールポイントのビルド</div><div class="ttdef"><b>Definition</b> <a href="#l00015">BuildInScenePoint.cs:16</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point_html_a0651bb41cf324b14078963ee26e56db2"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point.html#a0651bb41cf324b14078963ee26e56db2">LIVINGHOUSE.App.BuildInScenePoint.Start</a></div><div class="ttdeci">void Start()</div><div class="ttdoc">初期化</div><div class="ttdef"><b>Definition</b> <a href="#l00018">BuildInScenePoint.cs:18</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point_html_af0dc8e6e461a9ffa2eaffd36f201f776"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point.html#af0dc8e6e461a9ffa2eaffd36f201f776">LIVINGHOUSE.App.BuildInScenePoint.BuildPoint</a></div><div class="ttdeci">void BuildPoint()</div><div class="ttdoc">シーン内全ポイントのビルドを行う</div><div class="ttdef"><b>Definition</b> <a href="#l00025">BuildInScenePoint.cs:25</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">LIVINGHOUSE.App.PointPatroll</a></div><div class="ttdoc">索敵ポイント</div><div class="ttdef"><b>Definition</b> <a href="_point_patroll_8cs_source.html#l00015">PointPatroll.cs:16</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html">LIVINGHOUSE.Utility.CustomMonoBehaviour</a></div><div class="ttdoc">カスタム版コンポーネント</div><div class="ttdef"><b>Definition</b> <a href="_custom_mono_behaviour_8cs_source.html#l00007">CustomMonoBehaviour.cs:8</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour_html_aec007c81721222db9bab63337860269c"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html#aec007c81721222db9bab63337860269c">LIVINGHOUSE.Utility.CustomMonoBehaviour.transform</a></div><div class="ttdeci">new Transform transform</div><div class="ttdoc">一時保存トランスフォーム</div><div class="ttdef"><b>Definition</b> <a href="_custom_mono_behaviour_8cs_source.html#l00022">CustomMonoBehaviour.cs:23</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div><div class="ttdef"><b>Definition</b> <a href="_audio_controller_8cs_source.html#l00007">AudioController.cs:8</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_ad44e9f72fddbfe8a307810d5573587c7"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">LIVINGHOUSE.App.PointType</a></div><div class="ttdeci">PointType</div><div class="ttdoc">ポイントの種類</div><div class="ttdef"><b>Definition</b> <a href="_point_patroll_8cs_source.html#l00361">PointPatroll.cs:362</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute.html">LIVINGHOUSE.Attribute</a></div><div class="ttdef"><b>Definition</b> <a href="_class_name_attribute_8cs_source.html#l00001">ClassNameAttribute.cs:2</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_utility.html">LIVINGHOUSE.Utility</a></div><div class="ttdef"><b>Definition</b> <a href="_custom_mono_behaviour_8cs_source.html#l00004">CustomMonoBehaviour.cs:5</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_3d328b3dca154a477d99beb656992be2.html">Unity</a></li><li class="navelem"><a class="el" href="dir_3b33dffaa21a2ac6f7978a949ffd4e41.html">Assets</a></li><li class="navelem"><a class="el" href="dir_817f9772e3e161556b23fdd8948b88aa.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_9e2633ee6edb8c4cb72d28d060b37fa1.html">App</a></li><li class="navelem"><a class="el" href="dir_9d6cf2be4a8bf3b60c861e85273f032a.html">Bg</a></li><li class="navelem"><a class="el" href="dir_a5a2a9c83f2126df1d03ececd63e4c40.html">ForStageBuild</a></li><li class="navelem"><a class="el" href="dir_81e02263ee5070a6bc8251f6d4515644.html">PointBuild</a></li><li class="navelem"><a class="el" href="_build_in_scene_point_8cs.html">BuildInScenePoint.cs</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

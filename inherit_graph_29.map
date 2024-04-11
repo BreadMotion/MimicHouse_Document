@@ -1,3 +1,5 @@
 <map id="クラス階層図" name="クラス階層図">
-<area shape="rect" id="Node000000" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_table_base.html" title="テーブルの管理クラス" alt="" coords="5,5,195,48"/>
+<area shape="rect" id="Node000000" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="5,5,237,48"/>
+<area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html" title="アイテムスロット管理" alt="" coords="285,5,476,48"/>
+<area shape="poly" id="edge84_Node000000_Node000001" title=" " alt="" coords="252,24,284,24,284,29,252,29"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="LIVINGHOUSE.App.IPoint.InitializeOnEditor" name="LIVINGHOUSE.App.IPoint.InitializeOnEditor">
 <area shape="rect" id="Node000001" title="エディター上での初期化" alt="" coords="258,5,481,48"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html#a220ad60df5a0ed7136b89a896e21272a" title=" " alt="" coords="5,13,210,40"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html#a220ad60df5a0ed7136b89a896e21272a" title="初期化" alt="" coords="5,13,210,40"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,29,210,29,210,24,243,24"/>
 </map>

@@ -15,8 +15,12 @@ var annotated_dup =
         [ "BuffStaminaSpeedDown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_speed_down.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_speed_down" ],
         [ "BuffStaminaSpeedUp", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_speed_up.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_speed_up" ],
         [ "BuffStaminaUp", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_up.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_up" ],
+        [ "BuildInScenePoint", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point" ],
         [ "Character", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character" ],
+        [ "CharacterState", "struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character_state.html", "struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character_state" ],
         [ "CheckKeyEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_check_key_event.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_check_key_event" ],
+        [ "DamageEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event" ],
+        [ "DeathEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event" ],
         [ "DemoCameraController", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller" ],
         [ "DoorInteractEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_door_interact_event.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_door_interact_event" ],
         [ "DoorState", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_door_state.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_door_state" ],
@@ -27,15 +31,17 @@ var annotated_dup =
         [ "EventRunner", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner" ],
         [ "FollowCamera", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_follow_camera.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_follow_camera" ],
         [ "GimmickRayHitEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_gimmick_ray_hit_event.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_gimmick_ray_hit_event" ],
+        [ "HitObject_Goal", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___goal.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___goal" ],
         [ "HitObject_WaterGun", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object___water_gun" ],
         [ "HitObjectData", "struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object_data.html", "struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object_data" ],
         [ "HitObjectEmitter", "struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object_emitter.html", "struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object_emitter" ],
         [ "IBuff", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff" ],
         [ "ICanMoveObject", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object" ],
-        [ "ICharacterController", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller" ],
-        [ "ICharacterState", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_state.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_state" ],
+        [ "ICharacterController", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller" ],
         [ "IEnemy", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_enemy.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_enemy" ],
         [ "IEvent", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event" ],
+        [ "IHaveCharacter", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_character.html", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_character" ],
+        [ "IHaveCooldown", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown.html", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown" ],
         [ "IHitObject", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object" ],
         [ "IItem", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item" ],
         [ "IPoint", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point" ],
@@ -49,13 +55,16 @@ var annotated_dup =
         [ "Player", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player" ],
         [ "PlayerController", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller" ],
         [ "PointEnemySpawner", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_enemy_spawner.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_enemy_spawner" ],
+        [ "PointGoalSpawner", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_goal_spawner.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_goal_spawner" ],
         [ "PointItemSpawner", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_item_spawner.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_item_spawner" ],
         [ "PointPatroll", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll" ],
         [ "RainCoat", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_rain_coat.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_rain_coat" ],
         [ "RedEye", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye" ],
+        [ "ScapegoatEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_scapegoat_event.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_scapegoat_event" ],
         [ "ScouterEnemy01", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_scouter_enemy01.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_scouter_enemy01" ],
         [ "ScouterEnemy02", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_scouter_enemy02.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_scouter_enemy02" ],
         [ "Strawdowll", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_strawdowll.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_strawdowll" ],
+        [ "StunEvent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_stun_event.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_stun_event" ],
         [ "Umbrella", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_umbrella.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_umbrella" ],
         [ "WarterGun", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun" ]
       ] ],
@@ -65,6 +74,9 @@ var annotated_dup =
         [ "ReadOnlyAttribute", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_1_1_read_only_attribute.html", null ],
         [ "ReadOnlyDrawer", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_1_1_read_only_drawer.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_1_1_read_only_drawer" ],
         [ "SubclassSelectorAttribute", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_1_1_subclass_selector_attribute.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_1_1_subclass_selector_attribute" ]
+      ] ],
+      [ "Job", "namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_job.html", [
+        [ "JobHitCheck", "struct_l_i_v_i_n_g_h_o_u_s_e_1_1_job_1_1_job_hit_check.html", "struct_l_i_v_i_n_g_h_o_u_s_e_1_1_job_1_1_job_hit_check" ]
       ] ],
       [ "Manager", "namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html", [
         [ "ApplicationManager", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_application_manager.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_application_manager" ],
@@ -84,7 +96,7 @@ var annotated_dup =
       ] ],
       [ "Scene", "namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_scene.html", [
         [ "Game", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game" ],
-        [ "IScene", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene" ],
+        [ "IScene", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html", "interface_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene" ],
         [ "Title", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_title.html", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_title" ]
       ] ],
       [ "SO", "namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o.html", [

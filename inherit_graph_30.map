@@ -1,9 +1,5 @@
 <map id="クラス階層図" name="クラス階層図">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,80,125,107"/>
-<area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_1_1_label_attribute.html" title=" " alt="" coords="184,5,381,48"/>
-<area shape="poly" id="edge61_Node000000_Node000001" title=" " alt="" coords="124,72,172,57,209,46,211,51,173,63,125,78"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_1_1_read_only_attribute.html" title=" " alt="" coords="185,72,380,115"/>
-<area shape="poly" id="edge62_Node000000_Node000002" title=" " alt="" coords="140,91,184,91,184,96,140,96"/>
-<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_1_1_subclass_selector_attribute.html" title="UnityEngine.Objectを継承していないクラスのフィールドをインスペクターに表示する" alt="" coords="173,139,392,181"/>
-<area shape="poly" id="edge63_Node000000_Node000003" title=" " alt="" coords="125,109,173,124,211,136,209,141,172,129,124,114"/>
+<area shape="rect" id="Node000000" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="5,5,219,48"/>
+<area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_wipe_manager.html" title="非同期遷移クラス" alt="" coords="267,5,463,48"/>
+<area shape="poly" id="edge85_Node000000_Node000001" title=" " alt="" coords="233,24,266,24,266,29,233,29"/>
 </map>

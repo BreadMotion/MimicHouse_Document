@@ -1,29 +1,17 @@
 <map id="クラス階層図" name="クラス階層図">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,320,143,347"/>
-<area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html" title=" " alt="" coords="208,291,372,317"/>
-<area shape="poly" id="edge73_Node000000_Node000001" title=" " alt="" coords="157,319,207,313,208,318,157,325"/>
-<area shape="rect" id="Node000013" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_state.html" title=" " alt="" coords="191,341,389,384"/>
-<area shape="poly" id="edge85_Node000000_Node000013" title=" " alt="" coords="158,342,191,347,190,352,157,347"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_cant_move.html" title=" " alt="" coords="449,5,667,32"/>
-<area shape="poly" id="edge74_Node000001_Node000002" title=" " alt="" coords="296,276,313,225,341,161,381,96,406,67,435,42,456,30,458,35,439,46,410,71,385,100,345,164,318,227,301,278"/>
-<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_damage.html" title=" " alt="" coords="453,56,662,83"/>
-<area shape="poly" id="edge75_Node000001_Node000003" title=" " alt="" coords="300,276,319,235,349,185,387,134,410,112,436,92,458,81,461,86,438,97,414,116,391,138,353,188,324,237,304,278"/>
-<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_heal.html" title=" " alt="" coords="464,107,651,133"/>
-<area shape="poly" id="edge76_Node000001_Node000004" title=" " alt="" coords="305,276,357,209,394,173,436,143,463,131,465,136,438,148,397,177,361,212,309,280"/>
-<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_move_speed_down.html" title=" " alt="" coords="462,157,653,200"/>
-<area shape="poly" id="edge77_Node000001_Node000005" title=" " alt="" coords="319,280,372,244,436,210,466,198,468,203,438,214,375,249,322,284"/>
-<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_move_speed_up.html" title=" " alt="" coords="462,224,653,267"/>
-<area shape="poly" id="edge78_Node000001_Node000006" title=" " alt="" coords="368,284,461,264,462,269,369,289"/>
-<area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_down.html" title=" " alt="" coords="437,291,678,317"/>
-<area shape="poly" id="edge79_Node000001_Node000007" title=" " alt="" coords="387,301,437,301,437,307,387,307"/>
-<area shape="rect" id="Node000008" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_duration_down.html" title=" " alt="" coords="453,341,662,384"/>
-<area shape="poly" id="edge80_Node000001_Node000008" title=" " alt="" coords="369,319,458,338,457,343,368,324"/>
-<area shape="rect" id="Node000009" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_duration_up.html" title=" " alt="" coords="453,408,662,451"/>
-<area shape="poly" id="edge81_Node000001_Node000009" title=" " alt="" coords="382,322,391,327,407,344,415,361,423,378,439,394,458,405,456,410,435,398,419,381,411,364,403,347,387,331,379,326"/>
-<area shape="rect" id="Node000010" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_speed_down.html" title=" " alt="" coords="453,475,662,517"/>
-<area shape="poly" id="edge82_Node000001_Node000010" title=" " alt="" coords="386,323,391,327,405,344,412,361,416,396,419,429,426,445,439,461,454,472,451,476,435,465,421,448,414,430,410,396,407,363,400,347,387,331,382,327"/>
-<area shape="rect" id="Node000011" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_speed_up.html" title=" " alt="" coords="453,541,662,584"/>
-<area shape="poly" id="edge83_Node000001_Node000011" title=" " alt="" coords="386,323,391,328,409,353,417,378,418,404,416,429,413,454,414,479,422,503,439,528,454,540,451,544,435,531,417,506,409,480,408,454,411,429,413,404,412,379,404,355,387,331,382,327"/>
-<area shape="rect" id="Node000012" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_buff_stamina_up.html" title=" " alt="" coords="445,608,670,635"/>
-<area shape="poly" id="edge84_Node000001_Node000012" title=" " alt="" coords="386,323,391,328,414,362,422,396,421,430,415,464,409,497,408,530,417,562,439,594,454,606,450,610,435,598,412,564,403,531,404,497,410,463,415,429,417,396,409,364,387,331,382,327"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,197,123,224"/>
+<area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_buff_scriptable_object.html" title="バフコンテキスト" alt="" coords="184,5,399,48"/>
+<area shape="poly" id="edge90_Node000000_Node000001" title=" " alt="" coords="75,183,111,120,137,86,169,58,189,46,192,51,172,62,141,90,115,123,79,185"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_cache_event_s_o.html" title="エディターインスペクター用" alt="" coords="180,72,403,99"/>
+<area shape="poly" id="edge91_Node000000_Node000002" title=" " alt="" coords="83,184,120,145,144,125,169,108,198,97,200,102,172,113,147,129,123,148,86,188"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html" title="キャラクターコンテキスト" alt="" coords="196,123,387,165"/>
+<area shape="poly" id="edge92_Node000000_Node000003" title=" " alt="" coords="121,190,170,175,210,163,211,168,171,180,123,195"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_event_scriptable_object.html" title="イベントコンテキスト" alt="" coords="179,189,404,232"/>
+<area shape="poly" id="edge93_Node000000_Node000004" title=" " alt="" coords="137,208,178,208,178,213,137,213"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_item_scriptable_object.html" title="アイテムコンテキスト" alt="" coords="182,256,401,299"/>
+<area shape="poly" id="edge94_Node000000_Node000005" title=" " alt="" coords="123,227,171,241,211,253,210,258,170,247,121,232"/>
+<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_item_slot_scriptable_object.html" title="アイテムスロットコンテキスト" alt="" coords="171,323,412,365"/>
+<area shape="poly" id="edge95_Node000000_Node000006" title=" " alt="" coords="87,233,124,272,172,308,196,320,194,325,169,313,121,276,83,237"/>
+<area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_item_spawn_scriptable_object.html" title="アイテムスポーンコンテキスト" alt="" coords="192,389,391,432"/>
+<area shape="poly" id="edge96_Node000000_Node000007" title=" " alt="" coords="78,237,92,269,113,306,139,344,172,375,193,387,190,392,169,379,135,347,108,309,87,271,73,239"/>
 </map>

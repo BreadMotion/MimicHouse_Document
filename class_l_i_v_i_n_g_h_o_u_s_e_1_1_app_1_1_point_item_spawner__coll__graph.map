@@ -1,11 +1,19 @@
 <map id="LIVINGHOUSE.App.PointItemSpawner" name="LIVINGHOUSE.App.PointItemSpawner">
-<area shape="rect" id="Node000001" title=" " alt="" coords="44,204,239,247"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html" title=" " alt="" coords="42,105,97,132"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,143,129,202,125,205,84,146"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,13,115,40"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="65,55,71,105,65,105,60,55"/>
-<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html" title="　アイテム管理クラス　" alt="" coords="138,97,329,140"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="208,153,161,205,157,202,204,149"/>
-<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="139,5,344,48"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="241,63,238,97,232,97,236,63"/>
+<area shape="rect" id="Node000001" title="エネミー生成座標" alt="" coords="264,463,458,505"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html" title="索敵ポイント" alt="" coords="166,364,255,391"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,397,333,460,330,464,239,401"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html" title="抽象座標" alt="" coords="59,173,114,200"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="86,215,87,252,91,272,98,291,115,314,137,333,183,361,180,366,134,338,111,317,94,293,85,274,81,253,80,215"/>
+<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html" title="索敵ポイント" alt="" coords="107,257,314,284"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="119,206,193,255,190,259,116,210"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="5,81,168,124"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="89,139,89,173,84,173,84,139"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="32,5,141,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="89,47,89,81,84,81,84,47"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="213,299,213,364,208,364,208,299"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="330,263,340,271,332,278,315,281,314,276,330,273,335,271,327,267"/>
+<area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html" title="　アイテム管理　" alt="" coords="386,356,577,399"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="448,411,387,464,383,460,445,407"/>
+<area shape="rect" id="Node000008" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="432,249,595,292"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="505,307,490,356,485,355,500,306"/>
 </map>

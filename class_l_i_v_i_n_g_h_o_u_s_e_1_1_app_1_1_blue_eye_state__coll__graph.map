@@ -1,5 +1,5 @@
 <map id="LIVINGHOUSE.App.BlueEyeState" name="LIVINGHOUSE.App.BlueEyeState">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,225,107"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html" title="基底アイテムクラス" alt="" coords="90,5,140,32"/>
+<area shape="rect" id="Node000001" title="蒼い目" alt="" coords="5,80,225,107"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html" title="基底アイテム" alt="" coords="90,5,140,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,47,118,80,112,80,112,47"/>
 </map>

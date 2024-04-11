@@ -1,7 +1,9 @@
 <map id="LIVINGHOUSE.App.HitObject_WaterGun" name="LIVINGHOUSE.App.HitObject_WaterGun">
-<area shape="rect" id="Node000001" title=" " alt="" coords="22,80,215,123"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,115,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,43,106,78,102,81,76,46"/>
-<area shape="rect" id="Node000003" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html" title="当たり判定を取るオブジェクトインターフェース" alt="" coords="138,5,217,32"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,46,136,81,131,78,157,43"/>
+<area shape="rect" id="Node000001" title="水鉄砲弾" alt="" coords="55,155,249,197"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="5,80,160,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,116,136,153,132,156,101,120"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="28,5,137,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,47,85,80,80,80,80,47"/>
+<area shape="rect" id="Node000004" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html" title="当たり判定を取るオブジェクトインターフェース" alt="" coords="183,80,262,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="204,120,172,156,168,153,200,116"/>
 </map>

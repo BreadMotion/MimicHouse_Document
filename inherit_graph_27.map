@@ -1,5 +1,5 @@
 <map id="クラス階層図" name="クラス階層図">
-<area shape="rect" id="Node000000" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="5,5,237,48"/>
-<area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html" title=" " alt="" coords="285,5,476,48"/>
-<area shape="poly" id="edge59_Node000000_Node000001" title=" " alt="" coords="252,24,284,24,284,29,252,29"/>
+<area shape="rect" id="Node000000" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="5,5,243,48"/>
+<area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager.html" title="ダメージ、被ダメージ判定のあるオブジェクト" alt="" coords="291,5,511,48"/>
+<area shape="poly" id="edge82_Node000000_Node000001" title=" " alt="" coords="258,24,290,24,290,29,258,29"/>
 </map>

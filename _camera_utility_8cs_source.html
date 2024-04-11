@@ -107,30 +107,31 @@ $(function(){initNavTree('_camera_utility_8cs_source.html',''); initResizable();
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>CameraUtility</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    {</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        <span class="keyword">public</span> <span class="keyword">static</span> RaycastHit RaycastFromScreenCenter(<span class="keywordtype">int</span> layerMask = 1 &lt;&lt; Physics.AllLayers)</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        {</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>            var cameraTransform = <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_camera_manager.html">CameraManager</a>.<a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html#adb3b21a470bdf42bb8634e1b0d2c3428">I</a>.SceneCamera.transform;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>            <span class="keywordflow">if</span> (Physics.Raycast(</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>                origin: cameraTransform.position,</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>                direction: cameraTransform.forward,</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>                hitInfo: out var _hitInfo,</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>                maxDistance: Mathf.Infinity,</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>                layerMask: layerMask))</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            {<span class="comment">// ヒット</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>                <span class="keywordflow">return</span> _hitInfo;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>            }</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            <span class="comment">// ノーヒット</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> RaycastHit();</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        }</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>}</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>CameraUtility</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <span class="keyword">public</span> <span class="keyword">static</span> RaycastHit RaycastFromScreenCenter(<span class="keywordtype">int</span> layerMask = 1 &lt;&lt; Physics.AllLayers)</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        {</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>            var cameraTransform = <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_camera_manager.html">CameraManager</a>.<a class="code hl_property" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html#adb3b21a470bdf42bb8634e1b0d2c3428">I</a>.SceneCamera.transform;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>            <span class="keywordflow">if</span> (Physics.Raycast(</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>                origin: cameraTransform.position,</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>                direction: cameraTransform.forward,</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>                hitInfo: out var _hitInfo,</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>                maxDistance: Mathf.Infinity,</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>                layerMask: layerMask))</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>            {<span class="comment">// ヒット</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>                <span class="keywordflow">return</span> _hitInfo;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            }</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            <span class="comment">// ノーヒット</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> RaycastHit();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        }</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    }</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>}</div>
 <div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_camera_manager_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_camera_manager.html">LIVINGHOUSE.Manager.CameraManager</a></div><div class="ttdoc">カメラ管理クラス</div><div class="ttdef"><b>Definition</b> <a href="_camera_manager_8cs_source.html#l00006">CameraManager.cs:7</a></div></div>
-<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_html_adb3b21a470bdf42bb8634e1b0d2c3428"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html#adb3b21a470bdf42bb8634e1b0d2c3428">LIVINGHOUSE.Utility.Singleton.I</a></div><div class="ttdeci">static T I</div><div class="ttdef"><b>Definition</b> <a href="_singleton_8cs_source.html#l00008">Singleton.cs:9</a></div></div>
-<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div><div class="ttdef"><b>Definition</b> <a href="_audio_controller_8cs_source.html#l00004">AudioController.cs:5</a></div></div>
-<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html">LIVINGHOUSE.Manager</a></div><div class="ttdef"><b>Definition</b> <a href="_application_manager_8cs_source.html#l00003">ApplicationManager.cs:4</a></div></div>
-<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_utility.html">LIVINGHOUSE.Utility</a></div><div class="ttdef"><b>Definition</b> <a href="_custom_mono_behaviour_8cs_source.html#l00003">CustomMonoBehaviour.cs:4</a></div></div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_html_adb3b21a470bdf42bb8634e1b0d2c3428"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html#adb3b21a470bdf42bb8634e1b0d2c3428">LIVINGHOUSE.Utility.Singleton.I</a></div><div class="ttdeci">static T I</div><div class="ttdoc">インスタンス</div><div class="ttdef"><b>Definition</b> <a href="_singleton_8cs_source.html#l00010">Singleton.cs:11</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div><div class="ttdef"><b>Definition</b> <a href="_audio_controller_8cs_source.html#l00007">AudioController.cs:8</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html">LIVINGHOUSE.Manager</a></div><div class="ttdef"><b>Definition</b> <a href="_application_manager_8cs_source.html#l00006">ApplicationManager.cs:7</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_utility.html">LIVINGHOUSE.Utility</a></div><div class="ttdef"><b>Definition</b> <a href="_custom_mono_behaviour_8cs_source.html#l00004">CustomMonoBehaviour.cs:5</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

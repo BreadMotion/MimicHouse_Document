@@ -1,9 +1,11 @@
 <map id="LIVINGHOUSE.App.Character.Start" name="LIVINGHOUSE.App.Character.Start">
-<area shape="rect" id="Node000001" title="初期化" alt="" coords="5,72,205,115"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html#aac6fcfbb1b07f04a6ab99872456acedf" title="初期化" alt="" coords="253,5,452,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,69,256,50,257,55,187,74"/>
-<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html#a379b1670e76d8b7d6f8256058e04325e" title="初期化" alt="" coords="255,72,450,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,91,240,91,240,96,205,96"/>
-<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a6cbe8a5d4eb57028e73f7fb6324ddc19" title="インスタンス存在チェック" alt="" coords="253,139,452,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="187,113,257,132,256,137,186,118"/>
+<area shape="rect" id="Node000001" title="初期化" alt="" coords="5,105,205,148"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html#a379b1670e76d8b7d6f8256058e04325e" title="初期化" alt="" coords="255,5,450,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,102,252,58,269,51,271,56,254,62,152,107"/>
+<area shape="rect" id="Node000003" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html#aac6fcfbb1b07f04a6ab99872456acedf" title="初期化" alt="" coords="253,72,452,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,111,238,106,239,111,206,116"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#adacb723519525d1e651fada09dcb4756" title="キャラクターステート初期化" alt="" coords="253,139,452,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="206,137,238,142,238,147,205,143"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a6cbe8a5d4eb57028e73f7fb6324ddc19" title="インスタンス存在チェック" alt="" coords="253,205,452,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="152,146,254,191,271,197,269,202,252,196,150,151"/>
 </map>

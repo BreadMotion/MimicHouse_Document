@@ -1,5 +1,5 @@
 <map id="LIVINGHOUSE.Utility.TableBase.GetTable" name="LIVINGHOUSE.Utility.TableBase.GetTable">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,186,48"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_table_base.html#ad83caad60a6fff8ea49f83dab1204341" title=" " alt="" coords="234,5,425,48"/>
+<area shape="rect" id="Node000001" title="内容テーブルの取得" alt="" coords="5,5,186,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_table_base.html#ad83caad60a6fff8ea49f83dab1204341" title="リストからマップに変更" alt="" coords="234,5,425,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,24,218,24,218,29,186,29"/>
 </map>

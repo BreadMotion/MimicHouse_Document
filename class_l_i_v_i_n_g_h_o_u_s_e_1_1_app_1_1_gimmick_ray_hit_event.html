@@ -97,16 +97,19 @@ $(function(){initNavTree('class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_gimmick_ray_hi
 <a href="#properties">プロパティ</a> &#124;
 <a href="#pri-attribs">非公開変数類</a> &#124;
 <a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_gimmick_ray_hit_event-members.html">全メンバ一覧</a>  </div>
-  <div class="headertitle"><div class="title">LIVINGHOUSE.App.GimmickRayHitEvent クラス</div></div>
+  <div class="headertitle"><div class="title">LIVINGHOUSE.App.GimmickRayHitEvent クラス<span class="mlabels"><span class="mlabel">sealed</span></span></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>ギミック用レイイベント  
+ <a href="#details">[詳解]</a></p>
 <div class="dynheader">
 LIVINGHOUSE.App.GimmickRayHitEvent の継承関係図</div>
 <div class="dyncontent">
 <div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_gimmick_ray_hit_event__inherit__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_gimmick_ray_hit_event_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_gimmick_ray_hit_event_inherit__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_gimmick_ray_hit_event_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,80,220,123"/>
-<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html" title="基底イベントクラス" alt="" coords="84,5,141,32"/>
+<area shape="rect" title="ギミック用レイイベント" alt="" coords="5,80,220,123"/>
+<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html" title="基底イベントインターフェース" alt="" coords="84,5,141,32"/>
 <area shape="poly" title=" " alt="" coords="115,47,115,80,110,80,110,47"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
@@ -115,8 +118,8 @@ LIVINGHOUSE.App.GimmickRayHitEvent 連携図</div>
 <div class="dyncontent">
 <div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_gimmick_ray_hit_event__coll__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_gimmick_ray_hit_event_coll__map" alt="Collaboration graph"/></div>
 <map name="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_gimmick_ray_hit_event_coll__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_gimmick_ray_hit_event_coll__map">
-<area shape="rect" title=" " alt="" coords="5,80,220,123"/>
-<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html" title="基底イベントクラス" alt="" coords="84,5,141,32"/>
+<area shape="rect" title="ギミック用レイイベント" alt="" coords="5,80,220,123"/>
+<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html" title="基底イベントインターフェース" alt="" coords="84,5,141,32"/>
 <area shape="poly" title=" " alt="" coords="115,47,115,80,110,80,110,47"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
@@ -124,28 +127,38 @@ LIVINGHOUSE.App.GimmickRayHitEvent 連携図</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 公開メンバ関数</h2></td></tr>
 <tr class="memitem:ab563a19c3ed5bdae7b413f1d2aea0e09" id="r_ab563a19c3ed5bdae7b413f1d2aea0e09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab563a19c3ed5bdae7b413f1d2aea0e09">ModifierInvoke</a> (GameObject owner, Dictionary&lt; string, <a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html">IEvent</a> &gt; otherEvents)</td></tr>
-<tr class="memdesc:ab563a19c3ed5bdae7b413f1d2aea0e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">条件処理  <br /></td></tr>
+<tr class="memdesc:ab563a19c3ed5bdae7b413f1d2aea0e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">条件演算  <br /></td></tr>
 <tr class="separator:ab563a19c3ed5bdae7b413f1d2aea0e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bacfff255f3de621e295f0ceefabf2c" id="r_a2bacfff255f3de621e295f0ceefabf2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bacfff255f3de621e295f0ceefabf2c">ContentInvoke</a> (GameObject owner, Dictionary&lt; string, <a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html">IEvent</a> &gt; otherEvents)</td></tr>
+<tr class="memdesc:a2bacfff255f3de621e295f0ceefabf2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">成功時呼び出し  <br /></td></tr>
 <tr class="separator:a2bacfff255f3de621e295f0ceefabf2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a895aa85433e64c67cfdba5f8466e6f03" id="r_a895aa85433e64c67cfdba5f8466e6f03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a895aa85433e64c67cfdba5f8466e6f03">NotModifierContentInvoke</a> (GameObject owner, Dictionary&lt; string, <a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html">IEvent</a> &gt; otherEvents)</td></tr>
+<tr class="memdesc:a895aa85433e64c67cfdba5f8466e6f03"><td class="mdescLeft">&#160;</td><td class="mdescRight">失敗時呼び出し  <br /></td></tr>
 <tr class="separator:a895aa85433e64c67cfdba5f8466e6f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 プロパティ</h2></td></tr>
 <tr class="memitem:aeb45141ba4cbb3fd45c5f2ccbc4696db" id="r_aeb45141ba4cbb3fd45c5f2ccbc4696db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb45141ba4cbb3fd45c5f2ccbc4696db">ReturnValue</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:aeb45141ba4cbb3fd45c5f2ccbc4696db"><td class="mdescLeft">&#160;</td><td class="mdescRight">条件結果  <br /></td></tr>
+<tr class="memdesc:aeb45141ba4cbb3fd45c5f2ccbc4696db"><td class="mdescLeft">&#160;</td><td class="mdescRight">演算結果  <br /></td></tr>
 <tr class="separator:aeb45141ba4cbb3fd45c5f2ccbc4696db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72062fbf49050dc22829278c4cc6bc35" id="r_a72062fbf49050dc22829278c4cc6bc35"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72062fbf49050dc22829278c4cc6bc35">RemoveThis</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a72062fbf49050dc22829278c4cc6bc35"><td class="mdescLeft">&#160;</td><td class="mdescRight">削除フラグ  <br /></td></tr>
+<tr class="separator:a72062fbf49050dc22829278c4cc6bc35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html">LIVINGHOUSE.App.IEvent</a> に属する継承プロパティ</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 非公開変数類</h2></td></tr>
 <tr class="memitem:a5044336a1ef1ced13a0a54aaeec03fd4" id="r_a5044336a1ef1ced13a0a54aaeec03fd4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5044336a1ef1ced13a0a54aaeec03fd4">m_returnValue</a></td></tr>
+<tr class="memdesc:a5044336a1ef1ced13a0a54aaeec03fd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">演算結果  <br /></td></tr>
 <tr class="separator:a5044336a1ef1ced13a0a54aaeec03fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27b01e4d20e278e6f87490e383a681b6" id="r_a27b01e4d20e278e6f87490e383a681b6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27b01e4d20e278e6f87490e383a681b6">m_removeThis</a></td></tr>
+<tr class="memdesc:a27b01e4d20e278e6f87490e383a681b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">削除フラグ  <br /></td></tr>
+<tr class="separator:a27b01e4d20e278e6f87490e383a681b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
-<div class="textblock">
-<p class="definition"> <a class="el" href="_gimmick_ray_hit_event_8cs_source.html">GimmickRayHitEvent.cs</a> の <a class="el" href="_gimmick_ray_hit_event_8cs_source.html#l00010">10</a> 行目に定義があります。</p>
+<div class="textblock"><p>ギミック用レイイベント </p>
+
+<p class="definition"> <a class="el" href="_gimmick_ray_hit_event_8cs_source.html">GimmickRayHitEvent.cs</a> の <a class="el" href="_gimmick_ray_hit_event_8cs_source.html#l00013">13</a> 行目に定義があります。</p>
 </div><h2 class="groupheader">メソッド詳解</h2>
 <a id="a2bacfff255f3de621e295f0ceefabf2c" name="a2bacfff255f3de621e295f0ceefabf2c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2bacfff255f3de621e295f0ceefabf2c">&#9670;&#160;</a></span>ContentInvoke()</h2>
@@ -165,17 +178,19 @@ LIVINGHOUSE.App.GimmickRayHitEvent 連携図</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="params"><dt>引数</dt><dd>
+
+<p>成功時呼び出し </p>
+<p>&lt;remark&gt; ModifierInvokeがTrueだった時に呼び出される &lt;/remark&gt; </p><dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">owner</td><td></td></tr>
-    <tr><td class="paramname">otherEvents</td><td></td></tr>
+    <tr><td class="paramname">owner</td><td>所有しているGameObject </td></tr>
+    <tr><td class="paramname">otherEvents</td><td>所有者が所有している他イベントテーブル </td></tr>
   </table>
   </dd>
 </dl>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#a43c75df194b9b3af55727afe77d668f1">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_gimmick_ray_hit_event_8cs_source.html">GimmickRayHitEvent.cs</a> の <a class="el" href="_gimmick_ray_hit_event_8cs_source.html#l00055">55</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_gimmick_ray_hit_event_8cs_source.html">GimmickRayHitEvent.cs</a> の <a class="el" href="_gimmick_ray_hit_event_8cs_source.html#l00070">70</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -198,18 +213,18 @@ LIVINGHOUSE.App.GimmickRayHitEvent 連携図</div>
       </table>
 </div><div class="memdoc">
 
-<p>条件処理 </p>
+<p>条件演算 </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">owner</td><td></td></tr>
-    <tr><td class="paramname">otherEvents</td><td></td></tr>
+    <tr><td class="paramname">owner</td><td>所有しているGameObject </td></tr>
+    <tr><td class="paramname">otherEvents</td><td>所有者が所有している他イベントテーブル </td></tr>
   </table>
   </dd>
 </dl>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#abaddd3069674ddde0792868d6ae6c3fd">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_gimmick_ray_hit_event_8cs_source.html">GimmickRayHitEvent.cs</a> の <a class="el" href="_gimmick_ray_hit_event_8cs_source.html#l00031">31</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_gimmick_ray_hit_event_8cs_source.html">GimmickRayHitEvent.cs</a> の <a class="el" href="_gimmick_ray_hit_event_8cs_source.html#l00048">48</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -231,21 +246,49 @@ LIVINGHOUSE.App.GimmickRayHitEvent 連携図</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="params"><dt>引数</dt><dd>
+
+<p>失敗時呼び出し </p>
+<p>&lt;remark&gt; ModifierInvokeがFalseだった時に呼び出される &lt;/remark&gt; </p><dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">owner</td><td></td></tr>
-    <tr><td class="paramname">otherEvents</td><td></td></tr>
+    <tr><td class="paramname">owner</td><td>所有しているGameObject </td></tr>
+    <tr><td class="paramname">otherEvents</td><td>所有者が所有している他イベントテーブル </td></tr>
   </table>
   </dd>
 </dl>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#afe8615515a2abf806d148b36cf610143">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_gimmick_ray_hit_event_8cs_source.html">GimmickRayHitEvent.cs</a> の <a class="el" href="_gimmick_ray_hit_event_8cs_source.html#l00068">68</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_gimmick_ray_hit_event_8cs_source.html">GimmickRayHitEvent.cs</a> の <a class="el" href="_gimmick_ray_hit_event_8cs_source.html#l00081">81</a> 行目に定義があります。</p>
 
 </div>
 </div>
 <h2 class="groupheader">メンバ詳解</h2>
+<a id="a27b01e4d20e278e6f87490e383a681b6" name="a27b01e4d20e278e6f87490e383a681b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27b01e4d20e278e6f87490e383a681b6">&#9670;&#160;</a></span>m_removeThis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.App.GimmickRayHitEvent.m_removeThis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>削除フラグ </p>
+
+<p class="definition"> <a class="el" href="_gimmick_ray_hit_event_8cs_source.html">GimmickRayHitEvent.cs</a> の <a class="el" href="_gimmick_ray_hit_event_8cs_source.html#l00021">21</a> 行目に定義があります。</p>
+
+</div>
+</div>
 <a id="a5044336a1ef1ced13a0a54aaeec03fd4" name="a5044336a1ef1ced13a0a54aaeec03fd4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5044336a1ef1ced13a0a54aaeec03fd4">&#9670;&#160;</a></span>m_returnValue</h2>
 
@@ -266,11 +309,41 @@ LIVINGHOUSE.App.GimmickRayHitEvent 連携図</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition"> <a class="el" href="_gimmick_ray_hit_event_8cs_source.html">GimmickRayHitEvent.cs</a> の <a class="el" href="_gimmick_ray_hit_event_8cs_source.html#l00012">12</a> 行目に定義があります。</p>
+<p>演算結果 </p>
+
+<p class="definition"> <a class="el" href="_gimmick_ray_hit_event_8cs_source.html">GimmickRayHitEvent.cs</a> の <a class="el" href="_gimmick_ray_hit_event_8cs_source.html#l00017">17</a> 行目に定義があります。</p>
 
 </div>
 </div>
 <h2 class="groupheader">プロパティ詳解</h2>
+<a id="a72062fbf49050dc22829278c4cc6bc35" name="a72062fbf49050dc22829278c4cc6bc35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72062fbf49050dc22829278c4cc6bc35">&#9670;&#160;</a></span>RemoveThis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.App.GimmickRayHitEvent.RemoveThis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span><span class="mlabel">remove</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>削除フラグ </p>
+
+<p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#aa3281cca5fdcfeb0727f97af52dc4e4f">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
+
+<p class="definition"> <a class="el" href="_gimmick_ray_hit_event_8cs_source.html">GimmickRayHitEvent.cs</a> の <a class="el" href="_gimmick_ray_hit_event_8cs_source.html#l00033">33</a> 行目に定義があります。</p>
+
+</div>
+</div>
 <a id="aeb45141ba4cbb3fd45c5f2ccbc4696db" name="aeb45141ba4cbb3fd45c5f2ccbc4696db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeb45141ba4cbb3fd45c5f2ccbc4696db">&#9670;&#160;</a></span>ReturnValue</h2>
 
@@ -291,12 +364,11 @@ LIVINGHOUSE.App.GimmickRayHitEvent 連携図</div>
 </table>
 </div><div class="memdoc">
 
-<p>条件結果 </p>
-<p>ModifierInVokeでの演算結果を返す </p>
+<p>演算結果 </p>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#ab796c418f7c8e7020e62cae9ac73abdb">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_gimmick_ray_hit_event_8cs_source.html">GimmickRayHitEvent.cs</a> の <a class="el" href="_gimmick_ray_hit_event_8cs_source.html#l00014">14</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_gimmick_ray_hit_event_8cs_source.html">GimmickRayHitEvent.cs</a> の <a class="el" href="_gimmick_ray_hit_event_8cs_source.html#l00025">25</a> 行目に定義があります。</p>
 
 </div>
 </div>

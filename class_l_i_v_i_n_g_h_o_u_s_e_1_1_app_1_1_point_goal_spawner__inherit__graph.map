@@ -1,0 +1,11 @@
+<map id="LIVINGHOUSE.App.PointGoalSpawner" name="LIVINGHOUSE.App.PointGoalSpawner">
+<area shape="rect" id="Node000001" title="エネミー生成座標" alt="" coords="5,320,202,363"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html" title="索敵ポイント" alt="" coords="59,245,148,272"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,287,106,320,101,320,101,287"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html" title="抽象座標" alt="" coords="76,171,131,197"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="106,212,106,245,101,245,101,212"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="22,80,185,123"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="106,138,106,170,101,170,101,138"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="49,5,158,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="106,47,106,80,101,80,101,47"/>
+</map>

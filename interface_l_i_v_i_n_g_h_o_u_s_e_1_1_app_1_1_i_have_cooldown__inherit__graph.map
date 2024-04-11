@@ -1,0 +1,9 @@
+<map id="LIVINGHOUSE.App.IHaveCooldown" name="LIVINGHOUSE.App.IHaveCooldown">
+<area shape="rect" id="Node000001" title="クールダウンを持っている" alt="" coords="238,5,464,32"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event.html" title="ダメージイベント" alt="" coords="5,80,225,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="297,39,157,82,156,77,295,34"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html" title="死亡イベント" alt="" coords="248,80,454,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="354,47,354,80,348,80,348,47"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_stun_event.html" title="スタンイベント" alt="" coords="477,80,676,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="405,34,538,77,536,82,403,39"/>
+</map>

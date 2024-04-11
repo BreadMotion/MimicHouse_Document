@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.App.EventRunner.AddEvent" name="LIVINGHOUSE.App.EventRunner.AddEvent">
+<area shape="rect" id="Node000001" title="イベントの追加" alt="" coords="5,39,222,81"/>
+<area shape="rect" id="Node000002" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#a43c75df194b9b3af55727afe77d668f1" title="成功時呼び出し" alt="" coords="270,5,493,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,44,255,40,255,45,223,49"/>
+<area shape="rect" id="Node000003" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#afe8615515a2abf806d148b36cf610143" title="失敗時呼び出し" alt="" coords="282,72,481,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,71,268,77,267,82,222,76"/>
+</map>

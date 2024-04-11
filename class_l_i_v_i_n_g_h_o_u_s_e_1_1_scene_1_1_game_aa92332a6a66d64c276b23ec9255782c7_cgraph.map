@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.Scene.Game.LateExecute" name="LIVINGHOUSE.Scene.Game.LateExecute">
+<area shape="rect" id="Node000001" title="事後更新" alt="" coords="5,5,223,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game.html#ac34a454f13d6656506e9ff479711e983" title="タイトルシーンに遷移する" alt="" coords="271,5,507,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,24,256,24,256,29,223,29"/>
+</map>

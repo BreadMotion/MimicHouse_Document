@@ -1,22 +1,13 @@
 <map id="LIVINGHOUSE.App.Player.UpdateInvoke" name="LIVINGHOUSE.App.Player.UpdateInvoke">
-<area shape="rect" id="Node000001" title="更新" alt="" coords="5,125,227,168"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#abeceb9e475d561ed1733f165b4ee79cc" title="入力によるアイテム生成操作の動作" alt="" coords="277,29,513,72"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,122,274,81,297,74,298,79,276,87,170,127"/>
-<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#aeccabfa10e16fda439b2a0b29edf73e6" title="入力によるアイテムスロット操作の動作" alt="" coords="277,96,513,139"/>
-<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="227,132,261,129,262,134,228,138"/>
-<area shape="rect" id="Node000009" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#a3f451d6180a7cd981f2f6a6033a5d284" title="HO更新" alt="" coords="275,163,515,189"/>
-<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="228,156,260,159,260,164,227,161"/>
-<area shape="rect" id="Node000010" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#aecaf67d7e49eeebee7a5e39097f693b1" title="常時稼働アイテムの更新" alt="" coords="284,213,506,256"/>
-<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="178,166,275,199,300,206,298,211,274,204,177,171"/>
-<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#a5af6d4fe205f251975243f415ed8dda2" title="所持アイテム削除(解放)を試みる" alt="" coords="572,29,770,72"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="514,48,556,48,556,53,514,53"/>
-<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#ae86b162d3d6b12f36b5514f350b56151" title="アイテムスロットが格納されているか調べる" alt="" coords="826,29,1027,72"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="770,48,811,48,811,53,770,53"/>
-<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#abffbaeee2170a562de59e007896a1d11" title="アイテムコンテキストのロード" alt="" coords="1075,29,1266,72"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1027,48,1059,48,1059,53,1027,53"/>
-<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="1124,29,1122,19,1130,10,1146,5,1170,3,1198,5,1213,12,1211,17,1196,10,1170,8,1147,10,1133,15,1128,21,1129,28"/>
-<area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#a01f636c6134a877155ff1a221f62e787" title="スロット選択番号をー１する" alt="" coords="563,96,778,139"/>
-<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="514,115,548,115,548,120,514,120"/>
-<area shape="rect" id="Node000008" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#acad196702c0795711d40849e30c27d08" title="スロット選択番号を＋１する" alt="" coords="566,163,775,205"/>
-<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="487,137,566,156,565,161,485,142"/>
+<area shape="rect" id="Node000001" title="更新" alt="" coords="5,101,227,144"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#abeceb9e475d561ed1733f165b4ee79cc" title="入力によるアイテム生成操作の動作" alt="" coords="277,5,513,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,98,274,57,297,50,298,55,276,63,170,103"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#aeccabfa10e16fda439b2a0b29edf73e6" title="入力によるアイテムスロット操作の動作" alt="" coords="277,72,513,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="227,108,261,105,262,110,228,114"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#a3f451d6180a7cd981f2f6a6033a5d284" title="HO更新" alt="" coords="275,139,515,165"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="228,132,260,135,260,140,227,137"/>
+<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#aecaf67d7e49eeebee7a5e39097f693b1" title="常時稼働アイテムの更新" alt="" coords="284,189,506,232"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="178,142,275,175,300,182,298,187,274,180,177,147"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html#a5af6d4fe205f251975243f415ed8dda2" title="所持アイテム削除(解放)を試みる" alt="" coords="563,5,761,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="513,24,548,24,548,29,513,29"/>
 </map>
