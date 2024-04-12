@@ -1,5 +1,5 @@
 <map id="LIVINGHOUSE.App.BuffStaminaUp" name="LIVINGHOUSE.App.BuffStaminaUp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="840,33,1065,60"/>
+<area shape="rect" id="Node000001" title="スタミナ上限上昇" alt="" coords="840,33,1065,60"/>
 <area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html" title="基底バフ" alt="" coords="560,8,606,35"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="621,21,839,36,839,42,621,27"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="219,5,307,32"/>

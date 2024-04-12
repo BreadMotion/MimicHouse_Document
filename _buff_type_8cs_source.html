@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/Buff/Base/BuffType.cs ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('_buff_type_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">BuffType.cs</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_buff_type_8cs.html">[詳解]</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute.html">LIVINGHOUSE.Attribute</a>;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>{</div>
+<div class="foldopen" id="foldopen00007" data-start="{" data-end="};">
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3">    7</a></span>    <span class="keyword">public</span> <span class="keyword">enum</span> <a class="code hl_enumeration" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3">BUFFTYPE</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    {</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>        [Label(<span class="stringliteral">&quot;回復&quot;</span>)]</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a3a25f1406daa84785c1291a745018fae">HEAL</a>,</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        [Label(<span class="stringliteral">&quot;ダメージ&quot;</span>)]</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a806bb06d54f268f1d2ce74bde5b48f34">DAMAGE</a>,</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        [Label(<span class="stringliteral">&quot;スタミナ上限上昇&quot;</span>)]</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a1025e8f4915d7acb131bb2b2f766da0e">STAMINA_UP</a>,</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        [Label(<span class="stringliteral">&quot;スタミナ上限減少&quot;</span>)]</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a02f0d4e0f7a985696173c99b5c68852c">STAMINA_DOWN</a>,</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        [Label(<span class="stringliteral">&quot;スタミナ回復開始時間短縮&quot;</span>)]</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3af780dd2884118214c5ec4801489a6bce">STAMINA_HEAL_START_DURATION_UP</a>,</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        [Label(<span class="stringliteral">&quot;スタミナ回復開始時間延長&quot;</span>)]</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a9d32115fcf8f6283245b1a77c8f91bea">STAMINA_HEAL_START_DURATION_DOWN</a>,</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        [Label(<span class="stringliteral">&quot;スタミナ回復速度上昇&quot;</span>)]</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a6835c24d210db98cd59c1f24fb776505">STAMINA_HEALSPEED_UP</a>,</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        [Label(<span class="stringliteral">&quot;スタミナ回復速度減少&quot;</span>)]</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a4706ea6c38fe2cbc9317306b6a4544aa">STAMINA_HEALSPEED_DOWN</a>,</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        [Label(<span class="stringliteral">&quot;移動速度上昇&quot;</span>)]</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a18fc989e412ad64bd82a0cbc9a6a93c8">SPEED_UP</a>,</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        [Label(<span class="stringliteral">&quot;移動速度減少&quot;</span>)]</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a81890fe61d3899229e59c687f6ed8fc0">SPPED_DOWN</a>,</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        [Label(<span class="stringliteral">&quot;移動不可&quot;</span>)]</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3aacf36d2c963b60ca7722588be7e0172a">CANT_MOVE</a>,</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        [Label(<span class="stringliteral">&quot;視界悪化&quot;</span>)]</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a140fb972d01e2439903170e14e538b52">EYE_INVISIBLE</a>,</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        [Label(<span class="stringliteral">&quot;視覚化不可&quot;</span>)]</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a9a4637f0022c3ba77fa7ce7a3642c589">BODY_INVISIBLE</a>,</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        [Label(<span class="stringliteral">&quot;判定無効化(vs地形)&quot;</span>)]</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a25b6f5c317d2bef22c01d23041222d20">NOT_HIT_BG</a>,</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        [Label(<span class="stringliteral">&quot;判定無効化(vs攻撃)&quot;</span>)]</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a22f76a319dc93ddf66e5805ba17ed106">NOT_HIT_ATTACK</a>,</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        [Label(<span class="stringliteral">&quot;判定無効化(vsキャラクター)&quot;</span>)]</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3ac5675f1483e9a8adf1883ae61363679d">NOT_HIT_CHARACTER</a>,</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        [Label(<span class="stringliteral">&quot;BuffType Enum Length&quot;</span>)]</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3ab1c94ca2fbc3e78fc30069c8d0f01680">All</a>,</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    }</div>
+</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>}</div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div><div class="ttdef"><b>Definition</b> <a href="_audio_controller_8cs_source.html#l00007">AudioController.cs:8</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3">LIVINGHOUSE.App.BUFFTYPE</a></div><div class="ttdeci">BUFFTYPE</div><div class="ttdoc">バフタイプ</div><div class="ttdef"><b>Definition</b> <a href="#l00007">BuffType.cs:8</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3a02f0d4e0f7a985696173c99b5c68852c"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a02f0d4e0f7a985696173c99b5c68852c">LIVINGHOUSE.App.BUFFTYPE.STAMINA_DOWN</a></div><div class="ttdeci">@ STAMINA_DOWN</div><div class="ttdoc">スタミナ上限減少</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3a1025e8f4915d7acb131bb2b2f766da0e"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a1025e8f4915d7acb131bb2b2f766da0e">LIVINGHOUSE.App.BUFFTYPE.STAMINA_UP</a></div><div class="ttdeci">@ STAMINA_UP</div><div class="ttdoc">スタミナ上限上昇</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3a140fb972d01e2439903170e14e538b52"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a140fb972d01e2439903170e14e538b52">LIVINGHOUSE.App.BUFFTYPE.EYE_INVISIBLE</a></div><div class="ttdeci">@ EYE_INVISIBLE</div><div class="ttdoc">視界悪化</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3a18fc989e412ad64bd82a0cbc9a6a93c8"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a18fc989e412ad64bd82a0cbc9a6a93c8">LIVINGHOUSE.App.BUFFTYPE.SPEED_UP</a></div><div class="ttdeci">@ SPEED_UP</div><div class="ttdoc">移動速度上昇</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3a22f76a319dc93ddf66e5805ba17ed106"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a22f76a319dc93ddf66e5805ba17ed106">LIVINGHOUSE.App.BUFFTYPE.NOT_HIT_ATTACK</a></div><div class="ttdeci">@ NOT_HIT_ATTACK</div><div class="ttdoc">判定無効化(vs攻撃)</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3a25b6f5c317d2bef22c01d23041222d20"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a25b6f5c317d2bef22c01d23041222d20">LIVINGHOUSE.App.BUFFTYPE.NOT_HIT_BG</a></div><div class="ttdeci">@ NOT_HIT_BG</div><div class="ttdoc">判定無効化(vs地形)</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3a3a25f1406daa84785c1291a745018fae"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a3a25f1406daa84785c1291a745018fae">LIVINGHOUSE.App.BUFFTYPE.HEAL</a></div><div class="ttdeci">@ HEAL</div><div class="ttdoc">回復</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3a4706ea6c38fe2cbc9317306b6a4544aa"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a4706ea6c38fe2cbc9317306b6a4544aa">LIVINGHOUSE.App.BUFFTYPE.STAMINA_HEALSPEED_DOWN</a></div><div class="ttdeci">@ STAMINA_HEALSPEED_DOWN</div><div class="ttdoc">スタミナ回復速度減少</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3a6835c24d210db98cd59c1f24fb776505"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a6835c24d210db98cd59c1f24fb776505">LIVINGHOUSE.App.BUFFTYPE.STAMINA_HEALSPEED_UP</a></div><div class="ttdeci">@ STAMINA_HEALSPEED_UP</div><div class="ttdoc">スタミナ回復速度上昇</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3a806bb06d54f268f1d2ce74bde5b48f34"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a806bb06d54f268f1d2ce74bde5b48f34">LIVINGHOUSE.App.BUFFTYPE.DAMAGE</a></div><div class="ttdeci">@ DAMAGE</div><div class="ttdoc">ダメージ</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3a81890fe61d3899229e59c687f6ed8fc0"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a81890fe61d3899229e59c687f6ed8fc0">LIVINGHOUSE.App.BUFFTYPE.SPPED_DOWN</a></div><div class="ttdeci">@ SPPED_DOWN</div><div class="ttdoc">移動速度減少</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3a9a4637f0022c3ba77fa7ce7a3642c589"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a9a4637f0022c3ba77fa7ce7a3642c589">LIVINGHOUSE.App.BUFFTYPE.BODY_INVISIBLE</a></div><div class="ttdeci">@ BODY_INVISIBLE</div><div class="ttdoc">視覚化不可</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3a9d32115fcf8f6283245b1a77c8f91bea"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3a9d32115fcf8f6283245b1a77c8f91bea">LIVINGHOUSE.App.BUFFTYPE.STAMINA_HEAL_START_DURATION_DOWN</a></div><div class="ttdeci">@ STAMINA_HEAL_START_DURATION_DOWN</div><div class="ttdoc">スタミナ回復開始時間延長</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3aacf36d2c963b60ca7722588be7e0172a"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3aacf36d2c963b60ca7722588be7e0172a">LIVINGHOUSE.App.BUFFTYPE.CANT_MOVE</a></div><div class="ttdeci">@ CANT_MOVE</div><div class="ttdoc">移動不可</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3ab1c94ca2fbc3e78fc30069c8d0f01680"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3ab1c94ca2fbc3e78fc30069c8d0f01680">LIVINGHOUSE.App.BUFFTYPE.All</a></div><div class="ttdeci">@ All</div><div class="ttdoc">全バフタイプ 数</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3ac5675f1483e9a8adf1883ae61363679d"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3ac5675f1483e9a8adf1883ae61363679d">LIVINGHOUSE.App.BUFFTYPE.NOT_HIT_CHARACTER</a></div><div class="ttdeci">@ NOT_HIT_CHARACTER</div><div class="ttdoc">判定無効化(vsキャラクター)</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a4cb1af18f1c0b1de76b53296ae799fa3af780dd2884118214c5ec4801489a6bce"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a4cb1af18f1c0b1de76b53296ae799fa3af780dd2884118214c5ec4801489a6bce">LIVINGHOUSE.App.BUFFTYPE.STAMINA_HEAL_START_DURATION_UP</a></div><div class="ttdeci">@ STAMINA_HEAL_START_DURATION_UP</div><div class="ttdoc">スタミナ回復開始時間短縮</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute.html">LIVINGHOUSE.Attribute</a></div><div class="ttdef"><b>Definition</b> <a href="_class_name_attribute_8cs_source.html#l00001">ClassNameAttribute.cs:2</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_3d328b3dca154a477d99beb656992be2.html">Unity</a></li><li class="navelem"><a class="el" href="dir_3b33dffaa21a2ac6f7978a949ffd4e41.html">Assets</a></li><li class="navelem"><a class="el" href="dir_817f9772e3e161556b23fdd8948b88aa.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_9e2633ee6edb8c4cb72d28d060b37fa1.html">App</a></li><li class="navelem"><a class="el" href="dir_bd57142454613a2985c62a5a674b772a.html">Buff</a></li><li class="navelem"><a class="el" href="dir_af830a6e5e1bf5e51fd9959e9384ebb5.html">Base</a></li><li class="navelem"><a class="el" href="_buff_type_8cs.html">BuffType.cs</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

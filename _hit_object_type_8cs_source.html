@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/HItObject/Base/HitObjectType.cs ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('_hit_object_type_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">HitObjectType.cs</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_hit_object_type_8cs.html">[詳解]</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute.html">LIVINGHOUSE.Attribute</a>;</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    [Flags]</div>
+<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4">   11</a></span>    <span class="keyword">public</span> <span class="keyword">enum</span> <a class="code hl_enumeration" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4">HitObjectType</a></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    {</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        [Label(<span class="stringliteral">&quot;判定を取らない&quot;</span>)]</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4a6adf97f83acf6453d4a6a4b1070f3754">None</a> = 0,</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        [Label(<span class="stringliteral">&quot;プレイヤー&quot;</span>)]</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html">Player</a> = 1 &lt;&lt; 0,</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        [Label(<span class="stringliteral">&quot;エネミー&quot;</span>)]</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4a8c6d21187fb58b7a079d70030686b33e">Enemy</a> = 1 &lt;&lt; 1,</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        [Label(<span class="stringliteral">&quot;プレイヤーが生成した当たり判定&quot;</span>)]</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4a4a797370a4fb1a46730f795f5a8e2150">PlayerBullet</a> = 1 &lt;&lt; 2,</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        [Label(<span class="stringliteral">&quot;エネミーが生成した当たり判定&quot;</span>)]</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4a87da8c547ceb34e5da159875a8960231">EnemyBullet</a> = 1 &lt;&lt; 3,</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        [Label(<span class="stringliteral">&quot;プレイヤーグループ&quot;</span>)]</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4ab11086ae742db93be89e1349cf85d343">PlayerGroup</a> = <a class="code hl_class" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html">Player</a> | <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4a4a797370a4fb1a46730f795f5a8e2150">PlayerBullet</a>,</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        [Label(<span class="stringliteral">&quot;エネミーグループ&quot;</span>)]</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4a62627b88900c88a03b719ce108efcd20">EnemyGroup</a> = <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4a8c6d21187fb58b7a079d70030686b33e">Enemy</a> | <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4a87da8c547ceb34e5da159875a8960231">EnemyBullet</a>,</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        [Label(<span class="stringliteral">&quot;ゴール&quot;</span>)]</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <a class="code hl_enumvalue" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4a12c74214cb4c18cf36d885303d6aa2e1">Goal</a> = 1 &lt;&lt; 4</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    }</div>
+</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>}</div>
+<div class="ttc" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_html"><div class="ttname"><a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player.html">LIVINGHOUSE.App.Player</a></div><div class="ttdoc">プレイヤークラス</div><div class="ttdef"><b>Definition</b> <a href="_i_can_move_object_8_player_8cs_source.html#l00012">ICanMoveObject.Player.cs:13</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">LIVINGHOUSE.App</a></div><div class="ttdef"><b>Definition</b> <a href="_audio_controller_8cs_source.html#l00007">AudioController.cs:8</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a0178990a757b696cc22f48a467d938f4"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4">LIVINGHOUSE.App.HitObjectType</a></div><div class="ttdeci">HitObjectType</div><div class="ttdoc">当たり判定タイプ</div><div class="ttdef"><b>Definition</b> <a href="#l00011">HitObjectType.cs:12</a></div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a0178990a757b696cc22f48a467d938f4a12c74214cb4c18cf36d885303d6aa2e1"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4a12c74214cb4c18cf36d885303d6aa2e1">LIVINGHOUSE.App.HitObjectType.Goal</a></div><div class="ttdeci">@ Goal</div><div class="ttdoc">ゴール</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a0178990a757b696cc22f48a467d938f4a4a797370a4fb1a46730f795f5a8e2150"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4a4a797370a4fb1a46730f795f5a8e2150">LIVINGHOUSE.App.HitObjectType.PlayerBullet</a></div><div class="ttdeci">@ PlayerBullet</div><div class="ttdoc">プレイヤーが生成した当たり判定</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a0178990a757b696cc22f48a467d938f4a62627b88900c88a03b719ce108efcd20"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4a62627b88900c88a03b719ce108efcd20">LIVINGHOUSE.App.HitObjectType.EnemyGroup</a></div><div class="ttdeci">@ EnemyGroup</div><div class="ttdoc">エネミーグループ</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a0178990a757b696cc22f48a467d938f4a6adf97f83acf6453d4a6a4b1070f3754"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4a6adf97f83acf6453d4a6a4b1070f3754">LIVINGHOUSE.App.HitObjectType.None</a></div><div class="ttdeci">@ None</div><div class="ttdoc">判定を取らない</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a0178990a757b696cc22f48a467d938f4a87da8c547ceb34e5da159875a8960231"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4a87da8c547ceb34e5da159875a8960231">LIVINGHOUSE.App.HitObjectType.EnemyBullet</a></div><div class="ttdeci">@ EnemyBullet</div><div class="ttdoc">エネミーが生成した当たり判定</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a0178990a757b696cc22f48a467d938f4a8c6d21187fb58b7a079d70030686b33e"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4a8c6d21187fb58b7a079d70030686b33e">LIVINGHOUSE.App.HitObjectType.Enemy</a></div><div class="ttdeci">@ Enemy</div><div class="ttdoc">エネミー</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app_html_a0178990a757b696cc22f48a467d938f4ab11086ae742db93be89e1349cf85d343"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#a0178990a757b696cc22f48a467d938f4ab11086ae742db93be89e1349cf85d343">LIVINGHOUSE.App.HitObjectType.PlayerGroup</a></div><div class="ttdeci">@ PlayerGroup</div><div class="ttdoc">プレイヤーグループ</div></div>
+<div class="ttc" id="anamespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_html"><div class="ttname"><a href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute.html">LIVINGHOUSE.Attribute</a></div><div class="ttdef"><b>Definition</b> <a href="_class_name_attribute_8cs_source.html#l00001">ClassNameAttribute.cs:2</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_3d328b3dca154a477d99beb656992be2.html">Unity</a></li><li class="navelem"><a class="el" href="dir_3b33dffaa21a2ac6f7978a949ffd4e41.html">Assets</a></li><li class="navelem"><a class="el" href="dir_817f9772e3e161556b23fdd8948b88aa.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_9e2633ee6edb8c4cb72d28d060b37fa1.html">App</a></li><li class="navelem"><a class="el" href="dir_d048946f9e3fcbd75c9f00080e809716.html">HItObject</a></li><li class="navelem"><a class="el" href="dir_69153888e4a64b1a537b58696ab0e411.html">Base</a></li><li class="navelem"><a class="el" href="_hit_object_type_8cs.html">HitObjectType.cs</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>
