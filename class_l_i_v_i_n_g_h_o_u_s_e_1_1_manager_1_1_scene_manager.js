@@ -10,7 +10,7 @@ var class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager =
     [ "m_characters", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#a10aed0c143f26926bbad514cf96614fc", null ],
     [ "m_gimmicks", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#aff776aa9ad03e8e9c540b9cf2d06cc28", null ],
     [ "m_lighting", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#a57623bdb3742d2f2d31b0b4d7973f861", null ],
-    [ "m_nowScene", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#a40c8a97bb263ab43bbfd166472078d64", null ],
+    [ "m_nowScene", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#a719188ec933ffa01fec034f81f9442fc", null ],
     [ "m_nowSceneName", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#acec76b2f6ee60afa29ab9a4e0de51b6e", null ],
     [ "m_parentCharacters", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#a1691d96f0d57d6bda2a55bc703cc7496", null ],
     [ "m_parentGimmicks", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#adfa422430a4d77c070ef1a038626dc4e", null ],
@@ -22,7 +22,7 @@ var class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager =
     [ "CharacterParent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#ae79a35a51852ca88a2139407f6c7b366", null ],
     [ "GimmickParent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#aa957b8caea35907d3f69dd4bf907ca96", null ],
     [ "LightParent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#a95a4d89600634a926e721543d14738ba", null ],
-    [ "NowScene", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#a6682abc128de09fc881927664cbc25cd", null ],
+    [ "NowScene", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#a046d7cea571afe47172473224133a196", null ],
     [ "NowSceneName", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#a1e8147acaf6b453525914cf40c00e8dc", null ],
     [ "StructureParent", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#a8742f3a95c0a243cd22d0ccf75d7313d", null ]
 ];

@@ -1,13 +1,13 @@
 var searchData=
 [
   ['radius_0',['radius',['../struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hit_object_data.html#a7af09fd05f6c83ec858bb797c625a908',1,'LIVINGHOUSE::App::HitObjectData']]],
-  ['raincoat_1',['RainCoat',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_rain_coat.html',1,'LIVINGHOUSE.App.RainCoat'],['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html#aa8dcdf94096140093c720ac993d58e59ac088118f20c231f0c4ab83e1e2001cdf',1,'LIVINGHOUSE.Manager.ItemManager.RainCoat']]],
+  ['raincoat_1',['RainCoat',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_rain_coat.html',1,'LIVINGHOUSE.App.RainCoat'],['../namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html#aa33be2b628be3aa2ca7aeba473dbdac2ac088118f20c231f0c4ab83e1e2001cdf',1,'LIVINGHOUSE.Manager.RainCoat']]],
   ['raincoat_2ecs_2',['RainCoat.cs',['../_rain_coat_8cs.html',1,'']]],
   ['readonlyattribute_3',['ReadOnlyAttribute',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_1_1_read_only_attribute.html',1,'LIVINGHOUSE::Attribute']]],
   ['readonlyattribute_2ecs_4',['ReadOnlyAttribute.cs',['../_read_only_attribute_8cs.html',1,'']]],
   ['readonlydrawer_5',['ReadOnlyDrawer',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_1_1_read_only_drawer.html',1,'LIVINGHOUSE::Attribute']]],
   ['recoverystartduration_6',['RecoveryStartDuration',['../struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character_state.html#ac3876e2afa37887de1c2244a6d1f41be',1,'LIVINGHOUSE.App.CharacterState.RecoveryStartDuration'],['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#ac00b918c9779d2c0a0433e431e1d4bb7',1,'LIVINGHOUSE.App.Character.RecoveryStartDuration'],['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_s_o_1_1_character_scriptable_object.html#a02690d9109f760b4a5f39bd5e5061a39',1,'LIVINGHOUSE.SO.CharacterScriptableObject.RecoveryStartDuration']]],
-  ['redeye_7',['RedEye',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html',1,'LIVINGHOUSE.App.RedEye'],['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_manager.html#aa8dcdf94096140093c720ac993d58e59a2a364058574373d59b6acbc4a0a11d7e',1,'LIVINGHOUSE.Manager.ItemManager.RedEye']]],
+  ['redeye_7',['RedEye',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html',1,'LIVINGHOUSE.App.RedEye'],['../namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html#aa33be2b628be3aa2ca7aeba473dbdac2a2a364058574373d59b6acbc4a0a11d7e',1,'LIVINGHOUSE.Manager.RedEye']]],
   ['redeye_2ecs_8',['RedEye.cs',['../_red_eye_8cs.html',1,'']]],
   ['registcharacter_9',['RegistCharacter',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_character_manager.html#a9339072da3b9514ce53d0dfeb0ccb625',1,'LIVINGHOUSE::Manager::CharacterManager']]],
   ['registhitobject_10',['RegistHitObject',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager.html#abef376e880a64be6564094191d7fd77c',1,'LIVINGHOUSE.Manager.HitObjectManager.RegistHitObject(IHitObject source)'],['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager.html#af1f51930925c2951fdbb65b275f17e46',1,'LIVINGHOUSE.Manager.HitObjectManager.RegistHitObject(IHitObject source, Transform sourceTransform)']]],

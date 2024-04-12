@@ -1,5 +1,6 @@
 var class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun =
 [
+    [ "AddHitObject", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#a3b1235c9aac7c274fb1c7c42d78a4e4d", null ],
     [ "AddNowCount", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#a3c3693469377ecf750ffb94a68a7eab2", null ],
     [ "DownNowCount", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#a8ae81fe86560d71882170a9772886da7", null ],
     [ "Execute", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#ad87f5a3110121dcff4fcc02abf7d1aa8", null ],
@@ -10,7 +11,7 @@ var class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun =
     [ "m_nowCount", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#af0136f3c6224bcbe0ec00f44699d421a", null ],
     [ "m_remainingCooldown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#ad0dea3fac03b3e1457996dcceec08180", null ],
     [ "CoolDown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#ae835112f1be275fdb36c0f585bd8869f", null ],
-    [ "ItemLayer", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#a61ff716bd92a54bc269671639186a94c", null ],
+    [ "ItemLayer", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#adf6f7905bbf85206225ef61ba2581d10", null ],
     [ "NowCount", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#a545de8da6847e32c01576c18657f5b10", null ],
     [ "RemainingCoolDown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#a3d45ebed465bc37b9a0d8f92bf54b817", null ]
 ];

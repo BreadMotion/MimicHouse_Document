@@ -4,4 +4,8 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,45,241,40,242,46,210,50"/>
 <area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#ae62159d491eef9395131e93773c6de54" title="シーンを追加ロードするイベント" alt="" coords="270,72,474,115"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,70,255,76,255,81,209,75"/>
+<area shape="rect" id="Node000004" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html#acb1c7759221580e0ce840be6cc08fe41" title="初期化" alt="" coords="535,39,732,81"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="474,78,520,72,520,77,474,83"/>
+<area shape="rect" id="Node000005" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html#a21f43ae370466de79e6b8d1d54139e3c" title="事前初期化" alt="" coords="535,105,732,148"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="474,104,520,110,520,115,474,109"/>
 </map>

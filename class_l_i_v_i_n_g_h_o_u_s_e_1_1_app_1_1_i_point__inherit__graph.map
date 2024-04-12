@@ -1,15 +1,15 @@
 <map id="LIVINGHOUSE.App.IPoint" name="LIVINGHOUSE.App.IPoint">
-<area shape="rect" id="Node000001" title="抽象座標" alt="" coords="373,80,545,107"/>
-<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html" title="索敵ポイント" alt="" coords="593,80,800,107"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="560,91,593,91,593,96,560,96"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="163,72,325,115"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="340,91,372,91,372,96,340,96"/>
+<area shape="rect" id="Node000001" title="抽象座標" alt="" coords="365,80,537,107"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html" title="索敵ポイント" alt="" coords="585,80,792,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="552,91,585,91,585,96,552,96"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="163,80,317,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="332,91,364,91,364,96,332,96"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,80,115,107"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="130,91,162,91,162,96,130,96"/>
-<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_enemy_spawner.html" title="エネミー生成座標" alt="" coords="848,5,1058,48"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="764,73,867,46,869,51,766,78"/>
-<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_goal_spawner.html" title="エネミー生成座標" alt="" coords="855,72,1051,115"/>
-<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="815,91,854,91,854,96,815,96"/>
-<area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_item_spawner.html" title="エネミー生成座標" alt="" coords="856,139,1050,181"/>
-<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="766,108,869,135,867,141,764,114"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="129,91,162,91,162,96,129,96"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_enemy_spawner.html" title="エネミー生成座標" alt="" coords="840,5,1050,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="756,73,859,46,861,51,758,78"/>
+<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_goal_spawner.html" title="エネミー生成座標" alt="" coords="847,72,1043,115"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="807,91,846,91,846,96,807,96"/>
+<area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_item_spawner.html" title="エネミー生成座標" alt="" coords="848,139,1042,181"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="758,108,861,135,859,141,756,114"/>
 </map>

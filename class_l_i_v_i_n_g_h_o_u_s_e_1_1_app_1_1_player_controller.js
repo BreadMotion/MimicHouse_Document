@@ -9,10 +9,12 @@ var class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller =
     [ "UpdateInvoke", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller.html#a44dc61fba7f893da4cf9ce2f71a4e0bf", null ],
     [ "m_cameraRotLimitX", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller.html#a24fbeec382441e115bbdb7e44e3b5226", null ],
     [ "m_cameraVerticalRotation", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller.html#a7fb8ecba8787e58bb6d28560d0f827b4", null ],
+    [ "m_canMove", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller.html#a02171c557e4ee2f7a3e4fa2b2e963f92", null ],
     [ "m_character", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller.html#a8e8dbb1f53f0fdb285ae9b04cf6ceead", null ],
     [ "m_characterController", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller.html#ac770be304ff4c9efad38a88b1a008b05", null ],
     [ "m_nowMouseLeftDown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller.html#adc5e6858bf7a650526bd8ff7d0ca75f2", null ],
     [ "m_oldMouseLeftDown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller.html#ac902e8d4727ea2eec2de5630af33a4bc", null ],
+    [ "CanMove", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller.html#a82a128334b0aa606f57f8cbb9f69c4cb", null ],
     [ "character", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller.html#a4fc964414e27cc0f85f313a39e7804cc", null ],
     [ "characterController", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller.html#a7216aba7a0a30e486d7f8aed96be47f8", null ]
 ];

@@ -1,0 +1,9 @@
+<map id="LIVINGHOUSE.Scene.IScene.PreInitialize" name="LIVINGHOUSE.Scene.IScene.PreInitialize">
+<area shape="rect" id="Node000001" title="事前初期化" alt="" coords="508,39,705,81"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#ab3b5e816c9b5b656b0cc7d8b97a6d874" title="シーンをロードするイベント" alt="" coords="257,5,460,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="493,47,460,43,461,38,494,42"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#ae62159d491eef9395131e93773c6de54" title="シーンを追加ロードするイベント" alt="" coords="257,72,460,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="494,78,461,82,460,77,493,73"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html#a4012afaf47bf808796168082b43b8eb8" title="初期化" alt="" coords="5,72,209,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="242,96,209,96,209,91,242,91"/>
+</map>

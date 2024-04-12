@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.App.RedEye.AddItemGO" name="LIVINGHOUSE.App.RedEye.AddItemGO">
+<area shape="rect" id="Node000001" title="アイテム生成" alt="" coords="291,5,503,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html#ae577466636d61c48efbcdb6797880e35" title="呼び出し" alt="" coords="5,13,243,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="276,29,243,29,243,24,276,24"/>
+</map>

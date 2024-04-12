@@ -1,5 +1,22 @@
 <map id="LIVINGHOUSE.App.Strawdowll.Update" name="LIVINGHOUSE.App.Strawdowll.Update">
-<area shape="rect" id="Node000001" title="更新" alt="" coords="5,5,211,48"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a081576c9152c45749e90feb053dbfd0c" title="カウントがゼロチェック" alt="" coords="259,5,440,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,24,244,24,244,29,211,29"/>
+<area shape="rect" id="Node000001" title="更新" alt="" coords="5,93,211,136"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ac68b116bda1ca94db10eafc30ca28e0e" title="クールダウン中か" alt="" coords="274,5,456,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,90,286,51,288,56,174,95"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a081576c9152c45749e90feb053dbfd0c" title="カウントがゼロチェック" alt="" coords="537,56,718,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,105,521,82,522,88,211,110"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_strawdowll.html#a7c13c251c937756b38d80866dbcec64e" title="イベントの追加" alt="" coords="262,123,468,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="212,124,247,128,247,133,211,129"/>
+<area shape="rect" id="Node000010" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a713073551daa2f752ca5ea1875f251bd" title="クールダウンの残時間の更新" alt="" coords="259,189,471,232"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="159,134,260,175,279,182,277,187,258,180,157,139"/>
+<area shape="poly" id="edge9_Node000004_Node000003" title=" " alt="" coords="451,119,526,100,527,105,452,125"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner.html#a2bfae2d87ec8ae4ec301382be1f7f4b7" title="イベントの追加" alt="" coords="519,123,735,165"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="468,141,504,141,504,147,468,147"/>
+<area shape="rect" id="Node000008" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#afb28a53d62d8a03455f2d9f8633e20a7" title="クールダウン中にする" alt="" coords="534,189,721,232"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="452,163,527,183,526,188,451,169"/>
+<area shape="rect" id="Node000009" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_strawdowll.html#a2aca4ac2d3b09ec8cda6ea8c80e8cc7a" title="カウント減少" alt="" coords="525,256,730,299"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="453,164,473,175,489,192,497,210,505,226,521,242,527,246,524,251,517,246,501,229,493,212,485,195,469,179,450,168"/>
+<area shape="rect" id="Node000006" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#a43c75df194b9b3af55727afe77d668f1" title="成功時呼び出し" alt="" coords="783,89,1007,132"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="736,128,768,124,769,129,736,133"/>
+<area shape="rect" id="Node000007" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#afe8615515a2abf806d148b36cf610143" title="失敗時呼び出し" alt="" coords="796,156,994,199"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="736,155,782,161,781,166,736,160"/>
 </map>

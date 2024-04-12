@@ -1,7 +1,7 @@
 <map id="LIVINGHOUSE.App.IPoint" name="LIVINGHOUSE.App.IPoint">
-<area shape="rect" id="Node000001" title="抽象座標" alt="" coords="5,171,178,197"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="10,80,173,123"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,138,94,170,89,170,89,138"/>
+<area shape="rect" id="Node000001" title="抽象座標" alt="" coords="5,155,178,181"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="14,80,169,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,122,94,154,89,154,89,122"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="37,5,146,32"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,47,94,80,89,80,89,47"/>
 </map>

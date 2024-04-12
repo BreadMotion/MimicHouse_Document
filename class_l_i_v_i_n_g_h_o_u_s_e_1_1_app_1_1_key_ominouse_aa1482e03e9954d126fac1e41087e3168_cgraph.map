@@ -1,7 +1,9 @@
 <map id="LIVINGHOUSE.App.KeyOminouse.Execute" name="LIVINGHOUSE.App.KeyOminouse.Execute">
-<area shape="rect" id="Node000001" title="呼び出し" alt="" coords="5,39,231,81"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_key_ominouse.html#a800a8f3e653dbf55644030647a276e21" title="カウント減少" alt="" coords="279,5,504,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,44,264,40,264,45,231,49"/>
-<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a081576c9152c45749e90feb053dbfd0c" title="カウントがゼロチェック" alt="" coords="301,72,482,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,71,286,78,286,83,231,76"/>
+<area shape="rect" id="Node000001" title="呼び出し" alt="" coords="5,72,231,115"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#afb28a53d62d8a03455f2d9f8633e20a7" title="クールダウン中にする" alt="" coords="298,5,485,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,69,286,50,287,55,209,74"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_key_ominouse.html#a800a8f3e653dbf55644030647a276e21" title="カウント減少" alt="" coords="279,72,504,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,91,264,91,264,96,231,96"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a081576c9152c45749e90feb053dbfd0c" title="カウントがゼロチェック" alt="" coords="301,139,482,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="209,113,287,132,286,137,208,118"/>
 </map>

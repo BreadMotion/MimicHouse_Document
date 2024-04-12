@@ -1,5 +1,5 @@
 <map id="LIVINGHOUSE.Manager.ItemManager.GenerateItem" name="LIVINGHOUSE.Manager.ItemManager.GenerateItem">
-<area shape="rect" id="Node000001" title="アイテムを構築する" alt="" coords="5,5,197,48"/>
+<area shape="rect" id="Node000001" title="アイテム構築" alt="" coords="5,5,197,48"/>
 <area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a40330444e90dbfbe094265a882ea2593" title="カウント増加" alt="" coords="245,5,439,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,24,229,24,229,29,197,29"/>
 </map>

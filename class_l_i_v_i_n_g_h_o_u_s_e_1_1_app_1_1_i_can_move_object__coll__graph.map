@@ -1,19 +1,20 @@
 <map id="LIVINGHOUSE.App.ICanMoveObject" name="LIVINGHOUSE.App.ICanMoveObject">
-<area shape="rect" id="Node000001" title="キャラクター動作" alt="" coords="820,9,1015,52"/>
+<area shape="rect" id="Node000001" title="キャラクター動作" alt="" coords="820,37,1015,80"/>
 <area shape="rect" id="Node000002" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html" title="当たり判定を取るオブジェクトインターフェース" alt="" coords="21,5,99,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,10,140,9,362,12,820,25,819,30,362,17,140,15,114,16"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,11,139,9,251,8,362,12,610,27,819,46,819,51,609,32,362,17,250,13,139,15,114,16"/>
 <area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html" title="キャラクター動作" alt="" coords="166,27,361,69"/>
-<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="114,24,165,31,165,36,114,29"/>
-<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html" title="全キャラクター共通のシステムクラス" alt="" coords="500,91,696,117"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="673,84,820,50,822,55,674,89"/>
-<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="485,101,386,88,326,73,328,67,387,83,486,96"/>
-<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="182,93,344,136"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="359,109,476,105,500,105,500,110,476,111,359,114"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="5,101,115,128"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="129,112,182,112,182,117,129,117"/>
+<area shape="poly" id="edge8_Node000007_Node000002" title=" " alt="" coords="114,24,165,31,165,36,114,29"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html" title="全キャラクター共通のシステムクラス" alt="" coords="500,115,696,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="677,108,819,77,820,82,678,114"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="524,113,355,73,356,67,525,108"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="186,109,340,136"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="355,130,500,132,500,137,355,135"/>
+<area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="355,113,500,116,500,121,355,119"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,109,115,136"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="130,120,185,120,185,125,130,125"/>
 <area shape="rect" id="Node000006" href="$struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character_state.html" title="キャラクターステート" alt="" coords="166,160,361,203"/>
-<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="375,154,476,131,540,115,541,121,477,136,376,159"/>
-<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="376,50,477,63,562,88,560,93,476,68,375,55"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="375,161,509,139,510,145,376,166"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="376,38,427,42,477,52,508,64,537,80,582,112,579,116,534,85,506,69,476,57,426,47,375,43"/>
 <area shape="rect" id="Node000008" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html" title="基底キャラクター操作インターフェース" alt="" coords="164,227,362,269"/>
-<area shape="poly" id="edge9_Node000003_Node000008" title=" " alt="" coords="342,219,362,212,419,194,475,172,530,143,575,116,577,120,532,148,477,177,421,199,363,217,344,224"/>
+<area shape="poly" id="edge10_Node000003_Node000008" title=" " alt="" coords="354,219,475,179,567,139,569,144,477,184,356,225"/>
 </map>

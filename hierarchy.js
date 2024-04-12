@@ -92,6 +92,7 @@ var hierarchy =
         [ "LIVINGHOUSE.App.AudioController", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_audio_controller.html", null ],
         [ "LIVINGHOUSE.App.BuildInScenePoint", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_build_in_scene_point.html", null ],
         [ "LIVINGHOUSE.App.Character", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html", null ],
+        [ "LIVINGHOUSE.App.Character", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html", null ],
         [ "LIVINGHOUSE.App.DemoCameraController", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html", null ],
         [ "LIVINGHOUSE.App.DoorState", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_door_state.html", null ],
         [ "LIVINGHOUSE.App.EventRunner", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner.html", null ],

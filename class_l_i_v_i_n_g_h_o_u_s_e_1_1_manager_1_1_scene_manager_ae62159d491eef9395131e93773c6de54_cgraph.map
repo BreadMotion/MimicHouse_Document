@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.Manager.SceneManager.OnLoadSceneAdditive" name="LIVINGHOUSE.Manager.SceneManager.OnLoadSceneAdditive">
+<area shape="rect" id="Node000001" title="シーンを追加ロードするイベント" alt="" coords="5,39,209,81"/>
+<area shape="rect" id="Node000002" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html#acb1c7759221580e0ce840be6cc08fe41" title="初期化" alt="" coords="257,5,454,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,44,242,39,242,45,210,49"/>
+<area shape="rect" id="Node000003" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html#a21f43ae370466de79e6b8d1d54139e3c" title="事前初期化" alt="" coords="257,72,454,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,71,242,75,242,81,209,76"/>
+</map>

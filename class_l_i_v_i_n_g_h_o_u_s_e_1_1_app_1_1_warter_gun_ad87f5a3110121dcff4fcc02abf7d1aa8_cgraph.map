@@ -1,9 +1,13 @@
 <map id="LIVINGHOUSE.App.WarterGun.Execute" name="LIVINGHOUSE.App.WarterGun.Execute">
-<area shape="rect" id="Node000001" title="呼び出し" alt="" coords="5,72,212,115"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#a8ae81fe86560d71882170a9772886da7" title="カウント減少" alt="" coords="260,5,466,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,69,264,50,265,55,193,74"/>
-<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ac68b116bda1ca94db10eafc30ca28e0e" title="クールダウン中か" alt="" coords="272,72,454,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,91,258,91,258,96,212,96"/>
-<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a081576c9152c45749e90feb053dbfd0c" title="カウントがゼロチェック" alt="" coords="272,139,454,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="193,113,265,132,264,137,192,118"/>
+<area shape="rect" id="Node000001" title="呼び出し" alt="" coords="5,139,212,181"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#a3b1235c9aac7c274fb1c7c42d78a4e4d" title="当たり判定を発射する" alt="" coords="260,5,466,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,136,191,97,258,58,272,51,274,56,261,62,194,101,139,140"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#afb28a53d62d8a03455f2d9f8633e20a7" title="クールダウン中にする" alt="" coords="269,72,457,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,136,264,116,265,122,193,141"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#a8ae81fe86560d71882170a9772886da7" title="カウント減少" alt="" coords="260,139,466,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="212,157,245,157,245,163,212,163"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ac68b116bda1ca94db10eafc30ca28e0e" title="クールダウン中か" alt="" coords="272,205,454,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="193,179,265,198,264,204,192,184"/>
+<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a081576c9152c45749e90feb053dbfd0c" title="カウントがゼロチェック" alt="" coords="272,272,454,315"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="139,180,194,219,261,258,274,264,272,269,258,262,191,223,136,184"/>
 </map>
