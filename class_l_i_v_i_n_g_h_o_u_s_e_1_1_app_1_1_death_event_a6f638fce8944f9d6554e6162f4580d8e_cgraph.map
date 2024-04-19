@@ -1,6 +1,6 @@
 <map id="LIVINGHOUSE.App.DeathEvent.ModifierInvoke" name="LIVINGHOUSE.App.DeathEvent.ModifierInvoke">
 <area shape="rect" id="Node000001" title="条件演算" alt="" coords="5,39,215,81"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a64ec538f65a4e6a11583333dc5c7c95a" title="キャラクターの取得" alt="" coords="263,5,472,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a64ec538f65a4e6a11583333dc5c7c95a" title="キャラクターの参照を取得" alt="" coords="263,5,472,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,44,248,39,248,45,216,49"/>
 <area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a8b4a0ff90d2d30a57e3baee3516714b3" title="クールダウンの計算を行う" alt="" coords="263,72,472,115"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,71,248,75,248,81,215,76"/>

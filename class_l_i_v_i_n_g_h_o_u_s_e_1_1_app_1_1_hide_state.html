@@ -1,0 +1,815 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: LIVINGHOUSE.App.HideState クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pro-methods">限定公開メンバ関数</a> &#124;
+<a href="#properties">プロパティ</a> &#124;
+<a href="#pri-methods">非公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">LIVINGHOUSE.App.HideState クラス<span class="mlabels"><span class="mlabel">sealed</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>隠れ状態状態管理  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+LIVINGHOUSE.App.HideState の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state__inherit__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_hide_state_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_hide_state_inherit__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_hide_state_inherit__map">
+<area shape="rect" title="隠れ状態状態管理" alt="" coords="129,171,326,197"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_gimmick.html" title=" " alt="" coords="48,96,124,123"/>
+<area shape="poly" title=" " alt="" coords="125,127,204,168,201,172,122,132"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html" title=" " alt="" coords="5,5,167,48"/>
+<area shape="poly" title=" " alt="" coords="89,63,89,95,83,95,83,63"/>
+<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_interface_1_1_i_interact_effect.html" title="ギミックインタラクト効果" alt="" coords="149,96,306,123"/>
+<area shape="poly" title=" " alt="" coords="230,138,230,170,225,170,225,138"/>
+<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_interface_1_1_i_breakable.html" title="破壊可能インターフェース" alt="" coords="330,96,469,123"/>
+<area shape="poly" title=" " alt="" coords="357,131,259,172,256,168,355,126"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+LIVINGHOUSE.App.HideState 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state__coll__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_hide_state_coll__map" alt="Collaboration graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_hide_state_coll__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_hide_state_coll__map">
+<area shape="rect" title="隠れ状態状態管理" alt="" coords="819,89,1015,116"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_gimmick.html" title=" " alt="" coords="545,13,621,40"/>
+<area shape="poly" title=" " alt="" coords="636,35,795,69,863,86,862,91,794,75,635,40"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html" title=" " alt="" coords="183,5,344,48"/>
+<area shape="poly" title=" " alt="" coords="359,24,544,24,544,29,359,29"/>
+<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_interface_1_1_i_interact_effect.html" title="ギミックインタラクト効果" alt="" coords="504,64,662,91"/>
+<area shape="poly" title=" " alt="" coords="677,82,818,93,818,98,676,87"/>
+<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_interface_1_1_i_breakable.html" title="破壊可能インターフェース" alt="" coords="513,115,653,141"/>
+<area shape="poly" title=" " alt="" coords="667,119,818,107,818,113,668,124"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html" title="全キャラクター共通のシステムクラス" alt="" coords="485,188,681,215"/>
+<area shape="poly" title=" " alt="" coords="646,181,794,137,870,114,872,119,795,143,647,186"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html" title="キャラクター動作" alt="" coords="819,227,1015,269"/>
+<area shape="poly" title=" " alt="" coords="696,214,795,228,819,231,818,237,794,233,695,219"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="186,188,340,215"/>
+<area shape="poly" title=" " alt="" coords="299,216,360,224,435,226,507,222,561,213,562,218,508,227,435,231,360,229,298,221"/>
+<area shape="poly" title=" " alt="" coords="355,207,485,207,485,212,355,212"/>
+<area shape="poly" title=" " alt="" coords="355,190,485,190,485,196,355,196"/>
+<area shape="poly" title=" " alt="" coords="298,181,360,174,435,172,508,175,562,185,561,190,507,181,435,177,360,179,299,187"/>
+<area shape="rect" title=" " alt="" coords="5,188,115,215"/>
+<area shape="poly" title=" " alt="" coords="130,199,185,199,185,204,130,204"/>
+<area shape="rect" href="struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character_state.html" title="キャラクターステート" alt="" coords="166,252,361,295"/>
+<area shape="poly" title=" " alt="" coords="375,246,520,213,521,218,376,251"/>
+<area shape="poly" title=" " alt="" coords="804,257,754,256,704,249,654,235,612,218,614,213,656,230,705,244,755,250,804,252"/>
+<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html" title="当たり判定を取るオブジェクトインターフェース" alt="" coords="544,279,622,305"/>
+<area shape="poly" title=" " alt="" coords="636,286,794,271,818,267,819,272,795,276,637,292"/>
+<area shape="rect" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html" title="基底キャラクター操作インターフェース" alt="" coords="164,319,362,361"/>
+<area shape="poly" title=" " alt="" coords="343,311,361,304,460,262,555,213,557,218,462,266,363,309,345,316"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:aa243a35209f1b79ae571b0a147d43872" id="r_aa243a35209f1b79ae571b0a147d43872"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa243a35209f1b79ae571b0a147d43872">TryBreak</a> ()</td></tr>
+<tr class="memdesc:aa243a35209f1b79ae571b0a147d43872"><td class="mdescLeft">&#160;</td><td class="mdescRight">破壊を試みる  <br /></td></tr>
+<tr class="separator:aa243a35209f1b79ae571b0a147d43872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad588bab0375131fe70a8d22de79f4ab8" id="r_ad588bab0375131fe70a8d22de79f4ab8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad588bab0375131fe70a8d22de79f4ab8">BreakCall</a> ()</td></tr>
+<tr class="memdesc:ad588bab0375131fe70a8d22de79f4ab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">自身を破壊する  <br /></td></tr>
+<tr class="separator:ad588bab0375131fe70a8d22de79f4ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa425ae480d15d32fbb79c074b6755c3b" id="r_aa425ae480d15d32fbb79c074b6755c3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa425ae480d15d32fbb79c074b6755c3b">OperationCall</a> ()</td></tr>
+<tr class="memdesc:aa425ae480d15d32fbb79c074b6755c3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">効果呼び出し  <br /></td></tr>
+<tr class="separator:aa425ae480d15d32fbb79c074b6755c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae22078252035c4ab2d377c6256d9f0e4" id="r_ae22078252035c4ab2d377c6256d9f0e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae22078252035c4ab2d377c6256d9f0e4">SetOperationCaller</a> (<a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a> caller)</td></tr>
+<tr class="memdesc:ae22078252035c4ab2d377c6256d9f0e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">呼び出したキャラクターを設定  <br /></td></tr>
+<tr class="separator:ae22078252035c4ab2d377c6256d9f0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+限定公開メンバ関数</h2></td></tr>
+<tr class="memitem:abc514c8a158e7bdd9ea7cb4cd45db1af" id="r_abc514c8a158e7bdd9ea7cb4cd45db1af"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc514c8a158e7bdd9ea7cb4cd45db1af">InitializeTask</a> ()</td></tr>
+<tr class="memdesc:abc514c8a158e7bdd9ea7cb4cd45db1af"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化  <br /></td></tr>
+<tr class="separator:abc514c8a158e7bdd9ea7cb4cd45db1af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a714a8829b25c0f6f0b82e44028d0ccf8" id="r_a714a8829b25c0f6f0b82e44028d0ccf8"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a714a8829b25c0f6f0b82e44028d0ccf8">UpdateTask</a> ()</td></tr>
+<tr class="memdesc:a714a8829b25c0f6f0b82e44028d0ccf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">まとめて更新する各々のタスク  <br /></td></tr>
+<tr class="separator:a714a8829b25c0f6f0b82e44028d0ccf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1050489b9b8fc289915607b0ab44b23" id="r_ad1050489b9b8fc289915607b0ab44b23"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1050489b9b8fc289915607b0ab44b23">LateUpdateTask</a> ()</td></tr>
+<tr class="memdesc:ad1050489b9b8fc289915607b0ab44b23"><td class="mdescLeft">&#160;</td><td class="mdescRight">事後更新する各々のタスク  <br /></td></tr>
+<tr class="separator:ad1050489b9b8fc289915607b0ab44b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab956eb6b81c04b39cb416f03d9dc10e2" id="r_ab956eb6b81c04b39cb416f03d9dc10e2"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab956eb6b81c04b39cb416f03d9dc10e2">DisableTask</a> ()</td></tr>
+<tr class="memdesc:ab956eb6b81c04b39cb416f03d9dc10e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">削除タスク  <br /></td></tr>
+<tr class="separator:ab956eb6b81c04b39cb416f03d9dc10e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5485ff5cce21f8909198fc1459deff6e" id="r_a5485ff5cce21f8909198fc1459deff6e"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5485ff5cce21f8909198fc1459deff6e">DrawGizmoInfomation</a> ()</td></tr>
+<tr class="memdesc:a5485ff5cce21f8909198fc1459deff6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">デバッグ描画文字追加  <br /></td></tr>
+<tr class="separator:a5485ff5cce21f8909198fc1459deff6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_gimmick"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_gimmick')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_gimmick.html">LIVINGHOUSE.App.IGimmick</a> に属する継承限定公開メンバ関数</td></tr>
+<tr class="memitem:a57337e293abc5559abcb833eaaf5e72f inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_gimmick" id="r_a57337e293abc5559abcb833eaaf5e72f"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_gimmick.html#a57337e293abc5559abcb833eaaf5e72f">DrawGizmoInfomation</a> ()</td></tr>
+<tr class="memdesc:a57337e293abc5559abcb833eaaf5e72f inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_gimmick"><td class="mdescLeft">&#160;</td><td class="mdescRight">デバッグ描画文字追加  <br /></td></tr>
+<tr class="separator:a57337e293abc5559abcb833eaaf5e72f inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_gimmick"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html">LIVINGHOUSE.Manager.MonoManager&lt; IGimmick &gt;</a> に属する継承限定公開メンバ関数</td></tr>
+<tr class="memitem:ab4b000dc19526851f0481e6bb919fb8e inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager" id="r_ab4b000dc19526851f0481e6bb919fb8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html#ab4b000dc19526851f0481e6bb919fb8e">Start</a> ()</td></tr>
+<tr class="memdesc:ab4b000dc19526851f0481e6bb919fb8e inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化  <br /></td></tr>
+<tr class="separator:ab4b000dc19526851f0481e6bb919fb8e inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87860e456bcac8ea6332f8f12963ce4d inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager" id="r_a87860e456bcac8ea6332f8f12963ce4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html#a87860e456bcac8ea6332f8f12963ce4d">OnDisable</a> ()</td></tr>
+<tr class="memdesc:a87860e456bcac8ea6332f8f12963ce4d inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="mdescLeft">&#160;</td><td class="mdescRight">削除  <br /></td></tr>
+<tr class="separator:a87860e456bcac8ea6332f8f12963ce4d inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61e18f2eb96d9987e3da2441cd647ecf inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager" id="r_a61e18f2eb96d9987e3da2441cd647ecf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html#a61e18f2eb96d9987e3da2441cd647ecf">InitializeTask</a> ()</td></tr>
+<tr class="memdesc:a61e18f2eb96d9987e3da2441cd647ecf inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化  <br /></td></tr>
+<tr class="separator:a61e18f2eb96d9987e3da2441cd647ecf inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ab3f78e18829ea5bf6bd50d6bc73ead inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager" id="r_a1ab3f78e18829ea5bf6bd50d6bc73ead"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html#a1ab3f78e18829ea5bf6bd50d6bc73ead">UpdateTask</a> ()</td></tr>
+<tr class="memdesc:a1ab3f78e18829ea5bf6bd50d6bc73ead inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="mdescLeft">&#160;</td><td class="mdescRight">まとめて更新する各々のタスク  <br /></td></tr>
+<tr class="separator:a1ab3f78e18829ea5bf6bd50d6bc73ead inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f135aea103ee7d9519b1a8e152cd7a1 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager" id="r_a6f135aea103ee7d9519b1a8e152cd7a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html#a6f135aea103ee7d9519b1a8e152cd7a1">LateUpdateTask</a> ()</td></tr>
+<tr class="memdesc:a6f135aea103ee7d9519b1a8e152cd7a1 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="mdescLeft">&#160;</td><td class="mdescRight">事後更新する各々のタスク  <br /></td></tr>
+<tr class="separator:a6f135aea103ee7d9519b1a8e152cd7a1 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90199d7824a57fcfc4734c6bd9c4652e inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager" id="r_a90199d7824a57fcfc4734c6bd9c4652e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html#a90199d7824a57fcfc4734c6bd9c4652e">DisableTask</a> ()</td></tr>
+<tr class="memdesc:a90199d7824a57fcfc4734c6bd9c4652e inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="mdescLeft">&#160;</td><td class="mdescRight">削除処理  <br /></td></tr>
+<tr class="separator:a90199d7824a57fcfc4734c6bd9c4652e inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:ac2760a92b85954df13d014c2d5e1b7f7" id="r_ac2760a92b85954df13d014c2d5e1b7f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2760a92b85954df13d014c2d5e1b7f7">IsHide</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ac2760a92b85954df13d014c2d5e1b7f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">開いているか  <br /></td></tr>
+<tr class="separator:ac2760a92b85954df13d014c2d5e1b7f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0199efd7af308315b0d5f4d39bc63b5b" id="r_a0199efd7af308315b0d5f4d39bc63b5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0199efd7af308315b0d5f4d39bc63b5b">IsBreak</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a0199efd7af308315b0d5f4d39bc63b5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">破壊されているか  <br /></td></tr>
+<tr class="separator:a0199efd7af308315b0d5f4d39bc63b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html">LIVINGHOUSE.Manager.MonoManager&lt; IGimmick &gt;</a> に属する継承プロパティ</td></tr>
+<tr class="memitem:a5c418e0301f33e9f0a1cbab0d74a9bce inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager" id="r_a5c418e0301f33e9f0a1cbab0d74a9bce"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html#a5c418e0301f33e9f0a1cbab0d74a9bce">GetMonoInstanceID</a><code> [get]</code></td></tr>
+<tr class="memdesc:a5c418e0301f33e9f0a1cbab0d74a9bce inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンスID取得  <br /></td></tr>
+<tr class="separator:a5c418e0301f33e9f0a1cbab0d74a9bce inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr class="memitem:a9b904b0351e823563831fb717c1c3507" id="r_a9b904b0351e823563831fb717c1c3507"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b904b0351e823563831fb717c1c3507">OpenStatusOperation</a> ()</td></tr>
+<tr class="memdesc:a9b904b0351e823563831fb717c1c3507"><td class="mdescLeft">&#160;</td><td class="mdescRight">開閉状況  <br /></td></tr>
+<tr class="separator:a9b904b0351e823563831fb717c1c3507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a70c998e1b0fcfd9f9f7cdf0097293a3a" id="r_a70c998e1b0fcfd9f9f7cdf0097293a3a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70c998e1b0fcfd9f9f7cdf0097293a3a">m_isHide</a> = false</td></tr>
+<tr class="memdesc:a70c998e1b0fcfd9f9f7cdf0097293a3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">開閉状況  <br /></td></tr>
+<tr class="separator:a70c998e1b0fcfd9f9f7cdf0097293a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabad33cb9dbe62cd6629431d00374382" id="r_aabad33cb9dbe62cd6629431d00374382"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabad33cb9dbe62cd6629431d00374382">m_character</a> = null</td></tr>
+<tr class="separator:aabad33cb9dbe62cd6629431d00374382"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acecde488a6dacfa9805d9e5717b4bf1d" id="r_acecde488a6dacfa9805d9e5717b4bf1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acecde488a6dacfa9805d9e5717b4bf1d">m_isBreak</a> = false</td></tr>
+<tr class="memdesc:acecde488a6dacfa9805d9e5717b4bf1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">破壊状況  <br /></td></tr>
+<tr class="separator:acecde488a6dacfa9805d9e5717b4bf1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3fe2a6c9612ad7c1777af3f5d799866" id="r_af3fe2a6c9612ad7c1777af3f5d799866"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3fe2a6c9612ad7c1777af3f5d799866">m_wasBreak</a> = false</td></tr>
+<tr class="memdesc:af3fe2a6c9612ad7c1777af3f5d799866"><td class="mdescLeft">&#160;</td><td class="mdescRight">破壊済み  <br /></td></tr>
+<tr class="separator:af3fe2a6c9612ad7c1777af3f5d799866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95f7be0a600f0e2a023ab0cf8388b2f1" id="r_a95f7be0a600f0e2a023ab0cf8388b2f1"><td class="memItemLeft" align="right" valign="top">Rigidbody&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95f7be0a600f0e2a023ab0cf8388b2f1">m_rigidBody</a> = null</td></tr>
+<tr class="memdesc:a95f7be0a600f0e2a023ab0cf8388b2f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">剛体  <br /></td></tr>
+<tr class="separator:a95f7be0a600f0e2a023ab0cf8388b2f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+その他の継承メンバ</h2></td></tr>
+<tr class="inherit_header pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html">LIVINGHOUSE.Manager.MonoManager&lt; IGimmick &gt;</a> に属する継承静的公開メンバ関数</td></tr>
+<tr class="memitem:a11e9b512db0fc32ea46dfc8d84dfc475 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager" id="r_a11e9b512db0fc32ea46dfc8d84dfc475"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html#a11e9b512db0fc32ea46dfc8d84dfc475">AllUpdate</a> ()</td></tr>
+<tr class="memdesc:a11e9b512db0fc32ea46dfc8d84dfc475 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="mdescLeft">&#160;</td><td class="mdescRight">全体更新  <br /></td></tr>
+<tr class="separator:a11e9b512db0fc32ea46dfc8d84dfc475 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabbb6451adf5013d6528947c878f6160 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager" id="r_aabbb6451adf5013d6528947c878f6160"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html#aabbb6451adf5013d6528947c878f6160">AllLateUpdate</a> ()</td></tr>
+<tr class="memdesc:aabbb6451adf5013d6528947c878f6160 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="mdescLeft">&#160;</td><td class="mdescRight">全体事後更新  <br /></td></tr>
+<tr class="separator:aabbb6451adf5013d6528947c878f6160 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4e3f22f9d90be50fd9d871b76682ce2 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager" id="r_aa4e3f22f9d90be50fd9d871b76682ce2"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html#aa4e3f22f9d90be50fd9d871b76682ce2">GetByIndex</a> (int index)</td></tr>
+<tr class="memdesc:aa4e3f22f9d90be50fd9d871b76682ce2 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得  <br /></td></tr>
+<tr class="separator:aa4e3f22f9d90be50fd9d871b76682ce2 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3597a4ea16ccec7ed4c4f253d87ba4f4 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager" id="r_a3597a4ea16ccec7ed4c4f253d87ba4f4"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html#a3597a4ea16ccec7ed4c4f253d87ba4f4">GetByID</a> (int instanceID)</td></tr>
+<tr class="memdesc:a3597a4ea16ccec7ed4c4f253d87ba4f4 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得  <br /></td></tr>
+<tr class="separator:a3597a4ea16ccec7ed4c4f253d87ba4f4 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b7f2c2aceae34243e46f8217a8a5132 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager" id="r_a1b7f2c2aceae34243e46f8217a8a5132"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html#a1b7f2c2aceae34243e46f8217a8a5132">ClampIndex</a> (int index)</td></tr>
+<tr class="memdesc:a1b7f2c2aceae34243e46f8217a8a5132 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="mdescLeft">&#160;</td><td class="mdescRight">配列番号を範囲内に収める  <br /></td></tr>
+<tr class="separator:a1b7f2c2aceae34243e46f8217a8a5132 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>隠れ状態状態管理 </p>
+
+<p class="definition"> <a class="el" href="_hide_state_8cs_source.html">HideState.cs</a> の <a class="el" href="_hide_state_8cs_source.html#l00011">11</a> 行目に定義があります。</p>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="ad588bab0375131fe70a8d22de79f4ab8" name="ad588bab0375131fe70a8d22de79f4ab8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad588bab0375131fe70a8d22de79f4ab8">&#9670;&#160;</a></span>BreakCall()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.HideState.BreakCall </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>自身を破壊する </p>
+
+<p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_interface_1_1_i_breakable.html#a4a722e686f3302cf1d3f1147c3199ced">LIVINGHOUSE.App.Interface.IBreakable</a>を実装しています。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_ad588bab0375131fe70a8d22de79f4ab8_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_ad588bab0375131fe70a8d22de79f4ab8_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_ad588bab0375131fe70a8d22de79f4ab8_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_ad588bab0375131fe70a8d22de79f4ab8_icgraph">
+<area shape="rect" title="自身を破壊する" alt="" coords="502,5,702,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state.html#aa243a35209f1b79ae571b0a147d43872" title="破壊を試みる" alt="" coords="254,5,454,48"/>
+<area shape="poly" title=" " alt="" coords="487,29,454,29,454,24,487,24"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state.html#ad1050489b9b8fc289915607b0ab44b23" title="事後更新する各々のタスク" alt="" coords="5,5,206,48"/>
+<area shape="poly" title=" " alt="" coords="239,29,206,29,206,24,239,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab956eb6b81c04b39cb416f03d9dc10e2" name="ab956eb6b81c04b39cb416f03d9dc10e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab956eb6b81c04b39cb416f03d9dc10e2">&#9670;&#160;</a></span>DisableTask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void LIVINGHOUSE.App.HideState.DisableTask </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>削除タスク </p>
+
+<p class="definition"> <a class="el" href="_hide_state_8cs_source.html">HideState.cs</a> の <a class="el" href="_hide_state_8cs_source.html#l00137">137</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a5485ff5cce21f8909198fc1459deff6e" name="a5485ff5cce21f8909198fc1459deff6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5485ff5cce21f8909198fc1459deff6e">&#9670;&#160;</a></span>DrawGizmoInfomation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override string LIVINGHOUSE.App.HideState.DrawGizmoInfomation </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>デバッグ描画文字追加 </p>
+<dl class="section return"><dt>戻り値</dt><dd>追加情報</dd></dl>
+
+</div>
+</div>
+<a id="abc514c8a158e7bdd9ea7cb4cd45db1af" name="abc514c8a158e7bdd9ea7cb4cd45db1af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc514c8a158e7bdd9ea7cb4cd45db1af">&#9670;&#160;</a></span>InitializeTask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void LIVINGHOUSE.App.HideState.InitializeTask </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>初期化 </p>
+
+<p class="definition"> <a class="el" href="_hide_state_8cs_source.html">HideState.cs</a> の <a class="el" href="_hide_state_8cs_source.html#l00116">116</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ad1050489b9b8fc289915607b0ab44b23" name="ad1050489b9b8fc289915607b0ab44b23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1050489b9b8fc289915607b0ab44b23">&#9670;&#160;</a></span>LateUpdateTask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void LIVINGHOUSE.App.HideState.LateUpdateTask </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>事後更新する各々のタスク </p>
+
+<p class="definition"> <a class="el" href="_hide_state_8cs_source.html">HideState.cs</a> の <a class="el" href="_hide_state_8cs_source.html#l00130">130</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_ad1050489b9b8fc289915607b0ab44b23_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_ad1050489b9b8fc289915607b0ab44b23_cgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_ad1050489b9b8fc289915607b0ab44b23_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_ad1050489b9b8fc289915607b0ab44b23_cgraph">
+<area shape="rect" title="事後更新する各々のタスク" alt="" coords="5,5,206,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state.html#aa243a35209f1b79ae571b0a147d43872" title="破壊を試みる" alt="" coords="254,5,454,48"/>
+<area shape="poly" title=" " alt="" coords="206,24,239,24,239,29,206,29"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state.html#ad588bab0375131fe70a8d22de79f4ab8" title="自身を破壊する" alt="" coords="502,5,702,48"/>
+<area shape="poly" title=" " alt="" coords="454,24,487,24,487,29,454,29"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9b904b0351e823563831fb717c1c3507" name="a9b904b0351e823563831fb717c1c3507"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b904b0351e823563831fb717c1c3507">&#9670;&#160;</a></span>OpenStatusOperation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.HideState.OpenStatusOperation </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>開閉状況 </p>
+
+<p class="definition"> <a class="el" href="_hide_state_8cs_source.html">HideState.cs</a> の <a class="el" href="_hide_state_8cs_source.html#l00054">54</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_a9b904b0351e823563831fb717c1c3507_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_a9b904b0351e823563831fb717c1c3507_cgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_a9b904b0351e823563831fb717c1c3507_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_a9b904b0351e823563831fb717c1c3507_cgraph">
+<area shape="rect" title="開閉状況" alt="" coords="5,39,206,81"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a38abf22bc7d48ee06b823fd538f9bd3b" title="隠れ状態解除の呼び出し" alt="" coords="254,5,453,48"/>
+<area shape="poly" title=" " alt="" coords="206,44,239,39,239,45,207,49"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#afdb7c69112c8c136aca2189224a40403" title="隠れ状態の呼び出し" alt="" coords="254,72,453,115"/>
+<area shape="poly" title=" " alt="" coords="207,71,239,75,239,81,206,76"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_a9b904b0351e823563831fb717c1c3507_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_a9b904b0351e823563831fb717c1c3507_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_a9b904b0351e823563831fb717c1c3507_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_a9b904b0351e823563831fb717c1c3507_icgraph">
+<area shape="rect" title="開閉状況" alt="" coords="254,5,454,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state.html#a714a8829b25c0f6f0b82e44028d0ccf8" title="まとめて更新する各々のタスク" alt="" coords="5,5,206,48"/>
+<area shape="poly" title=" " alt="" coords="239,29,206,29,206,24,239,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa425ae480d15d32fbb79c074b6755c3b" name="aa425ae480d15d32fbb79c074b6755c3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa425ae480d15d32fbb79c074b6755c3b">&#9670;&#160;</a></span>OperationCall()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.HideState.OperationCall </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>効果呼び出し </p>
+
+<p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_interface_1_1_i_interact_effect.html#a005543a2074767508143a25b80ff9100">LIVINGHOUSE.App.Interface.IInteractEffect</a>を実装しています。</p>
+
+</div>
+</div>
+<a id="ae22078252035c4ab2d377c6256d9f0e4" name="ae22078252035c4ab2d377c6256d9f0e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae22078252035c4ab2d377c6256d9f0e4">&#9670;&#160;</a></span>SetOperationCaller()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.HideState.SetOperationCaller </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a></td>          <td class="paramname"><span class="paramname"><em>caller</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>呼び出したキャラクターを設定 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">caller</td><td>呼び出したキャラクター</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_interface_1_1_i_interact_effect.html#ad358fa47cc91243744d4874df47b119c">LIVINGHOUSE.App.Interface.IInteractEffect</a>を実装しています。</p>
+
+</div>
+</div>
+<a id="aa243a35209f1b79ae571b0a147d43872" name="aa243a35209f1b79ae571b0a147d43872"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa243a35209f1b79ae571b0a147d43872">&#9670;&#160;</a></span>TryBreak()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.HideState.TryBreak </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>破壊を試みる </p>
+
+<p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_interface_1_1_i_breakable.html#a6494ac35c855303d7a21bcefc0a40b44">LIVINGHOUSE.App.Interface.IBreakable</a>を実装しています。</p>
+
+<p class="definition"> <a class="el" href="_hide_state_8cs_source.html">HideState.cs</a> の <a class="el" href="_hide_state_8cs_source.html#l00083">83</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_aa243a35209f1b79ae571b0a147d43872_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_aa243a35209f1b79ae571b0a147d43872_cgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_aa243a35209f1b79ae571b0a147d43872_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_aa243a35209f1b79ae571b0a147d43872_cgraph">
+<area shape="rect" title="破壊を試みる" alt="" coords="5,5,206,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state.html#ad588bab0375131fe70a8d22de79f4ab8" title="自身を破壊する" alt="" coords="254,5,454,48"/>
+<area shape="poly" title=" " alt="" coords="206,24,239,24,239,29,206,29"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_aa243a35209f1b79ae571b0a147d43872_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_aa243a35209f1b79ae571b0a147d43872_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_aa243a35209f1b79ae571b0a147d43872_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_aa243a35209f1b79ae571b0a147d43872_icgraph">
+<area shape="rect" title="破壊を試みる" alt="" coords="254,5,454,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state.html#ad1050489b9b8fc289915607b0ab44b23" title="事後更新する各々のタスク" alt="" coords="5,5,206,48"/>
+<area shape="poly" title=" " alt="" coords="239,29,206,29,206,24,239,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a714a8829b25c0f6f0b82e44028d0ccf8" name="a714a8829b25c0f6f0b82e44028d0ccf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a714a8829b25c0f6f0b82e44028d0ccf8">&#9670;&#160;</a></span>UpdateTask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void LIVINGHOUSE.App.HideState.UpdateTask </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>まとめて更新する各々のタスク </p>
+
+<p class="definition"> <a class="el" href="_hide_state_8cs_source.html">HideState.cs</a> の <a class="el" href="_hide_state_8cs_source.html#l00123">123</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_a714a8829b25c0f6f0b82e44028d0ccf8_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_a714a8829b25c0f6f0b82e44028d0ccf8_cgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_a714a8829b25c0f6f0b82e44028d0ccf8_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state_a714a8829b25c0f6f0b82e44028d0ccf8_cgraph">
+<area shape="rect" title="まとめて更新する各々のタスク" alt="" coords="5,39,206,81"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state.html#a9b904b0351e823563831fb717c1c3507" title="開閉状況" alt="" coords="254,39,454,81"/>
+<area shape="poly" title=" " alt="" coords="206,57,239,57,239,63,206,63"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a38abf22bc7d48ee06b823fd538f9bd3b" title="隠れ状態解除の呼び出し" alt="" coords="502,5,701,48"/>
+<area shape="poly" title=" " alt="" coords="454,44,487,39,488,45,455,49"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#afdb7c69112c8c136aca2189224a40403" title="隠れ状態の呼び出し" alt="" coords="502,72,701,115"/>
+<area shape="poly" title=" " alt="" coords="455,71,488,75,487,81,454,76"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="aabad33cb9dbe62cd6629431d00374382" name="aabad33cb9dbe62cd6629431d00374382"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabad33cb9dbe62cd6629431d00374382">&#9670;&#160;</a></span>m_character</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a> LIVINGHOUSE.App.HideState.m_character = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_hide_state_8cs_source.html">HideState.cs</a> の <a class="el" href="_hide_state_8cs_source.html#l00019">19</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="acecde488a6dacfa9805d9e5717b4bf1d" name="acecde488a6dacfa9805d9e5717b4bf1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acecde488a6dacfa9805d9e5717b4bf1d">&#9670;&#160;</a></span>m_isBreak</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.App.HideState.m_isBreak = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>破壊状況 </p>
+
+<p class="definition"> <a class="el" href="_hide_state_8cs_source.html">HideState.cs</a> の <a class="el" href="_hide_state_8cs_source.html#l00024">24</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a70c998e1b0fcfd9f9f7cdf0097293a3a" name="a70c998e1b0fcfd9f9f7cdf0097293a3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70c998e1b0fcfd9f9f7cdf0097293a3a">&#9670;&#160;</a></span>m_isHide</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.App.HideState.m_isHide = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>開閉状況 </p>
+
+<p class="definition"> <a class="el" href="_hide_state_8cs_source.html">HideState.cs</a> の <a class="el" href="_hide_state_8cs_source.html#l00015">15</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a95f7be0a600f0e2a023ab0cf8388b2f1" name="a95f7be0a600f0e2a023ab0cf8388b2f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95f7be0a600f0e2a023ab0cf8388b2f1">&#9670;&#160;</a></span>m_rigidBody</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rigidbody LIVINGHOUSE.App.HideState.m_rigidBody = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>剛体 </p>
+
+<p class="definition"> <a class="el" href="_hide_state_8cs_source.html">HideState.cs</a> の <a class="el" href="_hide_state_8cs_source.html#l00034">34</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="af3fe2a6c9612ad7c1777af3f5d799866" name="af3fe2a6c9612ad7c1777af3f5d799866"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3fe2a6c9612ad7c1777af3f5d799866">&#9670;&#160;</a></span>m_wasBreak</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.App.HideState.m_wasBreak = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>破壊済み </p>
+
+<p class="definition"> <a class="el" href="_hide_state_8cs_source.html">HideState.cs</a> の <a class="el" href="_hide_state_8cs_source.html#l00029">29</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<h2 class="groupheader">プロパティ詳解</h2>
+<a id="a0199efd7af308315b0d5f4d39bc63b5b" name="a0199efd7af308315b0d5f4d39bc63b5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0199efd7af308315b0d5f4d39bc63b5b">&#9670;&#160;</a></span>IsBreak</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.App.HideState.IsBreak</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>破壊されているか </p>
+
+<p class="definition"> <a class="el" href="_hide_state_8cs_source.html">HideState.cs</a> の <a class="el" href="_hide_state_8cs_source.html#l00046">46</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ac2760a92b85954df13d014c2d5e1b7f7" name="ac2760a92b85954df13d014c2d5e1b7f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2760a92b85954df13d014c2d5e1b7f7">&#9670;&#160;</a></span>IsHide</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.App.HideState.IsHide</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>開いているか </p>
+
+<p class="definition"> <a class="el" href="_hide_state_8cs_source.html">HideState.cs</a> の <a class="el" href="_hide_state_8cs_source.html#l00038">38</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/Bg/CanInteract/<a class="el" href="_hide_state_8cs_source.html">HideState.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e.html">LIVINGHOUSE</a></li><li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">App</a></li><li class="navelem"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state.html">HideState</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

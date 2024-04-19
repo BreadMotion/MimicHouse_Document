@@ -1,9 +1,20 @@
 <map id="LIVINGHOUSE.App.RainCoat.Update" name="LIVINGHOUSE.App.RainCoat.Update">
-<area shape="rect" id="Node000001" title="更新" alt="" coords="5,72,202,115"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_rain_coat.html#a43b2b8cdff9a979a996159d7061a14ad" title="カウント減少" alt="" coords="250,5,446,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,69,252,50,254,55,185,74"/>
-<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ac68b116bda1ca94db10eafc30ca28e0e" title="クールダウン中か" alt="" coords="257,72,439,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,91,242,91,242,96,202,96"/>
-<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a081576c9152c45749e90feb053dbfd0c" title="カウントがゼロチェック" alt="" coords="257,139,439,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="185,113,254,132,252,137,184,118"/>
+<area shape="rect" id="Node000001" title="更新" alt="" coords="5,64,202,107"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#ac68b116bda1ca94db10eafc30ca28e0e" title="クールダウン中か" alt="" coords="257,5,439,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,61,242,49,243,54,196,66"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#a081576c9152c45749e90feb053dbfd0c" title="カウントがゼロチェック" alt="" coords="512,60,693,103"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,82,497,80,497,85,202,87"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_rain_coat.html#a397c69a8fb7f854e6380fe207404c773" title=" " alt="" coords="250,127,446,169"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="190,105,249,120,247,125,189,110"/>
+<area shape="poly" id="edge9_Node000004_Node000003" title=" " alt="" coords="431,124,503,104,505,110,433,129"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner.html#a2bfae2d87ec8ae4ec301382be1f7f4b7" title="イベントの追加" alt="" coords="494,127,710,169"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="446,145,479,145,479,151,446,151"/>
+<area shape="rect" id="Node000008" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_item.html#afb28a53d62d8a03455f2d9f8633e20a7" title="クールダウン中にする" alt="" coords="509,193,696,236"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="433,167,505,186,503,192,431,172"/>
+<area shape="rect" id="Node000009" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_rain_coat.html#a43b2b8cdff9a979a996159d7061a14ad" title="カウント減少" alt="" coords="504,260,700,303"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="377,168,430,207,495,246,509,252,507,257,493,250,427,211,374,172"/>
+<area shape="rect" id="Node000006" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#a43c75df194b9b3af55727afe77d668f1" title="成功時呼び出し" alt="" coords="758,93,982,136"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="711,132,743,128,744,133,711,137"/>
+<area shape="rect" id="Node000007" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#afe8615515a2abf806d148b36cf610143" title="失敗時呼び出し" alt="" coords="771,160,969,203"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="711,159,757,165,756,170,711,164"/>
 </map>

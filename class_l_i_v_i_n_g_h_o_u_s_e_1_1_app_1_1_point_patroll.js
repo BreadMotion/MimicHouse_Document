@@ -2,6 +2,7 @@ var class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll =
 [
     [ "AddNextPoint", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a897bdf6112848e81573d287974f71108", null ],
     [ "AddNextPoint", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a8b5d0f6a2d50b28afe5b21154854ba43", null ],
+    [ "DrawGizmoInfomation", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a292e27bb52db5baf0ffd1fbba94a5790", null ],
     [ "ExecBuild", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a46f3714c5160f366b02293e8a0a2e2c8", null ],
     [ "ExecMergeBuild", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a695681deb1d3a76ed73154c231b1af3a", null ],
     [ "GetNextPoint", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a8be825c807f77f5748aaad910c2365f3", null ],

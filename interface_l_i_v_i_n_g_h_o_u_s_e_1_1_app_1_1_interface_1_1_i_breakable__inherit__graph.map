@@ -1,0 +1,9 @@
+<map id="LIVINGHOUSE.App.Interface.IBreakable" name="LIVINGHOUSE.App.Interface.IBreakable">
+<area shape="rect" id="Node000001" title="破壊可能インターフェース" alt="" coords="235,5,427,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_block_state.html" title="ブロック状態管理" alt="" coords="5,96,209,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,56,143,98,141,93,259,51"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_door_state.html" title="ドアの状態管理" alt="" coords="232,96,430,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="334,63,334,95,328,95,328,63"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state.html" title="隠れ状態状態管理" alt="" coords="454,96,651,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="402,51,519,93,517,98,400,56"/>
+</map>

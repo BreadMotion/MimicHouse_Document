@@ -18,6 +18,6 @@ var class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff =
     [ "EffectValue_bool", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a536efa75c0e58d952449f33bfff5ce43", null ],
     [ "EffectValue_float", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a71a4068f4c6121ca7d7a710e576532bd", null ],
     [ "EffectValue_int", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#abc231b903ec23c31e875550608af3d26", null ],
-    [ "ownerCharacterID", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#af8d257ca59e6ab6737cd016f7328ca6c", null ],
-    [ "targetCharacterID", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#a2d71625535d8c61f2c868d159dc5b569", null ]
+    [ "OwnerCharacterID", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#ae872c5c99cfc62770142bd21720458a8", null ],
+    [ "TargetCharacterID", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_buff.html#aef32bce4b39a584a9c4544989bf79d2c", null ]
 ];

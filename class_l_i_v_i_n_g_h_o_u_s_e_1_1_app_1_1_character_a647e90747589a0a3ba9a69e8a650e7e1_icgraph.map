@@ -1,0 +1,12 @@
+<map id="LIVINGHOUSE.App.Character.DoRecoveryStartCooldown" name="LIVINGHOUSE.App.Character.DoRecoveryStartCooldown">
+<area shape="rect" id="Node000001" title="スタミナ回復クールダウンを開始する" alt="" coords="1015,35,1214,77"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a89e9e58cbf9025237ca1b63d74cfbb2f" title="スタミナ更新" alt="" coords="747,5,967,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="999,46,967,42,968,37,1000,40"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a0722250aa34a4782a3dec2996d8e0226" title="走りシステム更新" alt="" coords="500,35,699,77"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="1000,62,967,63,747,63,700,62,700,56,747,57,967,57,1000,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="733,44,700,47,699,42,732,38"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a85b07231fc0a58cd49db073b04ee54ed" title="キャラクターステート更新" alt="" coords="253,35,452,77"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="485,59,452,59,452,53,485,53"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#ac3a2b3b418b9f1f6e7719942f61f87f9" title="更新" alt="" coords="5,35,205,77"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="238,59,205,59,205,53,238,53"/>
+</map>

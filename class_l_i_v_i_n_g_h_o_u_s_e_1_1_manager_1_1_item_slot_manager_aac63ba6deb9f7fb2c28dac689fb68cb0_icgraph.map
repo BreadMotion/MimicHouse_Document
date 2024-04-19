@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.Manager.ItemSlotManager.UpdateIsOpenTab" name="LIVINGHOUSE.Manager.ItemSlotManager.UpdateIsOpenTab">
+<area shape="rect" id="Node000001" title="スロット編集画面切り替えの操作" alt="" coords="245,5,446,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#ab55ca55b10dc74c4d89a99741f690b95" title="更新" alt="" coords="5,5,197,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,29,197,29,197,24,230,24"/>
+</map>

@@ -1,5 +1,7 @@
 <map id="LIVINGHOUSE.Scene.Title" name="LIVINGHOUSE.Scene.Title">
 <area shape="rect" id="Node000001" title="タイトルシーン" alt="" coords="5,80,183,107"/>
-<area shape="rect" id="Node000002" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html" title="基底シーンインターフェース" alt="" coords="63,5,125,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,47,97,80,91,80,91,47"/>
+<area shape="rect" id="Node000002" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html" title="基底シーンインターフェース" alt="" coords="14,5,75,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,43,88,78,83,81,59,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="99,5,188,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="129,46,105,81,100,78,124,43"/>
 </map>

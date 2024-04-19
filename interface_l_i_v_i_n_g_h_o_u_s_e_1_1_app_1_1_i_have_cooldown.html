@@ -122,18 +122,45 @@ LIVINGHOUSE.App.IHaveCooldown の継承関係図</div>
 <tr class="memitem:af8c27421978e8c95d4b641781a0b2e2a" id="r_af8c27421978e8c95d4b641781a0b2e2a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8c27421978e8c95d4b641781a0b2e2a">IsCooldown</a> ()</td></tr>
 <tr class="memdesc:af8c27421978e8c95d4b641781a0b2e2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">クールダウン中か  <br /></td></tr>
 <tr class="separator:af8c27421978e8c95d4b641781a0b2e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37ebfa9e56138f232ad25da7a4ad9206" id="r_a37ebfa9e56138f232ad25da7a4ad9206"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37ebfa9e56138f232ad25da7a4ad9206">DoCooldown</a> ()</td></tr>
+<tr class="memdesc:a37ebfa9e56138f232ad25da7a4ad9206"><td class="mdescLeft">&#160;</td><td class="mdescRight">クールダウン中にする  <br /></td></tr>
+<tr class="separator:a37ebfa9e56138f232ad25da7a4ad9206"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 プロパティ</h2></td></tr>
 <tr class="memitem:ae93c893dc04416a7648c00297227fc1b" id="r_ae93c893dc04416a7648c00297227fc1b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae93c893dc04416a7648c00297227fc1b">Cooldown</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ae93c893dc04416a7648c00297227fc1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">クールダウン  <br /></td></tr>
 <tr class="separator:ae93c893dc04416a7648c00297227fc1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a101647f7d050abfe7d1cc6ee5003eecb" id="r_a101647f7d050abfe7d1cc6ee5003eecb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a101647f7d050abfe7d1cc6ee5003eecb">NowCooldown</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a101647f7d050abfe7d1cc6ee5003eecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">現在のクールダウン  <br /></td></tr>
+<tr class="separator:a101647f7d050abfe7d1cc6ee5003eecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
 <div class="textblock"><p>クールダウンを持っている </p>
 
-<p class="definition"> <a class="el" href="_i_event_8cs_source.html">IEvent.cs</a> の <a class="el" href="_i_event_8cs_source.html#l00054">54</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_i_have_cooldown_8cs_source.html">IHaveCooldown.cs</a> の <a class="el" href="_i_have_cooldown_8cs_source.html#l00004">4</a> 行目に定義があります。</p>
 </div><h2 class="groupheader">メソッド詳解</h2>
+<a id="a37ebfa9e56138f232ad25da7a4ad9206" name="a37ebfa9e56138f232ad25da7a4ad9206"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37ebfa9e56138f232ad25da7a4ad9206">&#9670;&#160;</a></span>DoCooldown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.IHaveCooldown.DoCooldown </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>クールダウン中にする </p>
+
+<p><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event.html#aa2fa5033d9c9ca3a5b17636c8ea26516">LIVINGHOUSE.App.DamageEvent</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a49be6a6bbcb96571b1f0dfdff0b8dd52">LIVINGHOUSE.App.DeathEvent</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_stun_event.html#af1130909306b62e0458efece8a8f4f72">LIVINGHOUSE.App.StunEvent</a>で実装されています。</p>
+
+</div>
+</div>
 <a id="af8c27421978e8c95d4b641781a0b2e2a" name="af8c27421978e8c95d4b641781a0b2e2a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af8c27421978e8c95d4b641781a0b2e2a">&#9670;&#160;</a></span>IsCooldown()</h2>
 
@@ -181,12 +208,40 @@ LIVINGHOUSE.App.IHaveCooldown の継承関係図</div>
 
 <p><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event.html#ad7932ce4770f09cfc5f2c72848e41cbe">LIVINGHOUSE.App.DamageEvent</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#aff83be1f9d278799d6b03cfbeff7f44c">LIVINGHOUSE.App.DeathEvent</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_stun_event.html#a11cc3adf5c510e50ed6b2f59bab42e07">LIVINGHOUSE.App.StunEvent</a>で実装されています。</p>
 
-<p class="definition"> <a class="el" href="_i_event_8cs_source.html">IEvent.cs</a> の <a class="el" href="_i_event_8cs_source.html#l00057">57</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_i_have_cooldown_8cs_source.html">IHaveCooldown.cs</a> の <a class="el" href="_i_have_cooldown_8cs_source.html#l00007">7</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a101647f7d050abfe7d1cc6ee5003eecb" name="a101647f7d050abfe7d1cc6ee5003eecb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a101647f7d050abfe7d1cc6ee5003eecb">&#9670;&#160;</a></span>NowCooldown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float LIVINGHOUSE.App.IHaveCooldown.NowCooldown</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>現在のクールダウン </p>
+
+<p><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event.html#a989bb5f8971b42a45cdee04dd8e8e8e7">LIVINGHOUSE.App.DamageEvent</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a62caccd3858ba6983a67dfba4f19453b">LIVINGHOUSE.App.DeathEvent</a>, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_stun_event.html#a63725fb927b614a651f15bcc0943867a">LIVINGHOUSE.App.StunEvent</a>で実装されています。</p>
+
+<p class="definition"> <a class="el" href="_i_have_cooldown_8cs_source.html">IHaveCooldown.cs</a> の <a class="el" href="_i_have_cooldown_8cs_source.html#l00011">11</a> 行目に定義があります。</p>
 
 </div>
 </div>
 <hr/>このインタフェース詳解は次のファイルから抽出されました:<ul>
-<li>D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/Event/Base/<a class="el" href="_i_event_8cs_source.html">IEvent.cs</a></li>
+<li>D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/Event/Base/<a class="el" href="_i_have_cooldown_8cs_source.html">IHaveCooldown.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

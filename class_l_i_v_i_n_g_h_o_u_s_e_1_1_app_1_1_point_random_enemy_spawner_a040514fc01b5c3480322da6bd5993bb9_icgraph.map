@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.App.PointRandomEnemySpawner.IsGenerating" name="LIVINGHOUSE.App.PointRandomEnemySpawner.IsGenerating">
+<area shape="rect" id="Node000001" title="生成するか" alt="" coords="298,5,515,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner.html#af746dac27cacf3ade3a1780099f970a9" title="初期化(アプリケーション起動時)" alt="" coords="5,5,250,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="282,29,250,29,250,24,282,24"/>
+</map>

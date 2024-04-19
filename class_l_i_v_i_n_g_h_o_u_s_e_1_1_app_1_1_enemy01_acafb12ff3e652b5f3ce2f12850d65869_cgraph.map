@@ -1,9 +1,11 @@
 <map id="LIVINGHOUSE.App.Enemy01.UpdateInvoke" name="LIVINGHOUSE.App.Enemy01.UpdateInvoke">
-<area shape="rect" id="Node000001" title="更新" alt="" coords="5,39,204,81"/>
+<area shape="rect" id="Node000001" title="更新" alt="" coords="5,72,204,115"/>
 <area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy01.html#a6a85fcb03237bd594cfba49a5c5a38cc" title="HO更新" alt="" coords="252,5,450,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,44,237,39,237,45,205,49"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,69,255,50,256,55,187,74"/>
 <area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_scouter.html#ace047c2db1519bac176ca87388b301b3" title="更新" alt="" coords="255,72,447,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,71,241,76,240,81,204,76"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,91,240,91,240,96,204,96"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy01.html#a24eb24d6590888cd9de8906ce7272a7e" title="スピードの変化を更新する" alt="" coords="252,139,450,181"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="187,113,256,132,255,137,185,118"/>
 <area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_scouter.html#a3f667dce38183a5e8ad4fb1c691dd763" title="移動座標検索" alt="" coords="498,72,689,115"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="447,91,483,91,483,96,447,96"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="LIVINGHOUSE.App.EventRunner.EventRun" name="LIVINGHOUSE.App.EventRunner.EventRun">
 <area shape="rect" id="Node000001" title="各イベント実行" alt="" coords="270,5,486,48"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner.html#a64bf16734143e7dfa3194a85264e78a3" title="更新" alt="" coords="5,5,222,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_event_runner.html#a8ed5c0a1a2739b3a8b354789d7e04bea" title="まとめて更新する各々のタスク" alt="" coords="5,5,222,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="255,29,222,29,222,24,255,24"/>
 </map>

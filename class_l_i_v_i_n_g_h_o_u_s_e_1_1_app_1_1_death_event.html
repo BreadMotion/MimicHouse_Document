@@ -146,8 +146,11 @@ LIVINGHOUSE.App.DeathEvent 連携図</div>
 <tr class="memitem:a8b4a0ff90d2d30a57e3baee3516714b3" id="r_a8b4a0ff90d2d30a57e3baee3516714b3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b4a0ff90d2d30a57e3baee3516714b3">IsCooldown</a> ()</td></tr>
 <tr class="memdesc:a8b4a0ff90d2d30a57e3baee3516714b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">クールダウンの計算を行う  <br /></td></tr>
 <tr class="separator:a8b4a0ff90d2d30a57e3baee3516714b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49be6a6bbcb96571b1f0dfdff0b8dd52" id="r_a49be6a6bbcb96571b1f0dfdff0b8dd52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49be6a6bbcb96571b1f0dfdff0b8dd52">DoCooldown</a> ()</td></tr>
+<tr class="memdesc:a49be6a6bbcb96571b1f0dfdff0b8dd52"><td class="mdescLeft">&#160;</td><td class="mdescRight">クールダウン中にする  <br /></td></tr>
+<tr class="separator:a49be6a6bbcb96571b1f0dfdff0b8dd52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64ec538f65a4e6a11583333dc5c7c95a" id="r_a64ec538f65a4e6a11583333dc5c7c95a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64ec538f65a4e6a11583333dc5c7c95a">GetCharacter</a> (GameObject owner)</td></tr>
-<tr class="memdesc:a64ec538f65a4e6a11583333dc5c7c95a"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターの取得  <br /></td></tr>
+<tr class="memdesc:a64ec538f65a4e6a11583333dc5c7c95a"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターの参照を取得  <br /></td></tr>
 <tr class="separator:a64ec538f65a4e6a11583333dc5c7c95a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
@@ -161,6 +164,9 @@ LIVINGHOUSE.App.DeathEvent 連携図</div>
 <tr class="memitem:aff83be1f9d278799d6b03cfbeff7f44c" id="r_aff83be1f9d278799d6b03cfbeff7f44c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff83be1f9d278799d6b03cfbeff7f44c">Cooldown</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:aff83be1f9d278799d6b03cfbeff7f44c"><td class="mdescLeft">&#160;</td><td class="mdescRight">クールダウン  <br /></td></tr>
 <tr class="separator:aff83be1f9d278799d6b03cfbeff7f44c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62caccd3858ba6983a67dfba4f19453b" id="r_a62caccd3858ba6983a67dfba4f19453b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62caccd3858ba6983a67dfba4f19453b">NowCooldown</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a62caccd3858ba6983a67dfba4f19453b"><td class="mdescLeft">&#160;</td><td class="mdescRight">現在のクールダウン  <br /></td></tr>
+<tr class="separator:a62caccd3858ba6983a67dfba4f19453b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html">LIVINGHOUSE.App.IEvent</a> に属する継承プロパティ</td></tr>
 <tr class="inherit_header properties_interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown.html">LIVINGHOUSE.App.IHaveCooldown</a> に属する継承プロパティ</td></tr>
 </table><table class="memberdecls">
@@ -169,17 +175,23 @@ LIVINGHOUSE.App.DeathEvent 連携図</div>
 <tr class="memitem:a7071cf7486ea7c90a9cb4983f0307da8" id="r_a7071cf7486ea7c90a9cb4983f0307da8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7071cf7486ea7c90a9cb4983f0307da8">m_cooldown</a> = 0.0f</td></tr>
 <tr class="memdesc:a7071cf7486ea7c90a9cb4983f0307da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">クールダウン  <br /></td></tr>
 <tr class="separator:a7071cf7486ea7c90a9cb4983f0307da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac55e3c7d7e8bf78bf6151c2bf97cb870" id="r_ac55e3c7d7e8bf78bf6151c2bf97cb870"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac55e3c7d7e8bf78bf6151c2bf97cb870">m_nowCooldown</a> = 0.0f</td></tr>
+<tr class="memdesc:ac55e3c7d7e8bf78bf6151c2bf97cb870"><td class="mdescLeft">&#160;</td><td class="mdescRight">現在のクールダウン  <br /></td></tr>
+<tr class="separator:ac55e3c7d7e8bf78bf6151c2bf97cb870"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28cf434895bf7ce5ec39dc00bd62ad5a" id="r_a28cf434895bf7ce5ec39dc00bd62ad5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28cf434895bf7ce5ec39dc00bd62ad5a">m_returnValue</a></td></tr>
 <tr class="memdesc:a28cf434895bf7ce5ec39dc00bd62ad5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">演算結果  <br /></td></tr>
 <tr class="separator:a28cf434895bf7ce5ec39dc00bd62ad5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a785edfa0ff2cee78ea2960f10486f70a" id="r_a785edfa0ff2cee78ea2960f10486f70a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a785edfa0ff2cee78ea2960f10486f70a">m_removeThis</a></td></tr>
 <tr class="memdesc:a785edfa0ff2cee78ea2960f10486f70a"><td class="mdescLeft">&#160;</td><td class="mdescRight">削除フラグ  <br /></td></tr>
 <tr class="separator:a785edfa0ff2cee78ea2960f10486f70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad22b45ae5c419b0ce9cf16e952e3ef55" id="r_ad22b45ae5c419b0ce9cf16e952e3ef55"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad22b45ae5c419b0ce9cf16e952e3ef55">m_characterID</a> = -1</td></tr>
+<tr class="memdesc:ad22b45ae5c419b0ce9cf16e952e3ef55"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターID  <br /></td></tr>
+<tr class="separator:ad22b45ae5c419b0ce9cf16e952e3ef55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
 <div class="textblock"><p>死亡イベント </p>
 
-<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00011">11</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00012">12</a> 行目に定義があります。</p>
 </div><h2 class="groupheader">メソッド詳解</h2>
 <a id="a290421a4ecfd2dddc6fc56c9a65f69a1" name="a290421a4ecfd2dddc6fc56c9a65f69a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a290421a4ecfd2dddc6fc56c9a65f69a1">&#9670;&#160;</a></span>ContentInvoke()</h2>
@@ -211,15 +223,50 @@ LIVINGHOUSE.App.DeathEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#a43c75df194b9b3af55727afe77d668f1">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00090">90</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00104">104</a> 行目に定義があります。</p>
 <div class="dynheader">
 呼び出し関係図:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event_a290421a4ecfd2dddc6fc56c9a65f69a1_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event_a290421a4ecfd2dddc6fc56c9a65f69a1_cgraph" alt=""/></div>
 <map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event_a290421a4ecfd2dddc6fc56c9a65f69a1_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event_a290421a4ecfd2dddc6fc56c9a65f69a1_cgraph">
-<area shape="rect" title="成功時呼び出し" alt="" coords="5,5,215,48"/>
-<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a64ec538f65a4e6a11583333dc5c7c95a" title="キャラクターの取得" alt="" coords="263,5,472,48"/>
-<area shape="poly" title=" " alt="" coords="215,24,248,24,248,29,215,29"/>
+<area shape="rect" title="成功時呼び出し" alt="" coords="5,39,215,81"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a49be6a6bbcb96571b1f0dfdff0b8dd52" title="クールダウン中にする" alt="" coords="263,5,472,48"/>
+<area shape="poly" title=" " alt="" coords="215,44,248,39,248,45,216,49"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a64ec538f65a4e6a11583333dc5c7c95a" title="キャラクターの参照を取得" alt="" coords="263,72,472,115"/>
+<area shape="poly" title=" " alt="" coords="216,71,248,75,248,81,215,76"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a49be6a6bbcb96571b1f0dfdff0b8dd52" name="a49be6a6bbcb96571b1f0dfdff0b8dd52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49be6a6bbcb96571b1f0dfdff0b8dd52">&#9670;&#160;</a></span>DoCooldown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.DeathEvent.DoCooldown </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>クールダウン中にする </p>
+
+<p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown.html#a37ebfa9e56138f232ad25da7a4ad9206">LIVINGHOUSE.App.IHaveCooldown</a>を実装しています。</p>
+
+<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00136">136</a> 行目に定義があります。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event_a49be6a6bbcb96571b1f0dfdff0b8dd52_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event_a49be6a6bbcb96571b1f0dfdff0b8dd52_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event_a49be6a6bbcb96571b1f0dfdff0b8dd52_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event_a49be6a6bbcb96571b1f0dfdff0b8dd52_icgraph">
+<area shape="rect" title="クールダウン中にする" alt="" coords="263,5,472,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a290421a4ecfd2dddc6fc56c9a65f69a1" title="成功時呼び出し" alt="" coords="5,5,215,48"/>
+<area shape="poly" title=" " alt="" coords="248,29,215,29,215,24,248,24"/>
 </map>
 </div>
 
@@ -240,16 +287,18 @@ LIVINGHOUSE.App.DeathEvent 連携図</div>
       </table>
 </div><div class="memdoc">
 
-<p>キャラクターの取得 </p>
+<p>キャラクターの参照を取得 </p>
 <dl class="section return"><dt>戻り値</dt><dd>キャラクター </dd></dl>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_character.html#ab1259a8581cf3a156f5a43517647331b">LIVINGHOUSE.App.IHaveCharacter</a>を実装しています。</p>
+
+<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00144">144</a> 行目に定義があります。</p>
 <div class="dynheader">
 被呼び出し関係図:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event_a64ec538f65a4e6a11583333dc5c7c95a_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event_a64ec538f65a4e6a11583333dc5c7c95a_icgraph" alt=""/></div>
 <map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event_a64ec538f65a4e6a11583333dc5c7c95a_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event_a64ec538f65a4e6a11583333dc5c7c95a_icgraph">
-<area shape="rect" title="キャラクターの取得" alt="" coords="263,39,472,81"/>
+<area shape="rect" title="キャラクターの参照を取得" alt="" coords="263,39,472,81"/>
 <area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a290421a4ecfd2dddc6fc56c9a65f69a1" title="成功時呼び出し" alt="" coords="5,5,215,48"/>
 <area shape="poly" title=" " alt="" coords="247,47,215,43,215,38,248,42"/>
 <area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a6f638fce8944f9d6554e6162f4580d8e" title="条件演算" alt="" coords="5,72,215,115"/>
@@ -278,7 +327,7 @@ LIVINGHOUSE.App.DeathEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown.html#af8c27421978e8c95d4b641781a0b2e2a">LIVINGHOUSE.App.IHaveCooldown</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00109">109</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00123">123</a> 行目に定義があります。</p>
 <div class="dynheader">
 被呼び出し関係図:</div>
 <div class="dyncontent">
@@ -322,14 +371,14 @@ LIVINGHOUSE.App.DeathEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#abaddd3069674ddde0792868d6ae6c3fd">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00060">60</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00080">80</a> 行目に定義があります。</p>
 <div class="dynheader">
 呼び出し関係図:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event_a6f638fce8944f9d6554e6162f4580d8e_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event_a6f638fce8944f9d6554e6162f4580d8e_cgraph" alt=""/></div>
 <map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event_a6f638fce8944f9d6554e6162f4580d8e_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event_a6f638fce8944f9d6554e6162f4580d8e_cgraph">
 <area shape="rect" title="条件演算" alt="" coords="5,39,215,81"/>
-<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a64ec538f65a4e6a11583333dc5c7c95a" title="キャラクターの取得" alt="" coords="263,5,472,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a64ec538f65a4e6a11583333dc5c7c95a" title="キャラクターの参照を取得" alt="" coords="263,5,472,48"/>
 <area shape="poly" title=" " alt="" coords="215,44,248,39,248,45,216,49"/>
 <area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a8b4a0ff90d2d30a57e3baee3516714b3" title="クールダウンの計算を行う" alt="" coords="263,72,472,115"/>
 <area shape="poly" title=" " alt="" coords="216,71,248,75,248,81,215,76"/>
@@ -368,11 +417,37 @@ LIVINGHOUSE.App.DeathEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#afe8615515a2abf806d148b36cf610143">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00102">102</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00116">116</a> 行目に定義があります。</p>
 
 </div>
 </div>
 <h2 class="groupheader">メンバ詳解</h2>
+<a id="ad22b45ae5c419b0ce9cf16e952e3ef55" name="ad22b45ae5c419b0ce9cf16e952e3ef55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad22b45ae5c419b0ce9cf16e952e3ef55">&#9670;&#160;</a></span>m_characterID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int LIVINGHOUSE.App.DeathEvent.m_characterID = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>キャラクターID </p>
+
+<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00036">36</a> 行目に定義があります。</p>
+
+</div>
+</div>
 <a id="a7071cf7486ea7c90a9cb4983f0307da8" name="a7071cf7486ea7c90a9cb4983f0307da8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7071cf7486ea7c90a9cb4983f0307da8">&#9670;&#160;</a></span>m_cooldown</h2>
 
@@ -395,7 +470,33 @@ LIVINGHOUSE.App.DeathEvent 連携図</div>
 
 <p>クールダウン </p>
 
-<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00015">15</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00016">16</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ac55e3c7d7e8bf78bf6151c2bf97cb870" name="ac55e3c7d7e8bf78bf6151c2bf97cb870"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac55e3c7d7e8bf78bf6151c2bf97cb870">&#9670;&#160;</a></span>m_nowCooldown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float LIVINGHOUSE.App.DeathEvent.m_nowCooldown = 0.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>現在のクールダウン </p>
+
+<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00021">21</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -421,7 +522,7 @@ LIVINGHOUSE.App.DeathEvent 連携図</div>
 
 <p>削除フラグ </p>
 
-<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00024">24</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00031">31</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -447,7 +548,7 @@ LIVINGHOUSE.App.DeathEvent 連携図</div>
 
 <p>演算結果 </p>
 
-<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00019">19</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00026">26</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -476,7 +577,35 @@ LIVINGHOUSE.App.DeathEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown.html#ae93c893dc04416a7648c00297227fc1b">LIVINGHOUSE.App.IHaveCooldown</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00044">44</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00056">56</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a62caccd3858ba6983a67dfba4f19453b" name="a62caccd3858ba6983a67dfba4f19453b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62caccd3858ba6983a67dfba4f19453b">&#9670;&#160;</a></span>NowCooldown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float LIVINGHOUSE.App.DeathEvent.NowCooldown</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>現在のクールダウン </p>
+
+<p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown.html#a101647f7d050abfe7d1cc6ee5003eecb">LIVINGHOUSE.App.IHaveCooldown</a>を実装しています。</p>
+
+<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00064">64</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -504,7 +633,7 @@ LIVINGHOUSE.App.DeathEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#aa3281cca5fdcfeb0727f97af52dc4e4f">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00036">36</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00048">48</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -532,7 +661,7 @@ LIVINGHOUSE.App.DeathEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#ab796c418f7c8e7020e62cae9ac73abdb">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00028">28</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_death_event_8cs_source.html">DeathEvent.cs</a> の <a class="el" href="_death_event_8cs_source.html#l00040">40</a> 行目に定義があります。</p>
 
 </div>
 </div>

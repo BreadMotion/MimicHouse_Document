@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.App.FluidPuddle.InitializeTask" name="LIVINGHOUSE.App.FluidPuddle.InitializeTask">
+<area shape="rect" id="Node000001" title="初期化タスク" alt="" coords="5,5,217,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_fluid_puddle.html#a5cc9036ac3db3ca87b95b62deb667248" title="ダメージを与える" alt="" coords="265,5,476,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,24,249,24,249,29,217,29"/>
+</map>

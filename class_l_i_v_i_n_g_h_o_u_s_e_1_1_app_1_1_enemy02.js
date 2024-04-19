@@ -13,6 +13,7 @@ var class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02 =
     [ "SetHOIsHit", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#ab0ed705eaec278b76c4b3faf9a03ef1b", null ],
     [ "UpdateChangeByInvisible", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#a4d2c19cf4b820b500209abae74474923", null ],
     [ "UpdateInvoke", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#af7bd0dcec4d4fc30af211d9fb45dd3b7", null ],
+    [ "UpdateSpeed", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#a458f99ad10038576d66885bb2bed2120", null ],
     [ "m_controller", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#a1e0f4352d9bf12ba22ea9ebe3c7744a8", null ],
     [ "m_hoData", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#a36b348a802eac00e95680c5458891ffc", null ],
     [ "m_isInvisible", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy02.html#a4cbe264e192b587a49b6c17f42397a62", null ],

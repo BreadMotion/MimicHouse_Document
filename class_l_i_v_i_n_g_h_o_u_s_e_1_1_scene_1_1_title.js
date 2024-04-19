@@ -2,6 +2,7 @@ var class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_title =
 [
     [ "Title", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_title.html#a45bb6e8c749a279c123ea87263638de4", null ],
     [ "ChangeScene", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_title.html#a9020b13496508666cd43dcb3d8149405", null ],
+    [ "Dispose", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_title.html#a1775bbf99b26eaf7272cc81d88f27019", null ],
     [ "Execute", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_title.html#a93f114e1e15e39e7096003d59eba98b5", null ],
     [ "Initialize", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_title.html#a3259a1edd2e5d4f9fcb0ce0847914ff8", null ],
     [ "LateExecute", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_title.html#ac3c91f55b5cb9f758823bc8245f064be", null ],

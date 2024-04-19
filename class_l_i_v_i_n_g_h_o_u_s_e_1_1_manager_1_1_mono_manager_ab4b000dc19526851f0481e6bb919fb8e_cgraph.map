@@ -1,0 +1,9 @@
+<map id="LIVINGHOUSE.Manager.MonoManager.Start" name="LIVINGHOUSE.Manager.MonoManager.Start">
+<area shape="rect" id="Node000001" title="初期化" alt="" coords="5,72,204,115"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html#a61e18f2eb96d9987e3da2441cd647ecf" title="初期化" alt="" coords="256,5,455,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,69,258,50,259,55,188,74"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html#af4d2c4515a37def70dfb98262b31ae0a" title="登録" alt="" coords="256,72,455,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,91,241,91,241,96,204,96"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html#a9fbdfdba08ab83f0e91e7b9d61952817" title="固有インスタンスID構築" alt="" coords="252,139,459,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="188,113,259,132,258,137,187,118"/>
+</map>

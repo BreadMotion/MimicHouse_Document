@@ -1,5 +1,7 @@
 <map id="LIVINGHOUSE.Manager.CameraManager.OnFinalize" name="LIVINGHOUSE.Manager.CameraManager.OnFinalize">
-<area shape="rect" id="Node000001" title="破棄前処理" alt="" coords="5,5,217,48"/>
+<area shape="rect" id="Node000001" title="破棄前処理" alt="" coords="5,39,217,81"/>
 <area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_camera_manager.html#abaf4203f04c87a7b2f9fec67d4f8d2d4" title="SceneMainCameraの参照を外す" alt="" coords="265,5,519,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,24,250,24,250,29,217,29"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,45,249,41,250,46,217,50"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html#a833285b804a39bc0a2a50d6f3ba86551" title="破棄処理" alt="" coords="290,72,494,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="217,70,275,77,275,82,217,75"/>
 </map>

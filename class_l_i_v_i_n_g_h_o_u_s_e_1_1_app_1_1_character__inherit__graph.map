@@ -1,8 +1,10 @@
 <map id="LIVINGHOUSE.App.Character" name="LIVINGHOUSE.App.Character">
 <area shape="rect" id="Node000001" title="全キャラクター共通のシステムクラス" alt="" coords="5,155,201,181"/>
 <area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="26,80,180,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,122,99,154,93,154,92,122"/>
-<area shape="poly" id="edge3_Node000001_Node000002" title=" " alt="" coords="114,122,113,154,107,154,109,122"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,121,79,138,85,153,79,155,74,139,74,121"/>
+<area shape="poly" id="edge3_Node000001_Node000002" title=" " alt="" coords="97,122,99,154,93,154,92,122"/>
+<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="114,122,113,154,107,154,109,122"/>
+<area shape="poly" id="edge5_Node000001_Node000002" title=" " alt="" coords="132,121,132,139,127,155,121,153,127,138,126,121"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="48,5,158,32"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="106,47,106,80,100,80,100,47"/>
 </map>

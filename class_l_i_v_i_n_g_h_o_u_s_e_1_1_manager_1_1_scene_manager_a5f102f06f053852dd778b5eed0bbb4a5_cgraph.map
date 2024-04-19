@@ -1,9 +1,7 @@
 <map id="LIVINGHOUSE.Manager.SceneManager.Update" name="LIVINGHOUSE.Manager.SceneManager.Update">
-<area shape="rect" id="Node000001" title="更新処理" alt="" coords="5,72,209,115"/>
+<area shape="rect" id="Node000001" title="更新処理" alt="" coords="5,39,209,81"/>
 <area shape="rect" id="Node000002" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html#ad169edf431d34e4fcd2a801d7cf4545f" title="更新" alt="" coords="257,5,454,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,69,259,50,260,55,190,74"/>
-<area shape="rect" id="Node000003" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html#a4e99227dbfccbcbb2b331ffed1c65868" title="事後更新" alt="" coords="257,72,454,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,91,242,91,242,96,209,96"/>
-<area shape="rect" id="Node000004" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html#afe2a1d26f6c5b73c6acc8ad4ad1f3e16" title="事前更新" alt="" coords="257,139,454,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="190,113,260,132,259,137,188,118"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,44,242,39,242,45,210,49"/>
+<area shape="rect" id="Node000003" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html#afe2a1d26f6c5b73c6acc8ad4ad1f3e16" title="事前更新" alt="" coords="257,72,454,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,71,242,75,242,81,209,76"/>
 </map>

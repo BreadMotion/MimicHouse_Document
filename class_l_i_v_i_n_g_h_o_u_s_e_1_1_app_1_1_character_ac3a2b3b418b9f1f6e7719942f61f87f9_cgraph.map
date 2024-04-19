@@ -1,15 +1,38 @@
 <map id="LIVINGHOUSE.App.Character.Update" name="LIVINGHOUSE.App.Character.Update">
-<area shape="rect" id="Node000001" title="更新" alt="" coords="5,105,205,148"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a85b07231fc0a58cd49db073b04ee54ed" title="キャラクターステート更新" alt="" coords="253,39,452,81"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,102,256,83,257,88,187,107"/>
-<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html#a584e9264e2cb6976806952e191f51bd2" title="更新" alt="" coords="255,105,450,148"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="205,124,240,124,240,129,205,129"/>
-<area shape="rect" id="Node000007" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html#acc86483479b35efbc37b6251a2717565" title="更新" alt="" coords="253,172,452,215"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="187,146,257,165,256,170,186,151"/>
+<area shape="rect" id="Node000001" title="更新" alt="" coords="5,172,205,215"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a85b07231fc0a58cd49db073b04ee54ed" title="キャラクターステート更新" alt="" coords="253,105,452,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,169,256,150,257,155,187,174"/>
+<area shape="rect" id="Node000017" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html#a584e9264e2cb6976806952e191f51bd2" title="更新" alt="" coords="255,172,450,215"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="205,191,240,191,240,196,205,196"/>
+<area shape="rect" id="Node000018" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html#acc86483479b35efbc37b6251a2717565" title="更新" alt="" coords="253,239,452,281"/>
+<area shape="poly" id="edge18_Node000001_Node000018" title=" " alt="" coords="187,213,257,232,256,237,186,218"/>
 <area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#acff1f815763e3369d2182fc448a9d545" title="対象破棄" alt="" coords="500,5,699,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="452,44,485,39,486,45,453,49"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="398,102,499,58,516,51,518,56,501,62,400,107"/>
 <area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a2b1de3685fddb53e2c90626c337dc9a9" title="アクティブバフを更新" alt="" coords="500,72,699,115"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="453,71,486,75,485,81,452,76"/>
-<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html#a51740a7371fd27a9dc02c00ea65bba5f" title="死亡時処理" alt="" coords="747,5,943,48"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="700,24,733,24,733,29,700,29"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="452,111,485,106,486,111,453,116"/>
+<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a438c4968867b1c2e609f6c8dedf852ae" title="ハイドシステム更新" alt="" coords="500,139,699,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="453,137,486,142,485,147,452,143"/>
+<area shape="rect" id="Node000010" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a0722250aa34a4782a3dec2996d8e0226" title="走りシステム更新" alt="" coords="500,256,699,299"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="429,146,453,158,504,194,564,244,561,248,501,199,451,162,426,151"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html#a51740a7371fd27a9dc02c00ea65bba5f" title="死亡時処理" alt="" coords="759,5,955,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="700,24,745,24,745,29,700,29"/>
+<area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a37db572be4a66f51eed0ba91b187f49a" title="走りフラグ更新" alt="" coords="757,72,957,115"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="684,135,757,116,759,122,685,141"/>
+<area shape="rect" id="Node000008" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a7ca6319dd46aa5bfcaf88ed57b4a4a82" title="隠れ状態の更新" alt="" coords="757,139,957,181"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="700,157,742,157,742,163,700,163"/>
+<area shape="rect" id="Node000009" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#aa1f179fbf40fe6586f5370c180bc40f6" title="自動回復時間初期化" alt="" coords="1015,139,1214,181"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="957,157,1000,157,1000,163,957,163"/>
+<area shape="rect" id="Node000011" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a647e90747589a0a3ba9a69e8a650e7e1" title="スタミナ回復クールダウンを開始する" alt="" coords="1015,217,1214,260"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="683,253,747,241,878,232,999,232,999,237,878,238,748,247,684,258"/>
+<area shape="rect" id="Node000012" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a7f28137b769800f70edce11f5ef8c872" title="スタミナを減少する" alt="" coords="757,256,957,299"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="700,275,742,275,742,280,700,280"/>
+<area shape="rect" id="Node000013" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a89e9e58cbf9025237ca1b63d74cfbb2f" title="スタミナ更新" alt="" coords="747,323,967,365"/>
+<area shape="poly" id="edge12_Node000010_Node000013" title=" " alt="" coords="685,297,759,316,757,321,684,302"/>
+<area shape="rect" id="Node000016" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a2e8832a8ca59ed3bcb07d98513ef2919" title="走りフラグ更新" alt="" coords="757,389,957,432"/>
+<area shape="poly" id="edge16_Node000010_Node000016" title=" " alt="" coords="629,297,683,336,749,375,762,381,760,386,746,380,680,341,626,301"/>
+<area shape="poly" id="edge13_Node000013_Node000011" title=" " alt="" coords="934,319,966,308,1059,265,1061,270,968,313,936,325"/>
+<area shape="rect" id="Node000014" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a544d289dab9556ce319c52bf1948d662" title="スタミナ上昇する" alt="" coords="1015,309,1214,352"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="967,336,1000,334,1000,339,967,341"/>
+<area shape="rect" id="Node000015" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#af47bf848039ddc564f3b1eca5fef9a75" title="スタミナ回復開始時間更新" alt="" coords="1015,376,1214,419"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="964,363,1000,371,999,376,962,369"/>
 </map>

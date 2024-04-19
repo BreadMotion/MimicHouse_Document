@@ -1,0 +1,9 @@
+<map id="LIVINGHOUSE.App.BlockState" name="LIVINGHOUSE.App.BlockState">
+<area shape="rect" id="Node000001" title="ブロック状態管理" alt="" coords="50,171,253,197"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_gimmick.html" title=" " alt="" coords="48,96,124,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,132,142,168,138,172,105,136"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html" title=" " alt="" coords="5,5,167,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="89,63,89,95,83,95,83,63"/>
+<area shape="rect" id="Node000004" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_interface_1_1_i_breakable.html" title="破壊可能インターフェース" alt="" coords="148,96,288,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="198,136,165,172,161,168,195,132"/>
+</map>

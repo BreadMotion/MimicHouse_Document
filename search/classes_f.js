@@ -1,27 +1,8 @@
 var searchData=
 [
-  ['scapegoatevent_0',['ScapegoatEvent',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_scapegoat_event.html',1,'LIVINGHOUSE::App']]],
-  ['scenemanager_1',['SceneManager',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_scene_manager.html',1,'LIVINGHOUSE::Manager']]],
-  ['scouterenemy01_2',['ScouterEnemy01',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_scouter_enemy01.html',1,'LIVINGHOUSE::App']]],
-  ['scouterenemy02_3',['ScouterEnemy02',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_scouter_enemy02.html',1,'LIVINGHOUSE::App']]],
-  ['serializeinterface_4',['SerializeInterface',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_serialize_interface.html',1,'LIVINGHOUSE::Utility']]],
-  ['singleton_5',['Singleton',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html',1,'LIVINGHOUSE::Utility']]],
-  ['singleton_3c_20applicationmanager_20_3e_6',['Singleton&lt; ApplicationManager &gt;',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html',1,'LIVINGHOUSE::Utility']]],
-  ['singleton_3c_20buffmanager_20_3e_7',['Singleton&lt; BuffManager &gt;',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html',1,'LIVINGHOUSE::Utility']]],
-  ['singleton_3c_20cameramanager_20_3e_8',['Singleton&lt; CameraManager &gt;',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html',1,'LIVINGHOUSE::Utility']]],
-  ['singleton_3c_20commonmanager_20_3e_9',['Singleton&lt; CommonManager &gt;',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html',1,'LIVINGHOUSE::Utility']]],
-  ['singleton_3c_20inputmanager_20_3e_10',['Singleton&lt; InputManager &gt;',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html',1,'LIVINGHOUSE::Utility']]],
-  ['singleton_3c_20layermanager_20_3e_11',['Singleton&lt; LayerManager &gt;',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html',1,'LIVINGHOUSE::Utility']]],
-  ['singleton_3c_20resourcemanager_20_3e_12',['Singleton&lt; ResourceManager &gt;',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html',1,'LIVINGHOUSE::Utility']]],
-  ['singleton_3c_20scenemanager_20_3e_13',['Singleton&lt; SceneManager &gt;',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html',1,'LIVINGHOUSE::Utility']]],
-  ['singletonmonobehaviour_14',['SingletonMonoBehaviour',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html',1,'LIVINGHOUSE::Utility']]],
-  ['singletonmonobehaviour_3c_20charactermanager_20_3e_15',['SingletonMonoBehaviour&lt; CharacterManager &gt;',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html',1,'LIVINGHOUSE::Utility']]],
-  ['singletonmonobehaviour_3c_20framemanager_20_3e_16',['SingletonMonoBehaviour&lt; FrameManager &gt;',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html',1,'LIVINGHOUSE::Utility']]],
-  ['singletonmonobehaviour_3c_20hitobjectmanager_20_3e_17',['SingletonMonoBehaviour&lt; HitObjectManager &gt;',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html',1,'LIVINGHOUSE::Utility']]],
-  ['singletonmonobehaviour_3c_20itemmanager_20_3e_18',['SingletonMonoBehaviour&lt; ItemManager &gt;',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html',1,'LIVINGHOUSE::Utility']]],
-  ['singletonmonobehaviour_3c_20itemslotmanager_20_3e_19',['SingletonMonoBehaviour&lt; ItemSlotManager &gt;',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html',1,'LIVINGHOUSE::Utility']]],
-  ['singletonmonobehaviour_3c_20wipemanager_20_3e_20',['SingletonMonoBehaviour&lt; WipeManager &gt;',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html',1,'LIVINGHOUSE::Utility']]],
-  ['strawdowll_21',['Strawdowll',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_strawdowll.html',1,'LIVINGHOUSE::App']]],
-  ['stunevent_22',['StunEvent',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_stun_event.html',1,'LIVINGHOUSE::App']]],
-  ['subclassselectorattribute_23',['SubclassSelectorAttribute',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_1_1_subclass_selector_attribute.html',1,'LIVINGHOUSE::Attribute']]]
+  ['raincoat_0',['RainCoat',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_rain_coat.html',1,'LIVINGHOUSE::App']]],
+  ['readonlyattribute_1',['ReadOnlyAttribute',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_1_1_read_only_attribute.html',1,'LIVINGHOUSE::Attribute']]],
+  ['readonlydrawer_2',['ReadOnlyDrawer',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_attribute_1_1_read_only_drawer.html',1,'LIVINGHOUSE::Attribute']]],
+  ['redeye_3',['RedEye',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_red_eye.html',1,'LIVINGHOUSE::App']]],
+  ['resourcemanager_4',['ResourceManager',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_resource_manager.html',1,'LIVINGHOUSE::Manager']]]
 ];

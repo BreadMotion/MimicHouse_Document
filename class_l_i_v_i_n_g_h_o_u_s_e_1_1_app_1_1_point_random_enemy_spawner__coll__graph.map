@@ -1,0 +1,16 @@
+<map id="LIVINGHOUSE.App.PointRandomEnemySpawner" name="LIVINGHOUSE.App.PointRandomEnemySpawner">
+<area shape="rect" id="Node000001" title="エネミー生成座標" alt="" coords="51,400,269,443"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html" title="索敵ポイント" alt="" coords="70,324,159,351"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,362,151,399,146,401,126,365"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html" title="抽象座標" alt="" coords="55,157,110,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,199,94,259,113,323,108,325,89,261,81,199"/>
+<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html" title="索敵ポイント" alt="" coords="103,233,310,260"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="117,189,187,231,184,235,114,194"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="5,81,160,108"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="85,123,85,157,80,157,80,123"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="28,5,137,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="85,47,85,81,80,81,80,47"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="202,275,168,400,163,399,197,273"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="138,269,120,285,114,304,115,324,109,324,108,303,116,283,135,265"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="326,240,336,247,328,253,311,256,310,250,326,248,331,247,324,245"/>
+</map>

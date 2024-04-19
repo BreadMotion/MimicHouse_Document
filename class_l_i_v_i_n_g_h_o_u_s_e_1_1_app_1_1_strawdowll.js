@@ -12,5 +12,6 @@ var class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_strawdowll =
     [ "CoolDown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_strawdowll.html#ae9fd4a1e9971ad692cec39f3f1ced298", null ],
     [ "ItemLayer", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_strawdowll.html#aab46684706cf55d0fbf00a9333678045", null ],
     [ "NowCount", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_strawdowll.html#ae6029256a0487798cd8db456cdbca531", null ],
-    [ "RemainingCoolDown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_strawdowll.html#a17691efc35511d19c5afcaa540d400ed", null ]
+    [ "RemainingCoolDown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_strawdowll.html#a17691efc35511d19c5afcaa540d400ed", null ],
+    [ "ReverseCooldownGage", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_strawdowll.html#ad6d7c8e71794ce37bda7c20aa837dce4", null ]
 ];

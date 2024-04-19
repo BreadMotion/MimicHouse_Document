@@ -146,8 +146,11 @@ LIVINGHOUSE.App.DamageEvent 連携図</div>
 <tr class="memitem:a9d5e5b0518adc1ba1f025af9dc6f627a" id="r_a9d5e5b0518adc1ba1f025af9dc6f627a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d5e5b0518adc1ba1f025af9dc6f627a">IsCooldown</a> ()</td></tr>
 <tr class="memdesc:a9d5e5b0518adc1ba1f025af9dc6f627a"><td class="mdescLeft">&#160;</td><td class="mdescRight">クールダウンの計算を行う  <br /></td></tr>
 <tr class="separator:a9d5e5b0518adc1ba1f025af9dc6f627a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2fa5033d9c9ca3a5b17636c8ea26516" id="r_aa2fa5033d9c9ca3a5b17636c8ea26516"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2fa5033d9c9ca3a5b17636c8ea26516">DoCooldown</a> ()</td></tr>
+<tr class="memdesc:aa2fa5033d9c9ca3a5b17636c8ea26516"><td class="mdescLeft">&#160;</td><td class="mdescRight">クールダウン中にする  <br /></td></tr>
+<tr class="separator:aa2fa5033d9c9ca3a5b17636c8ea26516"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8825d2c015287ab0a791aeb16fb4208e" id="r_a8825d2c015287ab0a791aeb16fb4208e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8825d2c015287ab0a791aeb16fb4208e">GetCharacter</a> (GameObject owner)</td></tr>
-<tr class="memdesc:a8825d2c015287ab0a791aeb16fb4208e"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターの取得を試みる  <br /></td></tr>
+<tr class="memdesc:a8825d2c015287ab0a791aeb16fb4208e"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターの参照を取得  <br /></td></tr>
 <tr class="separator:a8825d2c015287ab0a791aeb16fb4208e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
@@ -161,6 +164,9 @@ LIVINGHOUSE.App.DamageEvent 連携図</div>
 <tr class="memitem:ad7932ce4770f09cfc5f2c72848e41cbe" id="r_ad7932ce4770f09cfc5f2c72848e41cbe"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7932ce4770f09cfc5f2c72848e41cbe">Cooldown</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ad7932ce4770f09cfc5f2c72848e41cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">クールダウン  <br /></td></tr>
 <tr class="separator:ad7932ce4770f09cfc5f2c72848e41cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a989bb5f8971b42a45cdee04dd8e8e8e7" id="r_a989bb5f8971b42a45cdee04dd8e8e8e7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a989bb5f8971b42a45cdee04dd8e8e8e7">NowCooldown</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a989bb5f8971b42a45cdee04dd8e8e8e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">現在のクールダウン  <br /></td></tr>
+<tr class="separator:a989bb5f8971b42a45cdee04dd8e8e8e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html">LIVINGHOUSE.App.IEvent</a> に属する継承プロパティ</td></tr>
 <tr class="inherit_header properties_interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown.html">LIVINGHOUSE.App.IHaveCooldown</a> に属する継承プロパティ</td></tr>
 </table><table class="memberdecls">
@@ -169,12 +175,18 @@ LIVINGHOUSE.App.DamageEvent 連携図</div>
 <tr class="memitem:a21faa5c7ae8f172726d5f3415e743a07" id="r_a21faa5c7ae8f172726d5f3415e743a07"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21faa5c7ae8f172726d5f3415e743a07">m_cooldown</a> = 0.0f</td></tr>
 <tr class="memdesc:a21faa5c7ae8f172726d5f3415e743a07"><td class="mdescLeft">&#160;</td><td class="mdescRight">クールダウン  <br /></td></tr>
 <tr class="separator:a21faa5c7ae8f172726d5f3415e743a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5db350a2d36e0c58b854fe5b8f1ea009" id="r_a5db350a2d36e0c58b854fe5b8f1ea009"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5db350a2d36e0c58b854fe5b8f1ea009">m_nowCooldown</a> = 0.0f</td></tr>
+<tr class="memdesc:a5db350a2d36e0c58b854fe5b8f1ea009"><td class="mdescLeft">&#160;</td><td class="mdescRight">現在のクールダウン  <br /></td></tr>
+<tr class="separator:a5db350a2d36e0c58b854fe5b8f1ea009"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb3f4de00f11b20cd501948946ba1cdd" id="r_abb3f4de00f11b20cd501948946ba1cdd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb3f4de00f11b20cd501948946ba1cdd">m_returnValue</a></td></tr>
 <tr class="memdesc:abb3f4de00f11b20cd501948946ba1cdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">演算結果  <br /></td></tr>
 <tr class="separator:abb3f4de00f11b20cd501948946ba1cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17ca2e84e7f632ab33af9e3ed6018ac1" id="r_a17ca2e84e7f632ab33af9e3ed6018ac1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17ca2e84e7f632ab33af9e3ed6018ac1">m_removeThis</a></td></tr>
 <tr class="memdesc:a17ca2e84e7f632ab33af9e3ed6018ac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">削除フラグ  <br /></td></tr>
 <tr class="separator:a17ca2e84e7f632ab33af9e3ed6018ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a864b997c0a88d4e1be8bd1ed0e5f10d2" id="r_a864b997c0a88d4e1be8bd1ed0e5f10d2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a864b997c0a88d4e1be8bd1ed0e5f10d2">m_characterID</a> = -1</td></tr>
+<tr class="memdesc:a864b997c0a88d4e1be8bd1ed0e5f10d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターID  <br /></td></tr>
+<tr class="separator:a864b997c0a88d4e1be8bd1ed0e5f10d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
 <div class="textblock"><p>ダメージイベント </p>
@@ -211,17 +223,40 @@ LIVINGHOUSE.App.DamageEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#a43c75df194b9b3af55727afe77d668f1">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00088">88</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00103">103</a> 行目に定義があります。</p>
 <div class="dynheader">
 呼び出し関係図:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event_a58006a8aa051fce9f3b38953dbe67e6a_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event_a58006a8aa051fce9f3b38953dbe67e6a_cgraph" alt=""/></div>
 <map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event_a58006a8aa051fce9f3b38953dbe67e6a_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event_a58006a8aa051fce9f3b38953dbe67e6a_cgraph">
 <area shape="rect" title="成功時呼び出し" alt="" coords="5,5,229,48"/>
-<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event.html#a8825d2c015287ab0a791aeb16fb4208e" title="キャラクターの取得を試みる" alt="" coords="277,5,500,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event.html#a8825d2c015287ab0a791aeb16fb4208e" title="キャラクターの参照を取得" alt="" coords="277,5,500,48"/>
 <area shape="poly" title=" " alt="" coords="229,24,262,24,262,29,229,29"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="aa2fa5033d9c9ca3a5b17636c8ea26516" name="aa2fa5033d9c9ca3a5b17636c8ea26516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2fa5033d9c9ca3a5b17636c8ea26516">&#9670;&#160;</a></span>DoCooldown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.DamageEvent.DoCooldown </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>クールダウン中にする </p>
+
+<p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown.html#a37ebfa9e56138f232ad25da7a4ad9206">LIVINGHOUSE.App.IHaveCooldown</a>を実装しています。</p>
+
+<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00172">172</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -240,15 +275,18 @@ LIVINGHOUSE.App.DamageEvent 連携図</div>
       </table>
 </div><div class="memdoc">
 
-<p>キャラクターの取得を試みる </p>
+<p>キャラクターの参照を取得 </p>
+<dl class="section return"><dt>戻り値</dt><dd>キャラクター </dd></dl>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_character.html#ab1259a8581cf3a156f5a43517647331b">LIVINGHOUSE.App.IHaveCharacter</a>を実装しています。</p>
+
+<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00180">180</a> 行目に定義があります。</p>
 <div class="dynheader">
 被呼び出し関係図:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event_a8825d2c015287ab0a791aeb16fb4208e_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event_a8825d2c015287ab0a791aeb16fb4208e_icgraph" alt=""/></div>
 <map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event_a8825d2c015287ab0a791aeb16fb4208e_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event_a8825d2c015287ab0a791aeb16fb4208e_icgraph">
-<area shape="rect" title="キャラクターの取得を試みる" alt="" coords="277,39,500,81"/>
+<area shape="rect" title="キャラクターの参照を取得" alt="" coords="277,39,500,81"/>
 <area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event.html#a58006a8aa051fce9f3b38953dbe67e6a" title="成功時呼び出し" alt="" coords="5,5,229,48"/>
 <area shape="poly" title=" " alt="" coords="261,47,229,43,229,38,262,42"/>
 <area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event.html#a02b88ebf81ff5121dc0a50d4135a6447" title="条件演算" alt="" coords="5,72,229,115"/>
@@ -277,7 +315,7 @@ LIVINGHOUSE.App.DamageEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown.html#af8c27421978e8c95d4b641781a0b2e2a">LIVINGHOUSE.App.IHaveCooldown</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00123">123</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00159">159</a> 行目に定義があります。</p>
 <div class="dynheader">
 被呼び出し関係図:</div>
 <div class="dyncontent">
@@ -321,14 +359,14 @@ LIVINGHOUSE.App.DamageEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#abaddd3069674ddde0792868d6ae6c3fd">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00062">62</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00080">80</a> 行目に定義があります。</p>
 <div class="dynheader">
 呼び出し関係図:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event_a02b88ebf81ff5121dc0a50d4135a6447_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event_a02b88ebf81ff5121dc0a50d4135a6447_cgraph" alt=""/></div>
 <map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event_a02b88ebf81ff5121dc0a50d4135a6447_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event_a02b88ebf81ff5121dc0a50d4135a6447_cgraph">
 <area shape="rect" title="条件演算" alt="" coords="5,39,229,81"/>
-<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event.html#a8825d2c015287ab0a791aeb16fb4208e" title="キャラクターの取得を試みる" alt="" coords="277,5,500,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event.html#a8825d2c015287ab0a791aeb16fb4208e" title="キャラクターの参照を取得" alt="" coords="277,5,500,48"/>
 <area shape="poly" title=" " alt="" coords="229,44,262,40,262,45,229,49"/>
 <area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_damage_event.html#a9d5e5b0518adc1ba1f025af9dc6f627a" title="クールダウンの計算を行う" alt="" coords="277,72,500,115"/>
 <area shape="poly" title=" " alt="" coords="229,71,262,75,262,80,229,76"/>
@@ -367,11 +405,37 @@ LIVINGHOUSE.App.DamageEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#afe8615515a2abf806d148b36cf610143">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00116">116</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00152">152</a> 行目に定義があります。</p>
 
 </div>
 </div>
 <h2 class="groupheader">メンバ詳解</h2>
+<a id="a864b997c0a88d4e1be8bd1ed0e5f10d2" name="a864b997c0a88d4e1be8bd1ed0e5f10d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a864b997c0a88d4e1be8bd1ed0e5f10d2">&#9670;&#160;</a></span>m_characterID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int LIVINGHOUSE.App.DamageEvent.m_characterID = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>キャラクターID </p>
+
+<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00036">36</a> 行目に定義があります。</p>
+
+</div>
+</div>
 <a id="a21faa5c7ae8f172726d5f3415e743a07" name="a21faa5c7ae8f172726d5f3415e743a07"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a21faa5c7ae8f172726d5f3415e743a07">&#9670;&#160;</a></span>m_cooldown</h2>
 
@@ -398,6 +462,32 @@ LIVINGHOUSE.App.DamageEvent 連携図</div>
 
 </div>
 </div>
+<a id="a5db350a2d36e0c58b854fe5b8f1ea009" name="a5db350a2d36e0c58b854fe5b8f1ea009"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5db350a2d36e0c58b854fe5b8f1ea009">&#9670;&#160;</a></span>m_nowCooldown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float LIVINGHOUSE.App.DamageEvent.m_nowCooldown = 0.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>現在のクールダウン </p>
+
+<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00021">21</a> 行目に定義があります。</p>
+
+</div>
+</div>
 <a id="a17ca2e84e7f632ab33af9e3ed6018ac1" name="a17ca2e84e7f632ab33af9e3ed6018ac1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a17ca2e84e7f632ab33af9e3ed6018ac1">&#9670;&#160;</a></span>m_removeThis</h2>
 
@@ -420,7 +510,7 @@ LIVINGHOUSE.App.DamageEvent 連携図</div>
 
 <p>削除フラグ </p>
 
-<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00026">26</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00031">31</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -446,7 +536,7 @@ LIVINGHOUSE.App.DamageEvent 連携図</div>
 
 <p>演算結果 </p>
 
-<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00021">21</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00026">26</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -475,7 +565,35 @@ LIVINGHOUSE.App.DamageEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown.html#ae93c893dc04416a7648c00297227fc1b">LIVINGHOUSE.App.IHaveCooldown</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00046">46</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00056">56</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a989bb5f8971b42a45cdee04dd8e8e8e7" name="a989bb5f8971b42a45cdee04dd8e8e8e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a989bb5f8971b42a45cdee04dd8e8e8e7">&#9670;&#160;</a></span>NowCooldown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float LIVINGHOUSE.App.DamageEvent.NowCooldown</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>現在のクールダウン </p>
+
+<p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown.html#a101647f7d050abfe7d1cc6ee5003eecb">LIVINGHOUSE.App.IHaveCooldown</a>を実装しています。</p>
+
+<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00064">64</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -503,7 +621,7 @@ LIVINGHOUSE.App.DamageEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#aa3281cca5fdcfeb0727f97af52dc4e4f">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00038">38</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00048">48</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -531,7 +649,7 @@ LIVINGHOUSE.App.DamageEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#ab796c418f7c8e7020e62cae9ac73abdb">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00030">30</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_damage_event_8cs_source.html">DamageEvent.cs</a> の <a class="el" href="_damage_event_8cs_source.html#l00040">40</a> 行目に定義があります。</p>
 
 </div>
 </div>

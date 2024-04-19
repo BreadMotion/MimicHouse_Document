@@ -1,4 +1,6 @@
 <map id="LIVINGHOUSE.Manager.ItemSlotManager.LoadItemSO" name="LIVINGHOUSE.Manager.ItemSlotManager.LoadItemSO">
 <area shape="rect" id="Node000001" title="アイテムコンテキストのロード" alt="" coords="5,29,197,72"/>
-<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="64,29,63,19,69,10,82,5,101,3,123,5,135,12,132,17,121,10,101,8,83,10,72,15,68,21,69,28"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="56,29,54,19,61,10,77,5,101,3,128,5,143,12,141,17,126,10,101,8,78,10,64,15,59,21,61,28"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_item_slot.html#aa23f36f8026556e8afd59044bc7e3dff" title="必要データの設定" alt="" coords="245,29,436,72"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="197,48,229,48,229,53,197,53"/>
 </map>

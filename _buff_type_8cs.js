@@ -3,6 +3,8 @@ var _buff_type_8cs =
     [ "BUFFTYPE", "_buff_type_8cs.html#a4cb1af18f1c0b1de76b53296ae799fa3", [
       [ "HEAL", "_buff_type_8cs.html#a4cb1af18f1c0b1de76b53296ae799fa3a3a25f1406daa84785c1291a745018fae", null ],
       [ "DAMAGE", "_buff_type_8cs.html#a4cb1af18f1c0b1de76b53296ae799fa3a806bb06d54f268f1d2ce74bde5b48f34", null ],
+      [ "SCAPEDAMAGE", "_buff_type_8cs.html#a4cb1af18f1c0b1de76b53296ae799fa3a7adc4ed8731ecf1cdee7d5d8f3bdccf7", null ],
+      [ "SCAPEDEATH", "_buff_type_8cs.html#a4cb1af18f1c0b1de76b53296ae799fa3a4099c0e92461c4a81aa3193cdd7e92a2", null ],
       [ "STAMINA_UP", "_buff_type_8cs.html#a4cb1af18f1c0b1de76b53296ae799fa3a1025e8f4915d7acb131bb2b2f766da0e", null ],
       [ "STAMINA_DOWN", "_buff_type_8cs.html#a4cb1af18f1c0b1de76b53296ae799fa3a02f0d4e0f7a985696173c99b5c68852c", null ],
       [ "STAMINA_HEAL_START_DURATION_UP", "_buff_type_8cs.html#a4cb1af18f1c0b1de76b53296ae799fa3af780dd2884118214c5ec4801489a6bce", null ],

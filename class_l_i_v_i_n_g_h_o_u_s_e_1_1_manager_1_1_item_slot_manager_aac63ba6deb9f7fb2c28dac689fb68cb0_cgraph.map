@@ -1,0 +1,8 @@
+<map id="LIVINGHOUSE.Manager.ItemSlotManager.UpdateIsOpenTab" name="LIVINGHOUSE.Manager.ItemSlotManager.UpdateIsOpenTab">
+<area shape="rect" id="Node000001" title="スロット編集画面切り替えの操作" alt="" coords="5,29,207,72"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#abffbaeee2170a562de59e007896a1d11" title="アイテムコンテキストのロード" alt="" coords="255,29,446,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,48,240,48,240,53,207,53"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="305,29,303,19,311,10,327,5,350,3,377,5,392,12,390,17,376,10,350,8,328,10,314,15,308,21,310,28"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_item_slot.html#aa23f36f8026556e8afd59044bc7e3dff" title="必要データの設定" alt="" coords="494,29,685,72"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="447,48,479,48,479,53,447,53"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="LIVINGHOUSE.App.ItemSlot.SetMustData" name="LIVINGHOUSE.App.ItemSlot.SetMustData">
+<area shape="rect" id="Node000001" title="必要データの設定" alt="" coords="734,172,926,215"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#abffbaeee2170a562de59e007896a1d11" title="アイテムコンテキストのロード" alt="" coords="495,172,686,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="719,196,687,196,687,191,719,191"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="631,160,616,153,591,151,568,153,554,157,549,163,551,171,545,172,544,162,551,153,567,147,591,145,617,148,633,155"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#ae86b162d3d6b12f36b5514f350b56151" title="アイテムスロットが格納されているか調べる" alt="" coords="246,5,446,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="560,162,510,111,479,85,446,62,423,51,425,46,448,58,482,81,513,107,564,159"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#a4f66db8e96e8211bd649903f56df8a7a" title="アイテムクールダウン設定" alt="" coords="246,72,446,115"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="532,168,446,129,415,118,417,113,448,124,534,163"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#a8fb0a7e1b4c37764ae9a91ea4e75e5d4" title="アイテム数テキスト設定" alt="" coords="245,139,447,181"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="480,181,447,176,448,171,481,176"/>
+<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#a1edabfb5a669eeb54357c5ee451e962e" title="初期化" alt="" coords="250,205,442,248"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="481,211,442,216,441,211,480,206"/>
+<area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#ab55ca55b10dc74c4d89a99741f690b95" title="更新" alt="" coords="5,293,197,336"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="539,224,495,245,448,263,384,280,318,293,198,309,197,304,317,287,382,274,446,257,493,240,537,219"/>
+<area shape="rect" id="Node000008" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#aac63ba6deb9f7fb2c28dac689fb68cb0" title="スロット編集画面切り替えの操作" alt="" coords="245,323,447,365"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="557,227,507,267,448,306,411,324,409,320,446,302,504,263,553,222"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="230,333,197,329,198,324,231,328"/>
+</map>

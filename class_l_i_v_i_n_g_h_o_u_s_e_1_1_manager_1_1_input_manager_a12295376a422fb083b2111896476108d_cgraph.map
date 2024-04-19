@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.Manager.InputManager.OnFinalize" name="LIVINGHOUSE.Manager.InputManager.OnFinalize">
+<area shape="rect" id="Node000001" title="破棄前処理" alt="" coords="5,5,200,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html#a833285b804a39bc0a2a50d6f3ba86551" title="破棄処理" alt="" coords="248,5,451,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,24,233,24,233,29,200,29"/>
+</map>

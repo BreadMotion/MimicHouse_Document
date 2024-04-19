@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.App.Interface.IDamageEffectTrigger" name="LIVINGHOUSE.App.Interface.IDamageEffectTrigger">
+<area shape="rect" id="Node000001" title="ダメージ付与インターフェースイベント" alt="" coords="132,5,324,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_fluid_puddle.html" title="消化液だまり" alt="" coords="5,96,213,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,59,129,98,126,93,184,54"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_fluid_waterfall.html" title="消化液の滝" alt="" coords="237,96,456,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="272,54,329,93,326,98,269,59"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="LIVINGHOUSE.App.DeathEvent.DoCooldown" name="LIVINGHOUSE.App.DeathEvent.DoCooldown">
+<area shape="rect" id="Node000001" title="クールダウン中にする" alt="" coords="263,5,472,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_death_event.html#a290421a4ecfd2dddc6fc56c9a65f69a1" title="成功時呼び出し" alt="" coords="5,5,215,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="248,29,215,29,215,24,248,24"/>
+</map>

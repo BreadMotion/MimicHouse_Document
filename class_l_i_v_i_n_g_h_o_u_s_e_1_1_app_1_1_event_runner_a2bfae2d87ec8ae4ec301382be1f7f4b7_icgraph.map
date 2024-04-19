@@ -1,7 +1,15 @@
 <map id="LIVINGHOUSE.App.EventRunner.AddEvent" name="LIVINGHOUSE.App.EventRunner.AddEvent">
-<area shape="rect" id="Node000001" title="イベントの追加" alt="" coords="512,5,728,48"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_strawdowll.html#a7c13c251c937756b38d80866dbcec64e" title="イベントの追加" alt="" coords="259,5,464,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="497,29,464,29,464,24,497,24"/>
-<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_strawdowll.html#a518360bdc14e8e4460fab643fda8b4f1" title="更新" alt="" coords="5,5,211,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="243,29,211,29,211,24,243,24"/>
+<area shape="rect" id="Node000001" title="イベントの追加" alt="" coords="512,72,728,115"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_rain_coat.html#a397c69a8fb7f854e6380fe207404c773" title=" " alt="" coords="263,5,460,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="520,70,446,51,448,46,521,65"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_strawdowll.html#a7c13c251c937756b38d80866dbcec64e" title="イベントの追加" alt="" coords="259,72,464,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="497,96,464,96,464,91,497,91"/>
+<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_umbrella.html#a78ccb34ef1f9657d974d0a21615a099e" title=" " alt="" coords="264,139,459,181"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="521,122,448,141,446,135,520,116"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_rain_coat.html#ae3a0feea60d3e65b5ad2d53875948d81" title="更新" alt="" coords="10,5,206,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="248,29,207,29,207,24,248,24"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_strawdowll.html#a518360bdc14e8e4460fab643fda8b4f1" title="更新" alt="" coords="5,72,211,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="243,96,211,96,211,91,243,91"/>
+<area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_umbrella.html#ae464438a5346892495bbd0ef7af3f820" title="更新" alt="" coords="11,139,205,181"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="249,163,206,163,206,157,249,157"/>
 </map>

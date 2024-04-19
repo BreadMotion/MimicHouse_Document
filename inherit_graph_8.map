@@ -1,7 +1,7 @@
 <map id="クラス階層図" name="クラス階層図">
 <area shape="rect" id="Node000000" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html" title="基底キャラクター操作インターフェース" alt="" coords="5,23,204,65"/>
 <area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_enemy_controller.html" title="エネミーコントローラー" alt="" coords="252,5,487,32"/>
-<area shape="poly" id="edge16_Node000000_Node000001" title=" " alt="" coords="218,30,251,27,252,33,219,36"/>
+<area shape="poly" id="edge21_Node000000_Node000001" title=" " alt="" coords="218,30,251,27,252,33,219,36"/>
 <area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_player_controller.html" title="プレイヤーコントローラー" alt="" coords="254,56,485,83"/>
-<area shape="poly" id="edge17_Node000000_Node000002" title=" " alt="" coords="219,52,253,56,253,61,218,58"/>
+<area shape="poly" id="edge22_Node000000_Node000002" title=" " alt="" coords="219,52,253,56,253,61,218,58"/>
 </map>

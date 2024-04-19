@@ -2,5 +2,7 @@
 <area shape="rect" id="Node000001" title="アイテムスロットが格納されているか調べる" alt="" coords="5,29,206,72"/>
 <area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_item_slot_manager.html#abffbaeee2170a562de59e007896a1d11" title="アイテムコンテキストのロード" alt="" coords="254,29,445,72"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,48,238,48,238,53,206,53"/>
-<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="303,29,301,19,309,10,325,5,349,3,377,5,392,12,390,17,375,10,349,8,326,10,312,15,307,21,308,28"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="304,29,302,19,310,10,326,5,349,3,376,5,391,12,389,17,375,10,349,8,327,10,313,15,307,21,309,28"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_item_slot.html#aa23f36f8026556e8afd59044bc7e3dff" title="必要データの設定" alt="" coords="493,29,684,72"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="446,48,478,48,478,53,446,53"/>
 </map>

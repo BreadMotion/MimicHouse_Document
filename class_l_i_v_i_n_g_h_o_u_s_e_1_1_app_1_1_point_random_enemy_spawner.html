@@ -1,0 +1,739 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mimichouse: LIVINGHOUSE.App.PointRandomEnemySpawner クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mimichouse<span id="projectnumber">&#160;0.01</span>
+   </div>
+   <div id="projectbrief">MImicHouse</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">静的公開メンバ関数</a> &#124;
+<a href="#pro-methods">限定公開メンバ関数</a> &#124;
+<a href="#pri-methods">非公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">LIVINGHOUSE.App.PointRandomEnemySpawner クラス<span class="mlabels"><span class="mlabel">sealed</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>エネミー生成座標  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+LIVINGHOUSE.App.PointRandomEnemySpawner の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner__inherit__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_point_random_enemy_spawner_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_point_random_enemy_spawner_inherit__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_point_random_enemy_spawner_inherit__map">
+<area shape="rect" title="エネミー生成座標" alt="" coords="5,304,223,347"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html" title="索敵ポイント" alt="" coords="70,229,158,256"/>
+<area shape="poly" title=" " alt="" coords="117,271,117,304,111,304,111,271"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html" title="抽象座標" alt="" coords="87,155,141,181"/>
+<area shape="poly" title=" " alt="" coords="117,196,117,229,111,229,111,196"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="37,80,191,107"/>
+<area shape="poly" title=" " alt="" coords="117,122,117,154,111,154,111,122"/>
+<area shape="rect" title=" " alt="" coords="59,5,169,32"/>
+<area shape="poly" title=" " alt="" coords="117,47,117,80,111,80,111,47"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+LIVINGHOUSE.App.PointRandomEnemySpawner 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner__coll__graph.png" border="0" usemap="#a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_point_random_enemy_spawner_coll__map" alt="Collaboration graph"/></div>
+<map name="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_point_random_enemy_spawner_coll__map" id="a_l_i_v_i_n_g_h_o_u_s_e_8_app_8_point_random_enemy_spawner_coll__map">
+<area shape="rect" title="エネミー生成座標" alt="" coords="51,400,269,443"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html" title="索敵ポイント" alt="" coords="70,324,159,351"/>
+<area shape="poly" title=" " alt="" coords="131,362,151,399,146,401,126,365"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html" title="抽象座標" alt="" coords="55,157,110,184"/>
+<area shape="poly" title=" " alt="" coords="87,199,94,259,113,323,108,325,89,261,81,199"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html" title="索敵ポイント" alt="" coords="103,233,310,260"/>
+<area shape="poly" title=" " alt="" coords="117,189,187,231,184,235,114,194"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="5,81,160,108"/>
+<area shape="poly" title=" " alt="" coords="85,123,85,157,80,157,80,123"/>
+<area shape="rect" title=" " alt="" coords="28,5,137,32"/>
+<area shape="poly" title=" " alt="" coords="85,47,85,81,80,81,80,47"/>
+<area shape="poly" title=" " alt="" coords="202,275,168,400,163,399,197,273"/>
+<area shape="poly" title=" " alt="" coords="138,269,120,285,114,304,115,324,109,324,108,303,116,283,135,265"/>
+<area shape="poly" title=" " alt="" coords="326,240,336,247,328,253,311,256,310,250,326,248,331,247,324,245"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:a1974aba5aeab8933a5aa71fbf04e9977" id="r_a1974aba5aeab8933a5aa71fbf04e9977"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner.html">PointRandomEnemySpawner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1974aba5aeab8933a5aa71fbf04e9977">Generate</a> (Vector3 location, Quaternion rotation, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> firstPoint)</td></tr>
+<tr class="memdesc:a1974aba5aeab8933a5aa71fbf04e9977"><td class="mdescLeft">&#160;</td><td class="mdescRight">生成関数  <br /></td></tr>
+<tr class="separator:a1974aba5aeab8933a5aa71fbf04e9977"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">LIVINGHOUSE.App.PointPatroll</a> に属する継承静的公開メンバ関数</td></tr>
+<tr class="memitem:a2abd3c83890afbc53e95970fad4fcf1c inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll" id="r_a2abd3c83890afbc53e95970fad4fcf1c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a2abd3c83890afbc53e95970fad4fcf1c">GetNierPoint</a> (<a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> nowPoint, Vector3 position)</td></tr>
+<tr class="memdesc:a2abd3c83890afbc53e95970fad4fcf1c inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="mdescLeft">&#160;</td><td class="mdescRight">一番近いパトロールポイントを取得  <br /></td></tr>
+<tr class="separator:a2abd3c83890afbc53e95970fad4fcf1c inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a969e2838fa0a0e22c56e107dfa597455 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll" id="r_a969e2838fa0a0e22c56e107dfa597455"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a969e2838fa0a0e22c56e107dfa597455">Generate</a> (<a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> prePoint, Vector3 location, <a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a> pointType)</td></tr>
+<tr class="memdesc:a969e2838fa0a0e22c56e107dfa597455 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="mdescLeft">&#160;</td><td class="mdescRight">生成関数  <br /></td></tr>
+<tr class="separator:a969e2838fa0a0e22c56e107dfa597455 inherit pub_static_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+限定公開メンバ関数</h2></td></tr>
+<tr class="memitem:af746dac27cacf3ade3a1780099f970a9" id="r_af746dac27cacf3ade3a1780099f970a9"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af746dac27cacf3ade3a1780099f970a9">InitializeOnApplication</a> ()</td></tr>
+<tr class="memdesc:af746dac27cacf3ade3a1780099f970a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化(アプリケーション起動時)  <br /></td></tr>
+<tr class="separator:af746dac27cacf3ade3a1780099f970a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">LIVINGHOUSE.App.PointPatroll</a> に属する継承限定公開メンバ関数</td></tr>
+<tr class="memitem:a7faa6977632e9245a5947348b986eac5 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll" id="r_a7faa6977632e9245a5947348b986eac5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a7faa6977632e9245a5947348b986eac5">Initialize</a> (<a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> prePoint, Vector3 location, <a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a> pointType)</td></tr>
+<tr class="memdesc:a7faa6977632e9245a5947348b986eac5 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化  <br /></td></tr>
+<tr class="separator:a7faa6977632e9245a5947348b986eac5 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a292e27bb52db5baf0ffd1fbba94a5790 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll" id="r_a292e27bb52db5baf0ffd1fbba94a5790"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a292e27bb52db5baf0ffd1fbba94a5790">DrawGizmoInfomation</a> ()</td></tr>
+<tr class="memdesc:a292e27bb52db5baf0ffd1fbba94a5790 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="mdescLeft">&#160;</td><td class="mdescRight">デバッグ描画文字追加  <br /></td></tr>
+<tr class="separator:a292e27bb52db5baf0ffd1fbba94a5790 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html">LIVINGHOUSE.App.IPoint</a> に属する継承限定公開メンバ関数</td></tr>
+<tr class="memitem:aa2ef5cc5089d39b6116dd0adf18bbec1 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point" id="r_aa2ef5cc5089d39b6116dd0adf18bbec1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html#aa2ef5cc5089d39b6116dd0adf18bbec1">InitializeOnEditor</a> ()</td></tr>
+<tr class="memdesc:aa2ef5cc5089d39b6116dd0adf18bbec1 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td class="mdescLeft">&#160;</td><td class="mdescRight">エディター上での初期化  <br /></td></tr>
+<tr class="separator:aa2ef5cc5089d39b6116dd0adf18bbec1 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1929b62f75d740fdb5553b1e06ed9180 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point" id="r_a1929b62f75d740fdb5553b1e06ed9180"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html#a1929b62f75d740fdb5553b1e06ed9180">UpdateOnEditor</a> ()</td></tr>
+<tr class="memdesc:a1929b62f75d740fdb5553b1e06ed9180 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td class="mdescLeft">&#160;</td><td class="mdescRight">エディター上での更新  <br /></td></tr>
+<tr class="separator:a1929b62f75d740fdb5553b1e06ed9180 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09a224f9347f328ea788c83c4111c444 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point" id="r_a09a224f9347f328ea788c83c4111c444"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html#a09a224f9347f328ea788c83c4111c444">UpdateOnApplication</a> ()</td></tr>
+<tr class="memdesc:a09a224f9347f328ea788c83c4111c444 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td class="mdescLeft">&#160;</td><td class="mdescRight">アプリケーション上での更新  <br /></td></tr>
+<tr class="separator:a09a224f9347f328ea788c83c4111c444 inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ea41a1466643d8c22f154f6f68ddb7f inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point" id="r_a5ea41a1466643d8c22f154f6f68ddb7f"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html#a5ea41a1466643d8c22f154f6f68ddb7f">DrawGizmoInfomation</a> ()</td></tr>
+<tr class="memdesc:a5ea41a1466643d8c22f154f6f68ddb7f inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td class="mdescLeft">&#160;</td><td class="mdescRight">デバッグ描画文字追加  <br /></td></tr>
+<tr class="separator:a5ea41a1466643d8c22f154f6f68ddb7f inherit pro_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr class="memitem:a2c9adb8b27790121a62e29bf5077023b" id="r_a2c9adb8b27790121a62e29bf5077023b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c9adb8b27790121a62e29bf5077023b">GenerateCall</a> ()</td></tr>
+<tr class="memdesc:a2c9adb8b27790121a62e29bf5077023b"><td class="mdescLeft">&#160;</td><td class="mdescRight">生成呼び出し  <br /></td></tr>
+<tr class="separator:a2c9adb8b27790121a62e29bf5077023b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57bd1c9591223d60d712a536811043d6" id="r_a57bd1c9591223d60d712a536811043d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57bd1c9591223d60d712a536811043d6">Initialize</a> (Vector3 location, Quaternion _, <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> firstPoint)</td></tr>
+<tr class="memdesc:a57bd1c9591223d60d712a536811043d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化  <br /></td></tr>
+<tr class="separator:a57bd1c9591223d60d712a536811043d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a040514fc01b5c3480322da6bd5993bb9" id="r_a040514fc01b5c3480322da6bd5993bb9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a040514fc01b5c3480322da6bd5993bb9">IsGenerating</a> ()</td></tr>
+<tr class="memdesc:a040514fc01b5c3480322da6bd5993bb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">生成するか  <br /></td></tr>
+<tr class="separator:a040514fc01b5c3480322da6bd5993bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab77789ee7c3b63565a803dc62fb22748" id="r_ab77789ee7c3b63565a803dc62fb22748"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab77789ee7c3b63565a803dc62fb22748">IsProbabilityCheck</a> ()</td></tr>
+<tr class="memdesc:ab77789ee7c3b63565a803dc62fb22748"><td class="mdescLeft">&#160;</td><td class="mdescRight">確率チェック  <br /></td></tr>
+<tr class="separator:ab77789ee7c3b63565a803dc62fb22748"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a6d4e1da99d50bd6fac3f82369dfd73af" id="r_a6d4e1da99d50bd6fac3f82369dfd73af"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d4e1da99d50bd6fac3f82369dfd73af">m_GenerateThreshold</a> = 0.5f</td></tr>
+<tr class="memdesc:a6d4e1da99d50bd6fac3f82369dfd73af"><td class="mdescLeft">&#160;</td><td class="mdescRight">生成確定閾値  <br /></td></tr>
+<tr class="separator:a6d4e1da99d50bd6fac3f82369dfd73af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a645da685645bab6bc7e4610fa7460e64" id="r_a645da685645bab6bc7e4610fa7460e64"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a645da685645bab6bc7e4610fa7460e64">m_isGenerate</a> = false</td></tr>
+<tr class="memdesc:a645da685645bab6bc7e4610fa7460e64"><td class="mdescLeft">&#160;</td><td class="mdescRight">生成する  <br /></td></tr>
+<tr class="separator:a645da685645bab6bc7e4610fa7460e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af355a1c21d2aea9ad4637faceaf43282" id="r_af355a1c21d2aea9ad4637faceaf43282"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af355a1c21d2aea9ad4637faceaf43282">m_isGenerateFixed</a> = false</td></tr>
+<tr class="memdesc:af355a1c21d2aea9ad4637faceaf43282"><td class="mdescLeft">&#160;</td><td class="mdescRight">生成確定  <br /></td></tr>
+<tr class="separator:af355a1c21d2aea9ad4637faceaf43282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89f72411fa91df41bb90d682e16c428f" id="r_a89f72411fa91df41bb90d682e16c428f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89f72411fa91df41bb90d682e16c428f">m_isnotGenerateFixed</a> = false</td></tr>
+<tr class="separator:a89f72411fa91df41bb90d682e16c428f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8f0a41f71c3f669bf947ffbff5426e9" id="r_ab8f0a41f71c3f669bf947ffbff5426e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8f0a41f71c3f669bf947ffbff5426e9">m_firstMovePoint</a></td></tr>
+<tr class="memdesc:ab8f0a41f71c3f669bf947ffbff5426e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期探索ポイント  <br /></td></tr>
+<tr class="separator:ab8f0a41f71c3f669bf947ffbff5426e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6becda21126ff4dcaf6e383d9016037b" id="r_a6becda21126ff4dcaf6e383d9016037b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6becda21126ff4dcaf6e383d9016037b">m_charaPrefabIndex</a></td></tr>
+<tr class="memdesc:a6becda21126ff4dcaf6e383d9016037b"><td class="mdescLeft">&#160;</td><td class="mdescRight">プレファブ番号  <br /></td></tr>
+<tr class="separator:a6becda21126ff4dcaf6e383d9016037b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+その他の継承メンバ</h2></td></tr>
+<tr class="inherit_header pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">LIVINGHOUSE.App.PointPatroll</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a8be825c807f77f5748aaad910c2365f3 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll" id="r_a8be825c807f77f5748aaad910c2365f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a8be825c807f77f5748aaad910c2365f3">GetNextPoint</a> (int index)</td></tr>
+<tr class="memdesc:a8be825c807f77f5748aaad910c2365f3 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定インデックスのポイントを取得  <br /></td></tr>
+<tr class="separator:a8be825c807f77f5748aaad910c2365f3 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a016c02aa6900f5b2dc37ffa823f14561 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll" id="r_a016c02aa6900f5b2dc37ffa823f14561"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a016c02aa6900f5b2dc37ffa823f14561">GetNextPoints</a> ()</td></tr>
+<tr class="memdesc:a016c02aa6900f5b2dc37ffa823f14561 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="mdescLeft">&#160;</td><td class="mdescRight">次ポイントリストを取得  <br /></td></tr>
+<tr class="separator:a016c02aa6900f5b2dc37ffa823f14561 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b5d0f6a2d50b28afe5b21154854ba43 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll" id="r_a8b5d0f6a2d50b28afe5b21154854ba43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a8b5d0f6a2d50b28afe5b21154854ba43">AddNextPoint</a> (Vector3 point, <a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a> pointType)</td></tr>
+<tr class="memdesc:a8b5d0f6a2d50b28afe5b21154854ba43 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="mdescLeft">&#160;</td><td class="mdescRight">次ポイントを生成  <br /></td></tr>
+<tr class="separator:a8b5d0f6a2d50b28afe5b21154854ba43 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a897bdf6112848e81573d287974f71108 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll" id="r_a897bdf6112848e81573d287974f71108"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a897bdf6112848e81573d287974f71108">AddNextPoint</a> (<a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> sourcePoint)</td></tr>
+<tr class="memdesc:a897bdf6112848e81573d287974f71108 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="mdescLeft">&#160;</td><td class="mdescRight">生成済みのポイントを登録する  <br /></td></tr>
+<tr class="separator:a897bdf6112848e81573d287974f71108 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab92004804af283384991996b3e6d1557 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll" id="r_ab92004804af283384991996b3e6d1557"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#ab92004804af283384991996b3e6d1557">GetNierPoint</a> (Vector3 position)</td></tr>
+<tr class="memdesc:ab92004804af283384991996b3e6d1557 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="mdescLeft">&#160;</td><td class="mdescRight">一番近いパトロールポイントを取得  <br /></td></tr>
+<tr class="separator:ab92004804af283384991996b3e6d1557 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46f3714c5160f366b02293e8a0a2e2c8 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll" id="r_a46f3714c5160f366b02293e8a0a2e2c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a46f3714c5160f366b02293e8a0a2e2c8">ExecBuild</a> ()</td></tr>
+<tr class="memdesc:a46f3714c5160f366b02293e8a0a2e2c8 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="mdescLeft">&#160;</td><td class="mdescRight">ポイントビルド  <br /></td></tr>
+<tr class="separator:a46f3714c5160f366b02293e8a0a2e2c8 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a695681deb1d3a76ed73154c231b1af3a inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll" id="r_a695681deb1d3a76ed73154c231b1af3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a695681deb1d3a76ed73154c231b1af3a">ExecMergeBuild</a> ()</td></tr>
+<tr class="memdesc:a695681deb1d3a76ed73154c231b1af3a inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="mdescLeft">&#160;</td><td class="mdescRight">各パトロールポイント群のマージ  <br /></td></tr>
+<tr class="separator:a695681deb1d3a76ed73154c231b1af3a inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html">LIVINGHOUSE.App.IPoint</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a967424c30e4472260c3f6e29fcaaf132 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point" id="r_a967424c30e4472260c3f6e29fcaaf132"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html#a967424c30e4472260c3f6e29fcaaf132">Dispose</a> ()</td></tr>
+<tr class="memdesc:a967424c30e4472260c3f6e29fcaaf132 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td class="mdescLeft">&#160;</td><td class="mdescRight">解放処理  <br /></td></tr>
+<tr class="separator:a967424c30e4472260c3f6e29fcaaf132 inherit pub_methods_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html">LIVINGHOUSE.App.IPoint</a> に属する継承限定公開変数類</td></tr>
+<tr class="memitem:ab9c128bb736aaa6f6def928a211397b8 inherit pro_attribs_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point" id="r_ab9c128bb736aaa6f6def928a211397b8"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html#ab9c128bb736aaa6f6def928a211397b8">m_point</a></td></tr>
+<tr class="memdesc:ab9c128bb736aaa6f6def928a211397b8 inherit pro_attribs_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td class="mdescLeft">&#160;</td><td class="mdescRight">座標  <br /></td></tr>
+<tr class="separator:ab9c128bb736aaa6f6def928a211397b8 inherit pro_attribs_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">LIVINGHOUSE.App.PointPatroll</a> に属する継承プロパティ</td></tr>
+<tr class="memitem:acab23e7b693fcb150736b8bbc7ba8cf1 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll" id="r_acab23e7b693fcb150736b8bbc7ba8cf1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#acab23e7b693fcb150736b8bbc7ba8cf1">IsEndPoint</a><code> [get]</code></td></tr>
+<tr class="memdesc:acab23e7b693fcb150736b8bbc7ba8cf1 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="mdescLeft">&#160;</td><td class="mdescRight">自身が末端のポイントか  <br /></td></tr>
+<tr class="separator:acab23e7b693fcb150736b8bbc7ba8cf1 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e3fe8f5c389178cba13cf9b92e83afb inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll" id="r_a8e3fe8f5c389178cba13cf9b92e83afb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a8e3fe8f5c389178cba13cf9b92e83afb">IsStartPoint</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8e3fe8f5c389178cba13cf9b92e83afb inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="mdescLeft">&#160;</td><td class="mdescRight">自身が始点のポイントか  <br /></td></tr>
+<tr class="separator:a8e3fe8f5c389178cba13cf9b92e83afb inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8de2f0df0d7703091de8d5631ec30df3 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll" id="r_a8de2f0df0d7703091de8d5631ec30df3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html#ad44e9f72fddbfe8a307810d5573587c7">PointType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a8de2f0df0d7703091de8d5631ec30df3">PointType</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8de2f0df0d7703091de8d5631ec30df3 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="mdescLeft">&#160;</td><td class="mdescRight">ポイントの種類  <br /></td></tr>
+<tr class="separator:a8de2f0df0d7703091de8d5631ec30df3 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8024e4dc07f45bd44927f438285383a4 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll" id="r_a8024e4dc07f45bd44927f438285383a4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a8024e4dc07f45bd44927f438285383a4">IsGameStartPoint</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8024e4dc07f45bd44927f438285383a4 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="mdescLeft">&#160;</td><td class="mdescRight">ゲーム開始地点  <br /></td></tr>
+<tr class="separator:a8024e4dc07f45bd44927f438285383a4 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html">LIVINGHOUSE.App.IPoint</a> に属する継承プロパティ</td></tr>
+<tr class="memitem:a7988fc11354217086f9033633874e506 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point" id="r_a7988fc11354217086f9033633874e506"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html#a7988fc11354217086f9033633874e506">Point</a><code> [get]</code></td></tr>
+<tr class="memdesc:a7988fc11354217086f9033633874e506 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td class="mdescLeft">&#160;</td><td class="mdescRight">座標  <br /></td></tr>
+<tr class="separator:a7988fc11354217086f9033633874e506 inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html">LIVINGHOUSE.Utility.CustomMonoBehaviour</a> に属する継承プロパティ</td></tr>
+<tr class="memitem:a9746123f4ddc6101623635a9a338e92f inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour" id="r_a9746123f4ddc6101623635a9a338e92f"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html#a9746123f4ddc6101623635a9a338e92f">GameObject</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9746123f4ddc6101623635a9a338e92f inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">一時保存ゲームオブジェクト  <br /></td></tr>
+<tr class="separator:a9746123f4ddc6101623635a9a338e92f inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacf0a6b0d74d42219cf83cc259df327e inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour" id="r_aacf0a6b0d74d42219cf83cc259df327e"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html#aacf0a6b0d74d42219cf83cc259df327e">Transform</a><code> [get]</code></td></tr>
+<tr class="memdesc:aacf0a6b0d74d42219cf83cc259df327e inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">一時保存トランスフォーム  <br /></td></tr>
+<tr class="separator:aacf0a6b0d74d42219cf83cc259df327e inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a358735e041890e30102019a6b1abc46c inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour" id="r_a358735e041890e30102019a6b1abc46c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html#aacf0a6b0d74d42219cf83cc259df327e">Transform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html#a358735e041890e30102019a6b1abc46c">OriginTransform</a><code> [get]</code></td></tr>
+<tr class="memdesc:a358735e041890e30102019a6b1abc46c inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">オリジナルトランスフォーム  <br /></td></tr>
+<tr class="separator:a358735e041890e30102019a6b1abc46c inherit properties_class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>エネミー生成座標 </p>
+
+<p class="definition"> <a class="el" href="_point_random_enemy_spawner_8cs_source.html">PointRandomEnemySpawner.cs</a> の <a class="el" href="_point_random_enemy_spawner_8cs_source.html#l00011">11</a> 行目に定義があります。</p>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="a1974aba5aeab8933a5aa71fbf04e9977" name="a1974aba5aeab8933a5aa71fbf04e9977"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1974aba5aeab8933a5aa71fbf04e9977">&#9670;&#160;</a></span>Generate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner.html">PointRandomEnemySpawner</a> LIVINGHOUSE.App.PointRandomEnemySpawner.Generate </td>
+          <td>(</td>
+          <td class="paramtype">Vector3</td>          <td class="paramname"><span class="paramname"><em>location</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Quaternion</td>          <td class="paramname"><span class="paramname"><em>rotation</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a></td>          <td class="paramname"><span class="paramname"><em>firstPoint</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>生成関数 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">location</td><td>座標</td></tr>
+    <tr><td class="paramname">rotation</td><td>姿勢</td></tr>
+    <tr><td class="paramname">firstPoint</td><td>初回移動ポイント</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>エネミー生成座標</dd></dl>
+
+<p class="definition"> <a class="el" href="_point_random_enemy_spawner_8cs_source.html">PointRandomEnemySpawner.cs</a> の <a class="el" href="_point_random_enemy_spawner_8cs_source.html#l00110">110</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a1974aba5aeab8933a5aa71fbf04e9977_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a1974aba5aeab8933a5aa71fbf04e9977_cgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a1974aba5aeab8933a5aa71fbf04e9977_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a1974aba5aeab8933a5aa71fbf04e9977_cgraph">
+<area shape="rect" title="生成関数" alt="" coords="5,5,223,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner.html#a57bd1c9591223d60d712a536811043d6" title="初期化" alt="" coords="271,5,488,48"/>
+<area shape="poly" title=" " alt="" coords="223,24,255,24,255,29,223,29"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2c9adb8b27790121a62e29bf5077023b" name="a2c9adb8b27790121a62e29bf5077023b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c9adb8b27790121a62e29bf5077023b">&#9670;&#160;</a></span>GenerateCall()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.PointRandomEnemySpawner.GenerateCall </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>生成呼び出し </p>
+
+<p class="definition"> <a class="el" href="_point_random_enemy_spawner_8cs_source.html">PointRandomEnemySpawner.cs</a> の <a class="el" href="_point_random_enemy_spawner_8cs_source.html#l00054">54</a> 行目に定義があります。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a2c9adb8b27790121a62e29bf5077023b_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a2c9adb8b27790121a62e29bf5077023b_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a2c9adb8b27790121a62e29bf5077023b_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a2c9adb8b27790121a62e29bf5077023b_icgraph">
+<area shape="rect" title="生成呼び出し" alt="" coords="298,5,515,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner.html#af746dac27cacf3ade3a1780099f970a9" title="初期化(アプリケーション起動時)" alt="" coords="5,5,250,48"/>
+<area shape="poly" title=" " alt="" coords="282,29,250,29,250,24,282,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a57bd1c9591223d60d712a536811043d6" name="a57bd1c9591223d60d712a536811043d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57bd1c9591223d60d712a536811043d6">&#9670;&#160;</a></span>Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.PointRandomEnemySpawner.Initialize </td>
+          <td>(</td>
+          <td class="paramtype">Vector3</td>          <td class="paramname"><span class="paramname"><em>location</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Quaternion</td>          <td class="paramname"><span class="paramname"><em>_</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a></td>          <td class="paramname"><span class="paramname"><em>firstPoint</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>初期化 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">location</td><td>座標</td></tr>
+    <tr><td class="paramname">rotation</td><td>姿勢</td></tr>
+    <tr><td class="paramname">firstPoint</td><td>初回移動ポイント</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition"> <a class="el" href="_point_random_enemy_spawner_8cs_source.html">PointRandomEnemySpawner.cs</a> の <a class="el" href="_point_random_enemy_spawner_8cs_source.html#l00069">69</a> 行目に定義があります。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a57bd1c9591223d60d712a536811043d6_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a57bd1c9591223d60d712a536811043d6_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a57bd1c9591223d60d712a536811043d6_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a57bd1c9591223d60d712a536811043d6_icgraph">
+<area shape="rect" title="初期化" alt="" coords="271,5,488,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner.html#a1974aba5aeab8933a5aa71fbf04e9977" title="生成関数" alt="" coords="5,5,223,48"/>
+<area shape="poly" title=" " alt="" coords="255,29,223,29,223,24,255,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af746dac27cacf3ade3a1780099f970a9" name="af746dac27cacf3ade3a1780099f970a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af746dac27cacf3ade3a1780099f970a9">&#9670;&#160;</a></span>InitializeOnApplication()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void LIVINGHOUSE.App.PointRandomEnemySpawner.InitializeOnApplication </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>初期化(アプリケーション起動時) </p>
+
+<p><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html#a3eadea6742bbea04cc4d5e4ba037b212">LIVINGHOUSE.App.PointPatroll</a>を再実装しています。</p>
+
+<p class="definition"> <a class="el" href="_point_random_enemy_spawner_8cs_source.html">PointRandomEnemySpawner.cs</a> の <a class="el" href="_point_random_enemy_spawner_8cs_source.html#l00042">42</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_af746dac27cacf3ade3a1780099f970a9_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_af746dac27cacf3ade3a1780099f970a9_cgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_af746dac27cacf3ade3a1780099f970a9_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_af746dac27cacf3ade3a1780099f970a9_cgraph">
+<area shape="rect" title="初期化(アプリケーション起動時)" alt="" coords="5,39,250,81"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner.html#a2c9adb8b27790121a62e29bf5077023b" title="生成呼び出し" alt="" coords="298,5,515,48"/>
+<area shape="poly" title=" " alt="" coords="250,43,283,39,283,44,250,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner.html#a040514fc01b5c3480322da6bd5993bb9" title="生成するか" alt="" coords="298,72,515,115"/>
+<area shape="poly" title=" " alt="" coords="250,72,283,76,283,81,250,77"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner.html#ab77789ee7c3b63565a803dc62fb22748" title="確率チェック" alt="" coords="563,72,787,115"/>
+<area shape="poly" title=" " alt="" coords="516,91,548,91,548,96,516,96"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a040514fc01b5c3480322da6bd5993bb9" name="a040514fc01b5c3480322da6bd5993bb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a040514fc01b5c3480322da6bd5993bb9">&#9670;&#160;</a></span>IsGenerating()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.App.PointRandomEnemySpawner.IsGenerating </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>生成するか </p>
+<dl class="section return"><dt>戻り値</dt><dd>生成命令</dd></dl>
+
+<p class="definition"> <a class="el" href="_point_random_enemy_spawner_8cs_source.html">PointRandomEnemySpawner.cs</a> の <a class="el" href="_point_random_enemy_spawner_8cs_source.html#l00087">87</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a040514fc01b5c3480322da6bd5993bb9_cgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a040514fc01b5c3480322da6bd5993bb9_cgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a040514fc01b5c3480322da6bd5993bb9_cgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a040514fc01b5c3480322da6bd5993bb9_cgraph">
+<area shape="rect" title="生成するか" alt="" coords="5,5,223,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner.html#ab77789ee7c3b63565a803dc62fb22748" title="確率チェック" alt="" coords="271,5,495,48"/>
+<area shape="poly" title=" " alt="" coords="223,24,255,24,255,29,223,29"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a040514fc01b5c3480322da6bd5993bb9_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a040514fc01b5c3480322da6bd5993bb9_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a040514fc01b5c3480322da6bd5993bb9_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_a040514fc01b5c3480322da6bd5993bb9_icgraph">
+<area shape="rect" title="生成するか" alt="" coords="298,5,515,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner.html#af746dac27cacf3ade3a1780099f970a9" title="初期化(アプリケーション起動時)" alt="" coords="5,5,250,48"/>
+<area shape="poly" title=" " alt="" coords="282,29,250,29,250,24,282,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab77789ee7c3b63565a803dc62fb22748" name="ab77789ee7c3b63565a803dc62fb22748"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab77789ee7c3b63565a803dc62fb22748">&#9670;&#160;</a></span>IsProbabilityCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.App.PointRandomEnemySpawner.IsProbabilityCheck </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>確率チェック </p>
+<dl class="section return"><dt>戻り値</dt><dd>閾値を満たしたか</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_ab77789ee7c3b63565a803dc62fb22748_icgraph.png" border="0" usemap="#aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_ab77789ee7c3b63565a803dc62fb22748_icgraph" alt=""/></div>
+<map name="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_ab77789ee7c3b63565a803dc62fb22748_icgraph" id="aclass_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner_ab77789ee7c3b63565a803dc62fb22748_icgraph">
+<area shape="rect" title="確率チェック" alt="" coords="563,5,787,48"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner.html#a040514fc01b5c3480322da6bd5993bb9" title="生成するか" alt="" coords="298,5,515,48"/>
+<area shape="poly" title=" " alt="" coords="548,29,516,29,516,24,548,24"/>
+<area shape="rect" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner.html#af746dac27cacf3ade3a1780099f970a9" title="初期化(アプリケーション起動時)" alt="" coords="5,5,250,48"/>
+<area shape="poly" title=" " alt="" coords="282,29,250,29,250,24,282,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a6becda21126ff4dcaf6e383d9016037b" name="a6becda21126ff4dcaf6e383d9016037b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6becda21126ff4dcaf6e383d9016037b">&#9670;&#160;</a></span>m_charaPrefabIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int LIVINGHOUSE.App.PointRandomEnemySpawner.m_charaPrefabIndex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>プレファブ番号 </p>
+
+<p class="definition"> <a class="el" href="_point_random_enemy_spawner_8cs_source.html">PointRandomEnemySpawner.cs</a> の <a class="el" href="_point_random_enemy_spawner_8cs_source.html#l00038">38</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ab8f0a41f71c3f669bf947ffbff5426e9" name="ab8f0a41f71c3f669bf947ffbff5426e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8f0a41f71c3f669bf947ffbff5426e9">&#9670;&#160;</a></span>m_firstMovePoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html">PointPatroll</a> LIVINGHOUSE.App.PointRandomEnemySpawner.m_firstMovePoint</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>初期探索ポイント </p>
+
+<p class="definition"> <a class="el" href="_point_random_enemy_spawner_8cs_source.html">PointRandomEnemySpawner.cs</a> の <a class="el" href="_point_random_enemy_spawner_8cs_source.html#l00033">33</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a6d4e1da99d50bd6fac3f82369dfd73af" name="a6d4e1da99d50bd6fac3f82369dfd73af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d4e1da99d50bd6fac3f82369dfd73af">&#9670;&#160;</a></span>m_GenerateThreshold</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float LIVINGHOUSE.App.PointRandomEnemySpawner.m_GenerateThreshold = 0.5f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>生成確定閾値 </p>
+
+<p class="definition"> <a class="el" href="_point_random_enemy_spawner_8cs_source.html">PointRandomEnemySpawner.cs</a> の <a class="el" href="_point_random_enemy_spawner_8cs_source.html#l00015">15</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a645da685645bab6bc7e4610fa7460e64" name="a645da685645bab6bc7e4610fa7460e64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a645da685645bab6bc7e4610fa7460e64">&#9670;&#160;</a></span>m_isGenerate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.App.PointRandomEnemySpawner.m_isGenerate = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>生成する </p>
+
+<p class="definition"> <a class="el" href="_point_random_enemy_spawner_8cs_source.html">PointRandomEnemySpawner.cs</a> の <a class="el" href="_point_random_enemy_spawner_8cs_source.html#l00020">20</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="af355a1c21d2aea9ad4637faceaf43282" name="af355a1c21d2aea9ad4637faceaf43282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af355a1c21d2aea9ad4637faceaf43282">&#9670;&#160;</a></span>m_isGenerateFixed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.App.PointRandomEnemySpawner.m_isGenerateFixed = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>生成確定 </p>
+
+<p class="definition"> <a class="el" href="_point_random_enemy_spawner_8cs_source.html">PointRandomEnemySpawner.cs</a> の <a class="el" href="_point_random_enemy_spawner_8cs_source.html#l00025">25</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a89f72411fa91df41bb90d682e16c428f" name="a89f72411fa91df41bb90d682e16c428f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89f72411fa91df41bb90d682e16c428f">&#9670;&#160;</a></span>m_isnotGenerateFixed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LIVINGHOUSE.App.PointRandomEnemySpawner.m_isnotGenerateFixed = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_point_random_enemy_spawner_8cs_source.html">PointRandomEnemySpawner.cs</a> の <a class="el" href="_point_random_enemy_spawner_8cs_source.html#l00028">28</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>D:/Working/UnityProjects/LIVING_HOUSE/MimicHouse/Unity/Assets/Scripts/App/Bg/ForStageBuild/Point/<a class="el" href="_point_random_enemy_spawner_8cs_source.html">PointRandomEnemySpawner.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e.html">LIVINGHOUSE</a></li><li class="navelem"><a class="el" href="namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_app.html">App</a></li><li class="navelem"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner.html">PointRandomEnemySpawner</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

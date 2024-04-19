@@ -13,5 +13,6 @@ var class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun =
     [ "CoolDown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#ae835112f1be275fdb36c0f585bd8869f", null ],
     [ "ItemLayer", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#adf6f7905bbf85206225ef61ba2581d10", null ],
     [ "NowCount", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#a545de8da6847e32c01576c18657f5b10", null ],
-    [ "RemainingCoolDown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#a3d45ebed465bc37b9a0d8f92bf54b817", null ]
+    [ "RemainingCoolDown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#a3d45ebed465bc37b9a0d8f92bf54b817", null ],
+    [ "ReverseCooldownGage", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html#a7de2bda5665d3a166432f30ae83f1f20", null ]
 ];

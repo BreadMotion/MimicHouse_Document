@@ -2,6 +2,7 @@ var class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game =
 [
     [ "Game", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game.html#acbb72094c539c45216cbb89c93c948ec", null ],
     [ "ChangeScene", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game.html#ac34a454f13d6656506e9ff479711e983", null ],
+    [ "Dispose", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game.html#a2d2bdd6d8709f2b586c9b3d21e7519fd", null ],
     [ "Execute", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game.html#ae71c02e1985bf1c0342194a3e0d080af", null ],
     [ "Initialize", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game.html#aecc71d50a3f31ef0f7d68a4c5c075396", null ],
     [ "LateExecute", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game.html#aa92332a6a66d64c276b23ec9255782c7", null ],

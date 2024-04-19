@@ -1,7 +1,11 @@
 <map id="LIVINGHOUSE.App.DoorState" name="LIVINGHOUSE.App.DoorState">
-<area shape="rect" id="Node000001" title="ドアの状態管理" alt="" coords="5,155,203,181"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="27,80,181,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,122,107,154,101,154,101,122"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="49,5,159,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="107,47,107,80,101,80,101,47"/>
+<area shape="rect" id="Node000001" title="ドアの状態管理" alt="" coords="129,171,326,197"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_gimmick.html" title=" " alt="" coords="48,96,124,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,127,204,168,201,172,122,132"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html" title=" " alt="" coords="5,5,167,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="89,63,89,95,83,95,83,63"/>
+<area shape="rect" id="Node000004" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_interface_1_1_i_interact_effect.html" title="ギミックインタラクト効果" alt="" coords="149,96,306,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="230,138,230,170,225,170,225,138"/>
+<area shape="rect" id="Node000005" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_interface_1_1_i_breakable.html" title="破壊可能インターフェース" alt="" coords="330,96,469,123"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="357,131,259,172,256,168,355,126"/>
 </map>

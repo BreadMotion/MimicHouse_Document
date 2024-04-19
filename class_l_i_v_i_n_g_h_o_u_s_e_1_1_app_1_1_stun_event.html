@@ -146,6 +146,9 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 <tr class="memitem:a766cdcc368825583e3366a7cc7233da1" id="r_a766cdcc368825583e3366a7cc7233da1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a766cdcc368825583e3366a7cc7233da1">IsCooldown</a> ()</td></tr>
 <tr class="memdesc:a766cdcc368825583e3366a7cc7233da1"><td class="mdescLeft">&#160;</td><td class="mdescRight">クールダウンか  <br /></td></tr>
 <tr class="separator:a766cdcc368825583e3366a7cc7233da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1130909306b62e0458efece8a8f4f72" id="r_af1130909306b62e0458efece8a8f4f72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1130909306b62e0458efece8a8f4f72">DoCooldown</a> ()</td></tr>
+<tr class="memdesc:af1130909306b62e0458efece8a8f4f72"><td class="mdescLeft">&#160;</td><td class="mdescRight">クールダウン中にする  <br /></td></tr>
+<tr class="separator:af1130909306b62e0458efece8a8f4f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5e42dadd1170e7fe25dc8f30a32ea92" id="r_ac5e42dadd1170e7fe25dc8f30a32ea92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html">Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5e42dadd1170e7fe25dc8f30a32ea92">GetCharacter</a> (GameObject owner)</td></tr>
 <tr class="memdesc:ac5e42dadd1170e7fe25dc8f30a32ea92"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターの参照を取得  <br /></td></tr>
 <tr class="separator:ac5e42dadd1170e7fe25dc8f30a32ea92"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,6 +164,9 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 <tr class="memitem:a11cc3adf5c510e50ed6b2f59bab42e07" id="r_a11cc3adf5c510e50ed6b2f59bab42e07"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11cc3adf5c510e50ed6b2f59bab42e07">Cooldown</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a11cc3adf5c510e50ed6b2f59bab42e07"><td class="mdescLeft">&#160;</td><td class="mdescRight">クールダウン  <br /></td></tr>
 <tr class="separator:a11cc3adf5c510e50ed6b2f59bab42e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63725fb927b614a651f15bcc0943867a" id="r_a63725fb927b614a651f15bcc0943867a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63725fb927b614a651f15bcc0943867a">NowCooldown</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a63725fb927b614a651f15bcc0943867a"><td class="mdescLeft">&#160;</td><td class="mdescRight">現在のクールダウン  <br /></td></tr>
+<tr class="separator:a63725fb927b614a651f15bcc0943867a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5150976300ca40fc46b13b6cd38f35f4" id="r_a5150976300ca40fc46b13b6cd38f35f4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5150976300ca40fc46b13b6cd38f35f4">CacheMoveSpeed</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a5150976300ca40fc46b13b6cd38f35f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャッシュムーブスピード  <br /></td></tr>
 <tr class="separator:a5150976300ca40fc46b13b6cd38f35f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,6 +178,9 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 <tr class="memitem:a103e831e53b0764f462032297afed057" id="r_a103e831e53b0764f462032297afed057"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a103e831e53b0764f462032297afed057">m_cooldown</a> = 0.0f</td></tr>
 <tr class="memdesc:a103e831e53b0764f462032297afed057"><td class="mdescLeft">&#160;</td><td class="mdescRight">クールダウン  <br /></td></tr>
 <tr class="separator:a103e831e53b0764f462032297afed057"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab84c33d1894d86de8adb9cf0edeee12d" id="r_ab84c33d1894d86de8adb9cf0edeee12d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab84c33d1894d86de8adb9cf0edeee12d">m_nowCooldown</a> = 0.0f</td></tr>
+<tr class="memdesc:ab84c33d1894d86de8adb9cf0edeee12d"><td class="mdescLeft">&#160;</td><td class="mdescRight">現在のクールダウン  <br /></td></tr>
+<tr class="separator:ab84c33d1894d86de8adb9cf0edeee12d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56d6b2d9166fa7ebc767aa1907fd64f8" id="r_a56d6b2d9166fa7ebc767aa1907fd64f8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56d6b2d9166fa7ebc767aa1907fd64f8">m_returnValue</a></td></tr>
 <tr class="memdesc:a56d6b2d9166fa7ebc767aa1907fd64f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">演算結果  <br /></td></tr>
 <tr class="separator:a56d6b2d9166fa7ebc767aa1907fd64f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,12 +190,15 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 <tr class="memitem:a32ac2afb5daf631788ff94c571862617" id="r_a32ac2afb5daf631788ff94c571862617"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32ac2afb5daf631788ff94c571862617">m_cacheMoveSpeed</a></td></tr>
 <tr class="memdesc:a32ac2afb5daf631788ff94c571862617"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャッシュスピード  <br /></td></tr>
 <tr class="separator:a32ac2afb5daf631788ff94c571862617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaff9f781d94e113db0d02b8d16dd3b7b" id="r_aaff9f781d94e113db0d02b8d16dd3b7b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaff9f781d94e113db0d02b8d16dd3b7b">m_characterID</a> = -1</td></tr>
+<tr class="memdesc:aaff9f781d94e113db0d02b8d16dd3b7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャラクターID  <br /></td></tr>
+<tr class="separator:aaff9f781d94e113db0d02b8d16dd3b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
 <div class="textblock"><p>スタンイベント </p>
 <p>キャラクターのみ使用可能 </p>
 
-<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00012">12</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00013">13</a> 行目に定義があります。</p>
 </div><h2 class="groupheader">メソッド詳解</h2>
 <a id="a3de278196296c8117739917e156b969a" name="a3de278196296c8117739917e156b969a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3de278196296c8117739917e156b969a">&#9670;&#160;</a></span>ContentInvoke()</h2>
@@ -218,7 +230,7 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#a43c75df194b9b3af55727afe77d668f1">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00103">103</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00118">118</a> 行目に定義があります。</p>
 <div class="dynheader">
 呼び出し関係図:</div>
 <div class="dyncontent">
@@ -229,6 +241,29 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 <area shape="poly" title=" " alt="" coords="208,24,241,24,241,29,208,29"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="af1130909306b62e0458efece8a8f4f72" name="af1130909306b62e0458efece8a8f4f72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1130909306b62e0458efece8a8f4f72">&#9670;&#160;</a></span>DoCooldown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LIVINGHOUSE.App.StunEvent.DoCooldown </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>クールダウン中にする </p>
+
+<p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown.html#a37ebfa9e56138f232ad25da7a4ad9206">LIVINGHOUSE.App.IHaveCooldown</a>を実装しています。</p>
+
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00150">150</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -251,6 +286,8 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 <dl class="section return"><dt>戻り値</dt><dd>キャラクター </dd></dl>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_character.html#ab1259a8581cf3a156f5a43517647331b">LIVINGHOUSE.App.IHaveCharacter</a>を実装しています。</p>
+
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00158">158</a> 行目に定義があります。</p>
 <div class="dynheader">
 被呼び出し関係図:</div>
 <div class="dyncontent">
@@ -286,7 +323,7 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown.html#af8c27421978e8c95d4b641781a0b2e2a">LIVINGHOUSE.App.IHaveCooldown</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00123">123</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00138">138</a> 行目に定義があります。</p>
 <div class="dynheader">
 被呼び出し関係図:</div>
 <div class="dyncontent">
@@ -330,7 +367,7 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#abaddd3069674ddde0792868d6ae6c3fd">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00073">73</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00095">95</a> 行目に定義があります。</p>
 <div class="dynheader">
 呼び出し関係図:</div>
 <div class="dyncontent">
@@ -376,7 +413,7 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#afe8615515a2abf806d148b36cf610143">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00117">117</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00132">132</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -403,7 +440,33 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 
 <p>キャッシュスピード </p>
 
-<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00028">28</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00037">37</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="aaff9f781d94e113db0d02b8d16dd3b7b" name="aaff9f781d94e113db0d02b8d16dd3b7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaff9f781d94e113db0d02b8d16dd3b7b">&#9670;&#160;</a></span>m_characterID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int LIVINGHOUSE.App.StunEvent.m_characterID = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>キャラクターID </p>
+
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00042">42</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -429,7 +492,33 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 
 <p>クールダウン </p>
 
-<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00016">16</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00017">17</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ab84c33d1894d86de8adb9cf0edeee12d" name="ab84c33d1894d86de8adb9cf0edeee12d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab84c33d1894d86de8adb9cf0edeee12d">&#9670;&#160;</a></span>m_nowCooldown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float LIVINGHOUSE.App.StunEvent.m_nowCooldown = 0.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>現在のクールダウン </p>
+
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00022">22</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -455,7 +544,7 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 
 <p>削除フラグ </p>
 
-<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00024">24</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00032">32</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -481,7 +570,7 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 
 <p>演算結果 </p>
 
-<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00020">20</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00027">27</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -508,7 +597,7 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 
 <p>キャッシュムーブスピード </p>
 
-<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00056">56</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00078">78</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -536,7 +625,35 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown.html#ae93c893dc04416a7648c00297227fc1b">LIVINGHOUSE.App.IHaveCooldown</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00048">48</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00062">62</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a63725fb927b614a651f15bcc0943867a" name="a63725fb927b614a651f15bcc0943867a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63725fb927b614a651f15bcc0943867a">&#9670;&#160;</a></span>NowCooldown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float LIVINGHOUSE.App.StunEvent.NowCooldown</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>現在のクールダウン </p>
+
+<p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_have_cooldown.html#a101647f7d050abfe7d1cc6ee5003eecb">LIVINGHOUSE.App.IHaveCooldown</a>を実装しています。</p>
+
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00070">70</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -564,7 +681,7 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#aa3281cca5fdcfeb0727f97af52dc4e4f">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00040">40</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00054">54</a> 行目に定義があります。</p>
 
 </div>
 </div>
@@ -592,7 +709,7 @@ LIVINGHOUSE.App.StunEvent 連携図</div>
 
 <p><a class="el" href="interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_event.html#ab796c418f7c8e7020e62cae9ac73abdb">LIVINGHOUSE.App.IEvent</a>を実装しています。</p>
 
-<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00032">32</a> 行目に定義があります。</p>
+<p class="definition"> <a class="el" href="_stun_event_8cs_source.html">StunEvent.cs</a> の <a class="el" href="_stun_event_8cs_source.html#l00046">46</a> 行目に定義があります。</p>
 
 </div>
 </div>

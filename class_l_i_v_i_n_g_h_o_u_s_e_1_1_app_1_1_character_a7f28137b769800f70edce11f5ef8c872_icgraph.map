@@ -1,0 +1,9 @@
+<map id="LIVINGHOUSE.App.Character.SubStamina" name="LIVINGHOUSE.App.Character.SubStamina">
+<area shape="rect" id="Node000001" title="スタミナを減少する" alt="" coords="747,5,947,48"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a0722250aa34a4782a3dec2996d8e0226" title="走りシステム更新" alt="" coords="500,5,699,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="733,29,700,29,700,24,733,24"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a85b07231fc0a58cd49db073b04ee54ed" title="キャラクターステート更新" alt="" coords="253,5,452,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="485,29,452,29,452,24,485,24"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#ac3a2b3b418b9f1f6e7719942f61f87f9" title="更新" alt="" coords="5,5,205,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="238,29,205,29,205,24,238,24"/>
+</map>

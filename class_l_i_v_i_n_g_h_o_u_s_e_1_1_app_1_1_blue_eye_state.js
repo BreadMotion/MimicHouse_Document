@@ -8,8 +8,10 @@ var class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_blue_eye_state =
     [ "Update", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_blue_eye_state.html#ab8b97f565abecd0ee7bac48633576c77", null ],
     [ "m_cooldown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_blue_eye_state.html#adf79fe8bdb3827dedf0bf8e3356ed330", null ],
     [ "m_nowCount", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_blue_eye_state.html#aa4dba6a4a0ee78847941f707c7f56ca4", null ],
+    [ "m_remainingCooldown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_blue_eye_state.html#a9423b102e7d7f2cdf3b1b78cca4dd994", null ],
     [ "CoolDown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_blue_eye_state.html#a0f396d1e25249f3904be3ff34f1b67ee", null ],
     [ "ItemLayer", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_blue_eye_state.html#abbfaa986b39b7446dd6efd03289cbc19", null ],
     [ "NowCount", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_blue_eye_state.html#a538d2d56cfea86430f8d6b7b9f41646d", null ],
-    [ "RemainingCoolDown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_blue_eye_state.html#a0420029a64b7478e4d9bcc5841f1ffd4", null ]
+    [ "RemainingCoolDown", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_blue_eye_state.html#a0420029a64b7478e4d9bcc5841f1ffd4", null ],
+    [ "ReverseCooldownGage", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_blue_eye_state.html#ab85b1e97038532885eddd6501c26a24d", null ]
 ];

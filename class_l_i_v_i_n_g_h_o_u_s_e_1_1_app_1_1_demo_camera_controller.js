@@ -3,6 +3,7 @@ var class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller =
     [ "CameraLocationControll", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#aae8cb21f4352f35ce6ea8b7f754521a7", null ],
     [ "CameraRotationControll", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ae36b9aa19059c693d0d25df92c00a28a", null ],
     [ "CursorInputAccepteControll", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ac692cb2f50fcbe5accd20402fec87dbb", null ],
+    [ "DrawGizmoInfomation", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#a2939c14fbc460ead78447de18bbaef7b", null ],
     [ "Update", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ac0bd54eaf22997458b8ec5ea849c8d7a", null ],
     [ "m_cameraLocationSencity", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#ab789588d86269c2c706c95c47eb8c4ec", null ],
     [ "m_cameraRotationSencity", "class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_demo_camera_controller.html#aa32cf412184534751488db6c91cef17a", null ],

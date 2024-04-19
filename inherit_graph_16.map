@@ -1,5 +1,9 @@
 <map id="クラス階層図" name="クラス階層図">
-<area shape="rect" id="Node000000" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton.html" title=" " alt="" coords="5,5,209,48"/>
-<area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_application_manager.html" title="アプリケーション管理クラス" alt="" coords="257,5,487,48"/>
-<area shape="poly" id="edge72_Node000000_Node000001" title=" " alt="" coords="224,24,256,24,256,29,224,29"/>
+<area shape="rect" id="Node000000" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_interface_1_1_i_late_update_task.html" title="事後更新タスクインターフェース" alt="" coords="28,5,220,48"/>
+<area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager.html" title="ダメージ、被ダメージ判定のあるオブジェクト" alt="" coords="291,72,511,115"/>
+<area shape="poly" id="edge90_Node000000_Node000001" title=" " alt="" coords="230,49,310,69,309,74,229,55"/>
+<area shape="rect" id="Node000002" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_interface_1_1_i_update_task.html" title="更新タスクインターフェース" alt="" coords="28,72,220,115"/>
+<area shape="poly" id="edge91_Node000002_Node000001" title=" " alt="" coords="235,91,290,91,290,96,235,96"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_singleton_mono_behaviour.html" title=" " alt="" coords="5,139,243,181"/>
+<area shape="poly" id="edge92_Node000003_Node000001" title=" " alt="" coords="229,132,309,113,310,118,230,137"/>
 </map>

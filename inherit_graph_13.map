@@ -1,7 +1,25 @@
 <map id="クラス階層図" name="クラス階層図">
-<area shape="rect" id="Node000000" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_i_scene.html" title="基底シーンインターフェース" alt="" coords="5,31,199,57"/>
-<area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_game.html" title="ゲームシーン" alt="" coords="247,5,435,32"/>
-<area shape="poly" id="edge70_Node000000_Node000001" title=" " alt="" coords="213,30,246,26,247,31,214,35"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_scene_1_1_title.html" title="タイトルシーン" alt="" coords="252,56,430,83"/>
-<area shape="poly" id="edge71_Node000000_Node000002" title=" " alt="" coords="214,53,252,57,251,63,213,58"/>
+<area shape="rect" id="Node000000" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_interface_1_1_i_breakable.html" title="破壊可能インターフェース" alt="" coords="253,72,445,115"/>
+<area shape="rect" id="Node000001" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_block_state.html" title="ブロック状態管理" alt="" coords="502,123,705,149"/>
+<area shape="poly" id="edge77_Node000000_Node000001" title=" " alt="" coords="460,109,520,119,519,125,459,115"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_door_state.html" title="ドアの状態管理" alt="" coords="505,21,702,48"/>
+<area shape="poly" id="edge78_Node000000_Node000003" title=" " alt="" coords="458,66,541,46,542,51,459,71"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_hide_state.html" title="隠れ状態状態管理" alt="" coords="505,72,701,99"/>
+<area shape="poly" id="edge79_Node000000_Node000005" title=" " alt="" coords="459,87,504,86,505,91,460,93"/>
+<area shape="rect" id="Node000007" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_interface_1_1_i_damage_effect_trigger.html" title="ダメージ付与インターフェースイベント" alt="" coords="253,199,445,241"/>
+<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_fluid_puddle.html" title="消化液だまり" alt="" coords="500,224,707,251"/>
+<area shape="poly" id="edge80_Node000007_Node000006" title=" " alt="" coords="460,225,499,228,499,233,460,230"/>
+<area shape="rect" id="Node000008" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_fluid_waterfall.html" title="消化液の滝" alt="" coords="494,173,712,200"/>
+<area shape="poly" id="edge81_Node000007_Node000008" title=" " alt="" coords="459,203,496,198,497,203,460,208"/>
+<area shape="rect" id="Node000004" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_interface_1_1_i_interact_effect.html" title="ギミックインタラクト効果" alt="" coords="253,5,445,48"/>
+<area shape="poly" id="edge82_Node000004_Node000003" title=" " alt="" coords="460,27,504,29,504,34,460,33"/>
+<area shape="poly" id="edge83_Node000004_Node000005" title=" " alt="" coords="459,49,542,69,541,74,458,54"/>
+<area shape="rect" id="Node000009" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_mono_manager.html" title=" " alt="" coords="5,131,204,173"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_gimmick.html" title=" " alt="" coords="252,139,446,165"/>
+<area shape="poly" id="edge84_Node000009_Node000002" title=" " alt="" coords="218,149,251,149,251,155,218,155"/>
+<area shape="poly" id="edge85_Node000002_Node000001" title=" " alt="" coords="461,142,501,140,501,145,461,148"/>
+<area shape="poly" id="edge86_Node000002_Node000003" title=" " alt="" coords="436,130,444,125,460,109,467,92,476,75,492,58,515,46,518,51,496,62,480,78,472,94,464,112,448,129,439,134"/>
+<area shape="poly" id="edge89_Node000002_Node000005" title=" " alt="" coords="418,132,445,124,493,108,538,97,539,102,495,113,447,129,420,137"/>
+<area shape="poly" id="edge87_Node000002_Node000006" title=" " alt="" coords="407,168,447,184,471,197,495,210,532,221,530,226,493,214,469,202,445,189,405,173"/>
+<area shape="poly" id="edge88_Node000002_Node000008" title=" " alt="" coords="461,165,501,170,500,175,460,170"/>
 </map>

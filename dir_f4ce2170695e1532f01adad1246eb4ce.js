@@ -12,6 +12,7 @@ var dir_f4ce2170695e1532f01adad1246eb4ce =
     [ "ItemManager.cs", "_item_manager_8cs.html", "_item_manager_8cs" ],
     [ "ItemSlotManager.cs", "_item_slot_manager_8cs.html", "_item_slot_manager_8cs" ],
     [ "LayerManager.cs", "_layer_manager_8cs.html", "_layer_manager_8cs" ],
+    [ "MonoManager.cs", "_mono_manager_8cs.html", "_mono_manager_8cs" ],
     [ "ResourceManager.cs", "_resource_manager_8cs.html", "_resource_manager_8cs" ],
     [ "SceneManager.cs", "_scene_manager_8cs.html", "_scene_manager_8cs" ],
     [ "UIManager.cs", "_u_i_manager_8cs.html", null ],

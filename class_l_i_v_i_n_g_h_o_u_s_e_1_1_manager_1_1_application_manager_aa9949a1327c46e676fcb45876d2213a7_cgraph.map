@@ -1,7 +1,11 @@
 <map id="LIVINGHOUSE.Manager.ApplicationManager.Initialize" name="LIVINGHOUSE.Manager.ApplicationManager.Initialize">
-<area shape="rect" id="Node000001" title="初期化" alt="" coords="5,5,236,48"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_application_manager.html#ae553f6e12ca1be6cc23a492d0bcedd2f" title="設定データ　初期化" alt="" coords="284,5,514,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,24,269,24,269,29,236,29"/>
-<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_application_manager.html#a5833975ab988f36039a0350e7057ea24" title="設定データ　読み込み" alt="" coords="562,5,792,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="514,24,547,24,547,29,514,29"/>
+<area shape="rect" id="Node000001" title="初期化" alt="" coords="5,72,236,115"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_application_manager.html#a41614b79f114ad2e245b2058353aff12" title="初回起動チェック" alt="" coords="284,5,514,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,69,292,49,293,55,213,74"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_application_manager.html#ac911fdfe549b8945ebc15f017fbcaa2a" title=" " alt="" coords="284,72,514,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="236,91,269,91,269,96,236,96"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_application_manager.html#ae553f6e12ca1be6cc23a492d0bcedd2f" title="設定データ　初期化" alt="" coords="284,139,514,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="213,113,293,132,292,137,212,118"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_application_manager.html#a5833975ab988f36039a0350e7057ea24" title="設定データ　読み込み" alt="" coords="562,139,792,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="514,157,547,157,547,163,514,163"/>
 </map>

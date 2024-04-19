@@ -1,0 +1,7 @@
+<map id="LIVINGHOUSE.App.ScapeDamageEvent.GetCharacter" name="LIVINGHOUSE.App.ScapeDamageEvent.GetCharacter">
+<area shape="rect" id="Node000001" title="キャラクターの参照を取得" alt="" coords="278,39,502,81"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_scape_damage_event.html#a00e480e4954c8355f8126ca2e82f1ed0" title="成功時呼び出し" alt="" coords="5,5,230,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,47,230,43,231,38,263,42"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_scape_damage_event.html#a052423ba2d3ef01adfed3c52ee3dc9b3" title="条件演算" alt="" coords="5,72,230,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="263,78,231,82,230,77,263,73"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="LIVINGHOUSE.App.Character.UpdateRecoveryStaminaCooldown" name="LIVINGHOUSE.App.Character.UpdateRecoveryStaminaCooldown">
+<area shape="rect" id="Node000001" title="スタミナ更新" alt="" coords="5,72,225,115"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a647e90747589a0a3ba9a69e8a650e7e1" title="スタミナ回復クールダウンを開始する" alt="" coords="273,5,472,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,69,273,50,274,55,201,74"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#a544d289dab9556ce319c52bf1948d662" title="スタミナ上昇する" alt="" coords="273,72,472,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="225,91,258,91,258,96,225,96"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html#af47bf848039ddc564f3b1eca5fef9a75" title="スタミナ回復開始時間更新" alt="" coords="273,139,472,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="201,113,274,132,273,137,199,118"/>
+</map>

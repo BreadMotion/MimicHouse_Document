@@ -1,15 +1,19 @@
 <map id="LIVINGHOUSE.App.PointPatroll" name="LIVINGHOUSE.App.PointPatroll">
-<area shape="rect" id="Node000001" title="索敵ポイント" alt="" coords="467,80,674,107"/>
-<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_enemy_spawner.html" title="エネミー生成座標" alt="" coords="722,5,932,48"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="638,73,741,46,743,51,640,78"/>
-<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_goal_spawner.html" title="エネミー生成座標" alt="" coords="729,72,925,115"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="689,91,728,91,728,96,689,96"/>
-<area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_item_spawner.html" title="エネミー生成座標" alt="" coords="730,139,924,181"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="640,108,743,135,741,141,638,114"/>
-<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html" title="抽象座標" alt="" coords="365,80,419,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="434,91,467,91,467,96,434,96"/>
-<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="163,80,317,107"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="332,91,365,91,365,96,332,96"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="5,80,115,107"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="129,91,162,91,162,96,129,96"/>
+<area shape="rect" id="Node000001" title="索敵ポイント" alt="" coords="467,147,674,173"/>
+<area shape="rect" id="Node000005" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_enemy_spawner.html" title="エネミー生成座標" alt="" coords="727,5,938,48"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="599,135,653,96,720,58,748,46,750,51,723,62,656,101,602,140"/>
+<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_gimmick_spawner.html" title="ギミック生成座標" alt="" coords="722,72,943,115"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="639,140,745,113,746,118,641,145"/>
+<area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_goal_spawner.html" title="エネミー生成座標" alt="" coords="734,139,931,181"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="689,157,734,157,734,163,689,163"/>
+<area shape="rect" id="Node000008" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_item_spawner.html" title="エネミー生成座標" alt="" coords="735,205,930,248"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="641,175,746,202,745,207,639,180"/>
+<area shape="rect" id="Node000009" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_random_enemy_spawner.html" title="エネミー生成座標" alt="" coords="724,272,941,315"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="602,180,656,219,723,258,750,269,748,274,720,262,653,224,599,185"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html" title="抽象座標" alt="" coords="365,147,419,173"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="434,157,467,157,467,163,434,163"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="163,147,317,173"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="332,157,365,157,365,163,332,163"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,147,115,173"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="129,157,162,157,162,163,129,163"/>
 </map>

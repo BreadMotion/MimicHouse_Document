@@ -5,7 +5,7 @@ var searchData=
   ['waitjobs_2',['WaitJobs',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_hit_object_manager.html#a492c1081801953bdc7ceddd930946444',1,'LIVINGHOUSE::Manager::HitObjectManager']]],
   ['wartergun_3',['WarterGun',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_warter_gun.html',1,'LIVINGHOUSE::App']]],
   ['wartergun_2ecs_4',['WarterGun.cs',['../_warter_gun_8cs.html',1,'']]],
-  ['water_5',['Water',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_layer_manager.html#a7e6bc0373f5a9567acb50830f3107df0a27634ff8002b12e75d98e07ccd005d18',1,'LIVINGHOUSE::Manager::LayerManager']]],
+  ['water_5',['Water',['../namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html#aafa9526d7abb9902960d2a1785229db9a27634ff8002b12e75d98e07ccd005d18',1,'LIVINGHOUSE::Manager']]],
   ['watergun_6',['WaterGun',['../namespace_l_i_v_i_n_g_h_o_u_s_e_1_1_manager.html#aa33be2b628be3aa2ca7aeba473dbdac2abb65cc2ac0bc32a5d45a557fcd77e0dc',1,'LIVINGHOUSE::Manager']]],
   ['wipe_7',['Wipe',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_wipe_manager.html#a1a160108fd4e1e873184592dd1df3f0a',1,'LIVINGHOUSE::Manager::WipeManager']]],
   ['wipemanager_8',['WipeManager',['../class_l_i_v_i_n_g_h_o_u_s_e_1_1_manager_1_1_wipe_manager.html',1,'LIVINGHOUSE::Manager']]],

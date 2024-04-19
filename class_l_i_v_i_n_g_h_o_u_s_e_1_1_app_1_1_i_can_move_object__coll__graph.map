@@ -1,20 +1,22 @@
 <map id="LIVINGHOUSE.App.ICanMoveObject" name="LIVINGHOUSE.App.ICanMoveObject">
-<area shape="rect" id="Node000001" title="キャラクター動作" alt="" coords="820,37,1015,80"/>
+<area shape="rect" id="Node000001" title="キャラクター動作" alt="" coords="820,49,1015,92"/>
 <area shape="rect" id="Node000002" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_hit_object.html" title="当たり判定を取るオブジェクトインターフェース" alt="" coords="21,5,99,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,11,139,9,251,8,362,12,610,27,819,46,819,51,609,32,362,17,250,13,139,15,114,16"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,11,139,9,251,8,362,12,477,16,659,34,820,54,819,60,659,39,476,21,362,17,250,14,139,15,114,16"/>
 <area shape="rect" id="Node000007" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_can_move_object.html" title="キャラクター動作" alt="" coords="166,27,361,69"/>
-<area shape="poly" id="edge8_Node000007_Node000002" title=" " alt="" coords="114,24,165,31,165,36,114,29"/>
-<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html" title="全キャラクター共通のシステムクラス" alt="" coords="500,115,696,141"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="677,108,819,77,820,82,678,114"/>
-<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="524,113,355,73,356,67,525,108"/>
-<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="186,109,340,136"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="355,130,500,132,500,137,355,135"/>
-<area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="355,113,500,116,500,121,355,119"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="5,109,115,136"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="130,120,185,120,185,125,130,125"/>
-<area shape="rect" id="Node000006" href="$struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character_state.html" title="キャラクターステート" alt="" coords="166,160,361,203"/>
-<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="375,161,509,139,510,145,376,166"/>
-<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="376,38,427,42,477,52,508,64,537,80,582,112,579,116,534,85,506,69,476,57,426,47,375,43"/>
-<area shape="rect" id="Node000008" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html" title="基底キャラクター操作インターフェース" alt="" coords="164,227,362,269"/>
-<area shape="poly" id="edge10_Node000003_Node000008" title=" " alt="" coords="354,219,475,179,567,139,569,144,477,184,356,225"/>
+<area shape="poly" id="edge10_Node000007_Node000002" title=" " alt="" coords="114,24,165,31,165,36,114,29"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character.html" title="全キャラクター共通のシステムクラス" alt="" coords="500,139,696,165"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="667,132,830,90,831,95,668,137"/>
+<area shape="poly" id="edge11_Node000007_Node000003" title=" " alt="" coords="553,135,475,104,361,72,362,67,477,99,555,130"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="186,139,340,165"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="300,167,364,174,443,176,519,173,575,163,576,169,519,178,443,182,364,180,299,172"/>
+<area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="355,157,500,158,500,163,355,163"/>
+<area shape="poly" id="edge6_Node000003_Node000004" title=" " alt="" coords="355,141,500,141,500,146,355,147"/>
+<area shape="poly" id="edge7_Node000003_Node000004" title=" " alt="" coords="299,132,364,124,443,122,519,126,576,135,575,141,519,131,443,128,364,130,300,137"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,139,115,165"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="130,149,185,149,185,155,130,155"/>
+<area shape="rect" id="Node000006" href="$struct_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_character_state.html" title="キャラクターステート" alt="" coords="166,203,361,245"/>
+<area shape="poly" id="edge8_Node000003_Node000006" title=" " alt="" coords="375,197,532,163,533,169,376,203"/>
+<area shape="poly" id="edge9_Node000003_Node000007" title=" " alt="" coords="376,36,427,40,477,52,512,70,543,92,587,136,583,140,539,96,509,74,475,57,426,45,376,41"/>
+<area shape="rect" id="Node000008" href="$interface_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_character_controller.html" title="基底キャラクター操作インターフェース" alt="" coords="164,269,362,312"/>
+<area shape="poly" id="edge12_Node000003_Node000008" title=" " alt="" coords="342,262,361,255,419,236,475,215,572,164,575,168,477,220,421,241,363,260,344,267"/>
 </map>

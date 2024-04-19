@@ -1,0 +1,15 @@
+<map id="LIVINGHOUSE.App.PointGimmickSpawner" name="LIVINGHOUSE.App.PointGimmickSpawner">
+<area shape="rect" id="Node000001" title="ギミック生成座標" alt="" coords="5,400,227,443"/>
+<area shape="rect" id="Node000002" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html" title="索敵ポイント" alt="" coords="72,324,160,351"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,365,119,400,113,400,113,365"/>
+<area shape="rect" id="Node000003" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_i_point.html" title="抽象座標" alt="" coords="84,157,138,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="114,199,118,323,113,324,109,199"/>
+<area shape="rect" id="Node000006" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_app_1_1_point_patroll.html" title="索敵ポイント" alt="" coords="132,233,338,260"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="145,189,215,231,212,235,143,194"/>
+<area shape="rect" id="Node000004" href="$class_l_i_v_i_n_g_h_o_u_s_e_1_1_utility_1_1_custom_mono_behaviour.html" title="カスタム版コンポーネント" alt="" coords="34,81,188,108"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="113,123,113,157,108,157,108,123"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="56,5,165,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="113,47,113,81,108,81,108,47"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="208,271,135,326,131,321,204,267"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="354,240,364,247,356,253,339,256,338,250,355,248,359,247,352,245"/>
+</map>
